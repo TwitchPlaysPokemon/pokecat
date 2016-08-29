@@ -1,0 +1,123 @@
+ability: [Multitype]
+ball: ["Pok\xE9 Ball"]
+biddable: true
+combinations: []
+displayname: Arceus Fire
+evs: {atk: 0, def: 0, hp: 0, spA: 32, spD: 32, spe: 64}
+form: 1
+gender: [null]
+happiness: 255
+ingamename: ARCEUS-FIR
+item: [Flame Plate]
+ivs: {atk: 0, def: 0, hp: 0, spA: 0, spD: 0, spe: 0}
+level: 100
+moves:
+-   - {accuracy: 100, category: Special, displayname: Ember, id: 52, name: Ember,
+        name_id: ember, power: 40, pp: 25, pp_ups: 0, type: Fire}
+-   - {accuracy: 100, category: Status, displayname: Gastro Acid, id: 380, name: Gastro
+            Acid, name_id: gastroacid, power: 0, pp: 10, pp_ups: 0, type: Poison}
+-   - {accuracy: null, category: Status, displayname: Haze, id: 114, name: Haze, name_id: haze,
+        power: 0, pp: 30, pp_ups: 0, type: Ice}
+-   - {accuracy: null, category: Status, displayname: Sunny Day, id: 241, name: Sunny
+            Day, name_id: sunnyday, power: 0, pp: 5, pp_ups: 0, type: Fire}
+nature: {decreased: def, id: 1, increased: atk, name: Lonely}
+rarity: 1.0
+separations: []
+setname: Standard
+shiny: false
+species:
+    basestats: {atk: 120, def: 120, hp: 120, spA: 120, spD: 120, spe: 120}
+    id: 493
+    name: Arceus
+    types: [Normal]
+stats: {atk: 269, def: 220, hp: 350, spA: 253, spD: 253, spe: 261}
+types: [Fire]
+---
+ability: [Thick Fat, Hydration]
+ball: ["Pok\xE9 Ball", Ultra Ball]
+biddable: true
+combinations:
+- [Toxic Orb, Facade]
+- [Light Ball, Fling]
+- [NeverMeltIce, Ice Shard]
+- [Dive, Toxic]
+displayname: Seel (Shiny)
+evs: {atk: 252, def: 120, hp: 8, spA: 0, spD: 120, spe: 8}
+form: 0
+gender: [m, f]
+happiness: 255
+ingamename: SEEL-PH
+item: [Rawst Berry, Toxic Orb, Light Ball, NeverMeltIce]
+ivs: {atk: 31, def: 31, hp: 31, spA: 31, spD: 31, spe: 31}
+level: 100
+moves:
+-   - {accuracy: 100, category: Physical, displayname: Fake Out, id: 252, name: Fake
+            Out, name_id: fakeout, power: 40, pp: 19, pp_ups: 3, type: Normal}
+-   - {accuracy: 90, category: Physical, displayname: Aqua Tail, id: 401, name: Aqua
+            Tail, name_id: aquatail, power: 90, pp: 10, pp_ups: 0, type: Water}
+    - {accuracy: 100, category: Physical, displayname: Dive, id: 291, name: Dive,
+        name_id: dive, power: 80, pp: 10, pp_ups: 0, type: Water}
+    - {accuracy: 100, category: Physical, displayname: Waterfall, id: 127, name: Waterfall,
+        name_id: waterfall, power: 80, pp: 15, pp_ups: 0, type: Water}
+-   - {accuracy: 100, category: Physical, displayname: Double-Edge, id: 38, name: Double-Edge,
+        name_id: doubleedge, power: 120, pp: 15, pp_ups: 0, type: Normal}
+    - {accuracy: 100, category: Physical, displayname: Facade, id: 263, name: Facade,
+        name_id: facade, power: 70, pp: 20, pp_ups: 0, type: Normal}
+    - {accuracy: 100, category: Physical, displayname: Body Slam, id: 34, name: Body
+            Slam, name_id: bodyslam, power: 85, pp: 15, pp_ups: 0, type: Normal}
+    - {accuracy: 100, category: Physical, displayname: Fling, id: 374, name: Fling,
+        name_id: fling, power: 0, pp: 10, pp_ups: 0, type: Dark}
+    - {accuracy: 85, category: Status, displayname: Toxic, id: 92, name: Toxic, name_id: toxic,
+        power: 0, pp: 10, pp_ups: 0, type: Poison}
+-   - {accuracy: 30, category: Physical, displayname: Horn Drill, id: 32, name: Horn
+            Drill, name_id: horndrill, power: 0, pp: 5, pp_ups: 0, type: Normal}
+    - {accuracy: 100, category: Physical, displayname: Aqua Jet, id: 453, name: Aqua
+            Jet, name_id: aquajet, power: 40, pp: 20, pp_ups: 0, type: Water}
+    - {accuracy: 100, category: Physical, displayname: Ice Shard, id: 420, name: Ice
+            Shard, name_id: iceshard, power: 40, pp: 30, pp_ups: 0, type: Ice}
+nature: {decreased: spA, id: 3, increased: atk, name: Adamant}
+rarity: 0.1
+separations:
+- [Aqua Tail, Fling]
+- [Aqua Tail, Body Slam]
+setname: Physical
+shiny: true
+species:
+    basestats: {atk: 45, def: 55, hp: 65, spA: 45, spD: 70, spe: 45}
+    id: 86
+    name: Seel
+    types: [Water]
+stats: {atk: 207, def: 176, hp: 273, spA: 113, spD: 206, spe: 128}
+---
+ability: [Multitype]
+ball: ["Pok\xE9 Ball"]
+biddable: false
+combinations: []
+displayname: Arceus Fire (Shiny)
+evs: {atk: 0, def: 0, hp: 0, spA: 32, spD: 32, spe: 64}
+form: 1
+gender: [null]
+happiness: 255
+ingamename: TRIHARD
+item: [Flame Plate]
+ivs: {atk: 0, def: 0, hp: 0, spA: 0, spD: 0, spe: 0}
+level: 100
+moves:
+-   - {accuracy: 100, category: Physical, displayname: Pound, id: 1, name: Pound,
+        name_id: pound, power: 40, pp: 35, pp_ups: 0, type: Normal}
+-   - {accuracy: 100, category: Special, displayname: 'HP 0 [30]', id: 237, name: Hidden
+            Power, name_id: hiddenpower, power: 30, pp: 15, pp_ups: 0, type: Fighting}
+-   - {accuracy: 100, category: Special, displayname: Judgment Fire, id: 449, name: Judgment,
+        name_id: judgment, power: 100, pp: 10, pp_ups: 0, type: Fire}
+nature: {decreased: def, id: 1, increased: atk, name: Lonely}
+rarity: 1.0
+separations: []
+setname: Standard
+shiny: true
+species:
+    basestats: {atk: 120, def: 120, hp: 120, spA: 120, spD: 120, spe: 120}
+    id: 493
+    name: Arceus
+    types: [Normal]
+stats: {atk: 269, def: 220, hp: 350, spA: 253, spD: 253, spe: 261}
+types: [Fire]

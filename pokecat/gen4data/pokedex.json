@@ -1,0 +1,7621 @@
+[
+    null,
+    {
+        "id": 1,
+        "types": [
+            "Grass",
+            "Poison"
+        ],
+        "basestats": {
+            "hp": 45,
+            "atk": 49,
+            "def": 49,
+            "spA": 65,
+            "spD": 65,
+            "spe": 45
+        },
+        "name": "Bulbasaur"
+    },
+    {
+        "id": 2,
+        "types": [
+            "Grass",
+            "Poison"
+        ],
+        "basestats": {
+            "hp": 60,
+            "atk": 62,
+            "def": 63,
+            "spA": 80,
+            "spD": 80,
+            "spe": 60
+        },
+        "name": "Ivysaur"
+    },
+    {
+        "id": 3,
+        "types": [
+            "Grass",
+            "Poison"
+        ],
+        "basestats": {
+            "hp": 80,
+            "atk": 82,
+            "def": 83,
+            "spA": 100,
+            "spD": 100,
+            "spe": 80
+        },
+        "name": "Venusaur"
+    },
+    {
+        "id": 4,
+        "types": [
+            "Fire"
+        ],
+        "basestats": {
+            "hp": 39,
+            "atk": 52,
+            "def": 43,
+            "spA": 60,
+            "spD": 50,
+            "spe": 65
+        },
+        "name": "Charmander"
+    },
+    {
+        "id": 5,
+        "types": [
+            "Fire"
+        ],
+        "basestats": {
+            "hp": 58,
+            "atk": 64,
+            "def": 58,
+            "spA": 80,
+            "spD": 65,
+            "spe": 80
+        },
+        "name": "Charmeleon"
+    },
+    {
+        "id": 6,
+        "types": [
+            "Fire",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 78,
+            "atk": 84,
+            "def": 78,
+            "spA": 109,
+            "spD": 85,
+            "spe": 100
+        },
+        "name": "Charizard"
+    },
+    {
+        "id": 7,
+        "types": [
+            "Water"
+        ],
+        "basestats": {
+            "hp": 44,
+            "atk": 48,
+            "def": 65,
+            "spA": 50,
+            "spD": 64,
+            "spe": 43
+        },
+        "name": "Squirtle"
+    },
+    {
+        "id": 8,
+        "types": [
+            "Water"
+        ],
+        "basestats": {
+            "hp": 59,
+            "atk": 63,
+            "def": 80,
+            "spA": 65,
+            "spD": 80,
+            "spe": 58
+        },
+        "name": "Wartortle"
+    },
+    {
+        "id": 9,
+        "types": [
+            "Water"
+        ],
+        "basestats": {
+            "hp": 79,
+            "atk": 83,
+            "def": 100,
+            "spA": 85,
+            "spD": 105,
+            "spe": 78
+        },
+        "name": "Blastoise"
+    },
+    {
+        "id": 10,
+        "types": [
+            "Bug"
+        ],
+        "basestats": {
+            "hp": 45,
+            "atk": 30,
+            "def": 35,
+            "spA": 20,
+            "spD": 20,
+            "spe": 45
+        },
+        "name": "Caterpie"
+    },
+    {
+        "id": 11,
+        "types": [
+            "Bug"
+        ],
+        "basestats": {
+            "hp": 50,
+            "atk": 20,
+            "def": 55,
+            "spA": 25,
+            "spD": 25,
+            "spe": 30
+        },
+        "name": "Metapod"
+    },
+    {
+        "id": 12,
+        "types": [
+            "Bug",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 60,
+            "atk": 45,
+            "def": 50,
+            "spA": 80,
+            "spD": 80,
+            "spe": 70
+        },
+        "name": "Butterfree"
+    },
+    {
+        "id": 13,
+        "types": [
+            "Bug",
+            "Poison"
+        ],
+        "basestats": {
+            "hp": 40,
+            "atk": 35,
+            "def": 30,
+            "spA": 20,
+            "spD": 20,
+            "spe": 50
+        },
+        "name": "Weedle"
+    },
+    {
+        "id": 14,
+        "types": [
+            "Bug",
+            "Poison"
+        ],
+        "basestats": {
+            "hp": 45,
+            "atk": 25,
+            "def": 50,
+            "spA": 25,
+            "spD": 25,
+            "spe": 35
+        },
+        "name": "Kakuna"
+    },
+    {
+        "id": 15,
+        "types": [
+            "Bug",
+            "Poison"
+        ],
+        "basestats": {
+            "hp": 65,
+            "atk": 80,
+            "def": 40,
+            "spA": 45,
+            "spD": 80,
+            "spe": 75
+        },
+        "name": "Beedrill"
+    },
+    {
+        "id": 16,
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 40,
+            "atk": 45,
+            "def": 40,
+            "spA": 35,
+            "spD": 35,
+            "spe": 56
+        },
+        "name": "Pidgey"
+    },
+    {
+        "id": 17,
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 63,
+            "atk": 60,
+            "def": 55,
+            "spA": 50,
+            "spD": 50,
+            "spe": 71
+        },
+        "name": "Pidgeotto"
+    },
+    {
+        "id": 18,
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 83,
+            "atk": 80,
+            "def": 75,
+            "spA": 70,
+            "spD": 70,
+            "spe": 91
+        },
+        "name": "Pidgeot"
+    },
+    {
+        "id": 19,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 30,
+            "atk": 56,
+            "def": 35,
+            "spA": 25,
+            "spD": 35,
+            "spe": 72
+        },
+        "name": "Rattata"
+    },
+    {
+        "id": 20,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 55,
+            "atk": 81,
+            "def": 60,
+            "spA": 50,
+            "spD": 70,
+            "spe": 97
+        },
+        "name": "Raticate"
+    },
+    {
+        "id": 21,
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 40,
+            "atk": 60,
+            "def": 30,
+            "spA": 31,
+            "spD": 31,
+            "spe": 70
+        },
+        "name": "Spearow"
+    },
+    {
+        "id": 22,
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 65,
+            "atk": 90,
+            "def": 65,
+            "spA": 61,
+            "spD": 61,
+            "spe": 100
+        },
+        "name": "Fearow"
+    },
+    {
+        "id": 23,
+        "types": [
+            "Poison"
+        ],
+        "basestats": {
+            "hp": 35,
+            "atk": 60,
+            "def": 44,
+            "spA": 40,
+            "spD": 54,
+            "spe": 55
+        },
+        "name": "Ekans"
+    },
+    {
+        "id": 24,
+        "types": [
+            "Poison"
+        ],
+        "basestats": {
+            "hp": 60,
+            "atk": 85,
+            "def": 69,
+            "spA": 65,
+            "spD": 79,
+            "spe": 80
+        },
+        "name": "Arbok"
+    },
+    {
+        "id": 25,
+        "types": [
+            "Electric"
+        ],
+        "basestats": {
+            "hp": 35,
+            "atk": 55,
+            "def": 30,
+            "spA": 50,
+            "spD": 40,
+            "spe": 90
+        },
+        "name": "Pikachu"
+    },
+    {
+        "id": 26,
+        "types": [
+            "Electric"
+        ],
+        "basestats": {
+            "hp": 60,
+            "atk": 90,
+            "def": 55,
+            "spA": 90,
+            "spD": 80,
+            "spe": 100
+        },
+        "name": "Raichu"
+    },
+    {
+        "id": 27,
+        "types": [
+            "Ground"
+        ],
+        "basestats": {
+            "hp": 50,
+            "atk": 75,
+            "def": 85,
+            "spA": 20,
+            "spD": 30,
+            "spe": 40
+        },
+        "name": "Sandshrew"
+    },
+    {
+        "id": 28,
+        "types": [
+            "Ground"
+        ],
+        "basestats": {
+            "hp": 75,
+            "atk": 100,
+            "def": 110,
+            "spA": 45,
+            "spD": 55,
+            "spe": 65
+        },
+        "name": "Sandslash"
+    },
+    {
+        "id": 29,
+        "types": [
+            "Poison"
+        ],
+        "basestats": {
+            "hp": 55,
+            "atk": 47,
+            "def": 52,
+            "spA": 40,
+            "spD": 40,
+            "spe": 41
+        },
+        "name": "Nidoran\u2640"
+    },
+    {
+        "id": 30,
+        "types": [
+            "Poison"
+        ],
+        "basestats": {
+            "hp": 70,
+            "atk": 62,
+            "def": 67,
+            "spA": 55,
+            "spD": 55,
+            "spe": 56
+        },
+        "name": "Nidorina"
+    },
+    {
+        "id": 31,
+        "types": [
+            "Poison",
+            "Ground"
+        ],
+        "basestats": {
+            "hp": 90,
+            "atk": 82,
+            "def": 87,
+            "spA": 75,
+            "spD": 85,
+            "spe": 76
+        },
+        "name": "Nidoqueen"
+    },
+    {
+        "id": 32,
+        "types": [
+            "Poison"
+        ],
+        "basestats": {
+            "hp": 46,
+            "atk": 57,
+            "def": 40,
+            "spA": 40,
+            "spD": 40,
+            "spe": 50
+        },
+        "name": "Nidoran\u2642"
+    },
+    {
+        "id": 33,
+        "types": [
+            "Poison"
+        ],
+        "basestats": {
+            "hp": 61,
+            "atk": 72,
+            "def": 57,
+            "spA": 55,
+            "spD": 55,
+            "spe": 65
+        },
+        "name": "Nidorino"
+    },
+    {
+        "id": 34,
+        "types": [
+            "Poison",
+            "Ground"
+        ],
+        "basestats": {
+            "hp": 81,
+            "atk": 92,
+            "def": 77,
+            "spA": 85,
+            "spD": 75,
+            "spe": 85
+        },
+        "name": "Nidoking"
+    },
+    {
+        "id": 35,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 70,
+            "atk": 45,
+            "def": 48,
+            "spA": 60,
+            "spD": 65,
+            "spe": 35
+        },
+        "name": "Clefairy"
+    },
+    {
+        "id": 36,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 95,
+            "atk": 70,
+            "def": 73,
+            "spA": 85,
+            "spD": 90,
+            "spe": 60
+        },
+        "name": "Clefable"
+    },
+    {
+        "id": 37,
+        "types": [
+            "Fire"
+        ],
+        "basestats": {
+            "hp": 38,
+            "atk": 41,
+            "def": 40,
+            "spA": 50,
+            "spD": 65,
+            "spe": 65
+        },
+        "name": "Vulpix"
+    },
+    {
+        "id": 38,
+        "types": [
+            "Fire"
+        ],
+        "basestats": {
+            "hp": 73,
+            "atk": 76,
+            "def": 75,
+            "spA": 81,
+            "spD": 100,
+            "spe": 100
+        },
+        "name": "Ninetales"
+    },
+    {
+        "id": 39,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 115,
+            "atk": 45,
+            "def": 20,
+            "spA": 45,
+            "spD": 25,
+            "spe": 20
+        },
+        "name": "Jigglypuff"
+    },
+    {
+        "id": 40,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 140,
+            "atk": 70,
+            "def": 45,
+            "spA": 75,
+            "spD": 50,
+            "spe": 45
+        },
+        "name": "Wigglytuff"
+    },
+    {
+        "id": 41,
+        "types": [
+            "Poison",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 40,
+            "atk": 45,
+            "def": 35,
+            "spA": 30,
+            "spD": 40,
+            "spe": 55
+        },
+        "name": "Zubat"
+    },
+    {
+        "id": 42,
+        "types": [
+            "Poison",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 75,
+            "atk": 80,
+            "def": 70,
+            "spA": 65,
+            "spD": 75,
+            "spe": 90
+        },
+        "name": "Golbat"
+    },
+    {
+        "id": 43,
+        "types": [
+            "Grass",
+            "Poison"
+        ],
+        "basestats": {
+            "hp": 45,
+            "atk": 50,
+            "def": 55,
+            "spA": 75,
+            "spD": 65,
+            "spe": 30
+        },
+        "name": "Oddish"
+    },
+    {
+        "id": 44,
+        "types": [
+            "Grass",
+            "Poison"
+        ],
+        "basestats": {
+            "hp": 60,
+            "atk": 65,
+            "def": 70,
+            "spA": 85,
+            "spD": 75,
+            "spe": 40
+        },
+        "name": "Gloom"
+    },
+    {
+        "id": 45,
+        "types": [
+            "Grass",
+            "Poison"
+        ],
+        "basestats": {
+            "hp": 75,
+            "atk": 80,
+            "def": 85,
+            "spA": 100,
+            "spD": 90,
+            "spe": 50
+        },
+        "name": "Vileplume"
+    },
+    {
+        "id": 46,
+        "types": [
+            "Bug",
+            "Grass"
+        ],
+        "basestats": {
+            "hp": 35,
+            "atk": 70,
+            "def": 55,
+            "spA": 45,
+            "spD": 55,
+            "spe": 25
+        },
+        "name": "Paras"
+    },
+    {
+        "id": 47,
+        "types": [
+            "Bug",
+            "Grass"
+        ],
+        "basestats": {
+            "hp": 60,
+            "atk": 95,
+            "def": 80,
+            "spA": 60,
+            "spD": 80,
+            "spe": 30
+        },
+        "name": "Parasect"
+    },
+    {
+        "id": 48,
+        "types": [
+            "Bug",
+            "Poison"
+        ],
+        "basestats": {
+            "hp": 60,
+            "atk": 55,
+            "def": 50,
+            "spA": 40,
+            "spD": 55,
+            "spe": 45
+        },
+        "name": "Venonat"
+    },
+    {
+        "id": 49,
+        "types": [
+            "Bug",
+            "Poison"
+        ],
+        "basestats": {
+            "hp": 70,
+            "atk": 65,
+            "def": 60,
+            "spA": 90,
+            "spD": 75,
+            "spe": 90
+        },
+        "name": "Venomoth"
+    },
+    {
+        "id": 50,
+        "types": [
+            "Ground"
+        ],
+        "basestats": {
+            "hp": 10,
+            "atk": 55,
+            "def": 25,
+            "spA": 35,
+            "spD": 45,
+            "spe": 95
+        },
+        "name": "Diglett"
+    },
+    {
+        "id": 51,
+        "types": [
+            "Ground"
+        ],
+        "basestats": {
+            "hp": 35,
+            "atk": 80,
+            "def": 50,
+            "spA": 50,
+            "spD": 70,
+            "spe": 120
+        },
+        "name": "Dugtrio"
+    },
+    {
+        "id": 52,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 40,
+            "atk": 45,
+            "def": 35,
+            "spA": 40,
+            "spD": 40,
+            "spe": 90
+        },
+        "name": "Meowth"
+    },
+    {
+        "id": 53,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 65,
+            "atk": 70,
+            "def": 60,
+            "spA": 65,
+            "spD": 65,
+            "spe": 115
+        },
+        "name": "Persian"
+    },
+    {
+        "id": 54,
+        "types": [
+            "Water"
+        ],
+        "basestats": {
+            "hp": 50,
+            "atk": 52,
+            "def": 48,
+            "spA": 65,
+            "spD": 50,
+            "spe": 55
+        },
+        "name": "Psyduck"
+    },
+    {
+        "id": 55,
+        "types": [
+            "Water"
+        ],
+        "basestats": {
+            "hp": 80,
+            "atk": 82,
+            "def": 78,
+            "spA": 95,
+            "spD": 80,
+            "spe": 85
+        },
+        "name": "Golduck"
+    },
+    {
+        "id": 56,
+        "types": [
+            "Fighting"
+        ],
+        "basestats": {
+            "hp": 40,
+            "atk": 80,
+            "def": 35,
+            "spA": 35,
+            "spD": 45,
+            "spe": 70
+        },
+        "name": "Mankey"
+    },
+    {
+        "id": 57,
+        "types": [
+            "Fighting"
+        ],
+        "basestats": {
+            "hp": 65,
+            "atk": 105,
+            "def": 60,
+            "spA": 60,
+            "spD": 70,
+            "spe": 95
+        },
+        "name": "Primeape"
+    },
+    {
+        "id": 58,
+        "types": [
+            "Fire"
+        ],
+        "basestats": {
+            "hp": 55,
+            "atk": 70,
+            "def": 45,
+            "spA": 70,
+            "spD": 50,
+            "spe": 60
+        },
+        "name": "Growlithe"
+    },
+    {
+        "id": 59,
+        "types": [
+            "Fire"
+        ],
+        "basestats": {
+            "hp": 90,
+            "atk": 110,
+            "def": 80,
+            "spA": 100,
+            "spD": 80,
+            "spe": 95
+        },
+        "name": "Arcanine"
+    },
+    {
+        "id": 60,
+        "types": [
+            "Water"
+        ],
+        "basestats": {
+            "hp": 40,
+            "atk": 50,
+            "def": 40,
+            "spA": 40,
+            "spD": 40,
+            "spe": 90
+        },
+        "name": "Poliwag"
+    },
+    {
+        "id": 61,
+        "types": [
+            "Water"
+        ],
+        "basestats": {
+            "hp": 65,
+            "atk": 65,
+            "def": 65,
+            "spA": 50,
+            "spD": 50,
+            "spe": 90
+        },
+        "name": "Poliwhirl"
+    },
+    {
+        "id": 62,
+        "types": [
+            "Water",
+            "Fighting"
+        ],
+        "basestats": {
+            "hp": 90,
+            "atk": 85,
+            "def": 95,
+            "spA": 70,
+            "spD": 90,
+            "spe": 70
+        },
+        "name": "Poliwrath"
+    },
+    {
+        "id": 63,
+        "types": [
+            "Psychic"
+        ],
+        "basestats": {
+            "hp": 25,
+            "atk": 20,
+            "def": 15,
+            "spA": 105,
+            "spD": 55,
+            "spe": 90
+        },
+        "name": "Abra"
+    },
+    {
+        "id": 64,
+        "types": [
+            "Psychic"
+        ],
+        "basestats": {
+            "hp": 40,
+            "atk": 35,
+            "def": 30,
+            "spA": 120,
+            "spD": 70,
+            "spe": 105
+        },
+        "name": "Kadabra"
+    },
+    {
+        "id": 65,
+        "types": [
+            "Psychic"
+        ],
+        "basestats": {
+            "hp": 55,
+            "atk": 50,
+            "def": 45,
+            "spA": 135,
+            "spD": 85,
+            "spe": 120
+        },
+        "name": "Alakazam"
+    },
+    {
+        "id": 66,
+        "types": [
+            "Fighting"
+        ],
+        "basestats": {
+            "hp": 70,
+            "atk": 80,
+            "def": 50,
+            "spA": 35,
+            "spD": 35,
+            "spe": 35
+        },
+        "name": "Machop"
+    },
+    {
+        "id": 67,
+        "types": [
+            "Fighting"
+        ],
+        "basestats": {
+            "hp": 80,
+            "atk": 100,
+            "def": 70,
+            "spA": 50,
+            "spD": 60,
+            "spe": 45
+        },
+        "name": "Machoke"
+    },
+    {
+        "id": 68,
+        "types": [
+            "Fighting"
+        ],
+        "basestats": {
+            "hp": 90,
+            "atk": 130,
+            "def": 80,
+            "spA": 65,
+            "spD": 85,
+            "spe": 55
+        },
+        "name": "Machamp"
+    },
+    {
+        "id": 69,
+        "types": [
+            "Grass",
+            "Poison"
+        ],
+        "basestats": {
+            "hp": 50,
+            "atk": 75,
+            "def": 35,
+            "spA": 70,
+            "spD": 30,
+            "spe": 40
+        },
+        "name": "Bellsprout"
+    },
+    {
+        "id": 70,
+        "types": [
+            "Grass",
+            "Poison"
+        ],
+        "basestats": {
+            "hp": 65,
+            "atk": 90,
+            "def": 50,
+            "spA": 85,
+            "spD": 45,
+            "spe": 55
+        },
+        "name": "Weepinbell"
+    },
+    {
+        "id": 71,
+        "types": [
+            "Grass",
+            "Poison"
+        ],
+        "basestats": {
+            "hp": 80,
+            "atk": 105,
+            "def": 65,
+            "spA": 100,
+            "spD": 60,
+            "spe": 70
+        },
+        "name": "Victreebel"
+    },
+    {
+        "id": 72,
+        "types": [
+            "Water",
+            "Poison"
+        ],
+        "basestats": {
+            "hp": 40,
+            "atk": 40,
+            "def": 35,
+            "spA": 50,
+            "spD": 100,
+            "spe": 70
+        },
+        "name": "Tentacool"
+    },
+    {
+        "id": 73,
+        "types": [
+            "Water",
+            "Poison"
+        ],
+        "basestats": {
+            "hp": 80,
+            "atk": 70,
+            "def": 65,
+            "spA": 80,
+            "spD": 120,
+            "spe": 100
+        },
+        "name": "Tentacruel"
+    },
+    {
+        "id": 74,
+        "types": [
+            "Rock",
+            "Ground"
+        ],
+        "basestats": {
+            "hp": 40,
+            "atk": 80,
+            "def": 100,
+            "spA": 30,
+            "spD": 30,
+            "spe": 20
+        },
+        "name": "Geodude"
+    },
+    {
+        "id": 75,
+        "types": [
+            "Rock",
+            "Ground"
+        ],
+        "basestats": {
+            "hp": 55,
+            "atk": 95,
+            "def": 115,
+            "spA": 45,
+            "spD": 45,
+            "spe": 35
+        },
+        "name": "Graveler"
+    },
+    {
+        "id": 76,
+        "types": [
+            "Rock",
+            "Ground"
+        ],
+        "basestats": {
+            "hp": 80,
+            "atk": 110,
+            "def": 130,
+            "spA": 55,
+            "spD": 65,
+            "spe": 45
+        },
+        "name": "Golem"
+    },
+    {
+        "id": 77,
+        "types": [
+            "Fire"
+        ],
+        "basestats": {
+            "hp": 50,
+            "atk": 85,
+            "def": 55,
+            "spA": 65,
+            "spD": 65,
+            "spe": 90
+        },
+        "name": "Ponyta"
+    },
+    {
+        "id": 78,
+        "types": [
+            "Fire"
+        ],
+        "basestats": {
+            "hp": 65,
+            "atk": 100,
+            "def": 70,
+            "spA": 80,
+            "spD": 80,
+            "spe": 105
+        },
+        "name": "Rapidash"
+    },
+    {
+        "id": 79,
+        "types": [
+            "Water",
+            "Psychic"
+        ],
+        "basestats": {
+            "hp": 90,
+            "atk": 65,
+            "def": 65,
+            "spA": 40,
+            "spD": 40,
+            "spe": 15
+        },
+        "name": "Slowpoke"
+    },
+    {
+        "id": 80,
+        "types": [
+            "Water",
+            "Psychic"
+        ],
+        "basestats": {
+            "hp": 95,
+            "atk": 75,
+            "def": 110,
+            "spA": 100,
+            "spD": 80,
+            "spe": 30
+        },
+        "name": "Slowbro"
+    },
+    {
+        "id": 81,
+        "types": [
+            "Electric",
+            "Steel"
+        ],
+        "basestats": {
+            "hp": 25,
+            "atk": 35,
+            "def": 70,
+            "spA": 95,
+            "spD": 55,
+            "spe": 45
+        },
+        "name": "Magnemite"
+    },
+    {
+        "id": 82,
+        "types": [
+            "Electric",
+            "Steel"
+        ],
+        "basestats": {
+            "hp": 50,
+            "atk": 60,
+            "def": 95,
+            "spA": 120,
+            "spD": 70,
+            "spe": 70
+        },
+        "name": "Magneton"
+    },
+    {
+        "id": 83,
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 52,
+            "atk": 65,
+            "def": 55,
+            "spA": 58,
+            "spD": 62,
+            "spe": 60
+        },
+        "name": "Farfetch'd"
+    },
+    {
+        "id": 84,
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 35,
+            "atk": 85,
+            "def": 45,
+            "spA": 35,
+            "spD": 35,
+            "spe": 75
+        },
+        "name": "Doduo"
+    },
+    {
+        "id": 85,
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 60,
+            "atk": 110,
+            "def": 70,
+            "spA": 60,
+            "spD": 60,
+            "spe": 100
+        },
+        "name": "Dodrio"
+    },
+    {
+        "id": 86,
+        "types": [
+            "Water"
+        ],
+        "basestats": {
+            "hp": 65,
+            "atk": 45,
+            "def": 55,
+            "spA": 45,
+            "spD": 70,
+            "spe": 45
+        },
+        "name": "Seel"
+    },
+    {
+        "id": 87,
+        "types": [
+            "Water",
+            "Ice"
+        ],
+        "basestats": {
+            "hp": 90,
+            "atk": 70,
+            "def": 80,
+            "spA": 70,
+            "spD": 95,
+            "spe": 70
+        },
+        "name": "Dewgong"
+    },
+    {
+        "id": 88,
+        "types": [
+            "Poison"
+        ],
+        "basestats": {
+            "hp": 80,
+            "atk": 80,
+            "def": 50,
+            "spA": 40,
+            "spD": 50,
+            "spe": 25
+        },
+        "name": "Grimer"
+    },
+    {
+        "id": 89,
+        "types": [
+            "Poison"
+        ],
+        "basestats": {
+            "hp": 105,
+            "atk": 105,
+            "def": 75,
+            "spA": 65,
+            "spD": 100,
+            "spe": 50
+        },
+        "name": "Muk"
+    },
+    {
+        "id": 90,
+        "types": [
+            "Water"
+        ],
+        "basestats": {
+            "hp": 30,
+            "atk": 65,
+            "def": 100,
+            "spA": 45,
+            "spD": 25,
+            "spe": 40
+        },
+        "name": "Shellder"
+    },
+    {
+        "id": 91,
+        "types": [
+            "Water",
+            "Ice"
+        ],
+        "basestats": {
+            "hp": 50,
+            "atk": 95,
+            "def": 180,
+            "spA": 85,
+            "spD": 45,
+            "spe": 70
+        },
+        "name": "Cloyster"
+    },
+    {
+        "id": 92,
+        "types": [
+            "Ghost",
+            "Poison"
+        ],
+        "basestats": {
+            "hp": 30,
+            "atk": 35,
+            "def": 30,
+            "spA": 100,
+            "spD": 35,
+            "spe": 80
+        },
+        "name": "Gastly"
+    },
+    {
+        "id": 93,
+        "types": [
+            "Ghost",
+            "Poison"
+        ],
+        "basestats": {
+            "hp": 45,
+            "atk": 50,
+            "def": 45,
+            "spA": 115,
+            "spD": 55,
+            "spe": 95
+        },
+        "name": "Haunter"
+    },
+    {
+        "id": 94,
+        "types": [
+            "Ghost",
+            "Poison"
+        ],
+        "basestats": {
+            "hp": 60,
+            "atk": 65,
+            "def": 60,
+            "spA": 130,
+            "spD": 75,
+            "spe": 110
+        },
+        "name": "Gengar"
+    },
+    {
+        "id": 95,
+        "types": [
+            "Rock",
+            "Ground"
+        ],
+        "basestats": {
+            "hp": 35,
+            "atk": 45,
+            "def": 160,
+            "spA": 30,
+            "spD": 45,
+            "spe": 70
+        },
+        "name": "Onix"
+    },
+    {
+        "id": 96,
+        "types": [
+            "Psychic"
+        ],
+        "basestats": {
+            "hp": 60,
+            "atk": 48,
+            "def": 45,
+            "spA": 43,
+            "spD": 90,
+            "spe": 42
+        },
+        "name": "Drowzee"
+    },
+    {
+        "id": 97,
+        "types": [
+            "Psychic"
+        ],
+        "basestats": {
+            "hp": 85,
+            "atk": 73,
+            "def": 70,
+            "spA": 73,
+            "spD": 115,
+            "spe": 67
+        },
+        "name": "Hypno"
+    },
+    {
+        "id": 98,
+        "types": [
+            "Water"
+        ],
+        "basestats": {
+            "hp": 30,
+            "atk": 105,
+            "def": 90,
+            "spA": 25,
+            "spD": 25,
+            "spe": 50
+        },
+        "name": "Krabby"
+    },
+    {
+        "id": 99,
+        "types": [
+            "Water"
+        ],
+        "basestats": {
+            "hp": 55,
+            "atk": 130,
+            "def": 115,
+            "spA": 50,
+            "spD": 50,
+            "spe": 75
+        },
+        "name": "Kingler"
+    },
+    {
+        "id": 100,
+        "types": [
+            "Electric"
+        ],
+        "basestats": {
+            "hp": 40,
+            "atk": 30,
+            "def": 50,
+            "spA": 55,
+            "spD": 55,
+            "spe": 100
+        },
+        "name": "Voltorb"
+    },
+    {
+        "id": 101,
+        "types": [
+            "Electric"
+        ],
+        "basestats": {
+            "hp": 60,
+            "atk": 50,
+            "def": 70,
+            "spA": 80,
+            "spD": 80,
+            "spe": 140
+        },
+        "name": "Electrode"
+    },
+    {
+        "id": 102,
+        "types": [
+            "Grass",
+            "Psychic"
+        ],
+        "basestats": {
+            "hp": 60,
+            "atk": 40,
+            "def": 80,
+            "spA": 60,
+            "spD": 45,
+            "spe": 40
+        },
+        "name": "Exeggcute"
+    },
+    {
+        "id": 103,
+        "types": [
+            "Grass",
+            "Psychic"
+        ],
+        "basestats": {
+            "hp": 95,
+            "atk": 95,
+            "def": 85,
+            "spA": 125,
+            "spD": 65,
+            "spe": 55
+        },
+        "name": "Exeggutor"
+    },
+    {
+        "id": 104,
+        "types": [
+            "Ground"
+        ],
+        "basestats": {
+            "hp": 50,
+            "atk": 50,
+            "def": 95,
+            "spA": 40,
+            "spD": 50,
+            "spe": 35
+        },
+        "name": "Cubone"
+    },
+    {
+        "id": 105,
+        "types": [
+            "Ground"
+        ],
+        "basestats": {
+            "hp": 60,
+            "atk": 80,
+            "def": 110,
+            "spA": 50,
+            "spD": 80,
+            "spe": 45
+        },
+        "name": "Marowak"
+    },
+    {
+        "id": 106,
+        "types": [
+            "Fighting"
+        ],
+        "basestats": {
+            "hp": 50,
+            "atk": 120,
+            "def": 53,
+            "spA": 35,
+            "spD": 110,
+            "spe": 87
+        },
+        "name": "Hitmonlee"
+    },
+    {
+        "id": 107,
+        "types": [
+            "Fighting"
+        ],
+        "basestats": {
+            "hp": 50,
+            "atk": 105,
+            "def": 79,
+            "spA": 35,
+            "spD": 110,
+            "spe": 76
+        },
+        "name": "Hitmonchan"
+    },
+    {
+        "id": 108,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 90,
+            "atk": 55,
+            "def": 75,
+            "spA": 60,
+            "spD": 75,
+            "spe": 30
+        },
+        "name": "Lickitung"
+    },
+    {
+        "id": 109,
+        "types": [
+            "Poison"
+        ],
+        "basestats": {
+            "hp": 40,
+            "atk": 65,
+            "def": 95,
+            "spA": 60,
+            "spD": 45,
+            "spe": 35
+        },
+        "name": "Koffing"
+    },
+    {
+        "id": 110,
+        "types": [
+            "Poison"
+        ],
+        "basestats": {
+            "hp": 65,
+            "atk": 90,
+            "def": 120,
+            "spA": 85,
+            "spD": 70,
+            "spe": 60
+        },
+        "name": "Weezing"
+    },
+    {
+        "id": 111,
+        "types": [
+            "Ground",
+            "Rock"
+        ],
+        "basestats": {
+            "hp": 80,
+            "atk": 85,
+            "def": 95,
+            "spA": 30,
+            "spD": 30,
+            "spe": 25
+        },
+        "name": "Rhyhorn"
+    },
+    {
+        "id": 112,
+        "types": [
+            "Ground",
+            "Rock"
+        ],
+        "basestats": {
+            "hp": 105,
+            "atk": 130,
+            "def": 120,
+            "spA": 45,
+            "spD": 45,
+            "spe": 40
+        },
+        "name": "Rhydon"
+    },
+    {
+        "id": 113,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 250,
+            "atk": 5,
+            "def": 5,
+            "spA": 35,
+            "spD": 105,
+            "spe": 50
+        },
+        "name": "Chansey"
+    },
+    {
+        "id": 114,
+        "types": [
+            "Grass"
+        ],
+        "basestats": {
+            "hp": 65,
+            "atk": 55,
+            "def": 115,
+            "spA": 100,
+            "spD": 40,
+            "spe": 60
+        },
+        "name": "Tangela"
+    },
+    {
+        "id": 115,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 105,
+            "atk": 95,
+            "def": 80,
+            "spA": 40,
+            "spD": 80,
+            "spe": 90
+        },
+        "name": "Kangaskhan"
+    },
+    {
+        "id": 116,
+        "types": [
+            "Water"
+        ],
+        "basestats": {
+            "hp": 30,
+            "atk": 40,
+            "def": 70,
+            "spA": 70,
+            "spD": 25,
+            "spe": 60
+        },
+        "name": "Horsea"
+    },
+    {
+        "id": 117,
+        "types": [
+            "Water"
+        ],
+        "basestats": {
+            "hp": 55,
+            "atk": 65,
+            "def": 95,
+            "spA": 95,
+            "spD": 45,
+            "spe": 85
+        },
+        "name": "Seadra"
+    },
+    {
+        "id": 118,
+        "types": [
+            "Water"
+        ],
+        "basestats": {
+            "hp": 45,
+            "atk": 67,
+            "def": 60,
+            "spA": 35,
+            "spD": 50,
+            "spe": 63
+        },
+        "name": "Goldeen"
+    },
+    {
+        "id": 119,
+        "types": [
+            "Water"
+        ],
+        "basestats": {
+            "hp": 80,
+            "atk": 92,
+            "def": 65,
+            "spA": 65,
+            "spD": 80,
+            "spe": 68
+        },
+        "name": "Seaking"
+    },
+    {
+        "id": 120,
+        "types": [
+            "Water"
+        ],
+        "basestats": {
+            "hp": 30,
+            "atk": 45,
+            "def": 55,
+            "spA": 70,
+            "spD": 55,
+            "spe": 85
+        },
+        "name": "Staryu"
+    },
+    {
+        "id": 121,
+        "types": [
+            "Water",
+            "Psychic"
+        ],
+        "basestats": {
+            "hp": 60,
+            "atk": 75,
+            "def": 85,
+            "spA": 100,
+            "spD": 85,
+            "spe": 115
+        },
+        "name": "Starmie"
+    },
+    {
+        "id": 122,
+        "types": [
+            "Psychic"
+        ],
+        "basestats": {
+            "hp": 40,
+            "atk": 45,
+            "def": 65,
+            "spA": 100,
+            "spD": 120,
+            "spe": 90
+        },
+        "name": "Mr. Mime"
+    },
+    {
+        "id": 123,
+        "types": [
+            "Bug",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 70,
+            "atk": 110,
+            "def": 80,
+            "spA": 55,
+            "spD": 80,
+            "spe": 105
+        },
+        "name": "Scyther"
+    },
+    {
+        "id": 124,
+        "types": [
+            "Ice",
+            "Psychic"
+        ],
+        "basestats": {
+            "hp": 65,
+            "atk": 50,
+            "def": 35,
+            "spA": 115,
+            "spD": 95,
+            "spe": 95
+        },
+        "name": "Jynx"
+    },
+    {
+        "id": 125,
+        "types": [
+            "Electric"
+        ],
+        "basestats": {
+            "hp": 65,
+            "atk": 83,
+            "def": 57,
+            "spA": 95,
+            "spD": 85,
+            "spe": 105
+        },
+        "name": "Electabuzz"
+    },
+    {
+        "id": 126,
+        "types": [
+            "Fire"
+        ],
+        "basestats": {
+            "hp": 65,
+            "atk": 95,
+            "def": 57,
+            "spA": 100,
+            "spD": 85,
+            "spe": 93
+        },
+        "name": "Magmar"
+    },
+    {
+        "id": 127,
+        "types": [
+            "Bug"
+        ],
+        "basestats": {
+            "hp": 65,
+            "atk": 125,
+            "def": 100,
+            "spA": 55,
+            "spD": 70,
+            "spe": 85
+        },
+        "name": "Pinsir"
+    },
+    {
+        "id": 128,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 75,
+            "atk": 100,
+            "def": 95,
+            "spA": 40,
+            "spD": 70,
+            "spe": 110
+        },
+        "name": "Tauros"
+    },
+    {
+        "id": 129,
+        "types": [
+            "Water"
+        ],
+        "basestats": {
+            "hp": 20,
+            "atk": 10,
+            "def": 55,
+            "spA": 15,
+            "spD": 20,
+            "spe": 80
+        },
+        "name": "Magikarp"
+    },
+    {
+        "id": 130,
+        "types": [
+            "Water",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 95,
+            "atk": 125,
+            "def": 79,
+            "spA": 60,
+            "spD": 100,
+            "spe": 81
+        },
+        "name": "Gyarados"
+    },
+    {
+        "id": 131,
+        "types": [
+            "Water",
+            "Ice"
+        ],
+        "basestats": {
+            "hp": 130,
+            "atk": 85,
+            "def": 80,
+            "spA": 85,
+            "spD": 95,
+            "spe": 60
+        },
+        "name": "Lapras"
+    },
+    {
+        "id": 132,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 48,
+            "atk": 48,
+            "def": 48,
+            "spA": 48,
+            "spD": 48,
+            "spe": 48
+        },
+        "name": "Ditto"
+    },
+    {
+        "id": 133,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 55,
+            "atk": 55,
+            "def": 50,
+            "spA": 45,
+            "spD": 65,
+            "spe": 55
+        },
+        "name": "Eevee"
+    },
+    {
+        "id": 134,
+        "types": [
+            "Water"
+        ],
+        "basestats": {
+            "hp": 130,
+            "atk": 65,
+            "def": 60,
+            "spA": 110,
+            "spD": 95,
+            "spe": 65
+        },
+        "name": "Vaporeon"
+    },
+    {
+        "id": 135,
+        "types": [
+            "Electric"
+        ],
+        "basestats": {
+            "hp": 65,
+            "atk": 65,
+            "def": 60,
+            "spA": 110,
+            "spD": 95,
+            "spe": 130
+        },
+        "name": "Jolteon"
+    },
+    {
+        "id": 136,
+        "types": [
+            "Fire"
+        ],
+        "basestats": {
+            "hp": 65,
+            "atk": 130,
+            "def": 60,
+            "spA": 95,
+            "spD": 110,
+            "spe": 65
+        },
+        "name": "Flareon"
+    },
+    {
+        "id": 137,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 65,
+            "atk": 60,
+            "def": 70,
+            "spA": 85,
+            "spD": 75,
+            "spe": 40
+        },
+        "name": "Porygon"
+    },
+    {
+        "id": 138,
+        "types": [
+            "Rock",
+            "Water"
+        ],
+        "basestats": {
+            "hp": 35,
+            "atk": 40,
+            "def": 100,
+            "spA": 90,
+            "spD": 55,
+            "spe": 35
+        },
+        "name": "Omanyte"
+    },
+    {
+        "id": 139,
+        "types": [
+            "Rock",
+            "Water"
+        ],
+        "basestats": {
+            "hp": 70,
+            "atk": 60,
+            "def": 125,
+            "spA": 115,
+            "spD": 70,
+            "spe": 55
+        },
+        "name": "Omastar"
+    },
+    {
+        "id": 140,
+        "types": [
+            "Rock",
+            "Water"
+        ],
+        "basestats": {
+            "hp": 30,
+            "atk": 80,
+            "def": 90,
+            "spA": 55,
+            "spD": 45,
+            "spe": 55
+        },
+        "name": "Kabuto"
+    },
+    {
+        "id": 141,
+        "types": [
+            "Rock",
+            "Water"
+        ],
+        "basestats": {
+            "hp": 60,
+            "atk": 115,
+            "def": 105,
+            "spA": 65,
+            "spD": 70,
+            "spe": 80
+        },
+        "name": "Kabutops"
+    },
+    {
+        "id": 142,
+        "types": [
+            "Rock",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 80,
+            "atk": 105,
+            "def": 65,
+            "spA": 60,
+            "spD": 75,
+            "spe": 130
+        },
+        "name": "Aerodactyl"
+    },
+    {
+        "id": 143,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 160,
+            "atk": 110,
+            "def": 65,
+            "spA": 65,
+            "spD": 110,
+            "spe": 30
+        },
+        "name": "Snorlax"
+    },
+    {
+        "id": 144,
+        "types": [
+            "Ice",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 90,
+            "atk": 85,
+            "def": 100,
+            "spA": 95,
+            "spD": 125,
+            "spe": 85
+        },
+        "name": "Articuno"
+    },
+    {
+        "id": 145,
+        "types": [
+            "Electric",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 90,
+            "atk": 90,
+            "def": 85,
+            "spA": 125,
+            "spD": 90,
+            "spe": 100
+        },
+        "name": "Zapdos"
+    },
+    {
+        "id": 146,
+        "types": [
+            "Fire",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 90,
+            "atk": 100,
+            "def": 90,
+            "spA": 125,
+            "spD": 85,
+            "spe": 90
+        },
+        "name": "Moltres"
+    },
+    {
+        "id": 147,
+        "types": [
+            "Dragon"
+        ],
+        "basestats": {
+            "hp": 41,
+            "atk": 64,
+            "def": 45,
+            "spA": 50,
+            "spD": 50,
+            "spe": 50
+        },
+        "name": "Dratini"
+    },
+    {
+        "id": 148,
+        "types": [
+            "Dragon"
+        ],
+        "basestats": {
+            "hp": 61,
+            "atk": 84,
+            "def": 65,
+            "spA": 70,
+            "spD": 70,
+            "spe": 70
+        },
+        "name": "Dragonair"
+    },
+    {
+        "id": 149,
+        "types": [
+            "Dragon",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 91,
+            "atk": 134,
+            "def": 95,
+            "spA": 100,
+            "spD": 100,
+            "spe": 80
+        },
+        "name": "Dragonite"
+    },
+    {
+        "id": 150,
+        "types": [
+            "Psychic"
+        ],
+        "basestats": {
+            "hp": 106,
+            "atk": 110,
+            "def": 90,
+            "spA": 154,
+            "spD": 90,
+            "spe": 130
+        },
+        "name": "Mewtwo"
+    },
+    {
+        "id": 151,
+        "types": [
+            "Psychic"
+        ],
+        "basestats": {
+            "hp": 100,
+            "atk": 100,
+            "def": 100,
+            "spA": 100,
+            "spD": 100,
+            "spe": 100
+        },
+        "name": "Mew"
+    },
+    {
+        "id": 152,
+        "types": [
+            "Grass"
+        ],
+        "basestats": {
+            "hp": 45,
+            "atk": 49,
+            "def": 65,
+            "spA": 49,
+            "spD": 65,
+            "spe": 45
+        },
+        "name": "Chikorita"
+    },
+    {
+        "id": 153,
+        "types": [
+            "Grass"
+        ],
+        "basestats": {
+            "hp": 60,
+            "atk": 62,
+            "def": 80,
+            "spA": 63,
+            "spD": 80,
+            "spe": 60
+        },
+        "name": "Bayleef"
+    },
+    {
+        "id": 154,
+        "types": [
+            "Grass"
+        ],
+        "basestats": {
+            "hp": 80,
+            "atk": 82,
+            "def": 100,
+            "spA": 83,
+            "spD": 100,
+            "spe": 80
+        },
+        "name": "Meganium"
+    },
+    {
+        "id": 155,
+        "types": [
+            "Fire"
+        ],
+        "basestats": {
+            "hp": 39,
+            "atk": 52,
+            "def": 43,
+            "spA": 60,
+            "spD": 50,
+            "spe": 65
+        },
+        "name": "Cyndaquil"
+    },
+    {
+        "id": 156,
+        "types": [
+            "Fire"
+        ],
+        "basestats": {
+            "hp": 58,
+            "atk": 64,
+            "def": 58,
+            "spA": 80,
+            "spD": 65,
+            "spe": 80
+        },
+        "name": "Quilava"
+    },
+    {
+        "id": 157,
+        "types": [
+            "Fire"
+        ],
+        "basestats": {
+            "hp": 78,
+            "atk": 84,
+            "def": 78,
+            "spA": 109,
+            "spD": 85,
+            "spe": 100
+        },
+        "name": "Typhlosion"
+    },
+    {
+        "id": 158,
+        "types": [
+            "Water"
+        ],
+        "basestats": {
+            "hp": 50,
+            "atk": 65,
+            "def": 64,
+            "spA": 44,
+            "spD": 48,
+            "spe": 43
+        },
+        "name": "Totodile"
+    },
+    {
+        "id": 159,
+        "types": [
+            "Water"
+        ],
+        "basestats": {
+            "hp": 65,
+            "atk": 80,
+            "def": 80,
+            "spA": 59,
+            "spD": 63,
+            "spe": 58
+        },
+        "name": "Croconaw"
+    },
+    {
+        "id": 160,
+        "types": [
+            "Water"
+        ],
+        "basestats": {
+            "hp": 85,
+            "atk": 105,
+            "def": 100,
+            "spA": 79,
+            "spD": 83,
+            "spe": 78
+        },
+        "name": "Feraligatr"
+    },
+    {
+        "id": 161,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 35,
+            "atk": 46,
+            "def": 34,
+            "spA": 35,
+            "spD": 45,
+            "spe": 20
+        },
+        "name": "Sentret"
+    },
+    {
+        "id": 162,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 85,
+            "atk": 76,
+            "def": 64,
+            "spA": 45,
+            "spD": 55,
+            "spe": 90
+        },
+        "name": "Furret"
+    },
+    {
+        "id": 163,
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 60,
+            "atk": 30,
+            "def": 30,
+            "spA": 36,
+            "spD": 56,
+            "spe": 50
+        },
+        "name": "Hoothoot"
+    },
+    {
+        "id": 164,
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 100,
+            "atk": 50,
+            "def": 50,
+            "spA": 76,
+            "spD": 96,
+            "spe": 70
+        },
+        "name": "Noctowl"
+    },
+    {
+        "id": 165,
+        "types": [
+            "Bug",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 40,
+            "atk": 20,
+            "def": 30,
+            "spA": 40,
+            "spD": 80,
+            "spe": 55
+        },
+        "name": "Ledyba"
+    },
+    {
+        "id": 166,
+        "types": [
+            "Bug",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 55,
+            "atk": 35,
+            "def": 50,
+            "spA": 55,
+            "spD": 110,
+            "spe": 85
+        },
+        "name": "Ledian"
+    },
+    {
+        "id": 167,
+        "types": [
+            "Bug",
+            "Poison"
+        ],
+        "basestats": {
+            "hp": 40,
+            "atk": 60,
+            "def": 40,
+            "spA": 40,
+            "spD": 40,
+            "spe": 30
+        },
+        "name": "Spinarak"
+    },
+    {
+        "id": 168,
+        "types": [
+            "Bug",
+            "Poison"
+        ],
+        "basestats": {
+            "hp": 70,
+            "atk": 90,
+            "def": 70,
+            "spA": 60,
+            "spD": 60,
+            "spe": 40
+        },
+        "name": "Ariados"
+    },
+    {
+        "id": 169,
+        "types": [
+            "Poison",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 85,
+            "atk": 90,
+            "def": 80,
+            "spA": 70,
+            "spD": 80,
+            "spe": 130
+        },
+        "name": "Crobat"
+    },
+    {
+        "id": 170,
+        "types": [
+            "Water",
+            "Electric"
+        ],
+        "basestats": {
+            "hp": 75,
+            "atk": 38,
+            "def": 38,
+            "spA": 56,
+            "spD": 56,
+            "spe": 67
+        },
+        "name": "Chinchou"
+    },
+    {
+        "id": 171,
+        "types": [
+            "Water",
+            "Electric"
+        ],
+        "basestats": {
+            "hp": 125,
+            "atk": 58,
+            "def": 58,
+            "spA": 76,
+            "spD": 76,
+            "spe": 67
+        },
+        "name": "Lanturn"
+    },
+    {
+        "id": 172,
+        "types": [
+            "Electric"
+        ],
+        "basestats": {
+            "hp": 20,
+            "atk": 40,
+            "def": 15,
+            "spA": 35,
+            "spD": 35,
+            "spe": 60
+        },
+        "name": "Pichu"
+    },
+    {
+        "id": 173,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 50,
+            "atk": 25,
+            "def": 28,
+            "spA": 45,
+            "spD": 55,
+            "spe": 15
+        },
+        "name": "Cleffa"
+    },
+    {
+        "id": 174,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 90,
+            "atk": 30,
+            "def": 15,
+            "spA": 40,
+            "spD": 20,
+            "spe": 15
+        },
+        "name": "Igglybuff"
+    },
+    {
+        "id": 175,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 35,
+            "atk": 20,
+            "def": 65,
+            "spA": 40,
+            "spD": 65,
+            "spe": 20
+        },
+        "name": "Togepi"
+    },
+    {
+        "id": 176,
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 55,
+            "atk": 40,
+            "def": 85,
+            "spA": 80,
+            "spD": 105,
+            "spe": 40
+        },
+        "name": "Togetic"
+    },
+    {
+        "id": 177,
+        "types": [
+            "Psychic",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 40,
+            "atk": 50,
+            "def": 45,
+            "spA": 70,
+            "spD": 45,
+            "spe": 70
+        },
+        "name": "Natu"
+    },
+    {
+        "id": 178,
+        "types": [
+            "Psychic",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 65,
+            "atk": 75,
+            "def": 70,
+            "spA": 95,
+            "spD": 70,
+            "spe": 95
+        },
+        "name": "Xatu"
+    },
+    {
+        "id": 179,
+        "types": [
+            "Electric"
+        ],
+        "basestats": {
+            "hp": 55,
+            "atk": 40,
+            "def": 40,
+            "spA": 65,
+            "spD": 45,
+            "spe": 35
+        },
+        "name": "Mareep"
+    },
+    {
+        "id": 180,
+        "types": [
+            "Electric"
+        ],
+        "basestats": {
+            "hp": 70,
+            "atk": 55,
+            "def": 55,
+            "spA": 80,
+            "spD": 60,
+            "spe": 45
+        },
+        "name": "Flaaffy"
+    },
+    {
+        "id": 181,
+        "types": [
+            "Electric"
+        ],
+        "basestats": {
+            "hp": 90,
+            "atk": 75,
+            "def": 75,
+            "spA": 115,
+            "spD": 90,
+            "spe": 55
+        },
+        "name": "Ampharos"
+    },
+    {
+        "id": 182,
+        "types": [
+            "Grass"
+        ],
+        "basestats": {
+            "hp": 75,
+            "atk": 80,
+            "def": 85,
+            "spA": 90,
+            "spD": 100,
+            "spe": 50
+        },
+        "name": "Bellossom"
+    },
+    {
+        "id": 183,
+        "types": [
+            "Water"
+        ],
+        "basestats": {
+            "hp": 70,
+            "atk": 20,
+            "def": 50,
+            "spA": 20,
+            "spD": 50,
+            "spe": 40
+        },
+        "name": "Marill"
+    },
+    {
+        "id": 184,
+        "types": [
+            "Water"
+        ],
+        "basestats": {
+            "hp": 100,
+            "atk": 50,
+            "def": 80,
+            "spA": 50,
+            "spD": 80,
+            "spe": 50
+        },
+        "name": "Azumarill"
+    },
+    {
+        "id": 185,
+        "types": [
+            "Rock"
+        ],
+        "basestats": {
+            "hp": 70,
+            "atk": 100,
+            "def": 115,
+            "spA": 30,
+            "spD": 65,
+            "spe": 30
+        },
+        "name": "Sudowoodo"
+    },
+    {
+        "id": 186,
+        "types": [
+            "Water"
+        ],
+        "basestats": {
+            "hp": 90,
+            "atk": 75,
+            "def": 75,
+            "spA": 90,
+            "spD": 100,
+            "spe": 70
+        },
+        "name": "Politoed"
+    },
+    {
+        "id": 187,
+        "types": [
+            "Grass",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 35,
+            "atk": 35,
+            "def": 40,
+            "spA": 35,
+            "spD": 55,
+            "spe": 50
+        },
+        "name": "Hoppip"
+    },
+    {
+        "id": 188,
+        "types": [
+            "Grass",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 55,
+            "atk": 45,
+            "def": 50,
+            "spA": 45,
+            "spD": 65,
+            "spe": 80
+        },
+        "name": "Skiploom"
+    },
+    {
+        "id": 189,
+        "types": [
+            "Grass",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 75,
+            "atk": 55,
+            "def": 70,
+            "spA": 55,
+            "spD": 85,
+            "spe": 110
+        },
+        "name": "Jumpluff"
+    },
+    {
+        "id": 190,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 55,
+            "atk": 70,
+            "def": 55,
+            "spA": 40,
+            "spD": 55,
+            "spe": 85
+        },
+        "name": "Aipom"
+    },
+    {
+        "id": 191,
+        "types": [
+            "Grass"
+        ],
+        "basestats": {
+            "hp": 30,
+            "atk": 30,
+            "def": 30,
+            "spA": 30,
+            "spD": 30,
+            "spe": 30
+        },
+        "name": "Sunkern"
+    },
+    {
+        "id": 192,
+        "types": [
+            "Grass"
+        ],
+        "basestats": {
+            "hp": 75,
+            "atk": 75,
+            "def": 55,
+            "spA": 105,
+            "spD": 85,
+            "spe": 30
+        },
+        "name": "Sunflora"
+    },
+    {
+        "id": 193,
+        "types": [
+            "Bug",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 65,
+            "atk": 65,
+            "def": 45,
+            "spA": 75,
+            "spD": 45,
+            "spe": 95
+        },
+        "name": "Yanma"
+    },
+    {
+        "id": 194,
+        "types": [
+            "Water",
+            "Ground"
+        ],
+        "basestats": {
+            "hp": 55,
+            "atk": 45,
+            "def": 45,
+            "spA": 25,
+            "spD": 25,
+            "spe": 15
+        },
+        "name": "Wooper"
+    },
+    {
+        "id": 195,
+        "types": [
+            "Water",
+            "Ground"
+        ],
+        "basestats": {
+            "hp": 95,
+            "atk": 85,
+            "def": 85,
+            "spA": 65,
+            "spD": 65,
+            "spe": 35
+        },
+        "name": "Quagsire"
+    },
+    {
+        "id": 196,
+        "types": [
+            "Psychic"
+        ],
+        "basestats": {
+            "hp": 65,
+            "atk": 65,
+            "def": 60,
+            "spA": 130,
+            "spD": 95,
+            "spe": 110
+        },
+        "name": "Espeon"
+    },
+    {
+        "id": 197,
+        "types": [
+            "Dark"
+        ],
+        "basestats": {
+            "hp": 95,
+            "atk": 65,
+            "def": 110,
+            "spA": 60,
+            "spD": 130,
+            "spe": 65
+        },
+        "name": "Umbreon"
+    },
+    {
+        "id": 198,
+        "types": [
+            "Dark",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 60,
+            "atk": 85,
+            "def": 42,
+            "spA": 85,
+            "spD": 42,
+            "spe": 91
+        },
+        "name": "Murkrow"
+    },
+    {
+        "id": 199,
+        "types": [
+            "Water",
+            "Psychic"
+        ],
+        "basestats": {
+            "hp": 95,
+            "atk": 75,
+            "def": 80,
+            "spA": 100,
+            "spD": 110,
+            "spe": 30
+        },
+        "name": "Slowking"
+    },
+    {
+        "id": 200,
+        "types": [
+            "Ghost"
+        ],
+        "basestats": {
+            "hp": 60,
+            "atk": 60,
+            "def": 60,
+            "spA": 85,
+            "spD": 85,
+            "spe": 85
+        },
+        "name": "Misdreavus"
+    },
+    {
+        "id": 201,
+        "types": [
+            "Psychic"
+        ],
+        "basestats": {
+            "hp": 48,
+            "atk": 72,
+            "def": 48,
+            "spA": 72,
+            "spD": 48,
+            "spe": 48
+        },
+        "name": "Unown"
+    },
+    {
+        "id": 202,
+        "types": [
+            "Psychic"
+        ],
+        "basestats": {
+            "hp": 190,
+            "atk": 33,
+            "def": 58,
+            "spA": 33,
+            "spD": 58,
+            "spe": 33
+        },
+        "name": "Wobbuffet"
+    },
+    {
+        "id": 203,
+        "types": [
+            "Normal",
+            "Psychic"
+        ],
+        "basestats": {
+            "hp": 70,
+            "atk": 80,
+            "def": 65,
+            "spA": 90,
+            "spD": 65,
+            "spe": 85
+        },
+        "name": "Girafarig"
+    },
+    {
+        "id": 204,
+        "types": [
+            "Bug"
+        ],
+        "basestats": {
+            "hp": 50,
+            "atk": 65,
+            "def": 90,
+            "spA": 35,
+            "spD": 35,
+            "spe": 15
+        },
+        "name": "Pineco"
+    },
+    {
+        "id": 205,
+        "types": [
+            "Bug",
+            "Steel"
+        ],
+        "basestats": {
+            "hp": 75,
+            "atk": 90,
+            "def": 140,
+            "spA": 60,
+            "spD": 60,
+            "spe": 40
+        },
+        "name": "Forretress"
+    },
+    {
+        "id": 206,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 100,
+            "atk": 70,
+            "def": 70,
+            "spA": 65,
+            "spD": 65,
+            "spe": 45
+        },
+        "name": "Dunsparce"
+    },
+    {
+        "id": 207,
+        "types": [
+            "Ground",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 65,
+            "atk": 75,
+            "def": 105,
+            "spA": 35,
+            "spD": 65,
+            "spe": 85
+        },
+        "name": "Gligar"
+    },
+    {
+        "id": 208,
+        "types": [
+            "Steel",
+            "Ground"
+        ],
+        "basestats": {
+            "hp": 75,
+            "atk": 85,
+            "def": 200,
+            "spA": 55,
+            "spD": 65,
+            "spe": 30
+        },
+        "name": "Steelix"
+    },
+    {
+        "id": 209,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 60,
+            "atk": 80,
+            "def": 50,
+            "spA": 40,
+            "spD": 40,
+            "spe": 30
+        },
+        "name": "Snubbull"
+    },
+    {
+        "id": 210,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 90,
+            "atk": 120,
+            "def": 75,
+            "spA": 60,
+            "spD": 60,
+            "spe": 45
+        },
+        "name": "Granbull"
+    },
+    {
+        "id": 211,
+        "types": [
+            "Water",
+            "Poison"
+        ],
+        "basestats": {
+            "hp": 65,
+            "atk": 95,
+            "def": 75,
+            "spA": 55,
+            "spD": 55,
+            "spe": 85
+        },
+        "name": "Qwilfish"
+    },
+    {
+        "id": 212,
+        "types": [
+            "Bug",
+            "Steel"
+        ],
+        "basestats": {
+            "hp": 70,
+            "atk": 130,
+            "def": 100,
+            "spA": 55,
+            "spD": 80,
+            "spe": 65
+        },
+        "name": "Scizor"
+    },
+    {
+        "id": 213,
+        "types": [
+            "Bug",
+            "Rock"
+        ],
+        "basestats": {
+            "hp": 20,
+            "atk": 10,
+            "def": 230,
+            "spA": 10,
+            "spD": 230,
+            "spe": 5
+        },
+        "name": "Shuckle"
+    },
+    {
+        "id": 214,
+        "types": [
+            "Bug",
+            "Fighting"
+        ],
+        "basestats": {
+            "hp": 80,
+            "atk": 125,
+            "def": 75,
+            "spA": 40,
+            "spD": 95,
+            "spe": 85
+        },
+        "name": "Heracross"
+    },
+    {
+        "id": 215,
+        "types": [
+            "Dark",
+            "Ice"
+        ],
+        "basestats": {
+            "hp": 55,
+            "atk": 95,
+            "def": 55,
+            "spA": 35,
+            "spD": 75,
+            "spe": 115
+        },
+        "name": "Sneasel"
+    },
+    {
+        "id": 216,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 60,
+            "atk": 80,
+            "def": 50,
+            "spA": 50,
+            "spD": 50,
+            "spe": 40
+        },
+        "name": "Teddiursa"
+    },
+    {
+        "id": 217,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 90,
+            "atk": 130,
+            "def": 75,
+            "spA": 75,
+            "spD": 75,
+            "spe": 55
+        },
+        "name": "Ursaring"
+    },
+    {
+        "id": 218,
+        "types": [
+            "Fire"
+        ],
+        "basestats": {
+            "hp": 40,
+            "atk": 40,
+            "def": 40,
+            "spA": 70,
+            "spD": 40,
+            "spe": 20
+        },
+        "name": "Slugma"
+    },
+    {
+        "id": 219,
+        "types": [
+            "Fire",
+            "Rock"
+        ],
+        "basestats": {
+            "hp": 50,
+            "atk": 50,
+            "def": 120,
+            "spA": 80,
+            "spD": 80,
+            "spe": 30
+        },
+        "name": "Magcargo"
+    },
+    {
+        "id": 220,
+        "types": [
+            "Ice",
+            "Ground"
+        ],
+        "basestats": {
+            "hp": 50,
+            "atk": 50,
+            "def": 40,
+            "spA": 30,
+            "spD": 30,
+            "spe": 50
+        },
+        "name": "Swinub"
+    },
+    {
+        "id": 221,
+        "types": [
+            "Ice",
+            "Ground"
+        ],
+        "basestats": {
+            "hp": 100,
+            "atk": 100,
+            "def": 80,
+            "spA": 60,
+            "spD": 60,
+            "spe": 50
+        },
+        "name": "Piloswine"
+    },
+    {
+        "id": 222,
+        "types": [
+            "Water",
+            "Rock"
+        ],
+        "basestats": {
+            "hp": 55,
+            "atk": 55,
+            "def": 85,
+            "spA": 65,
+            "spD": 85,
+            "spe": 35
+        },
+        "name": "Corsola"
+    },
+    {
+        "id": 223,
+        "types": [
+            "Water"
+        ],
+        "basestats": {
+            "hp": 35,
+            "atk": 65,
+            "def": 35,
+            "spA": 65,
+            "spD": 35,
+            "spe": 65
+        },
+        "name": "Remoraid"
+    },
+    {
+        "id": 224,
+        "types": [
+            "Water"
+        ],
+        "basestats": {
+            "hp": 75,
+            "atk": 105,
+            "def": 75,
+            "spA": 105,
+            "spD": 75,
+            "spe": 45
+        },
+        "name": "Octillery"
+    },
+    {
+        "id": 225,
+        "types": [
+            "Ice",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 45,
+            "atk": 55,
+            "def": 45,
+            "spA": 65,
+            "spD": 45,
+            "spe": 75
+        },
+        "name": "Delibird"
+    },
+    {
+        "id": 226,
+        "types": [
+            "Water",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 65,
+            "atk": 40,
+            "def": 70,
+            "spA": 80,
+            "spD": 140,
+            "spe": 70
+        },
+        "name": "Mantine"
+    },
+    {
+        "id": 227,
+        "types": [
+            "Steel",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 65,
+            "atk": 80,
+            "def": 140,
+            "spA": 40,
+            "spD": 70,
+            "spe": 70
+        },
+        "name": "Skarmory"
+    },
+    {
+        "id": 228,
+        "types": [
+            "Dark",
+            "Fire"
+        ],
+        "basestats": {
+            "hp": 45,
+            "atk": 60,
+            "def": 30,
+            "spA": 80,
+            "spD": 50,
+            "spe": 65
+        },
+        "name": "Houndour"
+    },
+    {
+        "id": 229,
+        "types": [
+            "Dark",
+            "Fire"
+        ],
+        "basestats": {
+            "hp": 75,
+            "atk": 90,
+            "def": 50,
+            "spA": 110,
+            "spD": 80,
+            "spe": 95
+        },
+        "name": "Houndoom"
+    },
+    {
+        "id": 230,
+        "types": [
+            "Water",
+            "Dragon"
+        ],
+        "basestats": {
+            "hp": 75,
+            "atk": 95,
+            "def": 95,
+            "spA": 95,
+            "spD": 95,
+            "spe": 85
+        },
+        "name": "Kingdra"
+    },
+    {
+        "id": 231,
+        "types": [
+            "Ground"
+        ],
+        "basestats": {
+            "hp": 90,
+            "atk": 60,
+            "def": 60,
+            "spA": 40,
+            "spD": 40,
+            "spe": 40
+        },
+        "name": "Phanpy"
+    },
+    {
+        "id": 232,
+        "types": [
+            "Ground"
+        ],
+        "basestats": {
+            "hp": 90,
+            "atk": 120,
+            "def": 120,
+            "spA": 60,
+            "spD": 60,
+            "spe": 50
+        },
+        "name": "Donphan"
+    },
+    {
+        "id": 233,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 85,
+            "atk": 80,
+            "def": 90,
+            "spA": 105,
+            "spD": 95,
+            "spe": 60
+        },
+        "name": "Porygon2"
+    },
+    {
+        "id": 234,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 73,
+            "atk": 95,
+            "def": 62,
+            "spA": 85,
+            "spD": 65,
+            "spe": 85
+        },
+        "name": "Stantler"
+    },
+    {
+        "id": 235,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 55,
+            "atk": 20,
+            "def": 35,
+            "spA": 20,
+            "spD": 45,
+            "spe": 75
+        },
+        "name": "Smeargle"
+    },
+    {
+        "id": 236,
+        "types": [
+            "Fighting"
+        ],
+        "basestats": {
+            "hp": 35,
+            "atk": 35,
+            "def": 35,
+            "spA": 35,
+            "spD": 35,
+            "spe": 35
+        },
+        "name": "Tyrogue"
+    },
+    {
+        "id": 237,
+        "types": [
+            "Fighting"
+        ],
+        "basestats": {
+            "hp": 50,
+            "atk": 95,
+            "def": 95,
+            "spA": 35,
+            "spD": 110,
+            "spe": 70
+        },
+        "name": "Hitmontop"
+    },
+    {
+        "id": 238,
+        "types": [
+            "Ice",
+            "Psychic"
+        ],
+        "basestats": {
+            "hp": 45,
+            "atk": 30,
+            "def": 15,
+            "spA": 85,
+            "spD": 65,
+            "spe": 65
+        },
+        "name": "Smoochum"
+    },
+    {
+        "id": 239,
+        "types": [
+            "Electric"
+        ],
+        "basestats": {
+            "hp": 45,
+            "atk": 63,
+            "def": 37,
+            "spA": 65,
+            "spD": 55,
+            "spe": 95
+        },
+        "name": "Elekid"
+    },
+    {
+        "id": 240,
+        "types": [
+            "Fire"
+        ],
+        "basestats": {
+            "hp": 45,
+            "atk": 75,
+            "def": 37,
+            "spA": 70,
+            "spD": 55,
+            "spe": 83
+        },
+        "name": "Magby"
+    },
+    {
+        "id": 241,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 95,
+            "atk": 80,
+            "def": 105,
+            "spA": 40,
+            "spD": 70,
+            "spe": 100
+        },
+        "name": "Miltank"
+    },
+    {
+        "id": 242,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 255,
+            "atk": 10,
+            "def": 10,
+            "spA": 75,
+            "spD": 135,
+            "spe": 55
+        },
+        "name": "Blissey"
+    },
+    {
+        "id": 243,
+        "types": [
+            "Electric"
+        ],
+        "basestats": {
+            "hp": 90,
+            "atk": 85,
+            "def": 75,
+            "spA": 115,
+            "spD": 100,
+            "spe": 115
+        },
+        "name": "Raikou"
+    },
+    {
+        "id": 244,
+        "types": [
+            "Fire"
+        ],
+        "basestats": {
+            "hp": 115,
+            "atk": 115,
+            "def": 85,
+            "spA": 90,
+            "spD": 75,
+            "spe": 100
+        },
+        "name": "Entei"
+    },
+    {
+        "id": 245,
+        "types": [
+            "Water"
+        ],
+        "basestats": {
+            "hp": 100,
+            "atk": 75,
+            "def": 115,
+            "spA": 90,
+            "spD": 115,
+            "spe": 85
+        },
+        "name": "Suicune"
+    },
+    {
+        "id": 246,
+        "types": [
+            "Rock",
+            "Ground"
+        ],
+        "basestats": {
+            "hp": 50,
+            "atk": 64,
+            "def": 50,
+            "spA": 45,
+            "spD": 50,
+            "spe": 41
+        },
+        "name": "Larvitar"
+    },
+    {
+        "id": 247,
+        "types": [
+            "Rock",
+            "Ground"
+        ],
+        "basestats": {
+            "hp": 70,
+            "atk": 84,
+            "def": 70,
+            "spA": 65,
+            "spD": 70,
+            "spe": 51
+        },
+        "name": "Pupitar"
+    },
+    {
+        "id": 248,
+        "types": [
+            "Rock",
+            "Dark"
+        ],
+        "basestats": {
+            "hp": 100,
+            "atk": 134,
+            "def": 110,
+            "spA": 95,
+            "spD": 100,
+            "spe": 61
+        },
+        "name": "Tyranitar"
+    },
+    {
+        "id": 249,
+        "types": [
+            "Psychic",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 106,
+            "atk": 90,
+            "def": 130,
+            "spA": 90,
+            "spD": 154,
+            "spe": 110
+        },
+        "name": "Lugia"
+    },
+    {
+        "id": 250,
+        "types": [
+            "Fire",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 106,
+            "atk": 130,
+            "def": 90,
+            "spA": 110,
+            "spD": 154,
+            "spe": 90
+        },
+        "name": "Ho-Oh"
+    },
+    {
+        "id": 251,
+        "types": [
+            "Psychic",
+            "Grass"
+        ],
+        "basestats": {
+            "hp": 100,
+            "atk": 100,
+            "def": 100,
+            "spA": 100,
+            "spD": 100,
+            "spe": 100
+        },
+        "name": "Celebi"
+    },
+    {
+        "id": 252,
+        "types": [
+            "Grass"
+        ],
+        "basestats": {
+            "hp": 40,
+            "atk": 45,
+            "def": 35,
+            "spA": 65,
+            "spD": 55,
+            "spe": 70
+        },
+        "name": "Treecko"
+    },
+    {
+        "id": 253,
+        "types": [
+            "Grass"
+        ],
+        "basestats": {
+            "hp": 50,
+            "atk": 65,
+            "def": 45,
+            "spA": 85,
+            "spD": 65,
+            "spe": 95
+        },
+        "name": "Grovyle"
+    },
+    {
+        "id": 254,
+        "types": [
+            "Grass"
+        ],
+        "basestats": {
+            "hp": 70,
+            "atk": 85,
+            "def": 65,
+            "spA": 105,
+            "spD": 85,
+            "spe": 120
+        },
+        "name": "Sceptile"
+    },
+    {
+        "id": 255,
+        "types": [
+            "Fire"
+        ],
+        "basestats": {
+            "hp": 45,
+            "atk": 60,
+            "def": 40,
+            "spA": 70,
+            "spD": 50,
+            "spe": 45
+        },
+        "name": "Torchic"
+    },
+    {
+        "id": 256,
+        "types": [
+            "Fire",
+            "Fighting"
+        ],
+        "basestats": {
+            "hp": 60,
+            "atk": 85,
+            "def": 60,
+            "spA": 85,
+            "spD": 60,
+            "spe": 55
+        },
+        "name": "Combusken"
+    },
+    {
+        "id": 257,
+        "types": [
+            "Fire",
+            "Fighting"
+        ],
+        "basestats": {
+            "hp": 80,
+            "atk": 120,
+            "def": 70,
+            "spA": 110,
+            "spD": 70,
+            "spe": 80
+        },
+        "name": "Blaziken"
+    },
+    {
+        "id": 258,
+        "types": [
+            "Water"
+        ],
+        "basestats": {
+            "hp": 50,
+            "atk": 70,
+            "def": 50,
+            "spA": 50,
+            "spD": 50,
+            "spe": 40
+        },
+        "name": "Mudkip"
+    },
+    {
+        "id": 259,
+        "types": [
+            "Water",
+            "Ground"
+        ],
+        "basestats": {
+            "hp": 70,
+            "atk": 85,
+            "def": 70,
+            "spA": 60,
+            "spD": 70,
+            "spe": 50
+        },
+        "name": "Marshtomp"
+    },
+    {
+        "id": 260,
+        "types": [
+            "Water",
+            "Ground"
+        ],
+        "basestats": {
+            "hp": 100,
+            "atk": 110,
+            "def": 90,
+            "spA": 85,
+            "spD": 90,
+            "spe": 60
+        },
+        "name": "Swampert"
+    },
+    {
+        "id": 261,
+        "types": [
+            "Dark"
+        ],
+        "basestats": {
+            "hp": 35,
+            "atk": 55,
+            "def": 35,
+            "spA": 30,
+            "spD": 30,
+            "spe": 35
+        },
+        "name": "Poochyena"
+    },
+    {
+        "id": 262,
+        "types": [
+            "Dark"
+        ],
+        "basestats": {
+            "hp": 70,
+            "atk": 90,
+            "def": 70,
+            "spA": 60,
+            "spD": 60,
+            "spe": 70
+        },
+        "name": "Mightyena"
+    },
+    {
+        "id": 263,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 38,
+            "atk": 30,
+            "def": 41,
+            "spA": 30,
+            "spD": 41,
+            "spe": 60
+        },
+        "name": "Zigzagoon"
+    },
+    {
+        "id": 264,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 78,
+            "atk": 70,
+            "def": 61,
+            "spA": 50,
+            "spD": 61,
+            "spe": 100
+        },
+        "name": "Linoone"
+    },
+    {
+        "id": 265,
+        "types": [
+            "Bug"
+        ],
+        "basestats": {
+            "hp": 45,
+            "atk": 45,
+            "def": 35,
+            "spA": 20,
+            "spD": 30,
+            "spe": 20
+        },
+        "name": "Wurmple"
+    },
+    {
+        "id": 266,
+        "types": [
+            "Bug"
+        ],
+        "basestats": {
+            "hp": 50,
+            "atk": 35,
+            "def": 55,
+            "spA": 25,
+            "spD": 25,
+            "spe": 15
+        },
+        "name": "Silcoon"
+    },
+    {
+        "id": 267,
+        "types": [
+            "Bug",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 60,
+            "atk": 70,
+            "def": 50,
+            "spA": 90,
+            "spD": 50,
+            "spe": 65
+        },
+        "name": "Beautifly"
+    },
+    {
+        "id": 268,
+        "types": [
+            "Bug"
+        ],
+        "basestats": {
+            "hp": 50,
+            "atk": 35,
+            "def": 55,
+            "spA": 25,
+            "spD": 25,
+            "spe": 15
+        },
+        "name": "Cascoon"
+    },
+    {
+        "id": 269,
+        "types": [
+            "Bug",
+            "Poison"
+        ],
+        "basestats": {
+            "hp": 60,
+            "atk": 50,
+            "def": 70,
+            "spA": 50,
+            "spD": 90,
+            "spe": 65
+        },
+        "name": "Dustox"
+    },
+    {
+        "id": 270,
+        "types": [
+            "Water",
+            "Grass"
+        ],
+        "basestats": {
+            "hp": 40,
+            "atk": 30,
+            "def": 30,
+            "spA": 40,
+            "spD": 50,
+            "spe": 30
+        },
+        "name": "Lotad"
+    },
+    {
+        "id": 271,
+        "types": [
+            "Water",
+            "Grass"
+        ],
+        "basestats": {
+            "hp": 60,
+            "atk": 50,
+            "def": 50,
+            "spA": 60,
+            "spD": 70,
+            "spe": 50
+        },
+        "name": "Lombre"
+    },
+    {
+        "id": 272,
+        "types": [
+            "Water",
+            "Grass"
+        ],
+        "basestats": {
+            "hp": 80,
+            "atk": 70,
+            "def": 70,
+            "spA": 90,
+            "spD": 100,
+            "spe": 70
+        },
+        "name": "Ludicolo"
+    },
+    {
+        "id": 273,
+        "types": [
+            "Grass"
+        ],
+        "basestats": {
+            "hp": 40,
+            "atk": 40,
+            "def": 50,
+            "spA": 30,
+            "spD": 30,
+            "spe": 30
+        },
+        "name": "Seedot"
+    },
+    {
+        "id": 274,
+        "types": [
+            "Grass",
+            "Dark"
+        ],
+        "basestats": {
+            "hp": 70,
+            "atk": 70,
+            "def": 40,
+            "spA": 60,
+            "spD": 40,
+            "spe": 60
+        },
+        "name": "Nuzleaf"
+    },
+    {
+        "id": 275,
+        "types": [
+            "Grass",
+            "Dark"
+        ],
+        "basestats": {
+            "hp": 90,
+            "atk": 100,
+            "def": 60,
+            "spA": 90,
+            "spD": 60,
+            "spe": 80
+        },
+        "name": "Shiftry"
+    },
+    {
+        "id": 276,
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 40,
+            "atk": 55,
+            "def": 30,
+            "spA": 30,
+            "spD": 30,
+            "spe": 85
+        },
+        "name": "Taillow"
+    },
+    {
+        "id": 277,
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 60,
+            "atk": 85,
+            "def": 60,
+            "spA": 50,
+            "spD": 50,
+            "spe": 125
+        },
+        "name": "Swellow"
+    },
+    {
+        "id": 278,
+        "types": [
+            "Water",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 40,
+            "atk": 30,
+            "def": 30,
+            "spA": 55,
+            "spD": 30,
+            "spe": 85
+        },
+        "name": "Wingull"
+    },
+    {
+        "id": 279,
+        "types": [
+            "Water",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 60,
+            "atk": 50,
+            "def": 100,
+            "spA": 85,
+            "spD": 70,
+            "spe": 65
+        },
+        "name": "Pelipper"
+    },
+    {
+        "id": 280,
+        "types": [
+            "Psychic"
+        ],
+        "basestats": {
+            "hp": 28,
+            "atk": 25,
+            "def": 25,
+            "spA": 45,
+            "spD": 35,
+            "spe": 40
+        },
+        "name": "Ralts"
+    },
+    {
+        "id": 281,
+        "types": [
+            "Psychic"
+        ],
+        "basestats": {
+            "hp": 38,
+            "atk": 35,
+            "def": 35,
+            "spA": 65,
+            "spD": 55,
+            "spe": 50
+        },
+        "name": "Kirlia"
+    },
+    {
+        "id": 282,
+        "types": [
+            "Psychic"
+        ],
+        "basestats": {
+            "hp": 68,
+            "atk": 65,
+            "def": 65,
+            "spA": 125,
+            "spD": 115,
+            "spe": 80
+        },
+        "name": "Gardevoir"
+    },
+    {
+        "id": 283,
+        "types": [
+            "Bug",
+            "Water"
+        ],
+        "basestats": {
+            "hp": 40,
+            "atk": 30,
+            "def": 32,
+            "spA": 50,
+            "spD": 52,
+            "spe": 65
+        },
+        "name": "Surskit"
+    },
+    {
+        "id": 284,
+        "types": [
+            "Bug",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 70,
+            "atk": 60,
+            "def": 62,
+            "spA": 80,
+            "spD": 82,
+            "spe": 60
+        },
+        "name": "Masquerain"
+    },
+    {
+        "id": 285,
+        "types": [
+            "Grass"
+        ],
+        "basestats": {
+            "hp": 60,
+            "atk": 40,
+            "def": 60,
+            "spA": 40,
+            "spD": 60,
+            "spe": 35
+        },
+        "name": "Shroomish"
+    },
+    {
+        "id": 286,
+        "types": [
+            "Grass",
+            "Fighting"
+        ],
+        "basestats": {
+            "hp": 60,
+            "atk": 130,
+            "def": 80,
+            "spA": 60,
+            "spD": 60,
+            "spe": 70
+        },
+        "name": "Breloom"
+    },
+    {
+        "id": 287,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 60,
+            "atk": 60,
+            "def": 60,
+            "spA": 35,
+            "spD": 35,
+            "spe": 30
+        },
+        "name": "Slakoth"
+    },
+    {
+        "id": 288,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 80,
+            "atk": 80,
+            "def": 80,
+            "spA": 55,
+            "spD": 55,
+            "spe": 90
+        },
+        "name": "Vigoroth"
+    },
+    {
+        "id": 289,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 150,
+            "atk": 160,
+            "def": 100,
+            "spA": 95,
+            "spD": 65,
+            "spe": 100
+        },
+        "name": "Slaking"
+    },
+    {
+        "id": 290,
+        "types": [
+            "Bug",
+            "Ground"
+        ],
+        "basestats": {
+            "hp": 31,
+            "atk": 45,
+            "def": 90,
+            "spA": 30,
+            "spD": 30,
+            "spe": 40
+        },
+        "name": "Nincada"
+    },
+    {
+        "id": 291,
+        "types": [
+            "Bug",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 61,
+            "atk": 90,
+            "def": 45,
+            "spA": 50,
+            "spD": 50,
+            "spe": 160
+        },
+        "name": "Ninjask"
+    },
+    {
+        "id": 292,
+        "types": [
+            "Bug",
+            "Ghost"
+        ],
+        "basestats": {
+            "hp": 1,
+            "atk": 90,
+            "def": 45,
+            "spA": 30,
+            "spD": 30,
+            "spe": 40
+        },
+        "name": "Shedinja"
+    },
+    {
+        "id": 293,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 64,
+            "atk": 51,
+            "def": 23,
+            "spA": 51,
+            "spD": 23,
+            "spe": 28
+        },
+        "name": "Whismur"
+    },
+    {
+        "id": 294,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 84,
+            "atk": 71,
+            "def": 43,
+            "spA": 71,
+            "spD": 43,
+            "spe": 48
+        },
+        "name": "Loudred"
+    },
+    {
+        "id": 295,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 104,
+            "atk": 91,
+            "def": 63,
+            "spA": 91,
+            "spD": 63,
+            "spe": 68
+        },
+        "name": "Exploud"
+    },
+    {
+        "id": 296,
+        "types": [
+            "Fighting"
+        ],
+        "basestats": {
+            "hp": 72,
+            "atk": 60,
+            "def": 30,
+            "spA": 20,
+            "spD": 30,
+            "spe": 25
+        },
+        "name": "Makuhita"
+    },
+    {
+        "id": 297,
+        "types": [
+            "Fighting"
+        ],
+        "basestats": {
+            "hp": 144,
+            "atk": 120,
+            "def": 60,
+            "spA": 40,
+            "spD": 60,
+            "spe": 50
+        },
+        "name": "Hariyama"
+    },
+    {
+        "id": 298,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 50,
+            "atk": 20,
+            "def": 40,
+            "spA": 20,
+            "spD": 40,
+            "spe": 20
+        },
+        "name": "Azurill"
+    },
+    {
+        "id": 299,
+        "types": [
+            "Rock"
+        ],
+        "basestats": {
+            "hp": 30,
+            "atk": 45,
+            "def": 135,
+            "spA": 45,
+            "spD": 90,
+            "spe": 30
+        },
+        "name": "Nosepass"
+    },
+    {
+        "id": 300,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 50,
+            "atk": 45,
+            "def": 45,
+            "spA": 35,
+            "spD": 35,
+            "spe": 50
+        },
+        "name": "Skitty"
+    },
+    {
+        "id": 301,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 70,
+            "atk": 65,
+            "def": 65,
+            "spA": 55,
+            "spD": 55,
+            "spe": 70
+        },
+        "name": "Delcatty"
+    },
+    {
+        "id": 302,
+        "types": [
+            "Dark",
+            "Ghost"
+        ],
+        "basestats": {
+            "hp": 50,
+            "atk": 75,
+            "def": 75,
+            "spA": 65,
+            "spD": 65,
+            "spe": 50
+        },
+        "name": "Sableye"
+    },
+    {
+        "id": 303,
+        "types": [
+            "Steel"
+        ],
+        "basestats": {
+            "hp": 50,
+            "atk": 85,
+            "def": 85,
+            "spA": 55,
+            "spD": 55,
+            "spe": 50
+        },
+        "name": "Mawile"
+    },
+    {
+        "id": 304,
+        "types": [
+            "Steel",
+            "Rock"
+        ],
+        "basestats": {
+            "hp": 50,
+            "atk": 70,
+            "def": 100,
+            "spA": 40,
+            "spD": 40,
+            "spe": 30
+        },
+        "name": "Aron"
+    },
+    {
+        "id": 305,
+        "types": [
+            "Steel",
+            "Rock"
+        ],
+        "basestats": {
+            "hp": 60,
+            "atk": 90,
+            "def": 140,
+            "spA": 50,
+            "spD": 50,
+            "spe": 40
+        },
+        "name": "Lairon"
+    },
+    {
+        "id": 306,
+        "types": [
+            "Steel",
+            "Rock"
+        ],
+        "basestats": {
+            "hp": 70,
+            "atk": 110,
+            "def": 180,
+            "spA": 60,
+            "spD": 60,
+            "spe": 50
+        },
+        "name": "Aggron"
+    },
+    {
+        "id": 307,
+        "types": [
+            "Fighting",
+            "Psychic"
+        ],
+        "basestats": {
+            "hp": 30,
+            "atk": 40,
+            "def": 55,
+            "spA": 40,
+            "spD": 55,
+            "spe": 60
+        },
+        "name": "Meditite"
+    },
+    {
+        "id": 308,
+        "types": [
+            "Fighting",
+            "Psychic"
+        ],
+        "basestats": {
+            "hp": 60,
+            "atk": 60,
+            "def": 75,
+            "spA": 60,
+            "spD": 75,
+            "spe": 80
+        },
+        "name": "Medicham"
+    },
+    {
+        "id": 309,
+        "types": [
+            "Electric"
+        ],
+        "basestats": {
+            "hp": 40,
+            "atk": 45,
+            "def": 40,
+            "spA": 65,
+            "spD": 40,
+            "spe": 65
+        },
+        "name": "Electrike"
+    },
+    {
+        "id": 310,
+        "types": [
+            "Electric"
+        ],
+        "basestats": {
+            "hp": 70,
+            "atk": 75,
+            "def": 60,
+            "spA": 105,
+            "spD": 60,
+            "spe": 105
+        },
+        "name": "Manectric"
+    },
+    {
+        "id": 311,
+        "types": [
+            "Electric"
+        ],
+        "basestats": {
+            "hp": 60,
+            "atk": 50,
+            "def": 40,
+            "spA": 85,
+            "spD": 75,
+            "spe": 95
+        },
+        "name": "Plusle"
+    },
+    {
+        "id": 312,
+        "types": [
+            "Electric"
+        ],
+        "basestats": {
+            "hp": 60,
+            "atk": 40,
+            "def": 50,
+            "spA": 75,
+            "spD": 85,
+            "spe": 95
+        },
+        "name": "Minun"
+    },
+    {
+        "id": 313,
+        "types": [
+            "Bug"
+        ],
+        "basestats": {
+            "hp": 65,
+            "atk": 73,
+            "def": 55,
+            "spA": 47,
+            "spD": 75,
+            "spe": 85
+        },
+        "name": "Volbeat"
+    },
+    {
+        "id": 314,
+        "types": [
+            "Bug"
+        ],
+        "basestats": {
+            "hp": 65,
+            "atk": 47,
+            "def": 55,
+            "spA": 73,
+            "spD": 75,
+            "spe": 85
+        },
+        "name": "Illumise"
+    },
+    {
+        "id": 315,
+        "types": [
+            "Grass",
+            "Poison"
+        ],
+        "basestats": {
+            "hp": 50,
+            "atk": 60,
+            "def": 45,
+            "spA": 100,
+            "spD": 80,
+            "spe": 65
+        },
+        "name": "Roselia"
+    },
+    {
+        "id": 316,
+        "types": [
+            "Poison"
+        ],
+        "basestats": {
+            "hp": 70,
+            "atk": 43,
+            "def": 53,
+            "spA": 43,
+            "spD": 53,
+            "spe": 40
+        },
+        "name": "Gulpin"
+    },
+    {
+        "id": 317,
+        "types": [
+            "Poison"
+        ],
+        "basestats": {
+            "hp": 100,
+            "atk": 73,
+            "def": 83,
+            "spA": 73,
+            "spD": 83,
+            "spe": 55
+        },
+        "name": "Swalot"
+    },
+    {
+        "id": 318,
+        "types": [
+            "Water",
+            "Dark"
+        ],
+        "basestats": {
+            "hp": 45,
+            "atk": 90,
+            "def": 20,
+            "spA": 65,
+            "spD": 20,
+            "spe": 65
+        },
+        "name": "Carvanha"
+    },
+    {
+        "id": 319,
+        "types": [
+            "Water",
+            "Dark"
+        ],
+        "basestats": {
+            "hp": 70,
+            "atk": 120,
+            "def": 40,
+            "spA": 95,
+            "spD": 40,
+            "spe": 95
+        },
+        "name": "Sharpedo"
+    },
+    {
+        "id": 320,
+        "types": [
+            "Water"
+        ],
+        "basestats": {
+            "hp": 130,
+            "atk": 70,
+            "def": 35,
+            "spA": 70,
+            "spD": 35,
+            "spe": 60
+        },
+        "name": "Wailmer"
+    },
+    {
+        "id": 321,
+        "types": [
+            "Water"
+        ],
+        "basestats": {
+            "hp": 170,
+            "atk": 90,
+            "def": 45,
+            "spA": 90,
+            "spD": 45,
+            "spe": 60
+        },
+        "name": "Wailord"
+    },
+    {
+        "id": 322,
+        "types": [
+            "Fire",
+            "Ground"
+        ],
+        "basestats": {
+            "hp": 60,
+            "atk": 60,
+            "def": 40,
+            "spA": 65,
+            "spD": 45,
+            "spe": 35
+        },
+        "name": "Numel"
+    },
+    {
+        "id": 323,
+        "types": [
+            "Fire",
+            "Ground"
+        ],
+        "basestats": {
+            "hp": 70,
+            "atk": 100,
+            "def": 70,
+            "spA": 105,
+            "spD": 75,
+            "spe": 40
+        },
+        "name": "Camerupt"
+    },
+    {
+        "id": 324,
+        "types": [
+            "Fire"
+        ],
+        "basestats": {
+            "hp": 70,
+            "atk": 85,
+            "def": 140,
+            "spA": 85,
+            "spD": 70,
+            "spe": 20
+        },
+        "name": "Torkoal"
+    },
+    {
+        "id": 325,
+        "types": [
+            "Psychic"
+        ],
+        "basestats": {
+            "hp": 60,
+            "atk": 25,
+            "def": 35,
+            "spA": 70,
+            "spD": 80,
+            "spe": 60
+        },
+        "name": "Spoink"
+    },
+    {
+        "id": 326,
+        "types": [
+            "Psychic"
+        ],
+        "basestats": {
+            "hp": 80,
+            "atk": 45,
+            "def": 65,
+            "spA": 90,
+            "spD": 110,
+            "spe": 80
+        },
+        "name": "Grumpig"
+    },
+    {
+        "id": 327,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 60,
+            "atk": 60,
+            "def": 60,
+            "spA": 60,
+            "spD": 60,
+            "spe": 60
+        },
+        "name": "Spinda"
+    },
+    {
+        "id": 328,
+        "types": [
+            "Ground"
+        ],
+        "basestats": {
+            "hp": 45,
+            "atk": 100,
+            "def": 45,
+            "spA": 45,
+            "spD": 45,
+            "spe": 10
+        },
+        "name": "Trapinch"
+    },
+    {
+        "id": 329,
+        "types": [
+            "Ground",
+            "Dragon"
+        ],
+        "basestats": {
+            "hp": 50,
+            "atk": 70,
+            "def": 50,
+            "spA": 50,
+            "spD": 50,
+            "spe": 70
+        },
+        "name": "Vibrava"
+    },
+    {
+        "id": 330,
+        "types": [
+            "Ground",
+            "Dragon"
+        ],
+        "basestats": {
+            "hp": 80,
+            "atk": 100,
+            "def": 80,
+            "spA": 80,
+            "spD": 80,
+            "spe": 100
+        },
+        "name": "Flygon"
+    },
+    {
+        "id": 331,
+        "types": [
+            "Grass"
+        ],
+        "basestats": {
+            "hp": 50,
+            "atk": 85,
+            "def": 40,
+            "spA": 85,
+            "spD": 40,
+            "spe": 35
+        },
+        "name": "Cacnea"
+    },
+    {
+        "id": 332,
+        "types": [
+            "Grass",
+            "Dark"
+        ],
+        "basestats": {
+            "hp": 70,
+            "atk": 115,
+            "def": 60,
+            "spA": 115,
+            "spD": 60,
+            "spe": 55
+        },
+        "name": "Cacturne"
+    },
+    {
+        "id": 333,
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 45,
+            "atk": 40,
+            "def": 60,
+            "spA": 40,
+            "spD": 75,
+            "spe": 50
+        },
+        "name": "Swablu"
+    },
+    {
+        "id": 334,
+        "types": [
+            "Dragon",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 75,
+            "atk": 70,
+            "def": 90,
+            "spA": 70,
+            "spD": 105,
+            "spe": 80
+        },
+        "name": "Altaria"
+    },
+    {
+        "id": 335,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 73,
+            "atk": 115,
+            "def": 60,
+            "spA": 60,
+            "spD": 60,
+            "spe": 90
+        },
+        "name": "Zangoose"
+    },
+    {
+        "id": 336,
+        "types": [
+            "Poison"
+        ],
+        "basestats": {
+            "hp": 73,
+            "atk": 100,
+            "def": 60,
+            "spA": 100,
+            "spD": 60,
+            "spe": 65
+        },
+        "name": "Seviper"
+    },
+    {
+        "id": 337,
+        "types": [
+            "Rock",
+            "Psychic"
+        ],
+        "basestats": {
+            "hp": 70,
+            "atk": 55,
+            "def": 65,
+            "spA": 95,
+            "spD": 85,
+            "spe": 70
+        },
+        "name": "Lunatone"
+    },
+    {
+        "id": 338,
+        "types": [
+            "Rock",
+            "Psychic"
+        ],
+        "basestats": {
+            "hp": 70,
+            "atk": 95,
+            "def": 85,
+            "spA": 55,
+            "spD": 65,
+            "spe": 70
+        },
+        "name": "Solrock"
+    },
+    {
+        "id": 339,
+        "types": [
+            "Water",
+            "Ground"
+        ],
+        "basestats": {
+            "hp": 50,
+            "atk": 48,
+            "def": 43,
+            "spA": 46,
+            "spD": 41,
+            "spe": 60
+        },
+        "name": "Barboach"
+    },
+    {
+        "id": 340,
+        "types": [
+            "Water",
+            "Ground"
+        ],
+        "basestats": {
+            "hp": 110,
+            "atk": 78,
+            "def": 73,
+            "spA": 76,
+            "spD": 71,
+            "spe": 60
+        },
+        "name": "Whiscash"
+    },
+    {
+        "id": 341,
+        "types": [
+            "Water"
+        ],
+        "basestats": {
+            "hp": 43,
+            "atk": 80,
+            "def": 65,
+            "spA": 50,
+            "spD": 35,
+            "spe": 35
+        },
+        "name": "Corphish"
+    },
+    {
+        "id": 342,
+        "types": [
+            "Water",
+            "Dark"
+        ],
+        "basestats": {
+            "hp": 63,
+            "atk": 120,
+            "def": 85,
+            "spA": 90,
+            "spD": 55,
+            "spe": 55
+        },
+        "name": "Crawdaunt"
+    },
+    {
+        "id": 343,
+        "types": [
+            "Ground",
+            "Psychic"
+        ],
+        "basestats": {
+            "hp": 40,
+            "atk": 40,
+            "def": 55,
+            "spA": 40,
+            "spD": 70,
+            "spe": 55
+        },
+        "name": "Baltoy"
+    },
+    {
+        "id": 344,
+        "types": [
+            "Ground",
+            "Psychic"
+        ],
+        "basestats": {
+            "hp": 60,
+            "atk": 70,
+            "def": 105,
+            "spA": 70,
+            "spD": 120,
+            "spe": 75
+        },
+        "name": "Claydol"
+    },
+    {
+        "id": 345,
+        "types": [
+            "Rock",
+            "Grass"
+        ],
+        "basestats": {
+            "hp": 66,
+            "atk": 41,
+            "def": 77,
+            "spA": 61,
+            "spD": 87,
+            "spe": 23
+        },
+        "name": "Lileep"
+    },
+    {
+        "id": 346,
+        "types": [
+            "Rock",
+            "Grass"
+        ],
+        "basestats": {
+            "hp": 86,
+            "atk": 81,
+            "def": 97,
+            "spA": 81,
+            "spD": 107,
+            "spe": 43
+        },
+        "name": "Cradily"
+    },
+    {
+        "id": 347,
+        "types": [
+            "Rock",
+            "Bug"
+        ],
+        "basestats": {
+            "hp": 45,
+            "atk": 95,
+            "def": 50,
+            "spA": 40,
+            "spD": 50,
+            "spe": 75
+        },
+        "name": "Anorith"
+    },
+    {
+        "id": 348,
+        "types": [
+            "Rock",
+            "Bug"
+        ],
+        "basestats": {
+            "hp": 75,
+            "atk": 125,
+            "def": 100,
+            "spA": 70,
+            "spD": 80,
+            "spe": 45
+        },
+        "name": "Armaldo"
+    },
+    {
+        "id": 349,
+        "types": [
+            "Water"
+        ],
+        "basestats": {
+            "hp": 20,
+            "atk": 15,
+            "def": 20,
+            "spA": 10,
+            "spD": 55,
+            "spe": 80
+        },
+        "name": "Feebas"
+    },
+    {
+        "id": 350,
+        "types": [
+            "Water"
+        ],
+        "basestats": {
+            "hp": 95,
+            "atk": 60,
+            "def": 79,
+            "spA": 100,
+            "spD": 125,
+            "spe": 81
+        },
+        "name": "Milotic"
+    },
+    {
+        "id": 351,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 70,
+            "atk": 70,
+            "def": 70,
+            "spA": 70,
+            "spD": 70,
+            "spe": 70
+        },
+        "name": "Castform"
+    },
+    {
+        "id": 352,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 60,
+            "atk": 90,
+            "def": 70,
+            "spA": 60,
+            "spD": 120,
+            "spe": 40
+        },
+        "name": "Kecleon"
+    },
+    {
+        "id": 353,
+        "types": [
+            "Ghost"
+        ],
+        "basestats": {
+            "hp": 44,
+            "atk": 75,
+            "def": 35,
+            "spA": 63,
+            "spD": 33,
+            "spe": 45
+        },
+        "name": "Shuppet"
+    },
+    {
+        "id": 354,
+        "types": [
+            "Ghost"
+        ],
+        "basestats": {
+            "hp": 64,
+            "atk": 115,
+            "def": 65,
+            "spA": 83,
+            "spD": 63,
+            "spe": 65
+        },
+        "name": "Banette"
+    },
+    {
+        "id": 355,
+        "types": [
+            "Ghost"
+        ],
+        "basestats": {
+            "hp": 20,
+            "atk": 40,
+            "def": 90,
+            "spA": 30,
+            "spD": 90,
+            "spe": 25
+        },
+        "name": "Duskull"
+    },
+    {
+        "id": 356,
+        "types": [
+            "Ghost"
+        ],
+        "basestats": {
+            "hp": 40,
+            "atk": 70,
+            "def": 130,
+            "spA": 60,
+            "spD": 130,
+            "spe": 25
+        },
+        "name": "Dusclops"
+    },
+    {
+        "id": 357,
+        "types": [
+            "Grass",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 99,
+            "atk": 68,
+            "def": 83,
+            "spA": 72,
+            "spD": 87,
+            "spe": 51
+        },
+        "name": "Tropius"
+    },
+    {
+        "id": 358,
+        "types": [
+            "Psychic"
+        ],
+        "basestats": {
+            "hp": 65,
+            "atk": 50,
+            "def": 70,
+            "spA": 95,
+            "spD": 80,
+            "spe": 65
+        },
+        "name": "Chimecho"
+    },
+    {
+        "id": 359,
+        "types": [
+            "Dark"
+        ],
+        "basestats": {
+            "hp": 65,
+            "atk": 130,
+            "def": 60,
+            "spA": 75,
+            "spD": 60,
+            "spe": 75
+        },
+        "name": "Absol"
+    },
+    {
+        "id": 360,
+        "types": [
+            "Psychic"
+        ],
+        "basestats": {
+            "hp": 95,
+            "atk": 23,
+            "def": 48,
+            "spA": 23,
+            "spD": 48,
+            "spe": 23
+        },
+        "name": "Wynaut"
+    },
+    {
+        "id": 361,
+        "types": [
+            "Ice"
+        ],
+        "basestats": {
+            "hp": 50,
+            "atk": 50,
+            "def": 50,
+            "spA": 50,
+            "spD": 50,
+            "spe": 50
+        },
+        "name": "Snorunt"
+    },
+    {
+        "id": 362,
+        "types": [
+            "Ice"
+        ],
+        "basestats": {
+            "hp": 80,
+            "atk": 80,
+            "def": 80,
+            "spA": 80,
+            "spD": 80,
+            "spe": 80
+        },
+        "name": "Glalie"
+    },
+    {
+        "id": 363,
+        "types": [
+            "Ice",
+            "Water"
+        ],
+        "basestats": {
+            "hp": 70,
+            "atk": 40,
+            "def": 50,
+            "spA": 55,
+            "spD": 50,
+            "spe": 25
+        },
+        "name": "Spheal"
+    },
+    {
+        "id": 364,
+        "types": [
+            "Ice",
+            "Water"
+        ],
+        "basestats": {
+            "hp": 90,
+            "atk": 60,
+            "def": 70,
+            "spA": 75,
+            "spD": 70,
+            "spe": 45
+        },
+        "name": "Sealeo"
+    },
+    {
+        "id": 365,
+        "types": [
+            "Ice",
+            "Water"
+        ],
+        "basestats": {
+            "hp": 110,
+            "atk": 80,
+            "def": 90,
+            "spA": 95,
+            "spD": 90,
+            "spe": 65
+        },
+        "name": "Walrein"
+    },
+    {
+        "id": 366,
+        "types": [
+            "Water"
+        ],
+        "basestats": {
+            "hp": 35,
+            "atk": 64,
+            "def": 85,
+            "spA": 74,
+            "spD": 55,
+            "spe": 32
+        },
+        "name": "Clamperl"
+    },
+    {
+        "id": 367,
+        "types": [
+            "Water"
+        ],
+        "basestats": {
+            "hp": 55,
+            "atk": 104,
+            "def": 105,
+            "spA": 94,
+            "spD": 75,
+            "spe": 52
+        },
+        "name": "Huntail"
+    },
+    {
+        "id": 368,
+        "types": [
+            "Water"
+        ],
+        "basestats": {
+            "hp": 55,
+            "atk": 84,
+            "def": 105,
+            "spA": 114,
+            "spD": 75,
+            "spe": 52
+        },
+        "name": "Gorebyss"
+    },
+    {
+        "id": 369,
+        "types": [
+            "Water",
+            "Rock"
+        ],
+        "basestats": {
+            "hp": 100,
+            "atk": 90,
+            "def": 130,
+            "spA": 45,
+            "spD": 65,
+            "spe": 55
+        },
+        "name": "Relicanth"
+    },
+    {
+        "id": 370,
+        "types": [
+            "Water"
+        ],
+        "basestats": {
+            "hp": 43,
+            "atk": 30,
+            "def": 55,
+            "spA": 40,
+            "spD": 65,
+            "spe": 97
+        },
+        "name": "Luvdisc"
+    },
+    {
+        "id": 371,
+        "types": [
+            "Dragon"
+        ],
+        "basestats": {
+            "hp": 45,
+            "atk": 75,
+            "def": 60,
+            "spA": 40,
+            "spD": 30,
+            "spe": 50
+        },
+        "name": "Bagon"
+    },
+    {
+        "id": 372,
+        "types": [
+            "Dragon"
+        ],
+        "basestats": {
+            "hp": 65,
+            "atk": 95,
+            "def": 100,
+            "spA": 60,
+            "spD": 50,
+            "spe": 50
+        },
+        "name": "Shelgon"
+    },
+    {
+        "id": 373,
+        "types": [
+            "Dragon",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 95,
+            "atk": 135,
+            "def": 80,
+            "spA": 110,
+            "spD": 80,
+            "spe": 100
+        },
+        "name": "Salamence"
+    },
+    {
+        "id": 374,
+        "types": [
+            "Steel",
+            "Psychic"
+        ],
+        "basestats": {
+            "hp": 40,
+            "atk": 55,
+            "def": 80,
+            "spA": 35,
+            "spD": 60,
+            "spe": 30
+        },
+        "name": "Beldum"
+    },
+    {
+        "id": 375,
+        "types": [
+            "Steel",
+            "Psychic"
+        ],
+        "basestats": {
+            "hp": 60,
+            "atk": 75,
+            "def": 100,
+            "spA": 55,
+            "spD": 80,
+            "spe": 50
+        },
+        "name": "Metang"
+    },
+    {
+        "id": 376,
+        "types": [
+            "Steel",
+            "Psychic"
+        ],
+        "basestats": {
+            "hp": 80,
+            "atk": 135,
+            "def": 130,
+            "spA": 95,
+            "spD": 90,
+            "spe": 70
+        },
+        "name": "Metagross"
+    },
+    {
+        "id": 377,
+        "types": [
+            "Rock"
+        ],
+        "basestats": {
+            "hp": 80,
+            "atk": 100,
+            "def": 200,
+            "spA": 50,
+            "spD": 100,
+            "spe": 50
+        },
+        "name": "Regirock"
+    },
+    {
+        "id": 378,
+        "types": [
+            "Ice"
+        ],
+        "basestats": {
+            "hp": 80,
+            "atk": 50,
+            "def": 100,
+            "spA": 100,
+            "spD": 200,
+            "spe": 50
+        },
+        "name": "Regice"
+    },
+    {
+        "id": 379,
+        "types": [
+            "Steel"
+        ],
+        "basestats": {
+            "hp": 80,
+            "atk": 75,
+            "def": 150,
+            "spA": 75,
+            "spD": 150,
+            "spe": 50
+        },
+        "name": "Registeel"
+    },
+    {
+        "id": 380,
+        "types": [
+            "Dragon",
+            "Psychic"
+        ],
+        "basestats": {
+            "hp": 80,
+            "atk": 80,
+            "def": 90,
+            "spA": 110,
+            "spD": 130,
+            "spe": 110
+        },
+        "name": "Latias"
+    },
+    {
+        "id": 381,
+        "types": [
+            "Dragon",
+            "Psychic"
+        ],
+        "basestats": {
+            "hp": 80,
+            "atk": 90,
+            "def": 80,
+            "spA": 130,
+            "spD": 110,
+            "spe": 110
+        },
+        "name": "Latios"
+    },
+    {
+        "id": 382,
+        "types": [
+            "Water"
+        ],
+        "basestats": {
+            "hp": 100,
+            "atk": 100,
+            "def": 90,
+            "spA": 150,
+            "spD": 140,
+            "spe": 90
+        },
+        "name": "Kyogre"
+    },
+    {
+        "id": 383,
+        "types": [
+            "Ground"
+        ],
+        "basestats": {
+            "hp": 100,
+            "atk": 150,
+            "def": 140,
+            "spA": 100,
+            "spD": 90,
+            "spe": 90
+        },
+        "name": "Groudon"
+    },
+    {
+        "id": 384,
+        "types": [
+            "Dragon",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 105,
+            "atk": 150,
+            "def": 90,
+            "spA": 150,
+            "spD": 90,
+            "spe": 95
+        },
+        "name": "Rayquaza"
+    },
+    {
+        "id": 385,
+        "types": [
+            "Steel",
+            "Psychic"
+        ],
+        "basestats": {
+            "hp": 100,
+            "atk": 100,
+            "def": 100,
+            "spA": 100,
+            "spD": 100,
+            "spe": 100
+        },
+        "name": "Jirachi"
+    },
+    {
+        "id": 386,
+        "types": [
+            "Psychic"
+        ],
+        "basestats": {
+            "hp": 50,
+            "atk": 150,
+            "def": 50,
+            "spA": 150,
+            "spD": 50,
+            "spe": 150
+        },
+        "name": "Deoxys"
+    },
+    {
+        "id": 387,
+        "types": [
+            "Grass"
+        ],
+        "basestats": {
+            "hp": 55,
+            "atk": 68,
+            "def": 64,
+            "spA": 45,
+            "spD": 55,
+            "spe": 31
+        },
+        "name": "Turtwig"
+    },
+    {
+        "id": 388,
+        "types": [
+            "Grass"
+        ],
+        "basestats": {
+            "hp": 75,
+            "atk": 89,
+            "def": 85,
+            "spA": 55,
+            "spD": 65,
+            "spe": 36
+        },
+        "name": "Grotle"
+    },
+    {
+        "id": 389,
+        "types": [
+            "Grass",
+            "Ground"
+        ],
+        "basestats": {
+            "hp": 95,
+            "atk": 109,
+            "def": 105,
+            "spA": 75,
+            "spD": 85,
+            "spe": 56
+        },
+        "name": "Torterra"
+    },
+    {
+        "id": 390,
+        "types": [
+            "Fire"
+        ],
+        "basestats": {
+            "hp": 44,
+            "atk": 58,
+            "def": 44,
+            "spA": 58,
+            "spD": 44,
+            "spe": 61
+        },
+        "name": "Chimchar"
+    },
+    {
+        "id": 391,
+        "types": [
+            "Fire",
+            "Fighting"
+        ],
+        "basestats": {
+            "hp": 64,
+            "atk": 78,
+            "def": 52,
+            "spA": 78,
+            "spD": 52,
+            "spe": 81
+        },
+        "name": "Monferno"
+    },
+    {
+        "id": 392,
+        "types": [
+            "Fire",
+            "Fighting"
+        ],
+        "basestats": {
+            "hp": 76,
+            "atk": 104,
+            "def": 71,
+            "spA": 104,
+            "spD": 71,
+            "spe": 108
+        },
+        "name": "Infernape"
+    },
+    {
+        "id": 393,
+        "types": [
+            "Water"
+        ],
+        "basestats": {
+            "hp": 53,
+            "atk": 51,
+            "def": 53,
+            "spA": 61,
+            "spD": 56,
+            "spe": 40
+        },
+        "name": "Piplup"
+    },
+    {
+        "id": 394,
+        "types": [
+            "Water"
+        ],
+        "basestats": {
+            "hp": 64,
+            "atk": 66,
+            "def": 68,
+            "spA": 81,
+            "spD": 76,
+            "spe": 50
+        },
+        "name": "Prinplup"
+    },
+    {
+        "id": 395,
+        "types": [
+            "Water",
+            "Steel"
+        ],
+        "basestats": {
+            "hp": 84,
+            "atk": 86,
+            "def": 88,
+            "spA": 111,
+            "spD": 101,
+            "spe": 60
+        },
+        "name": "Empoleon"
+    },
+    {
+        "id": 396,
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 40,
+            "atk": 55,
+            "def": 30,
+            "spA": 30,
+            "spD": 30,
+            "spe": 60
+        },
+        "name": "Starly"
+    },
+    {
+        "id": 397,
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 55,
+            "atk": 75,
+            "def": 50,
+            "spA": 40,
+            "spD": 40,
+            "spe": 80
+        },
+        "name": "Staravia"
+    },
+    {
+        "id": 398,
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 85,
+            "atk": 120,
+            "def": 70,
+            "spA": 50,
+            "spD": 50,
+            "spe": 100
+        },
+        "name": "Staraptor"
+    },
+    {
+        "id": 399,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 59,
+            "atk": 45,
+            "def": 40,
+            "spA": 35,
+            "spD": 40,
+            "spe": 31
+        },
+        "name": "Bidoof"
+    },
+    {
+        "id": 400,
+        "types": [
+            "Normal",
+            "Water"
+        ],
+        "basestats": {
+            "hp": 79,
+            "atk": 85,
+            "def": 60,
+            "spA": 55,
+            "spD": 60,
+            "spe": 71
+        },
+        "name": "Bibarel"
+    },
+    {
+        "id": 401,
+        "types": [
+            "Bug"
+        ],
+        "basestats": {
+            "hp": 37,
+            "atk": 25,
+            "def": 41,
+            "spA": 25,
+            "spD": 41,
+            "spe": 25
+        },
+        "name": "Kricketot"
+    },
+    {
+        "id": 402,
+        "types": [
+            "Bug"
+        ],
+        "basestats": {
+            "hp": 77,
+            "atk": 85,
+            "def": 51,
+            "spA": 55,
+            "spD": 51,
+            "spe": 65
+        },
+        "name": "Kricketune"
+    },
+    {
+        "id": 403,
+        "types": [
+            "Electric"
+        ],
+        "basestats": {
+            "hp": 45,
+            "atk": 65,
+            "def": 34,
+            "spA": 40,
+            "spD": 34,
+            "spe": 45
+        },
+        "name": "Shinx"
+    },
+    {
+        "id": 404,
+        "types": [
+            "Electric"
+        ],
+        "basestats": {
+            "hp": 60,
+            "atk": 85,
+            "def": 49,
+            "spA": 60,
+            "spD": 49,
+            "spe": 60
+        },
+        "name": "Luxio"
+    },
+    {
+        "id": 405,
+        "types": [
+            "Electric"
+        ],
+        "basestats": {
+            "hp": 80,
+            "atk": 120,
+            "def": 79,
+            "spA": 95,
+            "spD": 79,
+            "spe": 70
+        },
+        "name": "Luxray"
+    },
+    {
+        "id": 406,
+        "types": [
+            "Grass",
+            "Poison"
+        ],
+        "basestats": {
+            "hp": 40,
+            "atk": 30,
+            "def": 35,
+            "spA": 50,
+            "spD": 70,
+            "spe": 55
+        },
+        "name": "Budew"
+    },
+    {
+        "id": 407,
+        "types": [
+            "Grass",
+            "Poison"
+        ],
+        "basestats": {
+            "hp": 60,
+            "atk": 70,
+            "def": 55,
+            "spA": 125,
+            "spD": 105,
+            "spe": 90
+        },
+        "name": "Roserade"
+    },
+    {
+        "id": 408,
+        "types": [
+            "Rock"
+        ],
+        "basestats": {
+            "hp": 67,
+            "atk": 125,
+            "def": 40,
+            "spA": 30,
+            "spD": 30,
+            "spe": 58
+        },
+        "name": "Cranidos"
+    },
+    {
+        "id": 409,
+        "types": [
+            "Rock"
+        ],
+        "basestats": {
+            "hp": 97,
+            "atk": 165,
+            "def": 60,
+            "spA": 65,
+            "spD": 50,
+            "spe": 58
+        },
+        "name": "Rampardos"
+    },
+    {
+        "id": 410,
+        "types": [
+            "Rock",
+            "Steel"
+        ],
+        "basestats": {
+            "hp": 30,
+            "atk": 42,
+            "def": 118,
+            "spA": 42,
+            "spD": 88,
+            "spe": 30
+        },
+        "name": "Shieldon"
+    },
+    {
+        "id": 411,
+        "types": [
+            "Rock",
+            "Steel"
+        ],
+        "basestats": {
+            "hp": 60,
+            "atk": 52,
+            "def": 168,
+            "spA": 47,
+            "spD": 138,
+            "spe": 30
+        },
+        "name": "Bastiodon"
+    },
+    {
+        "id": 412,
+        "types": [
+            "Bug"
+        ],
+        "basestats": {
+            "hp": 40,
+            "atk": 29,
+            "def": 45,
+            "spA": 29,
+            "spD": 45,
+            "spe": 36
+        },
+        "name": "Burmy"
+    },
+    {
+        "id": 413,
+        "types": [
+            "Bug",
+            "Grass"
+        ],
+        "basestats": {
+            "hp": 60,
+            "atk": 59,
+            "def": 85,
+            "spA": 79,
+            "spD": 105,
+            "spe": 36
+        },
+        "name": "Wormadam"
+    },
+    {
+        "id": 414,
+        "types": [
+            "Bug",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 70,
+            "atk": 94,
+            "def": 50,
+            "spA": 94,
+            "spD": 50,
+            "spe": 66
+        },
+        "name": "Mothim"
+    },
+    {
+        "id": 415,
+        "types": [
+            "Bug",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 30,
+            "atk": 30,
+            "def": 42,
+            "spA": 30,
+            "spD": 42,
+            "spe": 70
+        },
+        "name": "Combee"
+    },
+    {
+        "id": 416,
+        "types": [
+            "Bug",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 70,
+            "atk": 80,
+            "def": 102,
+            "spA": 80,
+            "spD": 102,
+            "spe": 40
+        },
+        "name": "Vespiquen"
+    },
+    {
+        "id": 417,
+        "types": [
+            "Electric"
+        ],
+        "basestats": {
+            "hp": 60,
+            "atk": 45,
+            "def": 70,
+            "spA": 45,
+            "spD": 90,
+            "spe": 95
+        },
+        "name": "Pachirisu"
+    },
+    {
+        "id": 418,
+        "types": [
+            "Water"
+        ],
+        "basestats": {
+            "hp": 55,
+            "atk": 65,
+            "def": 35,
+            "spA": 60,
+            "spD": 30,
+            "spe": 85
+        },
+        "name": "Buizel"
+    },
+    {
+        "id": 419,
+        "types": [
+            "Water"
+        ],
+        "basestats": {
+            "hp": 85,
+            "atk": 105,
+            "def": 55,
+            "spA": 85,
+            "spD": 50,
+            "spe": 115
+        },
+        "name": "Floatzel"
+    },
+    {
+        "id": 420,
+        "types": [
+            "Grass"
+        ],
+        "basestats": {
+            "hp": 45,
+            "atk": 35,
+            "def": 45,
+            "spA": 62,
+            "spD": 53,
+            "spe": 35
+        },
+        "name": "Cherubi"
+    },
+    {
+        "id": 421,
+        "types": [
+            "Grass"
+        ],
+        "basestats": {
+            "hp": 70,
+            "atk": 60,
+            "def": 70,
+            "spA": 87,
+            "spD": 78,
+            "spe": 85
+        },
+        "name": "Cherrim"
+    },
+    {
+        "id": 422,
+        "types": [
+            "Water"
+        ],
+        "basestats": {
+            "hp": 76,
+            "atk": 48,
+            "def": 48,
+            "spA": 57,
+            "spD": 62,
+            "spe": 34
+        },
+        "name": "Shellos"
+    },
+    {
+        "id": 423,
+        "types": [
+            "Water",
+            "Ground"
+        ],
+        "basestats": {
+            "hp": 111,
+            "atk": 83,
+            "def": 68,
+            "spA": 92,
+            "spD": 82,
+            "spe": 39
+        },
+        "name": "Gastrodon"
+    },
+    {
+        "id": 424,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 75,
+            "atk": 100,
+            "def": 66,
+            "spA": 60,
+            "spD": 66,
+            "spe": 115
+        },
+        "name": "Ambipom"
+    },
+    {
+        "id": 425,
+        "types": [
+            "Ghost",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 90,
+            "atk": 50,
+            "def": 34,
+            "spA": 60,
+            "spD": 44,
+            "spe": 70
+        },
+        "name": "Drifloon"
+    },
+    {
+        "id": 426,
+        "types": [
+            "Ghost",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 150,
+            "atk": 80,
+            "def": 44,
+            "spA": 90,
+            "spD": 54,
+            "spe": 80
+        },
+        "name": "Drifblim"
+    },
+    {
+        "id": 427,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 55,
+            "atk": 66,
+            "def": 44,
+            "spA": 44,
+            "spD": 56,
+            "spe": 85
+        },
+        "name": "Buneary"
+    },
+    {
+        "id": 428,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 65,
+            "atk": 76,
+            "def": 84,
+            "spA": 54,
+            "spD": 96,
+            "spe": 105
+        },
+        "name": "Lopunny"
+    },
+    {
+        "id": 429,
+        "types": [
+            "Ghost"
+        ],
+        "basestats": {
+            "hp": 60,
+            "atk": 60,
+            "def": 60,
+            "spA": 105,
+            "spD": 105,
+            "spe": 105
+        },
+        "name": "Mismagius"
+    },
+    {
+        "id": 430,
+        "types": [
+            "Dark",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 100,
+            "atk": 125,
+            "def": 52,
+            "spA": 105,
+            "spD": 52,
+            "spe": 71
+        },
+        "name": "Honchkrow"
+    },
+    {
+        "id": 431,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 49,
+            "atk": 55,
+            "def": 42,
+            "spA": 42,
+            "spD": 37,
+            "spe": 85
+        },
+        "name": "Glameow"
+    },
+    {
+        "id": 432,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 71,
+            "atk": 82,
+            "def": 64,
+            "spA": 64,
+            "spD": 59,
+            "spe": 112
+        },
+        "name": "Purugly"
+    },
+    {
+        "id": 433,
+        "types": [
+            "Psychic"
+        ],
+        "basestats": {
+            "hp": 45,
+            "atk": 30,
+            "def": 50,
+            "spA": 65,
+            "spD": 50,
+            "spe": 45
+        },
+        "name": "Chingling"
+    },
+    {
+        "id": 434,
+        "types": [
+            "Poison",
+            "Dark"
+        ],
+        "basestats": {
+            "hp": 63,
+            "atk": 63,
+            "def": 47,
+            "spA": 41,
+            "spD": 41,
+            "spe": 74
+        },
+        "name": "Stunky"
+    },
+    {
+        "id": 435,
+        "types": [
+            "Poison",
+            "Dark"
+        ],
+        "basestats": {
+            "hp": 103,
+            "atk": 93,
+            "def": 67,
+            "spA": 71,
+            "spD": 61,
+            "spe": 84
+        },
+        "name": "Skuntank"
+    },
+    {
+        "id": 436,
+        "types": [
+            "Steel",
+            "Psychic"
+        ],
+        "basestats": {
+            "hp": 57,
+            "atk": 24,
+            "def": 86,
+            "spA": 24,
+            "spD": 86,
+            "spe": 23
+        },
+        "name": "Bronzor"
+    },
+    {
+        "id": 437,
+        "types": [
+            "Steel",
+            "Psychic"
+        ],
+        "basestats": {
+            "hp": 67,
+            "atk": 89,
+            "def": 116,
+            "spA": 79,
+            "spD": 116,
+            "spe": 33
+        },
+        "name": "Bronzong"
+    },
+    {
+        "id": 438,
+        "types": [
+            "Rock"
+        ],
+        "basestats": {
+            "hp": 50,
+            "atk": 80,
+            "def": 95,
+            "spA": 10,
+            "spD": 45,
+            "spe": 10
+        },
+        "name": "Bonsly"
+    },
+    {
+        "id": 439,
+        "types": [
+            "Psychic"
+        ],
+        "basestats": {
+            "hp": 20,
+            "atk": 25,
+            "def": 45,
+            "spA": 70,
+            "spD": 90,
+            "spe": 60
+        },
+        "name": "Mime Jr."
+    },
+    {
+        "id": 440,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 100,
+            "atk": 5,
+            "def": 5,
+            "spA": 15,
+            "spD": 65,
+            "spe": 30
+        },
+        "name": "Happiny"
+    },
+    {
+        "id": 441,
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 76,
+            "atk": 65,
+            "def": 45,
+            "spA": 92,
+            "spD": 42,
+            "spe": 91
+        },
+        "name": "Chatot"
+    },
+    {
+        "id": 442,
+        "types": [
+            "Ghost",
+            "Dark"
+        ],
+        "basestats": {
+            "hp": 50,
+            "atk": 92,
+            "def": 108,
+            "spA": 92,
+            "spD": 108,
+            "spe": 35
+        },
+        "name": "Spiritomb"
+    },
+    {
+        "id": 443,
+        "types": [
+            "Dragon",
+            "Ground"
+        ],
+        "basestats": {
+            "hp": 58,
+            "atk": 70,
+            "def": 45,
+            "spA": 40,
+            "spD": 45,
+            "spe": 42
+        },
+        "name": "Gible"
+    },
+    {
+        "id": 444,
+        "types": [
+            "Dragon",
+            "Ground"
+        ],
+        "basestats": {
+            "hp": 68,
+            "atk": 90,
+            "def": 65,
+            "spA": 50,
+            "spD": 55,
+            "spe": 82
+        },
+        "name": "Gabite"
+    },
+    {
+        "id": 445,
+        "types": [
+            "Dragon",
+            "Ground"
+        ],
+        "basestats": {
+            "hp": 108,
+            "atk": 130,
+            "def": 95,
+            "spA": 80,
+            "spD": 85,
+            "spe": 102
+        },
+        "name": "Garchomp"
+    },
+    {
+        "id": 446,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 135,
+            "atk": 85,
+            "def": 40,
+            "spA": 40,
+            "spD": 85,
+            "spe": 5
+        },
+        "name": "Munchlax"
+    },
+    {
+        "id": 447,
+        "types": [
+            "Fighting"
+        ],
+        "basestats": {
+            "hp": 40,
+            "atk": 70,
+            "def": 40,
+            "spA": 35,
+            "spD": 40,
+            "spe": 60
+        },
+        "name": "Riolu"
+    },
+    {
+        "id": 448,
+        "types": [
+            "Fighting",
+            "Steel"
+        ],
+        "basestats": {
+            "hp": 70,
+            "atk": 110,
+            "def": 70,
+            "spA": 115,
+            "spD": 70,
+            "spe": 90
+        },
+        "name": "Lucario"
+    },
+    {
+        "id": 449,
+        "types": [
+            "Ground"
+        ],
+        "basestats": {
+            "hp": 68,
+            "atk": 72,
+            "def": 78,
+            "spA": 38,
+            "spD": 42,
+            "spe": 32
+        },
+        "name": "Hippopotas"
+    },
+    {
+        "id": 450,
+        "types": [
+            "Ground"
+        ],
+        "basestats": {
+            "hp": 108,
+            "atk": 112,
+            "def": 118,
+            "spA": 68,
+            "spD": 72,
+            "spe": 47
+        },
+        "name": "Hippowdon"
+    },
+    {
+        "id": 451,
+        "types": [
+            "Poison",
+            "Bug"
+        ],
+        "basestats": {
+            "hp": 40,
+            "atk": 50,
+            "def": 90,
+            "spA": 30,
+            "spD": 55,
+            "spe": 65
+        },
+        "name": "Skorupi"
+    },
+    {
+        "id": 452,
+        "types": [
+            "Poison",
+            "Dark"
+        ],
+        "basestats": {
+            "hp": 70,
+            "atk": 90,
+            "def": 110,
+            "spA": 60,
+            "spD": 75,
+            "spe": 95
+        },
+        "name": "Drapion"
+    },
+    {
+        "id": 453,
+        "types": [
+            "Poison",
+            "Fighting"
+        ],
+        "basestats": {
+            "hp": 48,
+            "atk": 61,
+            "def": 40,
+            "spA": 61,
+            "spD": 40,
+            "spe": 50
+        },
+        "name": "Croagunk"
+    },
+    {
+        "id": 454,
+        "types": [
+            "Poison",
+            "Fighting"
+        ],
+        "basestats": {
+            "hp": 83,
+            "atk": 106,
+            "def": 65,
+            "spA": 86,
+            "spD": 65,
+            "spe": 85
+        },
+        "name": "Toxicroak"
+    },
+    {
+        "id": 455,
+        "types": [
+            "Grass"
+        ],
+        "basestats": {
+            "hp": 74,
+            "atk": 100,
+            "def": 72,
+            "spA": 90,
+            "spD": 72,
+            "spe": 46
+        },
+        "name": "Carnivine"
+    },
+    {
+        "id": 456,
+        "types": [
+            "Water"
+        ],
+        "basestats": {
+            "hp": 49,
+            "atk": 49,
+            "def": 56,
+            "spA": 49,
+            "spD": 61,
+            "spe": 66
+        },
+        "name": "Finneon"
+    },
+    {
+        "id": 457,
+        "types": [
+            "Water"
+        ],
+        "basestats": {
+            "hp": 69,
+            "atk": 69,
+            "def": 76,
+            "spA": 69,
+            "spD": 86,
+            "spe": 91
+        },
+        "name": "Lumineon"
+    },
+    {
+        "id": 458,
+        "types": [
+            "Water",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 45,
+            "atk": 20,
+            "def": 50,
+            "spA": 60,
+            "spD": 120,
+            "spe": 50
+        },
+        "name": "Mantyke"
+    },
+    {
+        "id": 459,
+        "types": [
+            "Grass",
+            "Ice"
+        ],
+        "basestats": {
+            "hp": 60,
+            "atk": 62,
+            "def": 50,
+            "spA": 62,
+            "spD": 60,
+            "spe": 40
+        },
+        "name": "Snover"
+    },
+    {
+        "id": 460,
+        "types": [
+            "Grass",
+            "Ice"
+        ],
+        "basestats": {
+            "hp": 90,
+            "atk": 92,
+            "def": 75,
+            "spA": 92,
+            "spD": 85,
+            "spe": 60
+        },
+        "name": "Abomasnow"
+    },
+    {
+        "id": 461,
+        "types": [
+            "Dark",
+            "Ice"
+        ],
+        "basestats": {
+            "hp": 70,
+            "atk": 120,
+            "def": 65,
+            "spA": 45,
+            "spD": 85,
+            "spe": 125
+        },
+        "name": "Weavile"
+    },
+    {
+        "id": 462,
+        "types": [
+            "Electric",
+            "Steel"
+        ],
+        "basestats": {
+            "hp": 70,
+            "atk": 70,
+            "def": 115,
+            "spA": 130,
+            "spD": 90,
+            "spe": 60
+        },
+        "name": "Magnezone"
+    },
+    {
+        "id": 463,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 110,
+            "atk": 85,
+            "def": 95,
+            "spA": 80,
+            "spD": 95,
+            "spe": 50
+        },
+        "name": "Lickilicky"
+    },
+    {
+        "id": 464,
+        "types": [
+            "Ground",
+            "Rock"
+        ],
+        "basestats": {
+            "hp": 115,
+            "atk": 140,
+            "def": 130,
+            "spA": 55,
+            "spD": 55,
+            "spe": 40
+        },
+        "name": "Rhyperior"
+    },
+    {
+        "id": 465,
+        "types": [
+            "Grass"
+        ],
+        "basestats": {
+            "hp": 100,
+            "atk": 100,
+            "def": 125,
+            "spA": 110,
+            "spD": 50,
+            "spe": 50
+        },
+        "name": "Tangrowth"
+    },
+    {
+        "id": 466,
+        "types": [
+            "Electric"
+        ],
+        "basestats": {
+            "hp": 75,
+            "atk": 123,
+            "def": 67,
+            "spA": 95,
+            "spD": 85,
+            "spe": 95
+        },
+        "name": "Electivire"
+    },
+    {
+        "id": 467,
+        "types": [
+            "Fire"
+        ],
+        "basestats": {
+            "hp": 75,
+            "atk": 95,
+            "def": 67,
+            "spA": 125,
+            "spD": 95,
+            "spe": 83
+        },
+        "name": "Magmortar"
+    },
+    {
+        "id": 468,
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 85,
+            "atk": 50,
+            "def": 95,
+            "spA": 120,
+            "spD": 115,
+            "spe": 80
+        },
+        "name": "Togekiss"
+    },
+    {
+        "id": 469,
+        "types": [
+            "Bug",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 86,
+            "atk": 76,
+            "def": 86,
+            "spA": 116,
+            "spD": 56,
+            "spe": 95
+        },
+        "name": "Yanmega"
+    },
+    {
+        "id": 470,
+        "types": [
+            "Grass"
+        ],
+        "basestats": {
+            "hp": 65,
+            "atk": 110,
+            "def": 130,
+            "spA": 60,
+            "spD": 65,
+            "spe": 95
+        },
+        "name": "Leafeon"
+    },
+    {
+        "id": 471,
+        "types": [
+            "Ice"
+        ],
+        "basestats": {
+            "hp": 65,
+            "atk": 60,
+            "def": 110,
+            "spA": 130,
+            "spD": 95,
+            "spe": 65
+        },
+        "name": "Glaceon"
+    },
+    {
+        "id": 472,
+        "types": [
+            "Ground",
+            "Flying"
+        ],
+        "basestats": {
+            "hp": 75,
+            "atk": 95,
+            "def": 125,
+            "spA": 45,
+            "spD": 75,
+            "spe": 95
+        },
+        "name": "Gliscor"
+    },
+    {
+        "id": 473,
+        "types": [
+            "Ice",
+            "Ground"
+        ],
+        "basestats": {
+            "hp": 110,
+            "atk": 130,
+            "def": 80,
+            "spA": 70,
+            "spD": 60,
+            "spe": 80
+        },
+        "name": "Mamoswine"
+    },
+    {
+        "id": 474,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 85,
+            "atk": 80,
+            "def": 70,
+            "spA": 135,
+            "spD": 75,
+            "spe": 90
+        },
+        "name": "Porygon-Z"
+    },
+    {
+        "id": 475,
+        "types": [
+            "Psychic",
+            "Fighting"
+        ],
+        "basestats": {
+            "hp": 68,
+            "atk": 125,
+            "def": 65,
+            "spA": 65,
+            "spD": 115,
+            "spe": 80
+        },
+        "name": "Gallade"
+    },
+    {
+        "id": 476,
+        "types": [
+            "Rock",
+            "Steel"
+        ],
+        "basestats": {
+            "hp": 60,
+            "atk": 55,
+            "def": 145,
+            "spA": 75,
+            "spD": 150,
+            "spe": 40
+        },
+        "name": "Probopass"
+    },
+    {
+        "id": 477,
+        "types": [
+            "Ghost"
+        ],
+        "basestats": {
+            "hp": 45,
+            "atk": 100,
+            "def": 135,
+            "spA": 65,
+            "spD": 135,
+            "spe": 45
+        },
+        "name": "Dusknoir"
+    },
+    {
+        "id": 478,
+        "types": [
+            "Ice",
+            "Ghost"
+        ],
+        "basestats": {
+            "hp": 70,
+            "atk": 80,
+            "def": 70,
+            "spA": 80,
+            "spD": 70,
+            "spe": 110
+        },
+        "name": "Froslass"
+    },
+    {
+        "id": 479,
+        "types": [
+            "Electric",
+            "Ghost"
+        ],
+        "basestats": {
+            "hp": 50,
+            "atk": 50,
+            "def": 77,
+            "spA": 95,
+            "spD": 77,
+            "spe": 91
+        },
+        "name": "Rotom"
+    },
+    {
+        "id": 480,
+        "types": [
+            "Psychic"
+        ],
+        "basestats": {
+            "hp": 75,
+            "atk": 75,
+            "def": 130,
+            "spA": 75,
+            "spD": 130,
+            "spe": 95
+        },
+        "name": "Uxie"
+    },
+    {
+        "id": 481,
+        "types": [
+            "Psychic"
+        ],
+        "basestats": {
+            "hp": 80,
+            "atk": 105,
+            "def": 105,
+            "spA": 105,
+            "spD": 105,
+            "spe": 80
+        },
+        "name": "Mesprit"
+    },
+    {
+        "id": 482,
+        "types": [
+            "Psychic"
+        ],
+        "basestats": {
+            "hp": 75,
+            "atk": 125,
+            "def": 70,
+            "spA": 125,
+            "spD": 70,
+            "spe": 115
+        },
+        "name": "Azelf"
+    },
+    {
+        "id": 483,
+        "types": [
+            "Steel",
+            "Dragon"
+        ],
+        "basestats": {
+            "hp": 100,
+            "atk": 120,
+            "def": 120,
+            "spA": 150,
+            "spD": 100,
+            "spe": 90
+        },
+        "name": "Dialga"
+    },
+    {
+        "id": 484,
+        "types": [
+            "Water",
+            "Dragon"
+        ],
+        "basestats": {
+            "hp": 90,
+            "atk": 120,
+            "def": 100,
+            "spA": 150,
+            "spD": 120,
+            "spe": 100
+        },
+        "name": "Palkia"
+    },
+    {
+        "id": 485,
+        "types": [
+            "Fire",
+            "Steel"
+        ],
+        "basestats": {
+            "hp": 91,
+            "atk": 90,
+            "def": 106,
+            "spA": 130,
+            "spD": 106,
+            "spe": 77
+        },
+        "name": "Heatran"
+    },
+    {
+        "id": 486,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 110,
+            "atk": 160,
+            "def": 110,
+            "spA": 80,
+            "spD": 110,
+            "spe": 100
+        },
+        "name": "Regigigas"
+    },
+    {
+        "id": 487,
+        "types": [
+            "Ghost",
+            "Dragon"
+        ],
+        "basestats": {
+            "hp": 150,
+            "atk": 100,
+            "def": 120,
+            "spA": 100,
+            "spD": 120,
+            "spe": 90
+        },
+        "name": "Giratina"
+    },
+    {
+        "id": 488,
+        "types": [
+            "Psychic"
+        ],
+        "basestats": {
+            "hp": 120,
+            "atk": 70,
+            "def": 120,
+            "spA": 75,
+            "spD": 130,
+            "spe": 85
+        },
+        "name": "Cresselia"
+    },
+    {
+        "id": 489,
+        "types": [
+            "Water"
+        ],
+        "basestats": {
+            "hp": 80,
+            "atk": 80,
+            "def": 80,
+            "spA": 80,
+            "spD": 80,
+            "spe": 80
+        },
+        "name": "Phione"
+    },
+    {
+        "id": 490,
+        "types": [
+            "Water"
+        ],
+        "basestats": {
+            "hp": 100,
+            "atk": 100,
+            "def": 100,
+            "spA": 100,
+            "spD": 100,
+            "spe": 100
+        },
+        "name": "Manaphy"
+    },
+    {
+        "id": 491,
+        "types": [
+            "Dark"
+        ],
+        "basestats": {
+            "hp": 70,
+            "atk": 90,
+            "def": 90,
+            "spA": 135,
+            "spD": 90,
+            "spe": 125
+        },
+        "name": "Darkrai"
+    },
+    {
+        "id": 492,
+        "types": [
+            "Grass"
+        ],
+        "basestats": {
+            "hp": 100,
+            "atk": 100,
+            "def": 100,
+            "spA": 100,
+            "spD": 100,
+            "spe": 100
+        },
+        "name": "Shaymin"
+    },
+    {
+        "id": 493,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 120,
+            "atk": 120,
+            "def": 120,
+            "spA": 120,
+            "spD": 120,
+            "spe": 120
+        },
+        "name": "Arceus"
+    }
+]

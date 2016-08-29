@@ -1,0 +1,153 @@
+
+[
+    {
+        "id": 0,
+        "name": "Hardy",
+        "increased": null,
+        "decreased": null
+    },
+    {
+        "id": 1,
+        "name": "Lonely",
+        "increased": "atk",
+        "decreased": "def"
+    },
+    {
+        "id": 2,
+        "name": "Brave",
+        "increased": "atk",
+        "decreased": "spe"
+    },
+    {
+        "id": 3,
+        "name": "Adamant",
+        "increased": "atk",
+        "decreased": "spA"
+    },
+    {
+        "id": 4,
+        "name": "Naughty",
+        "increased": "atk",
+        "decreased": "spD"
+    },
+    {
+        "id": 5,
+        "name": "Bold",
+        "increased": "def",
+        "decreased": "atk"
+    },
+    {
+        "id": 6,
+        "name": "Docile",
+        "increased": null,
+        "decreased": null
+    },
+    {
+        "id": 7,
+        "name": "Relaxed",
+        "increased": "def",
+        "decreased": "spe"
+    },
+    {
+        "id": 8,
+        "name": "Impish",
+        "increased": "def",
+        "decreased": "spA"
+    },
+    {
+        "id": 9,
+        "name": "Lax",
+        "increased": "def",
+        "decreased": "spD"
+    },
+    {
+        "id": 10,
+        "name": "Timid",
+        "increased": "spe",
+        "decreased": "atk"
+    },
+    {
+        "id": 11,
+        "name": "Hasty",
+        "increased": "spe",
+        "decreased": "def"
+    },
+    {
+        "id": 12,
+        "name": "Serious",
+        "increased": null,
+        "decreased": null
+    },
+    {
+        "id": 13,
+        "name": "Jolly",
+        "increased": "spe",
+        "decreased": "spA"
+    },
+    {
+        "id": 14,
+        "name": "Naive",
+        "increased": "spe",
+        "decreased": "spD"
+    },
+    {
+        "id": 15,
+        "name": "Modest",
+        "increased": "spA",
+        "decreased": "atk"
+    },
+    {
+        "id": 16,
+        "name": "Mild",
+        "increased": "spA",
+        "decreased": "def"
+    },
+    {
+        "id": 17,
+        "name": "Quiet",
+        "increased": "spA",
+        "decreased": "spe"
+    },
+    {
+        "id": 18,
+        "name": "Bashful",
+        "increased": null,
+        "decreased": null
+    },
+    {
+        "id": 19,
+        "name": "Rash",
+        "increased": "spA",
+        "decreased": "spD"
+    },
+    {
+        "id": 20,
+        "name": "Calm",
+        "increased": "spD",
+        "decreased": "atk"
+    },
+    {
+        "id": 21,
+        "name": "Gentle",
+        "increased": "spD",
+        "decreased": "def"
+    },
+    {
+        "id": 22,
+        "name": "Sassy",
+        "increased": "spD",
+        "decreased": "spe"
+    },
+    {
+        "id": 23,
+        "name": "Careful",
+        "increased": "spD",
+        "decreased": "spA"
+    },
+    {
+        "id": 24,
+        "name": "Quirky",
+        "increased": null,
+        "decreased": null
+    }
+]

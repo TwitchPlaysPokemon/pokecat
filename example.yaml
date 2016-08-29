@@ -1,0 +1,63 @@
+ingamename: ARCEUS-FIR
+species: Arceus
+setname: Standard
+item: Flame Plate
+ability: Multitype
+nature: +atk -def  # Lonely
+ivs: 0
+evs: {hp: 0, atk: 0, def: 0, spe: 64, spA: 32, spD: 32}
+moves:
+    - Ember
+    - Gastro Acid
+    - Haze
+    - Sunny Day
+
+---
+
+ingamename: SEEL-PH
+species: Seel
+setname: Physical
+item: [Rawst Berry, Toxic Orb, Light Ball, NeverMelt-Ice]
+ability: [Thich Fat, Hydration]
+nature: Adamant
+ivs: 31
+evs: {hp: 8, atk: 252, def: 120, spA: 0, spD: 120, spe: 8}
+moves:
+    - Fake Out (+3/=12)
+    - [Aqua Tail, Dive, Waterfall]
+    - [Double-Edge, Facade, Body Slam, Fling, Toxic]
+    - [Horn Drill, Aqua Jet, Ice Shard]
+combinations:
+    - [Toxic Orb, Facade]
+    - [Light Ball, Fling]
+    - [NeverMeltIce, Ice Shard]
+    - [Dive, Toxic]
+separations:
+    - [Aqua Tail, Fling]
+    - [Aqua Tail, Body Slam]
+gender: [m, f]
+form: 0
+happiness: 255
+shiny: True
+biddable: True
+rarity: 0.1
+ball: [Poke, Ultra]
+Level: 100
+
+---
+
+ingamename: TRIHARD
+species: Arceus
+setname: Standard
+ability: Multitype
+nature: +atk -def  # Lonely
+ivs: 0
+evs: {hp: 0, atk: 0, def: 0, spe: 64, spA: 32, spD: 32}
+item: Flame Plate
+shiny: true
+moves:
+    - Pound
+    - Hidden Power
+    - Judgment
+form: 0
+
