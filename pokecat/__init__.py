@@ -39,7 +39,7 @@ def _get_by_index_or_name(lst, index_or_name, name_of_thing, get_func, find_func
 def populate_pokeset(pokeset):
     '''
     Reads in data for one pokeset and populates it with all additionally available
-    data, in place. This includes types of Pokémon or per-move data like PP, power or types.
+    data. This includes types of Pokémon or per-move data like PP, power or types.
 
     Arguments:
         set: base data of the set to populate. see the format specification for details.
@@ -47,7 +47,7 @@ def populate_pokeset(pokeset):
         ValueError: If the data is not fully parsable. the ValueError's description contains
         further details on the error that occured.
     Returns:
-        The populated set, though it's already modified in place anyway.
+        The populated set. The passed data is not modified
     '''
     # I am sorry that this function is so big and partly copy-pasted,
     # but it just does a lot of equally boring things like processing
@@ -55,8 +55,11 @@ def populate_pokeset(pokeset):
     # just feel forced. It could be better, but it could also be worse,
     # and to be honest it's easy enough to maintain (for me at least).
     
+    # make deepcopy to not modify original data
+    pokeset = deepcopy(pokeset)
+    
     # check if there are wrongly capitalized keys
-    for key, value in pokeset.items():
+    for key, value in list(pokeset.items()):
         key_lower = key.lower()
         if key_lower != key:
             warn("Key should be all lowercase: %s" % key)
@@ -113,6 +116,8 @@ def populate_pokeset(pokeset):
         if not perfect_match:
             warn("Didn't recognize ability %s, but assumed %s." % (ability_raw_single, ability_single))
         ability.append(ability_single)
+    if len(set(ability)) < len(ability):
+        raise ValueError("All abilities supplied must be unique: %s" % ", ".join(ability))
     pokeset["ability"] = ability
 
     # check and populate item. is a list
@@ -126,9 +131,12 @@ def populate_pokeset(pokeset):
         if not perfect_match:
             warn("Didn't recognize item %s, but assumed %s." % (item_raw_single, item_single))
         item.append(item_single)
+    if len(set(item)) < len(item):
+        raise ValueError("All items supplied must be unique: %s" % ", ".join(item))
     pokeset["item"] = item
 
     # check and populate ball. is a list
+    # TODO check against ball-list, not item-list.
     ball = []
     ball_raw = pokeset["ball"]
     if not isinstance(ball_raw, list):
@@ -141,6 +149,8 @@ def populate_pokeset(pokeset):
         if not perfect_match:
             warn("Didn't recognize ball %s, but assumed %s." % (ball_raw_single, ball_single))
         ball.append(ball_single)
+    if len(set(ball)) < len(ball):
+        raise ValueError("All balls supplied must be unique: %s" % ", ".join(ball))
     pokeset["ball"] = ball
 
     # check gender
@@ -149,9 +159,11 @@ def populate_pokeset(pokeset):
         gender = [gender]
     for gender_single in gender:
         if gender_single not in ("m", "f", None):
-            raise ValueError("gender can only be be 'm', 'f' or not set (null)")
+            raise ValueError("gender can only be 'm', 'f' or not set (null), but not %s" % (gender_single,))
     if len(gender) > 1 and None in gender:
         raise ValueError("non-gender cannot be mixed with m/f")
+    if len(set(gender)) < len(gender):
+        raise ValueError("All genders supplied must be unique: %s" % ", ".join(gender))
     pokeset["gender"] = gender
 
     # check level
@@ -159,7 +171,7 @@ def populate_pokeset(pokeset):
     if not (isinstance(level, int) and 1 <= level <= 100):
         raise ValueError("level must be a number between 1 and 100")
 
-    # check and populate nature. might be defines as "+atk -def" or similar
+    # check and populate nature. might be defined as "+atk -def" or similar
     nature_raw = pokeset["nature"]
     stats_regex = "|".join(stats.statnames)
     match = re.match(r"^\+({0})\s+-((?:\1){0})$".format(stats_regex), nature_raw)
@@ -172,7 +184,7 @@ def populate_pokeset(pokeset):
     nature, perfect_match = _get_by_index_or_name(gen4data.NATURES, nature_raw,
                                                   "nature", gen4data.get_nature, gen4data.find_nature)
     if not perfect_match:
-        warn("Didn't recognize nature %s, but assumed %s." % (nature_raw, nature))
+        warn("Didn't recognize nature %s, but assumed %s." % (nature_raw, nature["name"]))
     pokeset["nature"] = nature
 
     # check IVs
@@ -289,7 +301,7 @@ def populate_pokeset(pokeset):
     # fix displayname
     if pokeset["displayname"] is None:
         pokeset["displayname"] = pokeset["species"]["name"]
-        # TODO form-names
+        # formnames get handled below
 
     # check form
     form = pokeset["form"]

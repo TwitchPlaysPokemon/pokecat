@@ -1,11 +1,10 @@
 
-Ingamename: BULBASAUR
+ingamename: BULBASAUR
 species: Bulbasaur
 setname: Standard
 ability: Pressure
 nature: Lonely
 ivs: 0
-# evs missing
+evs: 0
 moves:
     - Pound
-

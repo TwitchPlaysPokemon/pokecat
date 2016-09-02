@@ -3,7 +3,7 @@ import json
 from os import path
 from operator import itemgetter
 from functools import partial
-from Levenshtein import ratio
+from Levenshtein import ratio #@UnresolvedImport
 
 
 ROOT_DIR = path.dirname(path.abspath(__file__))
@@ -54,6 +54,7 @@ def _find_similar(lst, name, min_similarity=0.75, namegetter=lambda x:x, idgette
     the supplied item's name should be considered ambiguous.
     '''
     entries = {}
+    highest_similarity = 0
     for index, item in enumerate(lst):
         if not item:
             continue  # null item, for lists having nothing as id 0 for example
@@ -63,8 +64,12 @@ def _find_similar(lst, name, min_similarity=0.75, namegetter=lambda x:x, idgette
         else:
             id_ = index
         similarity = ratio(name, actual_name)
-        if similarity >= min_similarity:
+        if similarity - highest_similarity > 0.1:
+            # the rest isn't close enough, ditch them
+            entries.clear()
+        if similarity >= min_similarity and highest_similarity - similarity < 0.1:
             entries[id_] = item
+        highest_similarity = max(highest_similarity, similarity)
     return entries
 
 find_ability = partial(_find_similar, ABILITIES)
