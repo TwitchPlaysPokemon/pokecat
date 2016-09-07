@@ -7,6 +7,7 @@ import random
 import logging
 from warnings import warn
 
+from . import utils, objects
 from . import gen4data, forms, stats
 
 log = logging.getLogger(__name__)
@@ -18,8 +19,8 @@ _OPTIONAL_FIELDS = {"gender": None, "form": 0, "item": None, "displayname": None
 
 # just code recycling for populate_pokeset()
 def _get_by_index_or_name(lst, index_or_name, name_of_thing, get_func, find_func):
-    if index_or_name is None:
-        return None, True
+    #if index_or_name is None:
+    #    return None, True
     if isinstance(index_or_name, int):
         try:
             thing = lst[index_or_name]
@@ -114,10 +115,10 @@ def populate_pokeset(pokeset):
         ability_single, perfect_match = _get_by_index_or_name(gen4data.ABILITIES, ability_raw_single,
                                                               "ability", gen4data.get_ability, gen4data.find_ability)
         if not perfect_match:
-            warn("Didn't recognize ability %s, but assumed %s." % (ability_raw_single, ability_single))
+            warn("Didn't recognize ability %s, but assumed %s." % (ability_raw_single, ability_single["name"]))
         ability.append(ability_single)
-    if len(set(ability)) < len(ability):
-        raise ValueError("All abilities supplied must be unique: %s" % ", ".join(ability))
+    if len(set(a["id"] for a in ability)) < len(ability):
+        raise ValueError("All abilities supplied must be unique: %s" % ", ".join(a["name"] for a in ability))
     pokeset["ability"] = ability
 
     # check and populate item. is a list
@@ -129,10 +130,10 @@ def populate_pokeset(pokeset):
         item_single, perfect_match = _get_by_index_or_name(gen4data.ITEMS, item_raw_single,
                                                            "item", gen4data.get_item, gen4data.find_item)
         if not perfect_match:
-            warn("Didn't recognize item %s, but assumed %s." % (item_raw_single, item_single))
+            warn("Didn't recognize item %s, but assumed %s." % (item_raw_single, item_single["name"]))
         item.append(item_single)
-    if len(set(item)) < len(item):
-        raise ValueError("All items supplied must be unique: %s" % ", ".join(item))
+    if len(set(i["id"] for i in item)) < len(item):
+        raise ValueError("All items supplied must be unique: %s" % ", ".join(i["name"] for i in item))
     pokeset["item"] = item
 
     # check and populate ball. is a list
@@ -144,13 +145,13 @@ def populate_pokeset(pokeset):
     for ball_raw_single in ball_raw:
         ball_single, perfect_match = _get_by_index_or_name(gen4data.ITEMS, ball_raw_single,
                                                            "ball", gen4data.get_ball, gen4data.find_ball)
-        if not ball_single.endswith(" Ball"):
+        if not ball_single["name"].endswith(" Ball"):
             raise ValueError("Invalid ball: %s" % ball_single)
         if not perfect_match:
-            warn("Didn't recognize ball %s, but assumed %s." % (ball_raw_single, ball_single))
+            warn("Didn't recognize ball %s, but assumed %s." % (ball_raw_single, ball_single["name"]))
         ball.append(ball_single)
-    if len(set(ball)) < len(ball):
-        raise ValueError("All balls supplied must be unique: %s" % ", ".join(ball))
+    if len(set(b["name"] for b in ball)) < len(ball):
+        raise ValueError("All balls supplied must be unique: %s" % ", ".join(b["name"] for b in ball))
     pokeset["ball"] = ball
 
     # check gender
@@ -345,9 +346,8 @@ def populate_pokeset(pokeset):
         basestat = species["basestats"][statname]
         ev = evs[statname]
         iv = ivs[statname]
-        nature_id = nature["id"]
         level = pokeset["level"]
-        pokeset["stats"][statname] = stats.calculate_stat(basestat, ev, iv, statname, nature_id, level)
+        pokeset["stats"][statname] = stats.calculate_stat(basestat, ev, iv, statname, nature, level)
 
     # special case: Shedinja. Always 1 HP
     if species["name"] == "Shedinja":
@@ -366,7 +366,9 @@ def populate_pokeset(pokeset):
         raise ValueError("separations must be a list of lists.")
     movenames = sum([movelist for movelist in pokeset["moves"]], [])
     movenames = [move["name"] for move in movenames]
-    all_things = set(movenames + pokeset["item"] + pokeset["ability"])
+    all_things = set(movenames
+                     + [p["name"] for p in pokeset["item"]]
+                     + [a["name"] for a in pokeset["ability"]])
     for com in combinations:
         if set(com) - all_things:
             raise ValueError("All things referenced in combination must be present in set: %s" % ", ".join(com))
@@ -385,7 +387,7 @@ def _check_restrictions(pokeset):
     Returns True if they are, and False otherwise.
     '''
     movenames = [m["name"] for m in pokeset["moves"]]
-    all_things = frozenset(movenames + [pokeset["item"]] + [pokeset["ability"]])
+    all_things = frozenset(movenames + [pokeset["item"]["name"]] + [pokeset["ability"]["name"]])
     for combination in pokeset["combinations"]:
         # all or nothing
         valid = all(thing in all_things for thing in combination) \

@@ -1,5 +1,7 @@
-ability: [Multitype]
-ball: ["Pok\xE9 Ball"]
+ability:
+- {description: '', id: 121, name: Multitype}
+ball:
+- {description: '', id: 4, name: "Pok\xE9 Ball"}
 biddable: true
 combinations: []
 displayname: Arceus Fire
@@ -8,7 +10,8 @@ form: 1
 gender: [null]
 happiness: 255
 ingamename: ARCEUS-FIR
-item: [Flame Plate]
+item:
+- {description: '', id: 298, name: Flame Plate}
 ivs: {atk: 0, def: 0, hp: 0, spA: 0, spD: 0, spe: 0}
 level: 100
 moves:
@@ -33,8 +36,12 @@ species:
 stats: {atk: 269, def: 220, hp: 350, spA: 253, spD: 253, spe: 261}
 types: [Fire]
 ---
-ability: [Thick Fat, Hydration]
-ball: ["Pok\xE9 Ball", Ultra Ball]
+ability:
+- {description: '', id: 47, name: Thick Fat}
+- {description: '', id: 93, name: Hydration}
+ball:
+- {description: '', id: 4, name: "Pok\xE9 Ball"}
+- {description: '', id: 2, name: Ultra Ball}
 biddable: true
 combinations:
 - [Toxic Orb, Facade]
@@ -47,7 +54,11 @@ form: 0
 gender: [m, f]
 happiness: 255
 ingamename: SEEL-PH
-item: [Rawst Berry, Toxic Orb, Light Ball, NeverMeltIce]
+item:
+- {description: '', id: 152, name: Rawst Berry}
+- {description: '', id: 272, name: Toxic Orb}
+- {description: '', id: 236, name: Light Ball}
+- {description: '', id: 246, name: NeverMeltIce}
 ivs: {atk: 31, def: 31, hp: 31, spA: 31, spD: 31, spe: 31}
 level: 100
 moves:
@@ -89,8 +100,10 @@ species:
     types: [Water]
 stats: {atk: 207, def: 176, hp: 273, spA: 113, spD: 206, spe: 128}
 ---
-ability: [Multitype]
-ball: ["Pok\xE9 Ball"]
+ability:
+- {description: '', id: 121, name: Multitype}
+ball:
+- {description: '', id: 4, name: "Pok\xE9 Ball"}
 biddable: false
 combinations: []
 displayname: Arceus Fire (Shiny)
@@ -99,7 +112,8 @@ form: 1
 gender: [null]
 happiness: 255
 ingamename: TRIHARD
-item: [Flame Plate]
+item:
+- {description: '', id: 298, name: Flame Plate}
 ivs: {atk: 0, def: 0, hp: 0, spA: 0, spD: 0, spe: 0}
 level: 100
 moves:

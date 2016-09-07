@@ -24,8 +24,8 @@ multitype_plates = {
     "Pixie Plate" : "Fairy",
 }
 
-def get_multitype_type(plate_name):
-    return multitype_plates.get(plate_name, "Normal")
+def get_multitype_type(plate):
+    return multitype_plates.get(plate["name"], "Normal")
 
 def get_formname(species, form):
     try:

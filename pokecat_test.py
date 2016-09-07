@@ -1,6 +1,7 @@
 
 import os
 import unittest
+import json
 import yaml
 
 import pokecat
@@ -12,6 +13,9 @@ def load_test_docs(name):
 def load_test_doc(name):
     path = os.path.join(ROOT_DIR, "testdocuments", "{}.yaml".format(name))
     return yaml.load(open(path, encoding="utf-8"))
+def load_test_doc_json(name):
+    path = os.path.join(ROOT_DIR, "testdocuments", "{}.json".format(name))
+    return json.load(open(path, encoding="utf-8"))
 
 
 class PokecatTester(unittest.TestCase):
@@ -97,13 +101,13 @@ class PokecatTester(unittest.TestCase):
         doc["ability"] = "Pressure"
         result = pokecat.populate_pokeset(doc)
         # gets populated as an array
-        self.assertEqual(result["ability"], ["Pressure"])
+        self.assertEqual([a["name"] for a in result["ability"]], ["Pressure"])
 
     def test_ability_list(self):
         doc = load_test_doc("_template")
         doc["ability"] = ["Pressure", "Static"]
         result = pokecat.populate_pokeset(doc)
-        self.assertEqual(result["ability"], ["Pressure", "Static"])
+        self.assertEqual([a["name"] for a in result["ability"]], ["Pressure", "Static"])
 
     def test_duplicate_ability_list(self):
         doc = load_test_doc("_template")
@@ -117,7 +121,7 @@ class PokecatTester(unittest.TestCase):
         with self.assertWarnsRegex(UserWarning, r"Didn't recognize ability Presure, but assumed Pressure."):
             result = pokecat.populate_pokeset(doc)
         # gets populated as an array
-        self.assertEqual(result["ability"], ["Pressure"])
+        self.assertEqual([a["name"] for a in result["ability"]], ["Pressure"])
 
     def test_invalid_ability(self):
         doc = load_test_doc("_template")
@@ -130,13 +134,13 @@ class PokecatTester(unittest.TestCase):
         doc["item"] = "Sitrus Berry"
         result = pokecat.populate_pokeset(doc)
         # gets populated as an array
-        self.assertEqual(result["item"], ["Sitrus Berry"])
+        self.assertEqual([i["name"] for i in result["item"]], ["Sitrus Berry"])
 
     def test_item_list(self):
         doc = load_test_doc("_template")
         doc["item"] = ["Sitrus Berry", "Elixir"]
         result = pokecat.populate_pokeset(doc)
-        self.assertEqual(result["item"], ["Sitrus Berry", "Elixir"])
+        self.assertEqual([i["name"] for i in result["item"]], ["Sitrus Berry", "Elixir"])
 
     def test_duplicate_item_list(self):
         doc = load_test_doc("_template")
@@ -150,7 +154,7 @@ class PokecatTester(unittest.TestCase):
         with self.assertWarnsRegex(UserWarning, r"Didn't recognize item Citrus Berry, but assumed Sitrus Berry."):
             result = pokecat.populate_pokeset(doc)
         # gets populated as an array
-        self.assertEqual(result["item"], ["Sitrus Berry"])
+        self.assertEqual([i["name"] for i in result["item"]], ["Sitrus Berry"])
 
     def test_invalid_item(self):
         doc = load_test_doc("_template")
@@ -158,18 +162,24 @@ class PokecatTester(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "Unrecognized item: Ice Cream"):
             pokecat.populate_pokeset(doc)
 
+    def test_no_item(self):
+        doc = load_test_doc("_template")
+        doc["item"] = None
+        result = pokecat.populate_pokeset(doc)
+        self.assertEqual(result["item"], [{"id": 0, "description": "", "name": None}])
+
     def test_ball(self):
         doc = load_test_doc("_template")
         doc["ball"] = "Master"
         result = pokecat.populate_pokeset(doc)
         # gets populated as an array
-        self.assertEqual(result["ball"], ["Master Ball"])
+        self.assertEqual([b["name"] for b in result["ball"]], ["Master Ball"])
 
     def test_ball_list(self):
         doc = load_test_doc("_template")
         doc["ball"] = ["Master", "Ultra"]
         result = pokecat.populate_pokeset(doc)
-        self.assertEqual(result["ball"], ["Master Ball", "Ultra Ball"])
+        self.assertEqual([b["name"] for b in result["ball"]], ["Master Ball", "Ultra Ball"])
 
     def test_duplicate_ball_list(self):
         doc = load_test_doc("_template")
@@ -183,7 +193,7 @@ class PokecatTester(unittest.TestCase):
         with self.assertWarnsRegex(UserWarning, r"Didn't recognize ball Poke, but assumed Poké Ball."):
             result = pokecat.populate_pokeset(doc)
         # gets populated as an array
-        self.assertEqual(result["ball"], ["Poké Ball"])
+        self.assertEqual([b["name"] for b in result["ball"]], ["Poké Ball"])
 
     def test_invalid_ball(self):
         doc = load_test_doc("_template")
@@ -312,7 +322,7 @@ class PokecatTester(unittest.TestCase):
         doc = load_test_doc("_template")
         val = 510
         doc["evs"] = {"atk": val, "def": val, "spA": val, "spD": val, "spe": val}
-        doc["evs"]["hp"] = 253 
+        doc["evs"]["hp"] = 253
         with self.assertRaisesRegex(ValueError, r"All EVs must be between 0 and 252."):
             pokecat.populate_pokeset(doc)
 

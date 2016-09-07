@@ -8,8 +8,19 @@ from Levenshtein import ratio #@UnresolvedImport
 
 ROOT_DIR = path.dirname(path.abspath(__file__))
 
-ABILITIES = json.load(open(path.join(ROOT_DIR, "gen4data", "abilities.json"), encoding="utf-8"))
-ITEMS     = json.load(open(path.join(ROOT_DIR, "gen4data", "items.json"),     encoding="utf-8"))
+def _build_from_json_list(filename):
+    list_ = json.load(open(path.join(ROOT_DIR, filename), encoding="utf-8"))
+    for i, item in enumerate(list_):
+        yield {
+            "id": i,
+            "name": item,
+            "description": "",
+        }
+
+ABILITIES = list(_build_from_json_list("gen4data/abilities.json"))
+#ABILITIES = json.load(open(path.join(ROOT_DIR, "gen4data", "abilities.json"), encoding="utf-8"))
+ITEMS     = list(_build_from_json_list("gen4data/items.json"))
+#ITEMS     = json.load(open(path.join(ROOT_DIR, "gen4data", "items.json"),     encoding="utf-8"))
 MOVES     = json.load(open(path.join(ROOT_DIR, "gen4data", "moves.json"),     encoding="utf-8"))
 POKEDEX   = json.load(open(path.join(ROOT_DIR, "gen4data", "pokedex.json"),   encoding="utf-8"))
 
@@ -18,6 +29,7 @@ TYPES     = json.load(open(path.join(ROOT_DIR, "globaldata", "types.json"),   en
 
 DEOXYS_BASESTATS     = json.load(open(path.join(ROOT_DIR, "globaldata", "deoxys_basestats.json"), encoding="utf-8"))
 NATURAL_GIFT_EFFECTS = json.load(open(path.join(ROOT_DIR, "globaldata", "natural_gift_effects.json"), encoding="utf-8"))
+
 
 
 def _get_exact(lst, name, namegetter=lambda x:x):
@@ -32,16 +44,16 @@ def _get_exact(lst, name, namegetter=lambda x:x):
             return item
     return None
 
-get_ability = partial(_get_exact, ABILITIES)
-get_item    = partial(_get_exact, ITEMS)
-get_move    = partial(_get_exact, MOVES,   namegetter=itemgetter("name"))
-get_nature  = partial(_get_exact, NATURES, namegetter=itemgetter("name"))
-get_pokemon = partial(_get_exact, POKEDEX, namegetter=itemgetter("name"))
+get_ability = partial(_get_exact, ABILITIES, namegetter=itemgetter("name"))
+get_item    = partial(_get_exact, ITEMS,     namegetter=itemgetter("name"))
+get_move    = partial(_get_exact, MOVES,     namegetter=itemgetter("name"))
+get_nature  = partial(_get_exact, NATURES,   namegetter=itemgetter("name"))
+get_pokemon = partial(_get_exact, POKEDEX,   namegetter=itemgetter("name"))
 def get_ball(ballname):
     for item in ITEMS:
-        if not item:
+        if not item or not item["name"]:
             continue
-        if item.endswith(" Ball") and item[:-5] == ballname:
+        if item["name"].endswith(" Ball") and item["name"][:-5] == ballname:
             return item
     return None
 
@@ -56,7 +68,7 @@ def _find_similar(lst, name, min_similarity=0.75, namegetter=lambda x:x, idgette
     entries = {}
     highest_similarity = 0
     for index, item in enumerate(lst):
-        if not item:
+        if not item or not item["name"]:
             continue  # null item, for lists having nothing as id 0 for example
         actual_name = namegetter(item)
         if idgetter:
@@ -72,16 +84,16 @@ def _find_similar(lst, name, min_similarity=0.75, namegetter=lambda x:x, idgette
         highest_similarity = max(highest_similarity, similarity)
     return entries
 
-find_ability = partial(_find_similar, ABILITIES)
-find_item    = partial(_find_similar, ITEMS)
-find_move    = partial(_find_similar, MOVES,   namegetter=itemgetter("name"), idgetter=itemgetter("id"))
-find_nature  = partial(_find_similar, NATURES, namegetter=itemgetter("name"))
-find_pokemon = partial(_find_similar, POKEDEX, namegetter=itemgetter("name"), idgetter=itemgetter("id"))
+find_ability = partial(_find_similar, ABILITIES, namegetter=itemgetter("name"), idgetter=itemgetter("id"))
+find_item    = partial(_find_similar, ITEMS,     namegetter=itemgetter("name"), idgetter=itemgetter("id"))
+find_move    = partial(_find_similar, MOVES,     namegetter=itemgetter("name"), idgetter=itemgetter("id"))
+find_nature  = partial(_find_similar, NATURES,   namegetter=itemgetter("name"))
+find_pokemon = partial(_find_similar, POKEDEX,   namegetter=itemgetter("name"), idgetter=itemgetter("id"))
 def find_ball(ballname, min_similarity=0.75):
     balls = {}
     for index, item in enumerate(ITEMS):
-        if not item:
+        if not item or not item["name"]:
             continue
-        if item.endswith(" Ball") and ratio(item[:-5], ballname) >= min_similarity:
+        if item["name"].endswith(" Ball") and ratio(item["name"][:-5], ballname) >= min_similarity:
             balls[index] = item
     return balls

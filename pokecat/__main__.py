@@ -1,6 +1,7 @@
 """
 Usage:
   pokecat populate <inputfile> <outputfile>
+  pokecat instantiate <inputfile> <outputfile>
 
 Options:
   -h --help     Show this screen.
@@ -9,9 +10,10 @@ Options:
 
 import os
 from docopt import docopt
+import json
 import yaml
 import warnings
-from . import populate_pokeset
+from . import populate_pokeset, instantiate_pokeset
 
 
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -23,10 +25,12 @@ def main():
         indata = list(yaml.load_all(open(args["<inputfile>"], encoding="utf-8")))
         outdata = []
         for data in indata:
+            if not data:
+                continue
             identifier = "{set[species]} {set[setname]}".format(set=data)
             try:
                 with warnings.catch_warnings(record=True) as w:
-                    populate_pokeset(data)
+                    data = populate_pokeset(data)
                     for warning in w:
                         print("{}> {}".format(identifier, warning.message))
             except ValueError as ex:
@@ -34,6 +38,18 @@ def main():
             else:
                 outdata.append(data)
         yaml.safe_dump_all(
+            outdata,
+            open(args["<outputfile>"], "w+", encoding="utf-8"),
+            indent=4,
+        )
+    if args.get("instantiate"):
+        indata = list(yaml.load_all(open(args["<inputfile>"], encoding="utf-8")))
+        outdata = []
+        for data in indata:
+            identifier = "{set[species]} {set[setname]}".format(set=data)
+            data = instantiate_pokeset(data)
+            outdata.append(data)
+        json.dump(
             outdata,
             open(args["<outputfile>"], "w+", encoding="utf-8"),
             indent=4,

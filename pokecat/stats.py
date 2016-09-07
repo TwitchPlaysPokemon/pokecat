@@ -6,7 +6,8 @@ statnames = ("hp", "atk", "def", "spA", "spD", "spe")
 # some internal representations have speed stuck inbetween.
 statnames_internal = ("hp", "atk", "def", "spe", "spA", "spD")
 
-def calculate_stat(base, ev, iv, stattype, nature_id, level=100):
+
+def calculate_stat(base, ev, iv, stattype, nature, level=100):
     '''
     Calculated the actual stat of a Pokémon.
     Arguments:
@@ -19,7 +20,6 @@ def calculate_stat(base, ev, iv, stattype, nature_id, level=100):
         level: default 100. level of the Pokémon
     '''
     stattype = stattype.lower()
-    nature = NATURES[nature_id]
     is_hp = stattype == "hp"
     growth = base*2 + (ev // 4) + iv + (100 if is_hp else 0)
     stat = (10 if is_hp else 5) + (growth * level) // 100

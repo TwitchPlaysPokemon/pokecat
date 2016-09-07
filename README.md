@@ -12,4 +12,12 @@ Seel Physical> Didn't recognize ball Poke, but assumed Poké Ball.
 Seel Physical> Set is shiny, but also biddable, which means it is not secret and usable in token matches at any time. Is this intended?
 ```
 
-Correctable errors simply print warnings as you see. When the inputfile was successfully parsed, it produces the file `example_populated.yaml`. That file includes the same data, but populated to include all the optional fields and have things previously just identified by name or id be expanded into proper objects (like moves).
+Correctable errors simply print warnings as you see. When the inputfile was successfully parsed, it produces the file [`example_populated.yaml`](example_populated.yaml). That file includes the same data, but populated to include all the optional fields and have things previously just identified by name or id be expanded into proper objects according to [this specification](unified_objects.md).
+
+To instantiate a populated list of sets (reduce lists of options of e.g. multiple items or moves to one concrete object), use this command:
+
+```
+$ python -m pokecat instantiate example_populated.yaml example_instantiated.json
+```
+
+This command produces the file [`example_instantiated.json`](example_instantiated.json). Note that this command currently outputs the data in JSON-format instead of YAML. This is due to compatibility reasons with pbrEngine and might change in the future. 
