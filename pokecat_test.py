@@ -26,9 +26,9 @@ class PokecatTester(unittest.TestCase):
 
     def test_warning_lowercase_keys(self):
         doc = load_test_doc("_template")
-        doc["Ingamename"] = doc["ingamename"]
-        del doc["ingamename"]
-        with self.assertWarnsRegex(UserWarning, r"Key should be all lowercase: Ingamename"):
+        doc["Species"] = doc["species"]
+        del doc["species"]
+        with self.assertWarnsRegex(UserWarning, r"Key should be all lowercase: Species"):
             pokecat.populate_pokeset(doc)
 
     def test_fields_missing(self):
@@ -48,6 +48,21 @@ class PokecatTester(unittest.TestCase):
         doc["ingamename"] = "BULBASAURRRR"
         with self.assertRaisesRegex(ValueError, r"ingamename must be between 1 and 10 characters long: BULBASAURRRR"):
             pokecat.populate_pokeset(doc)
+
+    def test_default_ingamename(self):
+        doc = load_test_doc("_template")
+        doc["species"] = "Typhlosion"
+        if "ingamename" in doc: del doc["ingamename"]
+        result = pokecat.populate_pokeset(doc)
+        self.assertEquals(result["ingamename"], "TYPHLOSION")
+
+    def test_default_shiny_ingamename(self):
+        doc = load_test_doc("_template")
+        doc["species"] = "Typhlosion"
+        doc["shiny"] = True
+        if "ingamename" in doc: del doc["ingamename"]
+        result = pokecat.populate_pokeset(doc)
+        self.assertEquals(result["ingamename"], "TYPHLOSI-S")
 
     def test_empty_setname(self):
         doc = load_test_doc("_template")

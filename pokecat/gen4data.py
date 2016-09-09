@@ -22,6 +22,8 @@ ABILITIES = list(_build_from_json_list("gen4data/abilities.json"))
 ITEMS     = list(_build_from_json_list("gen4data/items.json"))
 #ITEMS     = json.load(open(path.join(ROOT_DIR, "gen4data", "items.json"),     encoding="utf-8"))
 MOVES     = json.load(open(path.join(ROOT_DIR, "gen4data", "moves.json"),     encoding="utf-8"))
+# remove moves without ids
+MOVES     = [m for m in MOVES if m["id"] is not None]
 POKEDEX   = json.load(open(path.join(ROOT_DIR, "gen4data", "pokedex.json"),   encoding="utf-8"))
 
 NATURES   = json.load(open(path.join(ROOT_DIR, "globaldata", "natures.json"), encoding="utf-8"))

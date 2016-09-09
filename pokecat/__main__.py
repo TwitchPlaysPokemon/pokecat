@@ -2,6 +2,7 @@
 Usage:
   pokecat populate <inputfile> <outputfile>
   pokecat instantiate <inputfile> <outputfile>
+  pokecat genrandom <outputfile> [<amount>]
 
 Options:
   -h --help     Show this screen.
@@ -13,7 +14,9 @@ from docopt import docopt
 import json
 import yaml
 import warnings
-from . import populate_pokeset, instantiate_pokeset
+from . import (populate_pokeset,
+               instantiate_pokeset,
+               generate_random_pokemon)
 
 
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -42,7 +45,7 @@ def main():
             open(args["<outputfile>"], "w+", encoding="utf-8"),
             indent=4,
         )
-    if args.get("instantiate"):
+    elif args.get("instantiate"):
         indata = list(yaml.load_all(open(args["<inputfile>"], encoding="utf-8")))
         outdata = []
         for data in indata:
@@ -54,5 +57,14 @@ def main():
             open(args["<outputfile>"], "w+", encoding="utf-8"),
             indent=4,
         )
+    elif args.get("genrandom"):
+        num = int(args.get("<amount>") or 1)
+        pokemon = [generate_random_pokemon() for _ in range(num)]
+        json.dump(
+            pokemon,
+            open(args["<outputfile>"], "w+", encoding="utf-8"),
+            indent=4,
+        )
+
 
 main()

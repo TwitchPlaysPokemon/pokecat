@@ -12,8 +12,8 @@ from . import gen4data, forms, stats
 
 log = logging.getLogger(__name__)
 
-_OBLIGATORY_FIELDS = {"ingamename", "setname", "species", "ability", "nature", "ivs", "evs", "moves"}
-_OPTIONAL_FIELDS = {"gender": None, "form": 0, "item": None, "displayname": None, "happiness": 255, "shiny": False,
+_OBLIGATORY_FIELDS = {"setname", "species", "ability", "nature", "ivs", "evs", "moves"}
+_OPTIONAL_FIELDS = {"ingamename": None, "gender": None, "form": 0, "item": None, "displayname": None, "happiness": 255, "shiny": False,
                     "biddable": None, "rarity": 1.0, "ball": "Poké", "level": 100, "combinations": [], "separations": []}
 
 
@@ -89,8 +89,6 @@ def populate_pokeset(pokeset):
             pokeset[key] = default
 
     # check validity of names
-    if not 1 <= len(pokeset["ingamename"]) <= 10:
-        raise ValueError("ingamename must be between 1 and 10 characters long: %s" % pokeset["ingamename"])
     if not pokeset["setname"] or not isinstance(pokeset["setname"], str):
         raise ValueError("setname must be a non-empty string")
     if pokeset["displayname"] is not None:
@@ -105,6 +103,16 @@ def populate_pokeset(pokeset):
     if not perfect_match:
         warn("Didn't recognize species %s, but assumed %s." % (species_raw, species["name"]))
     pokeset["species"] = species
+
+    # replace None-default for ingamename
+    if pokeset["ingamename"] is None:
+        pokeset["ingamename"] = species["name"].upper()
+        if pokeset["shiny"]:
+            pokeset["ingamename"] = pokeset["ingamename"][:8] + "-S"
+    # check length of ingamename
+    if not 1 <= len(pokeset["ingamename"]) <= 10:
+        raise ValueError("ingamename must be between 1 and 10 characters long: %s" % pokeset["ingamename"])
+
 
     # check and populate ability. is a list
     ability = []
@@ -432,3 +440,24 @@ def instantiate_pokeset(pokeset):
     del instance["combinations"]
     del instance["separations"]
     return instance  # invalid instance though :(
+
+
+def generate_random_pokemon():
+    pokeset = {}
+    pokeset["species"] = random.randint(1, 493)
+    pokeset["setname"] = "Standard"
+    pokeset["ability"] = random.choice(gen4data.ABILITIES)["name"]
+    pokeset["nature"]  = random.choice(gen4data.NATURES)["name"]
+    pokeset["ivs"]     = {stat: random.randint(1, 31) for stat in stats.statnames}
+    pokeset["evs"]     = {stat: random.randint(0, 85//4)*4 for stat in stats.statnames}
+    random_moves       = random.sample(gen4data.MOVES,
+                                       random.choice([4, 4, 4, 4, 4, 3, 2, 1, 1]))
+    pokeset["moves"]   = [m["name"] for m in random_moves]
+    pokeset["shiny"]   = random.random() < 0.2
+    if random.random() < 0.3:
+        pokeset["item"] = random.choice(gen4data.ITEMS)["name"]
+    if random.random() < 0.8:
+        pokeset["gender"] = random.choice(["m", "f"])
+    populated = populate_pokeset(pokeset)
+    return instantiate_pokeset(populated)
+

@@ -75,9 +75,6 @@ All Pokémon, items and abilities must be from 4th generation or earlier, becaus
 
 ### Obligatory fields
 
-**ingamename**
-  : Name the Pokémon has ingame. Maximum of 10 characters. While not necessarily unique, Pokémon with the same ingame name cannot be on the same team due to technical limitations.
-
 **setname**
   : Defaults to "Standard". The name of the current set. Should be used to differentiate multiple sets of the same species, e.g. "Stadium 2", "Physical" or "High Attack". Should *not* be used to name formes like "A" as in Unown A or "Psychic" as in Arceus Psychic, as the form names get automatically added.
 
@@ -101,6 +98,9 @@ All Pokémon, items and abilities must be from 4th generation or earlier, becaus
   : The Pokémon's moves. Must contain a list of moves. Each move can either be a movename, a move number or a  *list of moves* to let RNG decide. Each move can additionally be followed by a number of `n` PP ups in the format `(+n)` and `m` fixed PP in the form of `(=m)`, or even both in the form `(+n/=m)`. For example `Detect (=1)`
 
 ### Optional fields
+
+**ingamename**
+  : Name the Pokémon has ingame. Defaults to the Species' name in uppercase, ending in `-S` if shiny. Maximum of 10 characters, therefore the default might have a shortened species name (e.g. `TYPHLOSI-S` for shiny Typhlosion). Can only contain ASCII characters and the male/female sign. While not necessarily unique, Pokémon with the same ingame name cannot be in the same match due to technical limitations.
 
 **gender**
   : Defaults to null (no gender). Can also be "m" and "f", or a *list of genders* (e.g. `[m, w]`) to let RNG decide.
