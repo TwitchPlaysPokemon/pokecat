@@ -442,7 +442,7 @@ def instantiate_pokeset(pokeset):
     return instance  # invalid instance though :(
 
 
-def generate_random_pokemon():
+def generate_random_pokeset():
     pokeset = {}
     pokeset["species"] = random.randint(1, 493)
     pokeset["setname"] = "Standard"
@@ -458,6 +458,9 @@ def generate_random_pokemon():
         pokeset["item"] = random.choice(gen4data.ITEMS)["name"]
     if random.random() < 0.8:
         pokeset["gender"] = random.choice(["m", "f"])
-    populated = populate_pokeset(pokeset)
-    return instantiate_pokeset(populated)
+    return populate_pokeset(pokeset)
+
+def generate_random_pokemon():
+    pokeset = generate_random_pokeset()
+    return instantiate_pokeset(pokeset)
 

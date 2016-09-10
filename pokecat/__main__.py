@@ -2,7 +2,8 @@
 Usage:
   pokecat populate <inputfile> <outputfile>
   pokecat instantiate <inputfile> <outputfile>
-  pokecat genrandom <outputfile> [<amount>]
+  pokecat genpokesets <outputfile> [<amount>]
+  pokecat genpokemon <outputfile> [<amount>]
 
 Options:
   -h --help     Show this screen.
@@ -16,6 +17,7 @@ import yaml
 import warnings
 from . import (populate_pokeset,
                instantiate_pokeset,
+               generate_random_pokeset,
                generate_random_pokemon)
 
 
@@ -57,7 +59,15 @@ def main():
             open(args["<outputfile>"], "w+", encoding="utf-8"),
             indent=4,
         )
-    elif args.get("genrandom"):
+    elif args.get("genpokesets"):
+        num = int(args.get("<amount>") or 1)
+        pokesets = [generate_random_pokeset() for _ in range(num)]
+        yaml.dump(
+            pokesets,
+            open(args["<outputfile>"], "w+", encoding="utf-8"),
+            indent=4,
+        )
+    elif args.get("genpokemon"):
         num = int(args.get("<amount>") or 1)
         pokemon = [generate_random_pokemon() for _ in range(num)]
         json.dump(

@@ -22,13 +22,21 @@ $ python -m pokecat instantiate example_populated.yaml example_instantiated.json
 
 This command produces the file [`example_instantiated.json`](example_instantiated.json). Note that this command currently outputs the data in JSON-format instead of YAML. This is due to compatibility reasons with pbrEngine and might change in the future. 
 
-To produce a list of completely random Pokémon, usually for testing, use the `genrandom` command:
+To produce a list of completely random Pokésets, use the `genpokesets` command:
 
 ```
-$ python -m pokecat genrandom random.json 6
+$ python -m pokecat genpokesets random_pokesets.yaml 6
 ```
 
-This produces a file `random.json` containing a list of 6 random Pokémon, structured the same as the output of `instantiate`.
+This produces a file `random_pokesets.yaml` containing a list of 6 random Pokémon, structured the same as the output of `populate`.
+
+To produce a list of completely random Pokémon, usually for testing, use the `genpokemon` command:
+
+```
+$ python -m pokecat genpokemon random_pokemon.json 6
+```
+
+This produces a file `random_pokemon.json` containing a list of 6 random Pokémon, structured the same as the output of `instantiate`.
 
 All commands are also available as python functions:
 
@@ -46,6 +54,9 @@ pokeset = {
 populated      = pokecat.populate_pokeset(pokeset)
 pokemon        = pokecat.instantiate_pokeset(populated)
 print(pokemon)
+
+random_pokeset = pokecat.generate_random_pokeset()
+print(random_pokeset)
 
 random_pokemon = pokecat.generate_random_pokemon()
 print(random_pokemon)
