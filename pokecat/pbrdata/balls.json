@@ -1,0 +1,83 @@
+
+[
+    {
+        "id": 1,
+        "name": "Master Ball",
+        "descriptions": ""
+    },
+    {
+        "id": 2,
+        "name": "Ultra Ball",
+        "descriptions": ""
+    },
+    {
+        "id": 3,
+        "name": "Great Ball",
+        "descriptions": ""
+    },
+    {
+        "id": 4,
+        "name": "Pok\u00e9 Ball",
+        "descriptions": ""
+    },
+    {
+        "id": 5,
+        "name": "Safari Ball",
+        "descriptions": ""
+    },
+    {
+        "id": 6,
+        "name": "Net Ball",
+        "descriptions": ""
+    },
+    {
+        "id": 7,
+        "name": "Dive Ball",
+        "descriptions": ""
+    },
+    {
+        "id": 8,
+        "name": "Nest Ball",
+        "descriptions": ""
+    },
+    {
+        "id": 9,
+        "name": "Repeat Ball",
+        "descriptions": ""
+    },
+    {
+        "id": 10,
+        "name": "Timer Ball",
+        "descriptions": ""
+    },
+    {
+        "id": 11,
+        "name": "Luxury Ball",
+        "descriptions": ""
+    },
+    {
+        "id": 12,
+        "name": "Premier Ball",
+        "descriptions": ""
+    },
+    {
+        "id": 13,
+        "name": "Dusk Ball",
+        "descriptions": ""
+    },
+    {
+        "id": 14,
+        "name": "Heal Ball",
+        "descriptions": ""
+    },
+    {
+        "id": 15,
+        "name": "Quick Ball",
+        "descriptions": ""
+    },
+    {
+        "id": 16,
+        "name": "Cherish Ball",
+        "descriptions": ""
+    }
+]

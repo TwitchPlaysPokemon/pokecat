@@ -21,13 +21,14 @@ ABILITIES = list(_build_from_json_list("gen4data/abilities.json"))
 #ABILITIES = json.load(open(path.join(ROOT_DIR, "gen4data", "abilities.json"), encoding="utf-8"))
 ITEMS     = list(_build_from_json_list("gen4data/items.json"))
 #ITEMS     = json.load(open(path.join(ROOT_DIR, "gen4data", "items.json"),     encoding="utf-8"))
-MOVES     = json.load(open(path.join(ROOT_DIR, "gen4data", "moves.json"),     encoding="utf-8"))
+MOVES     = json.load(open(path.join(ROOT_DIR, "gen4data", "moves.json"), encoding="utf-8"))
 # remove moves without ids
 MOVES     = [m for m in MOVES if m["id"] is not None]
-POKEDEX   = json.load(open(path.join(ROOT_DIR, "gen4data", "pokedex.json"),   encoding="utf-8"))
+BALLS     = json.load(open(path.join(ROOT_DIR, "pbrdata",  "balls.json"), encoding="utf-8"))
+POKEDEX   = json.load(open(path.join(ROOT_DIR, "gen4data", "pokedex.json"), encoding="utf-8"))
 
 NATURES   = json.load(open(path.join(ROOT_DIR, "globaldata", "natures.json"), encoding="utf-8"))
-TYPES     = json.load(open(path.join(ROOT_DIR, "globaldata", "types.json"),   encoding="utf-8"))
+TYPES     = json.load(open(path.join(ROOT_DIR, "globaldata", "types.json"), encoding="utf-8"))
 
 DEOXYS_BASESTATS     = json.load(open(path.join(ROOT_DIR, "globaldata", "deoxys_basestats.json"), encoding="utf-8"))
 NATURAL_GIFT_EFFECTS = json.load(open(path.join(ROOT_DIR, "globaldata", "natural_gift_effects.json"), encoding="utf-8"))
@@ -46,18 +47,13 @@ def _get_exact(lst, name, namegetter=lambda x:x):
             return item
     return None
 
+_ball_namegetter = lambda b: b["name"].rsplit(" Ball", 1)[0]
 get_ability = partial(_get_exact, ABILITIES, namegetter=itemgetter("name"))
 get_item    = partial(_get_exact, ITEMS,     namegetter=itemgetter("name"))
 get_move    = partial(_get_exact, MOVES,     namegetter=itemgetter("name"))
 get_nature  = partial(_get_exact, NATURES,   namegetter=itemgetter("name"))
 get_pokemon = partial(_get_exact, POKEDEX,   namegetter=itemgetter("name"))
-def get_ball(ballname):
-    for item in ITEMS:
-        if not item or not item["name"]:
-            continue
-        if item["name"].endswith(" Ball") and item["name"][:-5] == ballname:
-            return item
-    return None
+get_ball    = partial(_get_exact, BALLS,     namegetter=_ball_namegetter)
 
 def _find_similar(lst, name, min_similarity=0.75, namegetter=lambda x:x, idgetter=None):
     '''
@@ -91,11 +87,4 @@ find_item    = partial(_find_similar, ITEMS,     namegetter=itemgetter("name"), 
 find_move    = partial(_find_similar, MOVES,     namegetter=itemgetter("name"), idgetter=itemgetter("id"))
 find_nature  = partial(_find_similar, NATURES,   namegetter=itemgetter("name"))
 find_pokemon = partial(_find_similar, POKEDEX,   namegetter=itemgetter("name"), idgetter=itemgetter("id"))
-def find_ball(ballname, min_similarity=0.75):
-    balls = {}
-    for index, item in enumerate(ITEMS):
-        if not item or not item["name"]:
-            continue
-        if item["name"].endswith(" Ball") and ratio(item["name"][:-5], ballname) >= min_similarity:
-            balls[index] = item
-    return balls
+find_ball    = partial(_find_similar, BALLS,     namegetter=_ball_namegetter,   idgetter=itemgetter("id"))

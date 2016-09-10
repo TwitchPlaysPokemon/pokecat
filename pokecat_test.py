@@ -213,8 +213,8 @@ class PokecatTester(unittest.TestCase):
     def test_invalid_ball(self):
         doc = load_test_doc("_template")
         doc["ball"] = "Iron"  # Iron Ball isn't a Pokéball
-        #with self.assertRaisesRegex(ValueError, "Unrecognized ball: Iron"):
-        #    pokecat.populate_pokeset(doc)
+        with self.assertRaisesRegex(ValueError, "Unrecognized ball: Iron"):
+            pokecat.populate_pokeset(doc)
 
     def test_gender(self):
         doc = load_test_doc("_template")
