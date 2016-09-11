@@ -145,7 +145,6 @@ def populate_pokeset(pokeset):
     pokeset["item"] = item
 
     # check and populate ball. is a list
-    # TODO check against ball-list, not item-list.
     ball = []
     ball_raw = pokeset["ball"]
     if not isinstance(ball_raw, list):
@@ -275,7 +274,7 @@ def populate_pokeset(pokeset):
                 # TODO make Natural Gift work with item-list
                 if len(item) > 1:
                     raise ValueError("Pokémon with Natural Gift as move option currently must have a fixed item")
-                ng_type, ng_power = gen4data.NATURAL_GIFT_EFFECTS.get(item[0], ["Normal", 0])
+                ng_type, ng_power = gen4data.NATURAL_GIFT_EFFECTS.get(item[0]["name"], ["Normal", 0])
                 move_single["power"] = ng_power
                 move_single["type"] = ng_type
                 move_single["displayname"] = "NG {} [{}]".format(ng_type, ng_power)

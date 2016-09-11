@@ -369,6 +369,21 @@ class PokecatTester(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, r"rarity must be a number greater or equal to 0.0"):
             pokecat.populate_pokeset(doc)
 
+    def test_judgment(self):
+        doc = load_test_doc("_template")
+        doc["item"] = "Flame Plate"
+        doc["moves"] = ["Judgment"]
+        result = pokecat.populate_pokeset(doc)
+        self.assertEqual(result["moves"][0][0]["type"], "Fire")
+
+    def test_natural_gift(self):
+        doc = load_test_doc("_template")
+        doc["item"] = "Colbur Berry"
+        doc["moves"] = ["Natural Gift"]
+        result = pokecat.populate_pokeset(doc)
+        self.assertEqual(result["moves"][0][0]["type"], "Dark")
+        self.assertEqual(result["moves"][0][0]["power"], 60)
+
     # todo test forms, displaynames with forms, moves, special cases, combinations and separations.
     # and whatever isn't tested yet as well
 
