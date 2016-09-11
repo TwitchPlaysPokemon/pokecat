@@ -10,7 +10,7 @@ setup(
     version=__version__,
     packages=find_packages(),
     package_dir={"pokecat": "pokecat"},
-    package_data={"pokecat": ["gen4data/*.json", "globaldata/*.json"]},
+    package_data={"pokecat": ["gen4data/*.json", "globaldata/*.json", "pbrdata/*.json"]},
     data_files=[("", ["VERSION"])],
     install_requires=['pyyaml', 'python-Levenshtein', 'docopt'],
 
