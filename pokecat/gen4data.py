@@ -9,7 +9,8 @@ from Levenshtein import ratio #@UnresolvedImport
 ROOT_DIR = path.dirname(path.abspath(__file__))
 
 def _build_from_json_list(filename):
-    list_ = json.load(open(path.join(ROOT_DIR, filename), encoding="utf-8"))
+    with open(path.join(ROOT_DIR, filename), "r", encoding="utf-8") as f:
+        list_ = json.load(f)
     for i, item in enumerate(list_):
         yield {
             "id": i,
@@ -17,22 +18,23 @@ def _build_from_json_list(filename):
             "description": "",
         }
 
+def _load_from_json_list(filename):
+    with open(path.join(ROOT_DIR, filename), "r", encoding="utf-8") as f:
+        return json.load(f)
+
 ABILITIES = list(_build_from_json_list("gen4data/abilities.json"))
-#ABILITIES = json.load(open(path.join(ROOT_DIR, "gen4data", "abilities.json"), encoding="utf-8"))
 ITEMS     = list(_build_from_json_list("gen4data/items.json"))
-#ITEMS     = json.load(open(path.join(ROOT_DIR, "gen4data", "items.json"),     encoding="utf-8"))
-MOVES     = json.load(open(path.join(ROOT_DIR, "gen4data", "moves.json"), encoding="utf-8"))
+MOVES     = _load_from_json_list("gen4data/moves.json")
 # remove moves without ids
 MOVES     = [m for m in MOVES if m["id"] is not None]
-BALLS     = json.load(open(path.join(ROOT_DIR, "pbrdata",  "balls.json"), encoding="utf-8"))
-POKEDEX   = json.load(open(path.join(ROOT_DIR, "gen4data", "pokedex.json"), encoding="utf-8"))
+BALLS     = _load_from_json_list("pbrdata/balls.json")
+POKEDEX   = _load_from_json_list("gen4data/pokedex.json")
 
-NATURES   = json.load(open(path.join(ROOT_DIR, "globaldata", "natures.json"), encoding="utf-8"))
-TYPES     = json.load(open(path.join(ROOT_DIR, "globaldata", "types.json"), encoding="utf-8"))
+NATURES   = _load_from_json_list("globaldata/natures.json")
+TYPES     = _load_from_json_list("globaldata/types.json")
 
-DEOXYS_BASESTATS     = json.load(open(path.join(ROOT_DIR, "globaldata", "deoxys_basestats.json"), encoding="utf-8"))
-NATURAL_GIFT_EFFECTS = json.load(open(path.join(ROOT_DIR, "globaldata", "natural_gift_effects.json"), encoding="utf-8"))
-
+DEOXYS_BASESTATS     = _load_from_json_list("globaldata/deoxys_basestats.json")
+NATURAL_GIFT_EFFECTS = _load_from_json_list("globaldata/natural_gift_effects.json")
 
 
 def _get_exact(lst, name, namegetter=lambda x:x):
