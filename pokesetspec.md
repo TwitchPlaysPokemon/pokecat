@@ -100,7 +100,7 @@ All Pokémon, items and abilities must be from 4th generation or earlier, becaus
 ### Optional fields
 
 **ingamename**
-  : Name the Pokémon has ingame. Defaults to the Species' name in uppercase, ending in `-S` if shiny. Maximum of 10 characters, therefore the default might have a shortened species name (e.g. `TYPHLOSI-S` for shiny Typhlosion). Can only contain ASCII characters and the male/female sign. While not necessarily unique, Pokémon with the same ingame name cannot be in the same match due to technical limitations.
+  : Name the Pokémon has ingame. Defaults to the Species' name in uppercase, ending in `-S` if shiny. Maximum of 10 characters, therefore the default might have a shortened species name (e.g. `TYPHLOSI-S` for shiny Typhlosion). Can only contain ASCII characters and the male/female sign. While not necessarily unique, Pokémon with the same ingame name cannot be in the same match due to technical limitations. Due to this, the ingamename might ultimately get altered when used in a match (e.g. appending numbers to make it unique).
 
 **gender**
   : Defaults to null (no gender). Can also be "m" and "f", or a *list of genders* (e.g. `[m, w]`) to let RNG decide.
