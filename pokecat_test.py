@@ -144,6 +144,12 @@ class PokecatTester(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "Unrecognized ability: Invincibility"):
             pokecat.populate_pokeset(doc)
 
+    def test_no_ability(self):
+        doc = load_test_doc("_template")
+        doc["ability"] = None
+        result = pokecat.populate_pokeset(doc)
+        self.assertEqual(result["ability"], [{"id": 0, "description": "", "name": None}])
+
     def test_item(self):
         doc = load_test_doc("_template")
         doc["item"] = "Sitrus Berry"
