@@ -1,4 +1,5 @@
 
+from contextlib import suppress
 
 from .objects import (Species, Stats, Nature, Item,
                       Ability, Pokemon, Move, Type)
@@ -49,26 +50,41 @@ def get_category_number(category):
     raise ValueError("Category must be Physical, Special or Status")
 
 
+def construct_stats_from_dict(stats):
+    stats["def_"] = stats["def"]
+    del stats["def"]
+    return Stats(**stats)
+
+
 def construct_pokemon_from_dict(data):
     map_ = {
         "ivs": Stats,
         "evs": Stats,
+        "stats": Stats,
         "nature": Nature,
         "item": Item,
+        "ball": Item,
         "ability": Ability,
     }
     for key, object_class in map_.items():
         thing = data.get(key)
         if thing:
-            data[key] = object_class(**thing)
+            if object_class == Stats:
+                data[key] = construct_stats_from_dict(thing)
+            else:
+                data[key] = object_class(**thing)
     species = data["species"]
     if species:
-        species["basestats"] = Stats(**species["basestats"])
-        data["species"] = Species(**species["basestats"])
+        species["basestats"] = construct_stats_from_dict(species["basestats"])
+        species["types"] = tuple(species["types"])
+        data["species"] = Species(**species)
     moves = data["moves"]
     for i, move in enumerate(moves):
         if not move:
             continue
+        with suppress(KeyError):
+            del move["name_id"]
         moves[i] = Move(**move)
+    data["moves"] = tuple(moves)
     return Pokemon(**data)
 

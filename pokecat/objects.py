@@ -3,80 +3,40 @@ import re
 from enum import IntEnum
 from collections import namedtuple
 
-from .stats import calculate_stat, statnames
-
 
 Species = namedtuple("Species", ["id", "name", "basestats", "types"])
 Ability = namedtuple("Ability", ["id", "name", "description"])
+Ability.__new__.__defaults__ = ("",)
 Item    = namedtuple("Item",    ["id", "name", "description"])
-Nature  = namedtuple("Nature",  ["id", "name", "descriptions", "increased", "decreased"])
+Item.__new__.__defaults__ = ("",)
+Nature  = namedtuple("Nature",  ["id", "name", "increased", "decreased", "descriptions"])
+Nature.__new__.__defaults__ = ("",)
 
+Species = namedtuple("Species", ["id", "name", "basestats", "types"])
+def species_asdict(species):
+    return {
+        "id": species.id,
+        "name": species.name,
+        "basestats": species.basestats._asdict(),
+        "types": species.types,
+    }
+Species._asdict = species_asdict
 
-class Species:
-    def __init__(self, id, name, basestats, types):
-        self.id = id,
-        self.name = name,
-        self.basestats = basestats
-        self.types = types
+Stats = namedtuple("Stats", ["hp", "atk", "def_", "spA", "spD", "spe"])
+def stats_asdict(stats):
+    return {
+        "hp": stats.hp,
+        "atk": stats.atk,
+        "def": stats.def_,
+        "spA": stats.spA,
+        "spD": stats.spD,
+        "spe": stats.spe,
+    }
+Stats._asdict = stats_asdict
 
-    def asdict(self):
-        return {
-            "id": self.id,
-            "name": self.name,
-            "basestats": self.basestats.asdict(),
-            "types": self.types,
-        }
-
-
-class Stats:
-    def __init__(self, hp=0, atk=0, def_=0, spA=0, spD=0, spe=0):
-        self.hp = hp
-        self.atk = atk
-        self.def_ = def_
-        self.spA = spA
-        self.spD = spD
-        self.spe = spe
-
-    def calculate(self, ev, iv, stattype, nature, level=100):
-        stats_calculated = {}
-        for statname in statnames:
-            base = getattr(self, statname)
-            val = calculate_stat(base, ev, iv, stattype, nature, level)
-            stats_calculated[statname] = val
-        return Stats(**stats_calculated)
-    
-    def asdict(self):
-        dict_ = {}
-        for statname in statnames:
-            dict_[statname] = getattr(self, statname)
-        return dict_
-
-
-class Move:
-    def __init__(self, id, category, type, accuracy, name, power, pp, pp_ups=0, name_id=None):
-        self.id = id
-        self.category = category
-        self.type = type
-        self.accuracy = accuracy
-        self.name = name
-        self.power = power
-        self.pp = pp
-        self.pp_ups = pp_ups
-        self.name_id = name_id or re.sub(r"[ _-]", "", name)
-
-    def asdict(self):
-        return {
-            "id": self.id,
-            "category": self.category,
-            "type": self.type,
-            "accuracy": self.accuracy,
-            "name": self.name,
-            "power": self.power,
-            "pp": self.pp,
-            "pp_ups": self.pp_ups,
-            "name_id": self.name_id,
-        }
-
+Move = namedtuple("Move", ["id", "category", "type", "accuracy", "name", "displayname", "power", "pp", "pp_ups"])
+Move.name_id = property(lambda self: re.sub(r"[^a-zA-Z0-9]", "", self.name).lower())
+Move.__new__.__defaults__ = (0,)
 
 class Type(IntEnum):
     Normal   = 0
@@ -99,48 +59,34 @@ class Type(IntEnum):
     Fairy    = 17
     Unknown  = 18
 
-
 class Category(IntEnum):
     Physical = 0
     Special  = 1
     Status   = 2
 
-
-class Pokemon:
-    def __init__(self, species, moves, ivs, evs, gender, level, nature,
-                 item=None, ability=None, form=0, shiny=False, happiness=0,
-                 **kwargs):
-        # obligatory
-        self.species = species
-        self.moves   = moves
-        self.ivs     = ivs
-        self.evs     = evs
-        self.gender  = gender
-        self.level   = level
-        self.nature  = nature
-        # optional
-        self.item    = item
-        self.ability = ability
-        self.form    = form
-        self.shiny   = shiny
-        self.happiness = happiness
-        # extra data
-        self.extra   = kwargs
-
-    def asdict(self):
-        return {
-            "species": self.species.asdict(),
-            "moves": [move.asdict() for move in self.moves],
-            "ivs": self.ivs.asdict(),
-            "evs": self.evs.asdict(),
-            "gender": self.gender,
-            "level": self.level,
-            "nature": self.nature,
-            "item": self.item._asdict(),
-            "ability": self.ability._asdict(),
-            "form": self.form,
-            "shiny": self.shiny,
-            "happiness": self.happiness,
-            "extra": self.extra,
-        }
-
+Pokemon = namedtuple("Pokemon", ["species", "moves", "ivs", "evs", "gender", "level", "nature", "stats", "rarity", "setname", "biddable", "displayname", "ingamename", "item", "ability", "form", "shiny", "happiness", "ball"])
+Pokemon.__new__.__defaults__ = (0.0, "", False, "", "", None, None, None, 0, False, 0, None)
+def pokemon_asdict(pokemon):
+    return {
+        "species": pokemon.species._asdict(),
+        "moves": [move._asdict() for move in pokemon.moves],
+        "ivs": pokemon.ivs._asdict(),
+        "evs": pokemon.evs._asdict(),
+        "gender": pokemon.gender,
+        "level": pokemon.level,
+        "nature": pokemon.nature._asdict(),
+        "stats": pokemon.stats._asdict() if pokemon.stats else None,
+        "rarity": pokemon.rarity,
+        "setname": pokemon.setname,
+        "biddable": pokemon.biddable,
+        "displayname": pokemon.displayname,
+        "ingamename": pokemon.ingamename,
+        "item": pokemon.item._asdict() if pokemon.item else None,
+        "ability": pokemon.ability._asdict() if pokemon.ability else None,
+        "form": pokemon.form,
+        "shiny": pokemon.shiny,
+        "happiness": pokemon.happiness,
+        "ball": pokemon.ball._asdict() if pokemon.ball else None,
+    }
+Pokemon._asdict = pokemon_asdict
+Pokemon.id = property(lambda self: (self.species.id, self.setname))
