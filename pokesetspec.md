@@ -18,10 +18,8 @@ It must be possible to hint a set's chance to be chosen, in order to be able to 
 The data format used is [`YAML`](http://yaml.org/spec/1.1/), which mainly consists of key-value mappings. The order in which they appear is irrelevant, but it should be consistent to keep it readable. Full knowledge of YAML is not needed to be able to edit Pokémon sets, as it is very simple and can be learned by just copying from existing sets. Here's an example of a minimal Pokémon set:
 
 ```
-ingamename: ARCEUS-FIR
 species: Arceus
 setname: Standard
-item: Flame Plate
 ability: Multitype
 nature: Modest
 ivs: 0
@@ -33,7 +31,7 @@ moves:
     - Sunny Day
 ```
 
-Here's an example of a Pokémon set with all features being used:
+Here's an example of a Pokémon set with (almost) all features being used:
 
 ```
 ingamename: SEEL-PH
@@ -76,7 +74,7 @@ All Pokémon, items and abilities must be from 4th generation or earlier, becaus
 ### Obligatory fields
 
 **setname**
-  : Defaults to "Standard". The name of the current set. Should be used to differentiate multiple sets of the same species, e.g. "Stadium 2", "Physical" or "High Attack". Should *not* be used to name formes like "A" as in Unown A or "Psychic" as in Arceus Psychic, as the form names get automatically added.
+  : The name of the current set. Should be used to differentiate multiple sets of the same species, e.g. "Stadium 2", "Physical" or "High Attack". Should *not* be used to name formes like "A" as in Unown A or "Psychic" as in Arceus Psychic, as the form names get automatically added. The recommended name for a default set is "Standard".
 
 **species**
   : The Pokémon species. Can either be a Pokémon name or a National Pokédex number.
@@ -107,20 +105,21 @@ All Pokémon, items and abilities must be from 4th generation or earlier, becaus
   : *Note:* Mixing male and female with no gender in the same species can crash PBR. For each species (therefore also across all set for that species) agree on sticking to whether that species is genderless or not.
 
 **form**
-  : Defaults to `0`. Can be a form number, or a form name specific to a given Pokémon. The following form names are valid:
-    - Unown: A-Z, ? and !
-    - Burmy and Wormadam: Plant, Sandy, Trash
-    - Deoxys: Attack, Defense, Speed
+  : Defaults to `0`. Can be a form number, or a form name specific to a given Pokémon. The following form names are valid:  
+    - Unown: A-Z, ? and !  
+    - Burmy and Wormadam: Plant, Sandy, Trash  
+    - Deoxys: Attack, Defense, Speed  
     - Shellos and Gastrodon: West and East
 
 **item**
   : Defaults to `null` (no item). The Pokémon's held item. Can either be an item name or an item number. Can also be a *list of items* (e.g. `[Chesto Berry, Poison Barb]`) to let RNG decide.
 
 **displayname**
-  : *Recommended not to use*. Defaults to the species' name modified to include eventual form names. For example:
-    - Deoxys in attack form would get the display name "Deoxys Attack"
-    - Unown in A-Form would get the display name "Unown A"
-    - Arceus with the Multitype-ability the item Flame Plate (although not technically a form) would get the display name "Arceus Fire"
+  : *Recommended not to use*. Defaults to the species' name modified to include eventual form names. For example:  
+    - Deoxys in attack form would get the display name "Deoxys Attack"  
+    - Unown in A-Form would get the display name "Unown A"  
+    - Arceus with the Multitype-ability the item Flame Plate (although not technically a form) would get the display name "Arceus Fire".  
+    Specifying a custom displayname overwrites the generated one.
 
 **happiness**
   : Defaults to 255. The Pokémon's Friendship Value. Is used to determine the base power of the moves "Return" and "Frustration".
