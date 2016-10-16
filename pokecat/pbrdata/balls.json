@@ -3,81 +3,81 @@
     {
         "id": 1,
         "name": "Master Ball",
-        "descriptions": ""
+        "description": ""
     },
     {
         "id": 2,
         "name": "Ultra Ball",
-        "descriptions": ""
+        "description": ""
     },
     {
         "id": 3,
         "name": "Great Ball",
-        "descriptions": ""
+        "description": ""
     },
     {
         "id": 4,
         "name": "Pok\u00e9 Ball",
-        "descriptions": ""
+        "description": ""
     },
     {
         "id": 5,
         "name": "Safari Ball",
-        "descriptions": ""
+        "description": ""
     },
     {
         "id": 6,
         "name": "Net Ball",
-        "descriptions": ""
+        "description": ""
     },
     {
         "id": 7,
         "name": "Dive Ball",
-        "descriptions": ""
+        "description": ""
     },
     {
         "id": 8,
         "name": "Nest Ball",
-        "descriptions": ""
+        "description": ""
     },
     {
         "id": 9,
         "name": "Repeat Ball",
-        "descriptions": ""
+        "description": ""
     },
     {
         "id": 10,
         "name": "Timer Ball",
-        "descriptions": ""
+        "description": ""
     },
     {
         "id": 11,
         "name": "Luxury Ball",
-        "descriptions": ""
+        "description": ""
     },
     {
         "id": 12,
         "name": "Premier Ball",
-        "descriptions": ""
+        "description": ""
     },
     {
         "id": 13,
         "name": "Dusk Ball",
-        "descriptions": ""
+        "description": ""
     },
     {
         "id": 14,
         "name": "Heal Ball",
-        "descriptions": ""
+        "description": ""
     },
     {
         "id": 15,
         "name": "Quick Ball",
-        "descriptions": ""
+        "description": ""
     },
     {
         "id": 16,
         "name": "Cherish Ball",
-        "descriptions": ""
+        "description": ""
     }
 ]
