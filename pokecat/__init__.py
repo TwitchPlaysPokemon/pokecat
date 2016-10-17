@@ -6,6 +6,7 @@ from functools import partial
 import random
 import logging
 from warnings import warn
+from Levenshtein import ratio
 
 from . import utils, objects
 from . import gen4data, forms, stats
@@ -377,11 +378,29 @@ def populate_pokeset(pokeset):
                      + [p["name"] for p in pokeset["item"]]
                      + [a["name"] for a in pokeset["ability"]])
     for com in combinations:
-        if set(com) - all_things:
-            raise ValueError("All things referenced in combination must be present in set: %s" % ", ".join(com))
+        rest = set(com) - all_things
+        for r in list(rest):
+            for thing in all_things:
+                if ratio(thing, r) > 0.9:
+                    warn("Didn't recognize combination %s, but assumed %s." % (r, thing))
+                    rest.remove(r)
+                    com.remove(r)
+                    com.append(thing)
+                    break
+        if rest:
+            raise ValueError("All things referenced in combination must be present in set. Missing: %s" % ", ".join(rest))
     for sep in separations:
-        if set(sep) - all_things:
-            raise ValueError("All things referenced in separation must be present in set: %s" % ", ".join(sep))
+        rest = set(sep) - all_things
+        for r in list(rest):
+            for thing in all_things:
+                if ratio(thing, r) > 0.9:
+                    warn("Didn't recognize separation %s, but assumed %s." % (r, thing))
+                    rest.remove(r)
+                    sep.remove(r)
+                    sep.append(thing)
+                    break
+        if rest:
+            raise ValueError("All things referenced in separation must be present in set. Missing: %s" % ", ".join(rest))
     # TODO tolerate spelling mistakes. Levenshtein
     # TODO validate that the combinations and separations even allow for a functioning set to be generated
 
