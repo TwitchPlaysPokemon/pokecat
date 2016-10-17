@@ -6,6 +6,7 @@ from functools import partial
 import random
 import logging
 from warnings import warn
+from itertools import chain
 from Levenshtein import ratio
 
 from . import utils, objects
@@ -99,6 +100,8 @@ def populate_pokeset(pokeset):
 
     # check and populate species
     species_raw = pokeset["species"]
+    if species_raw is None:
+        raise ValueError("Invalid species: %s" % (species_raw,))
     species, perfect_match = _get_by_index_or_name(gen4data.POKEDEX, species_raw,
                                                    "species", gen4data.get_pokemon, gen4data.find_pokemon)
     if not perfect_match:
@@ -182,6 +185,8 @@ def populate_pokeset(pokeset):
 
     # check and populate nature. might be defined as "+atk -def" or similar
     nature_raw = pokeset["nature"]
+    if not isinstance(nature_raw, str):
+        raise ValueError("Invalid nature: %s" % (nature_raw,))
     stats_regex = "|".join(stats.statnames)
     match = re.match(r"^\+({0})\s+-((?:\1){0})$".format(stats_regex), nature_raw)
     if match:
@@ -200,8 +205,12 @@ def populate_pokeset(pokeset):
     ivs = pokeset["ivs"]
     if isinstance(ivs, int):
         ivs = {name: ivs for name in stats.statnames}
+    if not isinstance(ivs, dict):
+        raise ValueError("Invalid IVs: %s" % (ivs,))
     if set(stats.statnames) != set(ivs.keys()):
         raise ValueError("ivs must contain the following keys: %s" % ", ".join(stats.statnames))
+    if not all(isinstance(v, int) for v in ivs.values()):
+        raise ValueError("Invalid IV value in IVs: %s" % (ivs,))
     if not all(0 <= val <= 31 for val in ivs.values()):
         raise ValueError("All IVs must be between 0 and 31.")
     pokeset["ivs"] = ivs
@@ -209,8 +218,12 @@ def populate_pokeset(pokeset):
     evs = pokeset["evs"]
     if isinstance(evs, int):
         evs = {name: evs for name in stats.statnames}
+    if not isinstance(evs, dict):
+        raise ValueError("Invalid EVs: %s" % (evs,))
     if set(stats.statnames) != set(evs.keys()):
         raise ValueError("evs must contain the following keys: %s" % ", ".join(stats.statnames))
+    if not all(isinstance(v, int) for v in evs.values()):
+        raise ValueError("Invalid EV value in EVs: %s" % (evs,))
     if not all (0 <= val <= 252 for val in evs.values()):
         raise ValueError("All EVs must be between 0 and 252.")
     ev_sum = sum(val for val in evs.values())
@@ -250,44 +263,6 @@ def populate_pokeset(pokeset):
             pp = pp or move_single["pp"]
             pp = int(pp * (1 + 0.2 * pp_ups))
             move_single["pp"] = pp
-
-            # extra displayname, might differ due to special cases
-            move_single["displayname"] = move_single["name"]
-
-            # special case: Hidden Power. Fix type, power and displayname
-            if move_single["name"] == "Hidden Power":
-                a, b, c, d, e, f = [ivs[stat]%2 for stat in ("hp", "atk", "def", "spe", "spA", "spD")]
-                hp_type = ((a + 2*b + 4*c + 8*d + 16*e + 32*f)*15) // 63
-                move_single["type"] = ("Fighting", "Flying", "Poison", "Ground", "Rock", "Bug", "Ghost", "Steel", "Fire", "Water", "Grass", "Electric", "Psychic", "Ice", "Dragon", "Dark")[hp_type]
-                u, v, w, x, y, z = [(ivs[stat]>>1)%2 for stat in ("hp", "atk", "def", "spe", "spA", "spD")]
-                hp_power = ((u + 2*v + 4*w + 8*x + 16*y + 32*z) * 40)//63 + 30
-                move_single["power"] = hp_power
-                move_single["displayname"] = "HP {} [{}]".format(hp_type, hp_power)
-            # special case: Return and Frustration. Fix power and displayname
-            elif move_single["name"] == "Return":
-                move_single["power"] = max(1, int(pokeset["happiness"] / 2.5))
-                move_single["displayname"] += " [{}]".format(move_single["power"])
-            elif move_single["name"] == "Frustration":
-                move_single["power"] = max(1, int((255 - pokeset["happiness"]) / 2.5))
-                move_single["displayname"] += " [{}]".format(move_single["power"])
-            # special case: Natural Gift. Fix power, type and displayname
-            elif move_single["name"] == "Natural Gift":
-                # TODO make Natural Gift work with item-list
-                if len(item) > 1:
-                    raise ValueError("Pokémon with Natural Gift as move option currently must have a fixed item")
-                ng_type, ng_power = gen4data.NATURAL_GIFT_EFFECTS.get(item[0]["name"], ["Normal", 0])
-                move_single["power"] = ng_power
-                move_single["type"] = ng_type
-                move_single["displayname"] = "NG {} [{}]".format(ng_type, ng_power)
-            # special case: Judgment. fix type and displayname
-            elif move_single["name"] == "Judgment":
-                # TODO make Judgment work with item-list
-                if len(item) > 1:
-                    raise ValueError("Pokémon with Judgment as move option currently must have a fixed item")
-                judgment_type = forms.get_multitype_type(item[0])
-                move_single["type"] = judgment_type
-                move_single["displayname"] += " " + judgment_type
-
             move.append(move_single)
         moves.append(move)
     pokeset["moves"] = moves
@@ -367,16 +342,21 @@ def populate_pokeset(pokeset):
 
     # check combinations and separations
     combinations = pokeset["combinations"]
-    if not isinstance(combinations, list) and not all(isinstance(c, list) for c in combinations):
+    if not isinstance(combinations, list) or not all(isinstance(c, list) for c in combinations):
         raise ValueError("combinations must be a list of lists.")
+    if not all(isinstance(s, str) for s in chain(*combinations)):
+        raise ValueError("combination items must be strings")
     separations = pokeset["separations"]
-    if not isinstance(separations, list) and not all(isinstance(s, list) for s in separations):
+    if not isinstance(separations, list) or not all(isinstance(s, list) for s in separations):
         raise ValueError("separations must be a list of lists.")
+    if not all(isinstance(s, str) for s in chain(*separations)):
+        raise ValueError("separation items must be strings")
     movenames = sum([movelist for movelist in pokeset["moves"]], [])
     movenames = [move["name"] for move in movenames]
     all_things = set(movenames
                      + [p["name"] for p in pokeset["item"]]
                      + [a["name"] for a in pokeset["ability"]])
+    all_things.discard(None)
     for com in combinations:
         rest = set(com) - all_things
         for r in list(rest):
@@ -401,9 +381,7 @@ def populate_pokeset(pokeset):
                     break
         if rest:
             raise ValueError("All things referenced in separation must be present in set. Missing: %s" % ", ".join(rest))
-    # TODO tolerate spelling mistakes. Levenshtein
     # TODO validate that the combinations and separations even allow for a functioning set to be generated
-
     return pokeset
 
 
@@ -439,6 +417,39 @@ def instantiate_pokeset(pokeset):
     '''
     def instantiate(item, key):
         item[key] = random.choice(item[key])
+    def fix_moves(instance):
+        ivs = instance["ivs"]
+        for move in instance["moves"]:
+            # extra displayname, might differ due to special cases
+            move["displayname"] = move["name"]
+            
+            # special case: Hidden Power. Fix type, power and displayname
+            if move["name"] == "Hidden Power":
+                a, b, c, d, e, f = [ivs[stat]%2 for stat in ("hp", "atk", "def", "spe", "spA", "spD")]
+                hp_type = ((a + 2*b + 4*c + 8*d + 16*e + 32*f)*15) // 63
+                move["type"] = ("Fighting", "Flying", "Poison", "Ground", "Rock", "Bug", "Ghost", "Steel", "Fire", "Water", "Grass", "Electric", "Psychic", "Ice", "Dragon", "Dark")[hp_type]
+                u, v, w, x, y, z = [(ivs[stat]>>1)%2 for stat in ("hp", "atk", "def", "spe", "spA", "spD")]
+                hp_power = ((u + 2*v + 4*w + 8*x + 16*y + 32*z) * 40)//63 + 30
+                move["power"] = hp_power
+                move["displayname"] = "HP {} [{}]".format(hp_type, hp_power)
+            # special case: Return and Frustration. Fix power and displayname
+            elif move["name"] == "Return":
+                move["power"] = max(1, int(instance["happiness"] / 2.5))
+                move["displayname"] += " [{}]".format(move["power"])
+            elif move["name"] == "Frustration":
+                move["power"] = max(1, int((255 - instance["happiness"]) / 2.5))
+                move["displayname"] += " [{}]".format(move["power"])
+            # special case: Natural Gift. Fix power, type and displayname
+            elif move["name"] == "Natural Gift":
+                ng_type, ng_power = gen4data.NATURAL_GIFT_EFFECTS.get(instance["item"]["name"], ["Normal", 0])
+                move["power"] = ng_power
+                move["type"] = ng_type
+                move["displayname"] = "NG {} [{}]".format(ng_type, ng_power)
+            # special case: Judgment. fix type and displayname
+            elif move["name"] == "Judgment":
+                judgment_type = forms.get_multitype_type(instance["item"])
+                move["type"] = judgment_type
+                move["displayname"] += " " + judgment_type
     # brute-force valid set by rerolling until it is valid (sorry...)
     attempts = 0x2329  # random high number
     for _ in range(attempts):
@@ -452,11 +463,13 @@ def instantiate_pokeset(pokeset):
         if _check_restrictions(instance):
             del instance["combinations"]
             del instance["separations"]
+            fix_moves(instance)
             return instance
     log.critical("Was unable to generate instance of set that respects the "
                  "restrictions after %d attempts. Moveset: %s", attempts, pokeset)
     del instance["combinations"]
     del instance["separations"]
+    fix_moves(instance)
     return instance  # invalid instance though :(
 
 

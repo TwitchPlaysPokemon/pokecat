@@ -189,6 +189,12 @@ class PokecatTester(unittest.TestCase):
         result = pokecat.populate_pokeset(doc)
         self.assertEqual(result["item"], [{"id": 0, "description": "", "name": None}])
 
+    def test_no_item_in_list(self):
+        doc = load_test_doc("_template")
+        doc["item"] = [None, "Sitrus Berry"]
+        result = pokecat.populate_pokeset(doc)
+        self.assertEqual(result["item"], [{"id": 0, "description": "", "name": None}, {"id": 158, "description": "", "name": "Sitrus Berry"}])
+
     def test_ball(self):
         doc = load_test_doc("_template")
         doc["ball"] = "Master"
@@ -379,16 +385,18 @@ class PokecatTester(unittest.TestCase):
         doc = load_test_doc("_template")
         doc["item"] = "Flame Plate"
         doc["moves"] = ["Judgment"]
-        result = pokecat.populate_pokeset(doc)
-        self.assertEqual(result["moves"][0][0]["type"], "Fire")
+        resultset = pokecat.populate_pokeset(doc)
+        result = pokecat.instantiate_pokeset(resultset)
+        self.assertEqual(result["moves"][0]["type"], "Fire")
 
     def test_natural_gift(self):
         doc = load_test_doc("_template")
         doc["item"] = "Colbur Berry"
         doc["moves"] = ["Natural Gift"]
-        result = pokecat.populate_pokeset(doc)
-        self.assertEqual(result["moves"][0][0]["type"], "Dark")
-        self.assertEqual(result["moves"][0][0]["power"], 60)
+        resultset = pokecat.populate_pokeset(doc)
+        result = pokecat.instantiate_pokeset(resultset)
+        self.assertEqual(result["moves"][0]["type"], "Dark")
+        self.assertEqual(result["moves"][0]["power"], 60)
 
     # todo test forms, displaynames with forms, moves, special cases, combinations and separations.
     # and whatever isn't tested yet as well
