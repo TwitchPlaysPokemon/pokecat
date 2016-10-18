@@ -380,7 +380,7 @@ def populate_pokeset(pokeset):
     ambiguities = set(item for item, count in Counter(all_things).items() if count > 1)
     all_things = set(all_things)
     for com in combinations:
-        if com in ambiguities:
+        if any(c in ambiguities for c in com):
             raise ValueError("Can't use %s in combinations, as it is ambiguous." % (com,))
         rest = set(com) - all_things
         for r in list(rest):
@@ -397,7 +397,7 @@ def populate_pokeset(pokeset):
         if rest:
             raise ValueError("All things referenced in combination must be present in set. Missing: %s" % ", ".join(rest))
     for sep in separations:
-        if sep in ambiguities:
+        if any(s in ambiguities for s in sep):
             raise ValueError("Can't use %s in separations, as it is ambiguous." % (sep,))
         rest = set(sep) - all_things
         for r in list(rest):

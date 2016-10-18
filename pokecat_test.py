@@ -2,6 +2,7 @@
 import os
 import unittest
 import json
+import warnings
 import yaml
 
 import pokecat
@@ -397,6 +398,22 @@ class PokecatTester(unittest.TestCase):
         result = pokecat.instantiate_pokeset(resultset)
         self.assertEqual(result["moves"][0]["type"], "Dark")
         self.assertEqual(result["moves"][0]["power"], 60)
+
+    def test_insignificant_spelling_mistake(self):
+        doc = load_test_doc("_template")
+        doc["item"] = "Blackbelt"  # actually "Black Belt"
+        with warnings.catch_warnings(record=True) as w:
+            pokecat.populate_pokeset(doc)
+            self.assertEqual(len(w), 0)
+
+    def test_insignificant_spelling_mistake_in_combination(self):
+        doc = load_test_doc("_template")
+        doc["moves"] = ["Pound"]
+        doc["item"] = "Black Belt"
+        doc["combinations"] = [["Pound", "Blackbelt"]]  # should get recognized
+        with warnings.catch_warnings(record=True) as w:
+            pokecat.populate_pokeset(doc)
+            self.assertEqual(len(w), 0)
 
     # todo test forms, displaynames with forms, moves, special cases, combinations and separations.
     # and whatever isn't tested yet as well
