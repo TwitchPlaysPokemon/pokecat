@@ -44,8 +44,11 @@ def _get_by_index_or_name(lst, index_or_name, name_of_thing, get_func, find_func
         thing = get_func(index_or_name)
         if not thing:
             candidates = find_func(index_or_name)
-            if not candidates or len(candidates) > 1:
+            if not candidates:
                 raise ValueError("Unrecognized %s: %s" % (name_of_thing, index_or_name))
+            if len(candidates) > 1:
+                raise ValueError("Unrecognized %s: %s, autocorrection was ambiguous: %s"
+                                 % (name_of_thing, index_or_name, ", ".join(n["name"] for n in candidates.values())))
             thing = next(iter(candidates.values()))
             # special case: "ball" is not appended for balls
             if name_of_thing == "ball":
