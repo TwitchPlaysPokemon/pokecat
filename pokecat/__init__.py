@@ -9,6 +9,7 @@ from warnings import warn
 from itertools import chain
 from Levenshtein import ratio
 from difflib import ndiff
+from collections import Counter
 
 from . import utils, objects
 from . import gen4data, forms, stats
@@ -372,16 +373,21 @@ def populate_pokeset(pokeset):
     if not all(isinstance(s, str) for s in chain(*separations)):
         raise ValueError("separation items must be strings")
     movenames = sum([movelist for movelist in pokeset["moves"]], [])
-    movenames = [move["name"].lower() for move in movenames]
-    all_things = set(movenames
-                     + [p["name"].lower() for p in pokeset["item"]]
-                     + [a["name"].lower() for a in pokeset["ability"]])
-    all_things.discard(None)
+    movenames = [move["name"] for move in movenames]
+    all_things = (movenames
+                  + [p["name"] for p in pokeset["item"]]
+                  + [a["name"] for a in pokeset["ability"]])
+    ambiguities = set(item for item, count in Counter(all_things).items() if count > 1)
+    all_things = set(all_things)
     for com in combinations:
+        if com in ambiguities:
+            raise ValueError("Can't use %s in combinations, as it is ambiguous." % (com,))
         rest = set(com) - all_things
         for r in list(rest):
-            for thing in all_things:
-                if ratio(thing, r.lower()) > 0.9:
+            if not r:
+                continue
+            for thing in all_things - set([None]):
+                if ratio(thing.lower(), r.lower()) > 0.9:
                     if is_difference_significant(thing, r):
                         warn("Didn't recognize combination %s, but assumed %s." % (r, thing))
                     rest.remove(r)
@@ -391,10 +397,14 @@ def populate_pokeset(pokeset):
         if rest:
             raise ValueError("All things referenced in combination must be present in set. Missing: %s" % ", ".join(rest))
     for sep in separations:
+        if sep in ambiguities:
+            raise ValueError("Can't use %s in separations, as it is ambiguous." % (sep,))
         rest = set(sep) - all_things
         for r in list(rest):
-            for thing in all_things:
-                if ratio(thing, r.lower()) > 0.9:
+            if not r:
+                continue
+            for thing in all_things - set([None]):
+                if ratio(thing.lower(), r.lower()) > 0.9:
                     if is_difference_significant(thing, r):
                         warn("Didn't recognize separation %s, but assumed %s." % (r, thing))
                     rest.remove(r)
