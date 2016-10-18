@@ -75,7 +75,7 @@ def _find_similar(lst, name, min_similarity=0.75, namegetter=lambda x:x, idgette
             id_ = idgetter(item)
         else:
             id_ = index
-        similarity = ratio(name, actual_name)
+        similarity = ratio(name.lower(), actual_name.lower())
         if similarity - highest_similarity > 0.1:
             # the rest isn't close enough, ditch them
             entries.clear()

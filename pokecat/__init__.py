@@ -372,16 +372,16 @@ def populate_pokeset(pokeset):
     if not all(isinstance(s, str) for s in chain(*separations)):
         raise ValueError("separation items must be strings")
     movenames = sum([movelist for movelist in pokeset["moves"]], [])
-    movenames = [move["name"] for move in movenames]
+    movenames = [move["name"].lower() for move in movenames]
     all_things = set(movenames
-                     + [p["name"] for p in pokeset["item"]]
-                     + [a["name"] for a in pokeset["ability"]])
+                     + [p["name"].lower() for p in pokeset["item"]]
+                     + [a["name"].lower() for a in pokeset["ability"]])
     all_things.discard(None)
     for com in combinations:
         rest = set(com) - all_things
         for r in list(rest):
             for thing in all_things:
-                if ratio(thing, r) > 0.9:
+                if ratio(thing, r.lower()) > 0.9:
                     if is_difference_significant(thing, r):
                         warn("Didn't recognize combination %s, but assumed %s." % (r, thing))
                     rest.remove(r)
@@ -394,7 +394,7 @@ def populate_pokeset(pokeset):
         rest = set(sep) - all_things
         for r in list(rest):
             for thing in all_things:
-                if ratio(thing, r) > 0.9:
+                if ratio(thing, r.lower()) > 0.9:
                     if is_difference_significant(thing, r):
                         warn("Didn't recognize separation %s, but assumed %s." % (r, thing))
                     rest.remove(r)
