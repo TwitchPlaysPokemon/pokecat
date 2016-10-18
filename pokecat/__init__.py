@@ -8,6 +8,7 @@ import logging
 from warnings import warn
 from itertools import chain
 from Levenshtein import ratio
+from difflib import ndiff
 
 from . import utils, objects
 from . import gen4data, forms, stats
@@ -17,6 +18,16 @@ log = logging.getLogger(__name__)
 _OBLIGATORY_FIELDS = {"setname", "species", "ability", "nature", "ivs", "evs", "moves"}
 _OPTIONAL_FIELDS = {"ingamename": None, "gender": None, "form": 0, "item": None, "displayname": None, "happiness": 255, "shiny": False,
                     "biddable": None, "rarity": 1.0, "ball": "Poké", "level": 100, "combinations": [], "separations": []}
+
+
+def is_difference_significant(name1, name2):
+    name1, name2 = name1.lower(), name2.lower()
+    diff_chars = {d[-1] for d in ndiff(name1, name2) if d[0] in "+-"}
+    insignificant_chars = set("- ")
+    if (diff_chars - insignificant_chars):
+        # remaining chars => significant difference
+        return True
+    return False
 
 
 # just code recycling for populate_pokeset()
@@ -35,7 +46,10 @@ def _get_by_index_or_name(lst, index_or_name, name_of_thing, get_func, find_func
             if not candidates or len(candidates) > 1:
                 raise ValueError("Unrecognized %s: %s" % (name_of_thing, index_or_name))
             thing = next(iter(candidates.values()))
-            return thing, False
+            # special case: "ball" is not appended for balls
+            if name_of_thing == "ball":
+                index_or_name += " ball"
+            return thing, not is_difference_significant(index_or_name, thing["name"])
     return thing, True
 
 
@@ -368,7 +382,8 @@ def populate_pokeset(pokeset):
         for r in list(rest):
             for thing in all_things:
                 if ratio(thing, r) > 0.9:
-                    warn("Didn't recognize combination %s, but assumed %s." % (r, thing))
+                    if is_difference_significant(thing, r):
+                        warn("Didn't recognize combination %s, but assumed %s." % (r, thing))
                     rest.remove(r)
                     com.remove(r)
                     com.append(thing)
@@ -380,7 +395,8 @@ def populate_pokeset(pokeset):
         for r in list(rest):
             for thing in all_things:
                 if ratio(thing, r) > 0.9:
-                    warn("Didn't recognize separation %s, but assumed %s." % (r, thing))
+                    if is_difference_significant(thing, r):
+                        warn("Didn't recognize separation %s, but assumed %s." % (r, thing))
                     rest.remove(r)
                     sep.remove(r)
                     sep.append(thing)
