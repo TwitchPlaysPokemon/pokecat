@@ -376,7 +376,7 @@ def populate_pokeset(pokeset):
     if not all(isinstance(s, str) for s in chain(*separations)):
         raise ValueError("separation items must be strings")
     movenames = sum([movelist for movelist in pokeset["moves"]], [])
-    movenames = [move["name"] for move in movenames]
+    movenames = list(set(move["name"] for move in movenames))
     all_things = (movenames
                   + [p["name"] for p in pokeset["item"]]
                   + [a["name"] for a in pokeset["ability"]])
