@@ -4,7 +4,7 @@ from os import path
 from operator import itemgetter
 from functools import partial
 from Levenshtein import ratio #@UnresolvedImport
-
+from .utils import normalize_name
 
 ROOT_DIR = path.dirname(path.abspath(__file__))
 
@@ -76,6 +76,9 @@ def _find_similar(lst, name, min_similarity=0.75, namegetter=lambda x:x, idgette
         else:
             id_ = index
         similarity = ratio(name.lower(), actual_name.lower())
+        if similarity == 1.0:
+            # full match, just return this
+            return {id_:item}
         if similarity - highest_similarity > 0.1:
             # the rest isn't close enough, ditch them
             entries.clear()
@@ -88,5 +91,6 @@ find_ability = partial(_find_similar, ABILITIES, namegetter=itemgetter("name"), 
 find_item    = partial(_find_similar, ITEMS,     namegetter=itemgetter("name"), idgetter=itemgetter("id"))
 find_move    = partial(_find_similar, MOVES,     namegetter=itemgetter("name"), idgetter=itemgetter("id"))
 find_nature  = partial(_find_similar, NATURES,   namegetter=itemgetter("name"))
-find_pokemon = partial(_find_similar, POKEDEX,   namegetter=itemgetter("name"), idgetter=itemgetter("id"))
+def find_pokemon(name):
+    return _find_similar(POKEDEX, normalize_name(name), namegetter=lambda n: normalize_name(n["name"]), idgetter=itemgetter("id"))
 find_ball    = partial(_find_similar, BALLS,     namegetter=_ball_namegetter,   idgetter=itemgetter("id"))

@@ -415,6 +415,13 @@ class PokecatTester(unittest.TestCase):
             pokecat.populate_pokeset(doc)
             self.assertEqual(len(w), 0)
 
+    def test_nidoran(self):
+        doc = load_test_doc("_template")
+        doc["species"] = "nidoran-m"
+        with self.assertWarnsRegex(UserWarning, r""):
+            result = pokecat.populate_pokeset(doc)
+            self.assertEqual(result["species"]["id"], 32)  # nidoran-m
+
     # todo test forms, displaynames with forms, moves, special cases, combinations and separations.
     # and whatever isn't tested yet as well
 
