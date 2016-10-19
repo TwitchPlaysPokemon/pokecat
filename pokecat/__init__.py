@@ -338,7 +338,7 @@ def populate_pokeset(pokeset):
         if len(item) > 1:
             raise ValueError("Arceus currently must have a fixed item")
         arceus_type = forms.get_multitype_type(item[0])
-        pokeset["types"] = [arceus_type]
+        pokeset["species"]["types"] = [arceus_type]
         pokeset["displayname"] += " " + arceus_type
         pokeset["form"] = gen4data.TYPES.index(arceus_type)
 
@@ -466,7 +466,7 @@ def instantiate_pokeset(pokeset):
                 u, v, w, x, y, z = [(ivs[stat]>>1)%2 for stat in ("hp", "atk", "def", "spe", "spA", "spD")]
                 hp_power = ((u + 2*v + 4*w + 8*x + 16*y + 32*z) * 40)//63 + 30
                 move["power"] = hp_power
-                move["displayname"] = "HP {} [{}]".format(hp_type, hp_power)
+                move["displayname"] = "HP {} [{}]".format(move["type"], hp_power)
             # special case: Return and Frustration. Fix power and displayname
             elif move["name"] == "Return":
                 move["power"] = max(1, int(instance["happiness"] / 2.5))
