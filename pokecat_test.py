@@ -4,6 +4,7 @@ import unittest
 import json
 import warnings
 import yaml
+from copy import deepcopy
 
 import pokecat
 
@@ -421,6 +422,27 @@ class PokecatTester(unittest.TestCase):
         with self.assertWarnsRegex(UserWarning, r""):
             result = pokecat.populate_pokeset(doc)
             self.assertEqual(result["species"]["id"], 32)  # nidoran-m
+
+    def test_arceus(self):
+        doc = load_test_doc("_template")
+        doc["species"] = "Arceus"
+        doc["item"] = "Earth Plate"
+        doc["ability"] = "Multitype"
+        result = pokecat.populate_pokeset(doc)
+        self.assertEqual(result["species"]["types"], ["Ground"])
+        self.assertEqual(result["displayname"], "Arceus Ground")
+
+    def test_shared_object_bug(self):
+        doc1 = load_test_doc("_template")
+        doc1["species"] = "Arceus"
+        doc1["item"] = "Earth Plate"
+        doc2 = load_test_doc("_template")
+        doc2["species"] = "Arceus"
+        doc2["item"] = "Splash Plate"
+        result = pokecat.populate_pokeset(doc1)
+        backup = deepcopy(result)
+        pokecat.populate_pokeset(doc2)  # should not affect the first result
+        self.assertEqual(backup, result, "result of a populate call was changed after another one")
 
     # todo test forms, displaynames with forms, moves, special cases, combinations and separations.
     # and whatever isn't tested yet as well

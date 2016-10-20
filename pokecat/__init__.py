@@ -33,8 +33,6 @@ def is_difference_significant(name1, name2):
 
 # just code recycling for populate_pokeset()
 def _get_by_index_or_name(lst, index_or_name, name_of_thing, get_func, find_func):
-    #if index_or_name is None:
-    #    return None, True
     if isinstance(index_or_name, int):
         try:
             thing = lst[index_or_name]
@@ -53,8 +51,8 @@ def _get_by_index_or_name(lst, index_or_name, name_of_thing, get_func, find_func
             # special case: "ball" is not appended for balls
             if name_of_thing == "ball":
                 index_or_name += " ball"
-            return thing, not is_difference_significant(index_or_name, thing["name"])
-    return thing, True
+            return deepcopy(thing), not is_difference_significant(index_or_name, thing["name"])
+    return deepcopy(thing), True
 
 
 def populate_pokeset(pokeset):
@@ -335,12 +333,13 @@ def populate_pokeset(pokeset):
 
     # special case: Arceus. Handle as form. Also fix type
     if species["name"] == "Arceus":
+        item = pokeset["item"]
         if len(item) > 1:
             raise ValueError("Arceus currently must have a fixed item")
         arceus_type = forms.get_multitype_type(item[0])
         pokeset["species"]["types"] = [arceus_type]
         pokeset["displayname"] += " " + arceus_type
-        pokeset["form"] = gen4data.TYPES.index(arceus_type)
+        #pokeset["form"] = gen4data.TYPES.index(arceus_type)
 
     # special case: Wormadam. Fix type
     if species["name"] == "Wormadam":
