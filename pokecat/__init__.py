@@ -368,13 +368,13 @@ def populate_pokeset(pokeset):
     combinations = pokeset["combinations"]
     if not isinstance(combinations, list) or not all(isinstance(c, list) for c in combinations):
         raise ValueError("combinations must be a list of lists.")
-    if not all(isinstance(s, str) for s in chain(*combinations)):
-        raise ValueError("combination items must be strings")
+    if not all(isinstance(s, str) or s is None for s in chain(*combinations)):
+        raise ValueError("combination items must be strings or null")
     separations = pokeset["separations"]
     if not isinstance(separations, list) or not all(isinstance(s, list) for s in separations):
         raise ValueError("separations must be a list of lists.")
-    if not all(isinstance(s, str) for s in chain(*separations)):
-        raise ValueError("separation items must be strings")
+    if not all(isinstance(s, str) or s is None for s in chain(*separations)):
+        raise ValueError("separation items must be strings or null")
     movenames = sum([movelist for movelist in pokeset["moves"]], [])
     movenames = list(set(move["name"] for move in movenames))
     all_things = (movenames
