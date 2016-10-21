@@ -425,18 +425,31 @@ def _check_restrictions(pokeset):
     Returns True if they are, and False otherwise.
     '''
     movenames = [m["name"] for m in pokeset["moves"]]
-    all_things = frozenset(movenames + [pokeset["item"]["name"]] + [pokeset["ability"]["name"]])
+    all_things = movenames + [pokeset["item"]["name"]] + [pokeset["ability"]["name"]]
     for combination in pokeset["combinations"]:
+        things = all_things[:]
+        missing_count = 0
+        for com in combination:
+            try:
+                things.remove(com)
+            except ValueError:
+                missing_count += 1
         # all or nothing
-        valid = all(thing in all_things for thing in combination) \
-                or not any(thing in all_things for thing in combination)
-        if not valid:
+        if 0 < missing_count < len(combination):
             return False
     for separation in pokeset["separations"]:
         # can never be more than one
-        valid = sum(int(thing in all_things) for thing in separation) <= 1
-        if not valid:
-            return False
+        things = all_things[:]
+        present_count = 0
+        for sep in separation:
+            try:
+                things.remove(sep)
+            except ValueError:
+                pass
+            else:
+                present_count += 1
+                if present_count > 1:
+                    return False
     return True
 
 

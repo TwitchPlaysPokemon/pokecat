@@ -444,6 +444,54 @@ class PokecatTester(unittest.TestCase):
         pokecat.populate_pokeset(doc2)  # should not affect the first result
         self.assertEqual(backup, result, "result of a populate call was changed after another one")
 
+    def test_move_combinations(self):
+        doc = load_test_doc("_template")
+        doc["moves"] = [["Pound", "Aqua Jet"], ["Surf", "Rock Smash"]]
+        doc["combinations"] = [["Pound", "Surf"]]
+        pokeset = pokecat.populate_pokeset(doc)
+        result = pokecat.instantiate_pokeset(pokeset)
+        for _ in range(100):
+            if result["moves"][0]["name"] == "Pound":
+                self.assertEqual(result["moves"][1]["name"], "Surf")
+
+    def test_move_in_multiple_slots_combinations(self):
+        doc = load_test_doc("_template")
+        doc["moves"] = [["Pound", "Aqua Jet"], ["Surf", "Aqua Jet"]]
+        doc["combinations"] = [["Aqua Jet", "Aqua Jet"], ["Pound", "Surf"]]
+        pokeset = pokecat.populate_pokeset(doc)
+        for _ in range(100):
+            result = pokecat.instantiate_pokeset(pokeset)
+            if result["moves"][0]["name"] == "Aqua Jet":
+                self.assertEqual(result["moves"][1]["name"], "Aqua Jet")
+            elif result["moves"][0]["name"] == "Pound":
+                self.assertEqual(result["moves"][1]["name"], "Surf")
+            else:
+                self.assertTrue(False)
+
+    def test_move_separations(self):
+        doc = load_test_doc("_template")
+        doc["moves"] = [["Pound", "Aqua Jet"], ["Surf", "Rock Smash"]]
+        doc["separations"] = [["Pound", "Surf"]]
+        pokeset = pokecat.populate_pokeset(doc)
+        result = pokecat.instantiate_pokeset(pokeset)
+        for _ in range(100):
+            if result["moves"][0]["name"] == "Pound":
+                self.assertEqual(result["moves"][1]["name"], "Rock Smash")
+
+    def test_move_in_different_slots_separations(self):
+        doc = load_test_doc("_template")
+        doc["moves"] = [["Pound", "Aqua Jet"], ["Surf", "Aqua Jet"]]
+        doc["separations"] = [["Aqua Jet", "Aqua Jet"], ["Pound", "Surf"]]
+        pokeset = pokecat.populate_pokeset(doc)
+        for _ in range(100):
+            result = pokecat.instantiate_pokeset(pokeset)
+            if result["moves"][0]["name"] == "Aqua Jet":
+                self.assertEqual(result["moves"][1]["name"], "Surf")
+            elif result["moves"][1]["name"] == "Aqua Jet":
+                self.assertEqual(result["moves"][0]["name"], "Pound")
+            else:
+                self.assertTrue(False)
+
     # todo test forms, displaynames with forms, moves, special cases, combinations and separations.
     # and whatever isn't tested yet as well
 
