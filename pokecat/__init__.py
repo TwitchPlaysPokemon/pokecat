@@ -325,11 +325,10 @@ def populate_pokeset(pokeset):
     if formname:
         pokeset["displayname"] += " " + formname
 
-    # special case: Deoxys. Fix basestats and displayname
+    # special case: Deoxys. Fix basestats (displayname already fixed)
     if species["name"] == "Deoxys":
         deoxys_form = forms.get_formname(species["id"], form)
         species["basestats"] = gen4data.DEOXYS_BASESTATS[deoxys_form]
-        pokeset["displayname"] += " " + deoxys_form
 
     # special case: Arceus. Handle as form. Also fix type
     if species["name"] == "Arceus":
