@@ -20,7 +20,6 @@ The data format used is [`YAML`](http://yaml.org/spec/1.1/), which mainly consis
 ```
 species: Arceus
 setname: Standard
-ability: Multitype
 nature: Modest
 ivs: 0
 evs: {hp: 0, atk: 0, def: 0, spe: 64, spA: 32, spD: 32}
@@ -37,8 +36,8 @@ Here's an example of a Pokémon set with (almost) all features being used:
 ingamename: SEEL-PH
 species: Seel
 setname: Physical
-item: [Rawst Berry, Toxic Orb, Light Ball, NeverMelt-Ice]
-ability: [Thick Fat, Hydration]
+item: [null, Rawst Berry, Toxic Orb, Light Ball, NeverMelt-Ice]
+ability: [null, Thick Fat, Hydration]
 nature: Adamant
 ivs: 31
 evs: {hp: 8, atk: 252, def: 120, spA: 0, spD: 120, spe: 8}
@@ -78,10 +77,7 @@ All Pokémon, items and abilities must be from 4th generation or earlier, becaus
 
 **species**
   : The Pokémon species. Can either be a Pokémon name or a National Pokédex number.
-  
-**ability**
-  : The Pokémon's ability. Can either be an ability name or an abiliy number. Can also be a *list of abilities* (e.g. `[Blaze, Solar Power]`) to let RNG decide.
-  
+
 **nature**
   : The Pokémon's nature. Can either be a nature name, a nature number (0 = Hardy, 24 = Quirky) or a nature defined by boosted and nerfed stat (for example `+atk -spD`)
   
@@ -96,6 +92,9 @@ All Pokémon, items and abilities must be from 4th generation or earlier, becaus
   : The Pokémon's moves. Must contain a list of moves. Each move can either be a movename, a move number or a  *list of moves* to let RNG decide. Each move can additionally be followed by a number of `n` PP ups in the format `(+n)` and `m` fixed PP in the form of `(=m)`, or even both in the form `(+n/=m)`. For example `Detect (=1)`
 
 ### Optional fields
+
+**ability**
+  : Defaults to null (no ability). The Pokémon's ability. Can either be an ability name or an abiliy number. Can also be a *list of abilities* (e.g. `[Blaze, Solar Power]`) to let RNG decide.
 
 **ingamename**
   : Name the Pokémon has ingame. Defaults to the Species' name in uppercase, ending in `-S` if shiny. Maximum of 10 characters, therefore the default might have a shortened species name (e.g. `TYPHLOSI-S` for shiny Typhlosion). Can only contain ASCII characters and the male/female sign. While not necessarily unique, Pokémon with the same ingame name cannot be in the same match due to technical limitations. Due to this, the ingamename might ultimately get altered when used in a match (e.g. appending numbers to make it unique).

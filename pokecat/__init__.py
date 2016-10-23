@@ -16,9 +16,9 @@ from . import gen4data, forms, stats
 
 log = logging.getLogger(__name__)
 
-_OBLIGATORY_FIELDS = {"setname", "species", "ability", "nature", "ivs", "evs", "moves"}
-_OPTIONAL_FIELDS = {"ingamename": None, "gender": None, "form": 0, "item": None, "displayname": None, "happiness": 255, "shiny": False,
-                    "biddable": None, "rarity": 1.0, "ball": "Poké", "level": 100, "combinations": [], "separations": []}
+_OBLIGATORY_FIELDS = {"setname", "species", "nature", "ivs", "evs", "moves"}
+_OPTIONAL_FIELDS = {"ability": None, "ingamename": None, "gender": None, "form": 0, "item": None, "displayname": None, "happiness": 255,
+                    "shiny": False, "biddable": None, "rarity": 1.0, "ball": "Poké", "level": 100, "combinations": [], "separations": []}
 
 
 def is_difference_significant(name1, name2):
