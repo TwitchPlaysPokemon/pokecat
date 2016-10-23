@@ -507,6 +507,29 @@ class PokecatTester(unittest.TestCase):
         with self.assertWarnsRegex(UserWarning, r"Sum of EV must not be larger than 510, but is 511"):
             pokecat.populate_pokeset(doc, skip_ev_check=True)
 
+    def test_displayname_magic1(self):
+        doc = load_test_doc("_template")
+        doc["species"] = "Arceus"
+        doc["item"] = "Flame Plate"
+        doc["shiny"] = True
+        result = pokecat.populate_pokeset(doc)
+        self.assertEquals(result["displayname"], "Arceus Fire (Shiny)")
+
+    def test_displayname_magic2(self):
+        doc = load_test_doc("_template")
+        doc["species"] = "Wormadam"
+        doc["form"] = 2
+        result = pokecat.populate_pokeset(doc)
+        self.assertEquals(result["displayname"], "Wormadam Trash")
+
+    def test_custom_displayname(self):
+        doc = load_test_doc("_template")
+        doc["species"] = "Wormadam"
+        doc["form"] = 2
+        doc["displayname"] = "custom"
+        result = pokecat.populate_pokeset(doc)
+        self.assertEquals(result["displayname"], "custom")
+
     # todo test forms, displaynames with forms, moves, special cases, combinations and separations.
     # and whatever isn't tested yet as well
 

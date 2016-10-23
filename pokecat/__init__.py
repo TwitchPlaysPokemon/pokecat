@@ -111,8 +111,9 @@ def populate_pokeset(pokeset, skip_ev_check=False):
     # check validity of names
     if not pokeset["setname"] or not isinstance(pokeset["setname"], str):
         raise ValueError("setname must be a non-empty string")
+    custom_displayname = False
     if pokeset["displayname"] is not None:
-        warn("Using custom displaynames is not recommended. Use the setname to describe a pokeset.")
+        custom_displayname = True
         if not pokeset["displayname"] or not isinstance(pokeset["displayname"], str):
             raise ValueError("displayname, if set, must be a non-empty string")
 
@@ -334,7 +335,7 @@ def populate_pokeset(pokeset, skip_ev_check=False):
 
     # special case: all forms. fix displayname
     formname = forms.get_formname(species["id"], form)
-    if formname:
+    if formname and not custom_displayname:
         pokeset["displayname"] += " " + formname
 
     # special case: Deoxys. Fix basestats (displayname already fixed)
@@ -349,7 +350,8 @@ def populate_pokeset(pokeset, skip_ev_check=False):
             raise ValueError("Arceus currently must have a fixed item")
         arceus_type = forms.get_multitype_type(item[0])
         pokeset["species"]["types"] = [arceus_type]
-        pokeset["displayname"] += " " + arceus_type
+        if not custom_displayname:
+            pokeset["displayname"] += " " + arceus_type
         #pokeset["form"] = gen4data.TYPES.index(arceus_type)
 
     # special case: Wormadam. Fix type
@@ -371,7 +373,7 @@ def populate_pokeset(pokeset, skip_ev_check=False):
         pokeset["stats"]["hp"] = 1
 
     # add shininess to display name
-    if pokeset["shiny"]:
+    if pokeset["shiny"] and not custom_displayname:
         pokeset["displayname"] += " (Shiny)"
 
     # check combinations and separations

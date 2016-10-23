@@ -114,10 +114,11 @@ All Pokémon, items and abilities must be from 4th generation or earlier, becaus
   : Defaults to `null` (no item). The Pokémon's held item. Can either be an item name or an item number. Can also be a *list of items* (e.g. `[Chesto Berry, Poison Barb]`) to let RNG decide.
 
 **displayname**
-  : *Recommended not to use*. Defaults to the species' name modified to include eventual form names. For example:  
+  : Defaults to the species' name modified to include eventual form names. For example:  
     - Deoxys in attack form would get the display name "Deoxys Attack"  
     - Unown in A-Form would get the display name "Unown A"  
     - Arceus with the Multitype-ability the item Flame Plate (although not technically a form) would get the display name "Arceus Fire".  
+    - Any shiny Pokémon would get ` (Shiny)` appended  
     Specifying a custom displayname overwrites the generated one.
 
 **happiness**
