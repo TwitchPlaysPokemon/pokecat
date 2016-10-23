@@ -55,13 +55,15 @@ def _get_by_index_or_name(lst, index_or_name, name_of_thing, get_func, find_func
     return deepcopy(thing), True
 
 
-def populate_pokeset(pokeset):
+def populate_pokeset(pokeset, skip_ev_check=False):
     '''
     Reads in data for one pokeset and populates it with all additionally available
     data. This includes types of Pokémon or per-move data like PP, power or types.
 
     Arguments:
         set: base data of the set to populate. see the format specification for details.
+        skip_ev_check: Defaults to False. If True, allows illegal movesets (produces a
+                       warning instead of an error)
     Throws:
         ValueError: If the data is not fully parsable. the ValueError's description contains
         further details on the error that occured.
@@ -246,11 +248,21 @@ def populate_pokeset(pokeset):
         raise ValueError("evs must contain the following keys: %s" % ", ".join(stats.statnames))
     if not all(isinstance(v, int) for v in evs.values()):
         raise ValueError("Invalid EV value in EVs: %s" % (evs,))
-    if not all (0 <= val <= 252 for val in evs.values()):
-        raise ValueError("All EVs must be between 0 and 252.")
+    if not all (0 <= val for val in evs.values()):
+        raise ValueError("All EVs must be >= 0.")
+    if not all (val <= 252 for val in evs.values()):
+        message = "All EVs must be <= 252."
+        if skip_ev_check:
+            warn(message)
+        else:
+            raise ValueError(message)
     ev_sum = sum(val for val in evs.values())
     if ev_sum > 510:
-        raise ValueError("Sum of EV must not be larger than 510, but is %d" % ev_sum)
+        message = "Sum of EV must not be larger than 510, but is %d" % ev_sum
+        if skip_ev_check:
+            warn(message)
+        else:
+            raise ValueError(message)
     for key, value in evs.items():
         if value % 4 != 0:
             warn("EV for %s is %d, which is not a multiple of 4 (wasted points)" % (key, value))

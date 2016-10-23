@@ -60,4 +60,8 @@ print(random_pokeset)
 
 random_pokemon = pokecat.generate_random_pokemon()
 print(random_pokemon)
+
+# by default populating a set raises a ValueError if it has illegaly many EP.
+# Passing `skip_ev_check=True` to the function only causes a warning instead.
+populated      = pokecat.populate_pokeset(pokeset, skip_ev_check=True)
 ```

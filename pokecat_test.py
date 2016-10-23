@@ -352,7 +352,7 @@ class PokecatTester(unittest.TestCase):
         val = 510
         doc["evs"] = {"atk": val, "def": val, "spA": val, "spD": val, "spe": val}
         doc["evs"]["hp"] = 253
-        with self.assertRaisesRegex(ValueError, r"All EVs must be between 0 and 252."):
+        with self.assertRaisesRegex(ValueError, r"All EVs must be <= 252."):
             pokecat.populate_pokeset(doc)
 
     def test_too_many_evs_total(self):
@@ -491,6 +491,21 @@ class PokecatTester(unittest.TestCase):
                 self.assertEqual(result["moves"][0]["name"], "Pound")
             else:
                 self.assertTrue(False)
+
+    def test_skip_ev_check_single(self):
+        doc = load_test_doc("_template")
+        doc["evs"] = {"atk": 0, "def": 0, "spA": 0, "spD": 0, "spe": 0}
+        doc["evs"]["hp"] = 253
+        with self.assertWarnsRegex(UserWarning, r"All EVs must be <= 252."):
+            pokecat.populate_pokeset(doc, skip_ev_check=True)
+
+    def test_skip_ev_check_total(self):
+        doc = load_test_doc("_template")
+        val = 510//6
+        doc["evs"] = {"hp": val, "atk": val, "def": val, "spA": val, "spD": val, "spe": val}
+        doc["evs"]["hp"] += 1
+        with self.assertWarnsRegex(UserWarning, r"Sum of EV must not be larger than 510, but is 511"):
+            pokecat.populate_pokeset(doc, skip_ev_check=True)
 
     # todo test forms, displaynames with forms, moves, special cases, combinations and separations.
     # and whatever isn't tested yet as well
