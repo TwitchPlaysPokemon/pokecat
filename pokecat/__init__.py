@@ -329,6 +329,7 @@ def populate_pokeset(pokeset, skip_ev_check=False):
         if formnumber is None:
             raise ValueError("Unrecognized form %s for species %s" % (form, species["name"]))
         form = formnumber
+    pokeset["form"] = form
     formname = forms.get_formname(species["id"], form)
     if formname is None and form != 0:
         raise ValueError("Species %s has no form %s." % (species["name"], form))

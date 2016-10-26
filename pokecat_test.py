@@ -530,6 +530,13 @@ class PokecatTester(unittest.TestCase):
         result = pokecat.populate_pokeset(doc)
         self.assertEquals(result["displayname"], "custom")
 
+    def test_formname(self):
+        doc = load_test_doc("_template")
+        doc["species"] = "Unown"
+        doc["form"] = "C"
+        result = pokecat.populate_pokeset(doc)
+        self.assertEquals(result["form"], 2)
+
     # todo test forms, displaynames with forms, moves, special cases, combinations and separations.
     # and whatever isn't tested yet as well
 
