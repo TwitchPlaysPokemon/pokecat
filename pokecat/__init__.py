@@ -136,6 +136,9 @@ def populate_pokeset(pokeset, skip_ev_check=False):
     if not 1 <= len(pokeset["ingamename"]) <= 10:
         raise ValueError("ingamename must be between 1 and 10 characters long: %s" % pokeset["ingamename"])
 
+    # check happiness
+    if not isinstance(pokeset["happiness"], int):
+        raise ValueError("happiness must be a number.")
 
     # check and populate ability. is a list
     ability = []

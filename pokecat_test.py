@@ -537,6 +537,13 @@ class PokecatTester(unittest.TestCase):
         result = pokecat.populate_pokeset(doc)
         self.assertEquals(result["form"], 2)
 
+    def test_invalid_happiness(self):
+        doc = load_test_doc("_template")
+        doc["species"] = "Unown"
+        doc["happiness"] = [1,2]
+        with self.assertRaisesRegex(ValueError, r"happiness must be a number."):
+            result = pokecat.populate_pokeset(doc)
+
     # todo test forms, displaynames with forms, moves, special cases, combinations and separations.
     # and whatever isn't tested yet as well
 
