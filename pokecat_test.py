@@ -423,6 +423,14 @@ class PokecatTester(unittest.TestCase):
             result = pokecat.populate_pokeset(doc)
             self.assertEqual(result["species"]["id"], 32)  # nidoran-m
 
+    def test_wormadam(self):
+        doc = load_test_doc("_template")
+        doc["species"] = "Wormadam"
+        doc["form"] = "Trash"
+        result = pokecat.populate_pokeset(doc)
+        self.assertEqual(result["species"]["types"], ["Bug", "Steel"])
+        self.assertEqual(result["displayname"], "Wormadam Trash")
+
     def test_arceus(self):
         doc = load_test_doc("_template")
         doc["species"] = "Arceus"

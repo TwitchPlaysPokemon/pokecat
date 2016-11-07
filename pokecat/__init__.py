@@ -328,6 +328,8 @@ def populate_pokeset(pokeset, skip_ev_check=False):
     # check form
     form = pokeset["form"]
     if not isinstance(form, int):
+        if not isinstance(form, str):
+            raise ValueError("form must be a formnumber or a string, not %s" % type(form))
         formnumber = forms.get_formnumber(species["id"], form)
         if formnumber is None:
             raise ValueError("Unrecognized form %s for species %s" % (form, species["name"]))
@@ -361,7 +363,7 @@ def populate_pokeset(pokeset, skip_ev_check=False):
     # special case: Wormadam. Fix type
     if species["name"] == "Wormadam":
         wormadam_types = ("Grass", "Ground", "Steel")
-        pokeset["types"] = ["Bug", wormadam_types[form]]
+        pokeset["species"]["types"] = ["Bug", wormadam_types[form]]
 
     # add stats
     pokeset["stats"] = {}
