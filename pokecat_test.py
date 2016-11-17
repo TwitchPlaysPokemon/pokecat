@@ -550,7 +550,32 @@ class PokecatTester(unittest.TestCase):
         doc["species"] = "Unown"
         doc["happiness"] = [1,2]
         with self.assertRaisesRegex(ValueError, r"happiness must be a number."):
-            result = pokecat.populate_pokeset(doc)
+            pokecat.populate_pokeset(doc)
+
+    def test_hidden_and_biddable(self):
+        doc = load_test_doc("_template")
+        doc["hidden"] = True
+        doc["biddable"] = True
+        with self.assertWarnsRegex(UserWarning, r"Set is biddable, but also hidden, which doesn't make sense."):
+            pokecat.populate_pokeset(doc)
+
+    def test_shiny_but_not_hidden(self):
+        doc = load_test_doc("_template")
+        doc["hidden"] = False
+        doc["shiny"] = True
+        with self.assertWarnsRegex(UserWarning, r"Set is shiny, but not hidden, which means it is not secret and usable in token matches at any time. Is this intended?"):
+            pokecat.populate_pokeset(doc)
+
+    def test_default_hidden_shiny(self):
+        doc = load_test_doc("_template")
+        doc["shiny"] = True
+        result = pokecat.populate_pokeset(doc)
+        self.assertTrue(result["hidden"])
+
+    def test_default_not_hidden(self):
+        doc = load_test_doc("_template")
+        result = pokecat.populate_pokeset(doc)
+        self.assertFalse(result["hidden"])
 
     # todo test forms, displaynames with forms, moves, special cases, combinations and separations.
     # and whatever isn't tested yet as well

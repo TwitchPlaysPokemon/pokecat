@@ -17,8 +17,9 @@ from . import gen4data, forms, stats
 log = logging.getLogger(__name__)
 
 _OBLIGATORY_FIELDS = {"setname", "species", "nature", "ivs", "evs", "moves"}
-_OPTIONAL_FIELDS = {"ability": None, "ingamename": None, "gender": None, "form": 0, "item": None, "displayname": None, "happiness": 255,
-                    "shiny": False, "biddable": None, "rarity": 1.0, "ball": "Poké", "level": 100, "combinations": [], "separations": []}
+_OPTIONAL_FIELDS = {"ability": None, "ingamename": None, "gender": None, "form": 0, "item": None, "displayname": None,
+                    "happiness": 255, "shiny": False, "biddable": None, "hidden": None, "rarity": 1.0, "ball": "Poké",
+                    "level": 100, "combinations": [], "separations": []}
 
 
 def is_difference_significant(name1, name2):
@@ -316,8 +317,19 @@ def populate_pokeset(pokeset, skip_ev_check=False):
     # fix default biddable value
     if pokeset["biddable"] is None:
         pokeset["biddable"] = not pokeset["shiny"]
-    if pokeset["biddable"] and pokeset["shiny"]:
-        warn("Set is shiny, but also biddable, which means it is not secret "
+    if not isinstance(pokeset["biddable"], bool):
+        raise ValueError("biddable must be a boolean (true or false), not %s" % type(pokeset["biddable"]))
+
+    # fix default hidden value
+    if pokeset["hidden"] is None:
+        pokeset["hidden"] = pokeset["shiny"]
+    if not isinstance(pokeset["hidden"], bool):
+        raise ValueError("hidden must be a boolean (true or false), not %s" % type(pokeset["hidden"]))
+
+    if pokeset["biddable"] and pokeset["hidden"]:
+        warn("Set is biddable, but also hidden, which doesn't make sense.")
+    if pokeset["shiny"] and not pokeset["hidden"]:
+        warn("Set is shiny, but not hidden, which means it is not secret "
              "and usable in token matches at any time. Is this intended?")
 
     # fix displayname

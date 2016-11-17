@@ -58,6 +58,7 @@ gender: [m, f]
 form: 0
 happiness: 255
 shiny: True
+hidden: False
 biddable: True
 rarity: 0.1
 ball: [Poké, Master]
@@ -128,7 +129,10 @@ All Pokémon, items and abilities must be from 4th generation or earlier, becaus
   : Defaults to `false`. If `true`, the Pokémon is shiny.
 
 **biddable**
-  : Defaults to `true`, except for Pokémon with `shiny` set to `true`, where it defaults to `false`. If `false`, the Pokémon is not available for token match bidding. It will be treated as non-existent, conceiling its existence to not spoil new shinies for example.
+  : Defaults to `true`, except for Pokémon with `shiny` set to `true`, where it defaults to `false`. If `false`, the Pokémon is not available for token match bidding.
+
+**hidden**
+  : Defaults to `false`, except for Pokémon with `shiny` set to `true`, where it defaults to `true`. If `true`, the Pokémon will be treated as non-existent, conceiling its existence. Can be used to not spoil Shinies for example.
 
 **rarity**
   : Defaults to `1.0`. Multiplier for the chance this set gets chosen by RNG. Values smaller than `1.0` cause this set to be selected less often. Values greater than `1.0` cause this set to be selected more often. For example `2.0` doubles this set's chance to get picked.

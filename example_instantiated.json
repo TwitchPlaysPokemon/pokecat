@@ -49,6 +49,7 @@
             "def": 0
         },
         "biddable": true,
+        "hidden": false,
         "setname": "Standard",
         "moves": [
             {
@@ -193,6 +194,7 @@
             "increased": "atk"
         },
         "biddable": true,
+        "hidden": false,
         "shiny": true,
         "setname": "Physical",
         "ability": {
@@ -296,6 +298,7 @@
             "def": 0
         },
         "biddable": false,
+        "hidden": true,
         "setname": "Standard",
         "moves": [
             {

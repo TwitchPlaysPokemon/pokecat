@@ -3,6 +3,7 @@ ability:
 ball:
 - {description: '', id: 4, name: "Pok\xE9 Ball"}
 biddable: true
+hidden: false
 combinations: []
 displayname: Arceus Fire
 evs: {atk: 0, def: 0, hp: 0, spA: 32, spD: 32, spe: 64}
@@ -43,6 +44,7 @@ ball:
 - {description: '', id: 4, name: "Pok\xE9 Ball"}
 - {description: '', id: 2, name: Ultra Ball}
 biddable: true
+hidden: false
 combinations:
 - [Toxic Orb, Facade]
 - [Light Ball, Fling]
@@ -105,6 +107,7 @@ ability:
 ball:
 - {description: '', id: 4, name: "Pok\xE9 Ball"}
 biddable: false
+hidden: true
 combinations: []
 displayname: Arceus Fire (Shiny)
 evs: {atk: 0, def: 0, hp: 0, spA: 32, spD: 32, spe: 64}

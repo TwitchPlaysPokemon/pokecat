@@ -38,8 +38,9 @@ separations:
 gender: [m, f]
 form: 0
 happiness: 255
-shiny: True
-biddable: True
+shiny: true
+biddable: true
+hidden: false
 rarity: 0.1
 ball: [Poke, Ultra]
 Level: 100
