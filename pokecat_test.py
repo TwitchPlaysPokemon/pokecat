@@ -580,6 +580,16 @@ class PokecatTester(unittest.TestCase):
     # todo test forms, displaynames with forms, moves, special cases, combinations and separations.
     # and whatever isn't tested yet as well
 
+    def test_gen1_vs_gen4(self):
+        gen1_200 = pokecat.gen1data.get_item("HM05")
+        gen4_200 = pokecat.gen4data.get_item("Chilan Berry")
+        self.assertEqual(gen1_200["id"], 200)
+        self.assertEqual(gen4_200["id"], 200)
+
+    def test_gen1_elixer_item_spelling(self):
+        elixir = pokecat.gen1data.find_item("Elixir")
+        match = next(iter(elixir.values()))
+        self.assertEqual(match["name"], "Elixer")
 
 if __name__ == "__main__":
     unittest.main()

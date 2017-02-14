@@ -1,8 +1,6 @@
 
 import re
-import sys
 from copy import deepcopy
-from functools import partial
 import random
 import logging
 from warnings import warn
@@ -12,7 +10,7 @@ from difflib import ndiff
 from collections import Counter
 
 from . import utils, objects
-from . import gen4data, forms, stats
+from . import gen1data, globaldata, gen4data, forms, stats
 
 log = logging.getLogger(__name__)
 
