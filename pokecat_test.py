@@ -591,5 +591,11 @@ class PokecatTester(unittest.TestCase):
         match = next(iter(elixir.values()))
         self.assertEqual(match["name"], "Elixer")
 
+    def test_get_gen1_move(self):
+        gen1_100 = pokecat.gen1data.get_move("TELEPORT")
+        gen4_100 = pokecat.gen4data.get_move("Teleport")
+        self.assertEqual(gen1_100["id"], 100)
+        self.assertEqual(gen4_100["id"], 100)
+
 if __name__ == "__main__":
     unittest.main()
