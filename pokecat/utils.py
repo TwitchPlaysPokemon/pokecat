@@ -2,7 +2,8 @@
 from contextlib import suppress
 
 from .objects import (Species, Stats, Nature, Item,
-                      Ability, Pokemon, Move, Type)
+                      Ability, Pokemon, Move)
+
 
 def get_gender_number(gender):
     if gender == "m":
@@ -90,9 +91,9 @@ def construct_pokemon_from_dict(data):
 
 
 def normalize_name(name):
-    '''Normalizes Pokemon names to be stripped, lowercase and ascii-compatible,
+    """Normalizes Pokemon names to be stripped, lowercase and ascii-compatible,
     and also collapses variations of names into one common one.
-    E.g. turns Nidoran♂ into nidoran(m)'''
+    E.g. turns Nidoran♂ into nidoran(m)"""
     name = name.lower()
     conversions = {
         "nidoran♂": "nidoran(m)",

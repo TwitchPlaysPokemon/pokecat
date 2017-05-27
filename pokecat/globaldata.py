@@ -1,6 +1,6 @@
 
-from os import path
 from functools import partial
+from os import path
 
 from .datautils import load_from_json_list, get_exact, find_similar
 

@@ -10,11 +10,13 @@ Options:
   --version     Show version.
 """
 
-import os
-from docopt import docopt
 import json
-import yaml
+import os
 import warnings
+
+import yaml
+from docopt import docopt
+
 from . import (populate_pokeset,
                instantiate_pokeset,
                generate_random_pokeset,

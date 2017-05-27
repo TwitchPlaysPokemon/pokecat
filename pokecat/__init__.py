@@ -1,16 +1,17 @@
 
-import re
-from copy import deepcopy
-import random
 import logging
-from warnings import warn
-from itertools import chain
-from Levenshtein import ratio
-from difflib import ndiff
+import random
+import re
 from collections import Counter
+from copy import deepcopy
+from difflib import ndiff
+from itertools import chain
+from warnings import warn
 
+from Levenshtein import ratio
+
+from . import gen4data, forms, stats
 from . import utils, objects
-from . import gen1data, globaldata, gen4data, forms, stats
 
 log = logging.getLogger(__name__)
 
@@ -24,7 +25,7 @@ def is_difference_significant(name1, name2):
     name1, name2 = name1.lower(), name2.lower()
     diff_chars = {d[-1] for d in ndiff(name1, name2) if d[0] in "+-"}
     insignificant_chars = set("- ")
-    if (diff_chars - insignificant_chars):
+    if diff_chars - insignificant_chars:
         # remaining chars => significant difference
         return True
     return False
@@ -55,12 +56,12 @@ def _get_by_index_or_name(lst, index_or_name, name_of_thing, get_func, find_func
 
 
 def populate_pokeset(pokeset, skip_ev_check=False):
-    '''
+    """
     Reads in data for one pokeset and populates it with all additionally available
     data. This includes types of Pokémon or per-move data like PP, power or types.
 
     Arguments:
-        set: base data of the set to populate. see the format specification for details.
+        pokeset: base data of the set to populate. see the format specification for details.
         skip_ev_check: Defaults to False. If True, allows illegal movesets (produces a
                        warning instead of an error)
     Throws:
@@ -68,7 +69,7 @@ def populate_pokeset(pokeset, skip_ev_check=False):
         further details on the error that occured.
     Returns:
         The populated set. The passed data is not modified
-    '''
+    """
     # I am sorry that this function is so big and partly copy-pasted,
     # but it just does a lot of equally boring things like processing
     # special cases. I couldn't come up with a structure that wouldn't
@@ -251,9 +252,9 @@ def populate_pokeset(pokeset, skip_ev_check=False):
         raise ValueError("evs must contain the following keys: %s" % ", ".join(stats.statnames))
     if not all(isinstance(v, int) for v in evs.values()):
         raise ValueError("Invalid EV value in EVs: %s" % (evs,))
-    if not all (0 <= val for val in evs.values()):
+    if not all(0 <= val for val in evs.values()):
         raise ValueError("All EVs must be >= 0.")
-    if not all (val <= 252 for val in evs.values()):
+    if not all(val <= 252 for val in evs.values()):
         message = "All EVs must be <= 252."
         if skip_ev_check:
             warn(message)
@@ -285,7 +286,7 @@ def populate_pokeset(pokeset, skip_ev_check=False):
             pp = None
             pp_ups = 0
             # move might have pp-up and fixed pp information
-            pp_info = re.search(r"\(\+\d+\)|\(=\d+\)|\(\+\d+\/=\d+\)$", move_raw_single)
+            pp_info = re.search(r"\(\+\d+\)|\(=\d+\)|\(\+\d+/=\d+\)$", move_raw_single)
             if pp_info:
                 move_raw_single = move_raw_single[:pp_info.start()-1]
                 for bit in pp_info.group(0).strip("()").split("/"):
@@ -417,7 +418,7 @@ def populate_pokeset(pokeset, skip_ev_check=False):
         for r in list(rest):
             if not r:
                 continue
-            for thing in all_things - set([None]):
+            for thing in all_things - {None}:
                 if ratio(thing.lower(), r.lower()) > 0.9:
                     if is_difference_significant(thing, r):
                         warn("Didn't recognize combination %s, but assumed %s." % (r, thing))
@@ -434,7 +435,7 @@ def populate_pokeset(pokeset, skip_ev_check=False):
         for r in list(rest):
             if not r:
                 continue
-            for thing in all_things - set([None]):
+            for thing in all_things - {None}:
                 if ratio(thing.lower(), r.lower()) > 0.9:
                     if is_difference_significant(thing, r):
                         warn("Didn't recognize separation %s, but assumed %s." % (r, thing))
@@ -449,10 +450,10 @@ def populate_pokeset(pokeset, skip_ev_check=False):
 
 
 def _check_restrictions(pokeset):
-    '''
+    """
     Checks if the "Combinations" and "Separations" defined in a set are respected.
     Returns True if they are, and False otherwise.
-    '''
+    """
     movenames = [m["name"] for m in pokeset["moves"]]
     all_things = movenames + [pokeset["item"]["name"]] + [pokeset["ability"]["name"]]
     for combination in pokeset["combinations"]:
@@ -483,14 +484,14 @@ def _check_restrictions(pokeset):
 
 
 def instantiate_pokeset(pokeset):
-    '''
+    """
     Takes a populated set and solidifies any data that is ought to be decided by RNG.
     This includes randomly picking from lists of genders, abilities, items and/or moves.
     The "Combinations" and "Separations" rules are taken into consideration.
 
     Returns:
         The instantiated set
-    '''
+    """
     def instantiate(item, key):
         item[key] = random.choice(item[key])
     def fix_moves(instance):
@@ -501,10 +502,10 @@ def instantiate_pokeset(pokeset):
             
             # special case: Hidden Power. Fix type, power and displayname
             if move["name"] == "Hidden Power":
-                a, b, c, d, e, f = [ivs[stat]%2 for stat in ("hp", "atk", "def", "spe", "spA", "spD")]
+                a, b, c, d, e, f = [ivs[stat] % 2 for stat in ("hp", "atk", "def", "spe", "spA", "spD")]
                 hp_type = ((a + 2*b + 4*c + 8*d + 16*e + 32*f)*15) // 63
                 move["type"] = ("Fighting", "Flying", "Poison", "Ground", "Rock", "Bug", "Ghost", "Steel", "Fire", "Water", "Grass", "Electric", "Psychic", "Ice", "Dragon", "Dark")[hp_type]
-                u, v, w, x, y, z = [(ivs[stat]>>1)%2 for stat in ("hp", "atk", "def", "spe", "spA", "spD")]
+                u, v, w, x, y, z = [(ivs[stat] >> 1) % 2 for stat in ("hp", "atk", "def", "spe", "spA", "spD")]
                 hp_power = ((u + 2*v + 4*w + 8*x + 16*y + 32*z) * 40)//63 + 30
                 move["power"] = hp_power
                 move["displayname"] = "HP {} [{}]".format(move["type"], hp_power)

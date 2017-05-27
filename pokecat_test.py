@@ -1,10 +1,11 @@
 
+import json
 import os
 import unittest
-import json
 import warnings
-import yaml
 from copy import deepcopy
+
+import yaml
 
 import pokecat
 
@@ -24,7 +25,7 @@ class PokecatTester(unittest.TestCase):
     def test_load(self):
         # just make sure loading the testdocs even works
         doc = load_test_doc("dummy")
-        self.assertEqual(doc, {"a":1, "b":"a", "c":None})
+        self.assertEqual(doc, {"a": 1, "b": "a", "c": None})
 
     def test_warning_lowercase_keys(self):
         doc = load_test_doc("_template")
@@ -548,7 +549,7 @@ class PokecatTester(unittest.TestCase):
     def test_invalid_happiness(self):
         doc = load_test_doc("_template")
         doc["species"] = "Unown"
-        doc["happiness"] = [1,2]
+        doc["happiness"] = [1, 2]
         with self.assertRaisesRegex(ValueError, r"happiness must be a number."):
             pokecat.populate_pokeset(doc)
 

@@ -4,7 +4,6 @@ from enum import IntEnum
 from collections import namedtuple
 
 
-Species = namedtuple("Species", ["id", "name", "basestats", "types"])
 Ability = namedtuple("Ability", ["id", "name", "description"])
 Ability.__new__.__defaults__ = ("",)
 Item    = namedtuple("Item",    ["id", "name", "description"])

@@ -8,7 +8,7 @@ statnames_internal = ("hp", "atk", "def", "spe", "spA", "spD")
 
 
 def calculate_stat(base, ev, iv, stattype, nature, level=100):
-    '''
+    """
     Calculated the actual stat of a Pokémon.
     Arguments:
         base: basestat for that Pokémon
@@ -16,9 +16,9 @@ def calculate_stat(base, ev, iv, stattype, nature, level=100):
         iv: iv for that stat the Pokémon has
         stattype: type of the stat being calculated.
             can be hp, atk, def, spA, spD and spe
-        nature_id: id of the Pokémon's nature. between 0 and 24
+        nature: nature dict of the Pokémon's nature.
         level: default 100. level of the Pokémon
-    '''
+    """
     stattype = stattype.lower()
     is_hp = stattype == "hp"
     growth = base*2 + (ev // 4) + iv + (100 if is_hp else 0)

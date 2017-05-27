@@ -1,8 +1,9 @@
 
-from os import path
 from functools import partial
-from .utils import normalize_name
+from os import path
+
 from .datautils import build_from_json_list, load_from_json_list, get_exact, find_similar
+from .utils import normalize_name
 
 from .globaldata import *  # forward
 

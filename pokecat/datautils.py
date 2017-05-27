@@ -53,7 +53,7 @@ def find_similar(lst, name, min_similarity=0.75, namegetter=itemgetter("name")):
     the supplied item's name should be considered ambiguous.
     """
     entries = {}
-    highest_similarity = 0
+    highest_similarity = 0.0
     for index, item in enumerate(lst):
         if not item or not item["name"]:
             continue  # null item, for lists having nothing as id 0 for example
