@@ -1,4 +1,4 @@
-
+import re
 from contextlib import suppress
 
 from .objects import (Species, Stats, Nature, Item,
@@ -90,32 +90,46 @@ def construct_pokemon_from_dict(data):
     return Pokemon(**data)
 
 
+POKEMON_NAME_NORMALIZATIONS = {
+    "nidoran♂": "nidoran-m",
+    "nidoran♀": "nidoran-f",
+    "nidoranm": "nidoran-m",
+    "nidoranf": "nidoran-f",
+    "nidoran(m)": "nidoran-m",
+    "nidoran(f)": "nidoran-f",
+    "nidoran\x0b": "nidoran-m",
+    "nidoran\x0c": "nidoran-f",
+    "farfetch'd": "farfetchd",
+    "flab\u00e9b\u00e9": "flabebe",
+    "mr. mime": "mr-mime",
+    "mr.mime": "mr-mime",
+    "mrmime": "mr-mime",
+    "mime jr.": "mime-jr",
+    "mime-jr.": "mime-jr",
+    "mimejr": "mime-jr",
+    "mimejr.": "mime-jr",
+    "type:null": "type-null",
+    "type: null": "type-null",
+    "type:-null": "type-null",
+    "typenull": "type-null",
+    "tapukoko": "tapu-koko",
+    "tapu koko": "tapu-koko",
+    "tapulele": "tapu-lele",
+    "tapu lele": "tapu-lele",
+    "tapubulu": "tapu-bulu",
+    "tapu bulu": "tapu-bulu",
+    "tapufini": "tapu-fini",
+    "tapu fini": "tapu-fini",
+    "hooh": "ho-oh",
+}
 def normalize_name(name):
     """Normalizes Pokemon names to be stripped, lowercase and ascii-compatible,
     and also collapses variations of names into one common one.
-    E.g. turns Nidoran♂ into nidoran(m)"""
+    E.g. turns Nidoran♂ into nidoran-m"""
     name = name.lower()
-    conversions = {
-        "nidoran♂": "nidoran(m)",
-        "nidoran♀": "nidoran(f)",
-        "nidoranm": "nidoran(m)",
-        "nidoranf": "nidoran(f)",
-        "nidoran-m": "nidoran(m)",
-        "nidoran-f": "nidoran(f)",
-        "nidoran\x0b": "nidoran(m)",
-        "nidoran\x0c": "nidoran(f)",
-        "farfetchd": "farfetch'd",
-        "flab\u00e9b\u00e9": "flabebe",
-        "mr-mime": "mr. mime",
-        "mr.mime": "mr. mime",
-        "mrmime": "mr. mime",
-        "mime-jr": "mime jr.",
-        "mime-jr.": "mime jr.",
-        "mimejr": "mime jr.",
-        "mimejr.": "mime jr.",
-        # TODO add more normalization
-    }
-    for search, replace in conversions.items():
+    for search, replace in POKEMON_NAME_NORMALIZATIONS.items():
         name = name.replace(search, replace)
     name = name.strip()
+    name = name.replace(" ", "-")
+    name = re.sub("[^a-z0-9-]+", "", name)
     return name
