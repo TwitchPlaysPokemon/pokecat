@@ -578,6 +578,18 @@ class PokecatTester(unittest.TestCase):
         result = pokecat.populate_pokeset(doc)
         self.assertFalse(result["hidden"])
 
+    def test_null_forms(self):
+        doc = load_test_doc("_template")
+        doc["tags"] = None
+        with self.assertRaisesRegex(ValueError, r"tags must be a list of strings"):
+            pokecat.populate_pokeset(doc)
+
+    def test_forms_not_string(self):
+        doc = load_test_doc("_template")
+        doc["tags"] = [42]
+        with self.assertRaisesRegex(ValueError, r"tags must be a list of strings"):
+            pokecat.populate_pokeset(doc)
+
     # todo test forms, displaynames with forms, moves, special cases, combinations and separations.
     # and whatever isn't tested yet as well
 
@@ -590,7 +602,7 @@ class PokecatTester(unittest.TestCase):
     def test_gen1_elixer_item_spelling(self):
         elixir = pokecat.gen1data.find_item("Elixir")
         match = next(iter(elixir.values()))
-        self.assertEqual(match["name"], "Elixer")
+        self.assertEqual(match["name"], "ELIXER")
 
     def test_get_gen1_move(self):
         gen1_100 = pokecat.gen1data.get_move("TELEPORT")

@@ -11,7 +11,7 @@ from warnings import warn
 from Levenshtein import ratio
 
 from .utils import normalize_name
-from . import gen4data, forms, stats
+from . import gen1data, gen4data, forms, stats
 from . import utils, objects
 
 log = logging.getLogger(__name__)
