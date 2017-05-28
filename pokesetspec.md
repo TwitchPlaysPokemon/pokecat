@@ -36,6 +36,7 @@ Here's an example of a Pokémon set with (almost) all features being used:
 ingamename: SEEL-PH
 species: Seel
 setname: Physical
+tags: [uber]
 item: [null, Rawst Berry, Toxic Orb, Light Ball, NeverMelt-Ice]
 ability: [null, Thick Fat, Hydration]
 nature: Adamant
@@ -78,6 +79,20 @@ All Pokémon, items and abilities must be from 4th generation or earlier, becaus
 
 **species**
   : The Pokémon species. Can either be a Pokémon name or a National Pokédex number.
+
+**tags**
+  : A list of tags for this pokeset. Should be used to categorize this pokeset for use un metasets.
+  There are a number of tags that get added automatically based on the pokeset's data:
+  - `biddable`, if the `biddable` field is set to true
+  - `hidden`, if the `hidden` field is set to true
+  - `shiny`, if the `shiny` field is set to true
+  - `species+bulbasaur` if the pokeset's species is bulbasaur. `bulbasaur` can be any species' name respectively.
+    The name will be normalized, which usually means lowercase with spaces removed by `-` and other special characters removed.
+  - `species+1` if the pokeset's species' national pokedex number is 1. `1` can be any pokedex number respectively.
+    It's basically the same as the `species+bulbasaur` tags, but you can use the pokedex number variation if the name might be ambiguous.
+  - `type+fire` if the pokeset's species has the fire type. `fire` can be any type respectively.
+  - `level+100` if the pokeset has level 100. `100` can be any level respectively.
+  - `form+0` if the pokeset has the form 0. `0` can be any form number respectively.
 
 **nature**
   : The Pokémon's nature. Can either be a nature name, a nature number (0 = Hardy, 24 = Quirky) or a nature defined by boosted and nerfed stat (for example `+atk -spD`)

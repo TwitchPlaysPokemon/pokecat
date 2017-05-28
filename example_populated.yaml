@@ -36,6 +36,7 @@ species:
     types: [Normal]
 stats: {atk: 269, def: 220, hp: 350, spA: 253, spD: 253, spe: 261}
 types: [Fire]
+tags: [biddable, type+normal, species+493, species+arceus, nature+lonely, level+100, form+1]
 ---
 ability:
 - {description: '', id: 47, name: Thick Fat}
@@ -101,6 +102,7 @@ species:
     name: Seel
     types: [Water]
 stats: {atk: 207, def: 176, hp: 273, spA: 113, spD: 206, spe: 128}
+tags: [uber, shiny, biddable, type+water, species+86, species+seel, nature+adamant, level+100, form+0]
 ---
 ability:
 - {description: '', id: 121, name: Multitype}
@@ -138,3 +140,4 @@ species:
     types: [Normal]
 stats: {atk: 269, def: 220, hp: 350, spA: 253, spD: 253, spe: 261}
 types: [Fire]
+tags: [shiny, hidden, type+normal, species+493, species+arceus, nature+lonely, level+100, form+1]

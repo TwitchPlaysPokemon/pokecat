@@ -17,6 +17,7 @@ moves:
 ingamename: SEEL-PH
 species: Seel
 setname: Physical
+tags: [uber]
 item: [Rawst Berry, Toxic Orb, Light Ball, NeverMelt-Ice]
 ability: [Thich Fat, Hydration]
 nature: Adamant
