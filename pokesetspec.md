@@ -81,7 +81,7 @@ All Pokémon, items and abilities must be from 4th generation or earlier, becaus
   : The Pokémon species. Can either be a Pokémon name or a National Pokédex number.
 
 **tags**
-  : A list of tags for this pokeset. Should be used to categorize this pokeset for use un metasets.
+  : A list of tags for this pokeset. Should be used to categorize this pokeset for use in metasets.
   There are a number of tags that get added automatically based on the pokeset's data:
   - `biddable`, if the `biddable` field is set to true
   - `hidden`, if the `hidden` field is set to true

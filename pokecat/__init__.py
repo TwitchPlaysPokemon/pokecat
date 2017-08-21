@@ -107,7 +107,7 @@ def populate_pokeset(pokeset, skip_ev_check=False):
     # fill in optional fields
     for key, default in _OPTIONAL_FIELDS.items():
         if key not in pokeset:
-            pokeset[key] = default
+            pokeset[key] = deepcopy(default)
 
     # check validity of names
     if not pokeset["setname"] or not isinstance(pokeset["setname"], str):

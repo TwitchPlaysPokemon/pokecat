@@ -16,6 +16,6 @@ setup(
     install_requires=['pyyaml', 'python-Levenshtein', 'docopt'],
 
     author="Felk",
-    description="Tool for handling and processing Pokémon set data that is used for TPP matches.",
+    description="Tool used by TwitchPlaysPokemon for handling and processing Pokémon set data, metasets, and some global utilities.",
     url="https://github.com/TwitchPlaysPokemon/pokecat",
 )
