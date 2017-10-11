@@ -1,365 +1,396 @@
 [
     {
-        "ingamename": "ARCEUS-FIR",
-        "form": 1,
-        "rarity": 1.0,
-        "level": 100,
-        "displayname": "Arceus Fire",
-        "nature": {
-            "decreased": "def",
-            "name": "Lonely",
-            "id": 1,
-            "increased": "atk"
-        },
-        "shiny": false,
-        "ability": {
-            "id": 121,
+        "ball": {
+            "id": 4,
             "description": "",
-            "name": "Multitype"
+            "name": "Pok\u00e9 Ball"
         },
-        "gender": null,
+        "displayname": "Arceus Fire",
+        "level": 100,
         "stats": {
-            "spD": 253,
-            "spA": 253,
-            "spe": 261,
             "atk": 269,
+            "spA": 253,
             "hp": 350,
-            "def": 220
+            "spD": 253,
+            "def": 220,
+            "spe": 261
         },
-        "types": [
-            "Fire"
+        "tags": [
+            "ability+multitype",
+            "biddable",
+            "form+0",
+            "level+100",
+            "matchmaker-enabled",
+            "setname+standard",
+            "species+493",
+            "species+arceus",
+            "type+fire"
+        ],
+        "form": 0,
+        "gender": null,
+        "evs": {
+            "atk": 0,
+            "spA": 32,
+            "hp": 0,
+            "spD": 32,
+            "def": 0,
+            "spe": 64
+        },
+        "moves": [
+            {
+                "id": 52,
+                "pp_ups": 0,
+                "name_id": "ember",
+                "name": "Ember",
+                "accuracy": 100,
+                "power": 40,
+                "type": "Fire",
+                "pp": 25,
+                "category": "Special",
+                "displayname": "Ember"
+            },
+            {
+                "id": 380,
+                "pp_ups": 0,
+                "name_id": "gastroacid",
+                "name": "Gastro Acid",
+                "accuracy": 100,
+                "power": 0,
+                "type": "Poison",
+                "pp": 10,
+                "category": "Status",
+                "displayname": "Gastro Acid"
+            },
+            {
+                "id": 114,
+                "pp_ups": 0,
+                "name_id": "haze",
+                "name": "Haze",
+                "accuracy": null,
+                "power": 0,
+                "type": "Ice",
+                "pp": 30,
+                "category": "Status",
+                "displayname": "Haze"
+            },
+            {
+                "id": 241,
+                "pp_ups": 0,
+                "name_id": "sunnyday",
+                "name": "Sunny Day",
+                "accuracy": null,
+                "power": 0,
+                "type": "Fire",
+                "pp": 5,
+                "category": "Status",
+                "displayname": "Sunny Day"
+            }
         ],
         "happiness": 255,
+        "biddable": true,
+        "setname": "Standard",
+        "nature": {
+            "id": 1,
+            "increased": "atk",
+            "decreased": "def",
+            "name": "Lonely"
+        },
+        "ivs": {
+            "atk": 0,
+            "spA": 0,
+            "hp": 0,
+            "spD": 0,
+            "def": 0,
+            "spe": 0
+        },
+        "ingamename": "ARCEUS-FIR",
+        "shiny": false,
+        "species": {
+            "id": 493,
+            "types": [
+                "Fire"
+            ],
+            "name": "Arceus",
+            "basestats": {
+                "atk": 120,
+                "spA": 120,
+                "hp": 120,
+                "spD": 120,
+                "def": 120,
+                "spe": 120
+            }
+        },
         "item": {
             "id": 298,
             "description": "",
             "name": "Flame Plate"
         },
-        "ball": {
-            "id": 4,
+        "rarity": 1.0,
+        "ability": {
+            "id": 121,
             "description": "",
-            "name": "Pok\u00e9 Ball"
+            "name": "Multitype"
         },
-        "ivs": {
-            "spD": 0,
-            "spA": 0,
-            "spe": 0,
-            "atk": 0,
-            "hp": 0,
-            "def": 0
-        },
-        "biddable": true,
-        "hidden": false,
-        "setname": "Standard",
-        "moves": [
-            {
-                "accuracy": 100,
-                "power": 40,
-                "category": "Special",
-                "pp_ups": 0,
-                "pp": 25,
-                "id": 52,
-                "type": "Fire",
-                "name_id": "ember",
-                "displayname": "Ember",
-                "name": "Ember"
-            },
-            {
-                "accuracy": 100,
-                "power": 0,
-                "category": "Status",
-                "pp_ups": 0,
-                "pp": 10,
-                "id": 380,
-                "type": "Poison",
-                "name_id": "gastroacid",
-                "displayname": "Gastro Acid",
-                "name": "Gastro Acid"
-            },
-            {
-                "accuracy": null,
-                "power": 0,
-                "category": "Status",
-                "pp_ups": 0,
-                "pp": 30,
-                "id": 114,
-                "type": "Ice",
-                "name_id": "haze",
-                "displayname": "Haze",
-                "name": "Haze"
-            },
-            {
-                "accuracy": null,
-                "power": 0,
-                "category": "Status",
-                "pp_ups": 0,
-                "pp": 5,
-                "id": 241,
-                "type": "Fire",
-                "name_id": "sunnyday",
-                "displayname": "Sunny Day",
-                "name": "Sunny Day"
-            }
-        ],
-        "evs": {
-            "spD": 32,
-            "spA": 32,
-            "spe": 64,
-            "atk": 0,
-            "hp": 0,
-            "def": 0
-        },
-        "species": {
-            "types": [
-                "Normal"
-            ],
-            "name": "Arceus",
-            "id": 493,
-            "basestats": {
-                "spD": 120,
-                "spA": 120,
-                "spe": 120,
-                "atk": 120,
-                "hp": 120,
-                "def": 120
-            }
-        }
+        "hidden": false
     },
     {
-        "happiness": 255,
-        "ingamename": "SEEL-PH",
-        "moves": [
-            {
-                "accuracy": 100,
-                "power": 40,
-                "category": "Physical",
-                "pp_ups": 3,
-                "pp": 19,
-                "id": 252,
-                "type": "Normal",
-                "name_id": "fakeout",
-                "displayname": "Fake Out",
-                "name": "Fake Out"
-            },
-            {
-                "accuracy": 100,
-                "power": 80,
-                "category": "Physical",
-                "pp_ups": 0,
-                "pp": 10,
-                "id": 291,
-                "type": "Water",
-                "name_id": "dive",
-                "displayname": "Dive",
-                "name": "Dive"
-            },
-            {
-                "accuracy": 85,
-                "power": 0,
-                "category": "Status",
-                "pp_ups": 0,
-                "pp": 10,
-                "id": 92,
-                "type": "Poison",
-                "name_id": "toxic",
-                "displayname": "Toxic",
-                "name": "Toxic"
-            },
-            {
-                "accuracy": 100,
-                "power": 40,
-                "category": "Physical",
-                "pp_ups": 0,
-                "pp": 30,
-                "id": 420,
-                "type": "Ice",
-                "name_id": "iceshard",
-                "displayname": "Ice Shard",
-                "name": "Ice Shard"
-            }
+        "ball": {
+            "id": 2,
+            "description": "",
+            "name": "Ultra Ball"
+        },
+        "displayname": "Seel (Shiny)",
+        "level": 100,
+        "stats": {
+            "atk": 207,
+            "spA": 113,
+            "hp": 273,
+            "spD": 206,
+            "def": 176,
+            "spe": 128
+        },
+        "tags": [
+            "ability+hydration",
+            "ability+thick-fat",
+            "biddable",
+            "form+0",
+            "level+100",
+            "matchmaker-enabled",
+            "setname+physical",
+            "shiny",
+            "species+86",
+            "species+seel",
+            "type+water",
+            "uber"
         ],
         "form": 0,
-        "rarity": 0.1,
-        "ball": {
-            "id": 4,
-            "description": "",
-            "name": "Pok\u00e9 Ball"
+        "gender": "m",
+        "evs": {
+            "atk": 252,
+            "spA": 0,
+            "hp": 8,
+            "spD": 120,
+            "def": 120,
+            "spe": 8
         },
-        "level": 100,
-        "displayname": "Seel (Shiny)",
-        "nature": {
-            "decreased": "spA",
-            "name": "Adamant",
-            "id": 3,
-            "increased": "atk"
-        },
+        "moves": [
+            {
+                "id": 252,
+                "pp_ups": 3,
+                "name_id": "fakeout",
+                "name": "Fake Out",
+                "accuracy": 100,
+                "power": 40,
+                "type": "Normal",
+                "pp": 19,
+                "category": "Physical",
+                "displayname": "Fake Out"
+            },
+            {
+                "id": 401,
+                "pp_ups": 0,
+                "name_id": "aquatail",
+                "name": "Aqua Tail",
+                "accuracy": 90,
+                "power": 90,
+                "type": "Water",
+                "pp": 10,
+                "category": "Physical",
+                "displayname": "Aqua Tail"
+            },
+            {
+                "id": 38,
+                "pp_ups": 0,
+                "name_id": "doubleedge",
+                "name": "Double-Edge",
+                "accuracy": 100,
+                "power": 120,
+                "type": "Normal",
+                "pp": 15,
+                "category": "Physical",
+                "displayname": "Double-Edge"
+            },
+            {
+                "id": 453,
+                "pp_ups": 0,
+                "name_id": "aquajet",
+                "name": "Aqua Jet",
+                "accuracy": 100,
+                "power": 40,
+                "type": "Water",
+                "pp": 20,
+                "category": "Physical",
+                "displayname": "Aqua Jet"
+            }
+        ],
+        "happiness": 255,
         "biddable": true,
-        "hidden": false,
-        "shiny": true,
         "setname": "Physical",
-        "ability": {
-            "id": 93,
-            "description": "",
-            "name": "Hydration"
+        "nature": {
+            "id": 3,
+            "increased": "atk",
+            "decreased": "spA",
+            "name": "Adamant"
         },
-        "item": {
-            "id": 246,
-            "description": "",
-            "name": "NeverMeltIce"
+        "ivs": {
+            "atk": 31,
+            "spA": 31,
+            "hp": 31,
+            "spD": 31,
+            "def": 31,
+            "spe": 31
         },
+        "ingamename": "SEEL-PH",
+        "shiny": true,
         "species": {
+            "id": 86,
             "types": [
                 "Water"
             ],
             "name": "Seel",
-            "id": 86,
             "basestats": {
-                "spD": 70,
-                "spA": 45,
-                "spe": 45,
                 "atk": 45,
+                "spA": 45,
                 "hp": 65,
-                "def": 55
+                "spD": 70,
+                "def": 55,
+                "spe": 45
             }
         },
-        "gender": "m",
-        "evs": {
-            "spD": 120,
-            "spA": 0,
-            "spe": 8,
-            "atk": 252,
-            "hp": 8,
-            "def": 120
+        "item": {
+            "id": 152,
+            "description": "",
+            "name": "Rawst Berry"
         },
-        "stats": {
-            "spD": 206,
-            "spA": 113,
-            "spe": 128,
-            "atk": 207,
-            "hp": 273,
-            "def": 176
+        "rarity": 0.1,
+        "ability": {
+            "id": 47,
+            "description": "",
+            "name": "Thick Fat"
         },
-        "ivs": {
-            "spD": 31,
-            "spA": 31,
-            "spe": 31,
-            "atk": 31,
-            "hp": 31,
-            "def": 31
-        }
+        "hidden": false
     },
     {
-        "ingamename": "TRIHARD",
-        "form": 1,
-        "rarity": 1.0,
-        "level": 100,
-        "displayname": "Arceus Fire (Shiny)",
-        "nature": {
-            "decreased": "def",
-            "name": "Lonely",
-            "id": 1,
-            "increased": "atk"
-        },
-        "shiny": true,
-        "ability": {
-            "id": 121,
-            "description": "",
-            "name": "Multitype"
-        },
-        "gender": null,
-        "stats": {
-            "spD": 253,
-            "spA": 253,
-            "spe": 261,
-            "atk": 269,
-            "hp": 350,
-            "def": 220
-        },
-        "types": [
-            "Fire"
-        ],
-        "happiness": 255,
-        "item": {
-            "id": 298,
-            "description": "",
-            "name": "Flame Plate"
-        },
         "ball": {
             "id": 4,
             "description": "",
             "name": "Pok\u00e9 Ball"
         },
-        "ivs": {
-            "spD": 0,
-            "spA": 0,
-            "spe": 0,
-            "atk": 0,
-            "hp": 0,
-            "def": 0
+        "displayname": "Arceus Fire (Shiny)",
+        "level": 100,
+        "stats": {
+            "atk": 269,
+            "spA": 253,
+            "hp": 350,
+            "spD": 253,
+            "def": 220,
+            "spe": 261
         },
-        "biddable": false,
-        "hidden": true,
-        "setname": "Standard",
+        "tags": [
+            "ability+multitype",
+            "form+0",
+            "hidden",
+            "level+100",
+            "matchmaker-enabled",
+            "setname+standard",
+            "shiny",
+            "species+493",
+            "species+arceus",
+            "type+fire"
+        ],
+        "form": 0,
+        "gender": null,
+        "evs": {
+            "atk": 0,
+            "spA": 32,
+            "hp": 0,
+            "spD": 32,
+            "def": 0,
+            "spe": 64
+        },
         "moves": [
             {
+                "id": 1,
+                "pp_ups": 0,
+                "name_id": "pound",
+                "name": "Pound",
                 "accuracy": 100,
                 "power": 40,
-                "category": "Physical",
-                "pp_ups": 0,
-                "pp": 35,
-                "id": 1,
                 "type": "Normal",
-                "name_id": "pound",
-                "displayname": "Pound",
-                "name": "Pound"
+                "pp": 35,
+                "category": "Physical",
+                "displayname": "Pound"
             },
             {
+                "id": 237,
+                "pp_ups": 0,
+                "name_id": "hiddenpower",
+                "name": "Hidden Power",
                 "accuracy": 100,
                 "power": 30,
-                "category": "Special",
-                "pp_ups": 0,
-                "pp": 15,
-                "id": 237,
                 "type": "Fighting",
-                "name_id": "hiddenpower",
-                "displayname": "HP 0 [30]",
-                "name": "Hidden Power"
+                "pp": 15,
+                "category": "Special",
+                "displayname": "HP Fighting [30]"
             },
             {
+                "id": 449,
+                "pp_ups": 0,
+                "name_id": "judgment",
+                "name": "Judgment",
                 "accuracy": 100,
                 "power": 100,
-                "category": "Special",
-                "pp_ups": 0,
-                "pp": 10,
-                "id": 449,
                 "type": "Fire",
-                "name_id": "judgment",
-                "displayname": "Judgment Fire",
-                "name": "Judgment"
+                "pp": 10,
+                "category": "Special",
+                "displayname": "Judgment Fire"
             }
         ],
-        "evs": {
-            "spD": 32,
-            "spA": 32,
-            "spe": 64,
-            "atk": 0,
-            "hp": 0,
-            "def": 0
+        "happiness": 255,
+        "biddable": false,
+        "setname": "Standard",
+        "nature": {
+            "id": 1,
+            "increased": "atk",
+            "decreased": "def",
+            "name": "Lonely"
         },
+        "ivs": {
+            "atk": 0,
+            "spA": 0,
+            "hp": 0,
+            "spD": 0,
+            "def": 0,
+            "spe": 0
+        },
+        "ingamename": "TRIHARD",
+        "shiny": true,
         "species": {
+            "id": 493,
             "types": [
-                "Normal"
+                "Fire"
             ],
             "name": "Arceus",
-            "id": 493,
             "basestats": {
-                "spD": 120,
-                "spA": 120,
-                "spe": 120,
                 "atk": 120,
+                "spA": 120,
                 "hp": 120,
-                "def": 120
+                "spD": 120,
+                "def": 120,
+                "spe": 120
             }
-        }
+        },
+        "item": {
+            "id": 298,
+            "description": "",
+            "name": "Flame Plate"
+        },
+        "rarity": 1.0,
+        "ability": {
+            "id": 121,
+            "description": "",
+            "name": "Multitype"
+        },
+        "hidden": true
     }
 ]

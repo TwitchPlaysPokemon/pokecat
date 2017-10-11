@@ -164,3 +164,7 @@ All Pokémon, items and abilities must be from 4th generation or earlier, becaus
   - `type+fire` if the pokeset's species has the fire type. `fire` can be any type respectively.
   - `level+100` if the pokeset has level 100. `100` can be any level respectively.
   - `form+0` if the pokeset has the form 0. `0` can be any form number respectively.
+  - `setname+standard` if the pokeset's setname is standard. `standard` can be any setname respectively.
+    The name will be normalized, which usually means lowercase with spaces removed by `-` and other special characters removed.
+  - `matchmaker-enabled` if the rarity is above 0.
+  - `ability+levitate` if the pokeset's ability has the levitate ability as an option. `levitate` can be any ability respectively. If multiple abilities are avalible, the resulting mon(s) may not have the ability on the tag you filtered by.

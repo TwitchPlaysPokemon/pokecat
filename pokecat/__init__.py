@@ -414,6 +414,13 @@ def populate_pokeset(pokeset, skip_ev_check=False):
     pokeset["tags"].append("level+%d" % pokeset["level"])
     pokeset["tags"].append("form+%d" % pokeset["form"])
 
+    for ability_ in pokeset["ability"]:
+        if ability_:
+            pokeset["tags"].append("ability+%s" % normalize_name(str(ability_["name"])))
+    pokeset["tags"].append("setname+%s" % normalize_name(pokeset["setname"]))
+    if pokeset["rarity"] > 0:
+        pokeset["tags"].append("matchmaker-enabled")
+
     # ensure no duplicate tags
     pokeset["tags"] = sorted(set(pokeset["tags"]))
 
