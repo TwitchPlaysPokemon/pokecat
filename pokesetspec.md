@@ -168,3 +168,14 @@ All Pokémon, items and abilities must be from 4th generation or earlier, becaus
     The name will be normalized, which usually means lowercase with spaces replaced by `-` and other special characters removed.
   - `matchmaker-enabled` if the rarity is above 0.
   - `ability+levitate` if the pokeset's ability has the levitate ability as an option. `levitate` can be any ability respectively. If multiple abilities are avalible, the resulting mon(s) may not have the ability on the tag you filtered by.
+
+**suppressions**
+  : A list of suppressions. These can be used to suppress certain warnings pokecat emits.
+  Use after carefully reviewing that the warning does not apply. Possible suppressions are:
+  - `invalid-ev` suppresses warnings for too many EVs. This affects sets with over 510 EVs total,
+    or more than 252 for one stat.
+  - `wasted-ev` suppresses warnings for EVs that are not a multiple of 4.
+  - `duplicate-moves` suppresses warnings for the same move occuring in multiple move slots.
+    This is a warning in the first place because PBR only ever deducts and checks PP from the topmost occurance of a move.
+    If the topmost occurance has no PP left, the other slots can still be selected, but the move will fail.
+  - `public-shiny` suppresses warnings about a shiny set being biddable and/or visible (not hidden).

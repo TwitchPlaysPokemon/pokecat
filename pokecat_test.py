@@ -12,13 +12,16 @@ import pokecat
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 def load_test_docs(name):
     path = os.path.join(ROOT_DIR, "testdocuments", "{}.yaml".format(name))
-    return list(yaml.load_all(open(path, encoding="utf-8")))
+    with open(path, encoding="utf-8") as f:
+        return list(yaml.load_all(f))
 def load_test_doc(name):
     path = os.path.join(ROOT_DIR, "testdocuments", "{}.yaml".format(name))
-    return yaml.load(open(path, encoding="utf-8"))
+    with open(path, encoding="utf-8") as f:
+        return yaml.load(f)
 def load_test_doc_json(name):
     path = os.path.join(ROOT_DIR, "testdocuments", "{}.json".format(name))
-    return json.load(open(path, encoding="utf-8"))
+    with open(path, encoding="utf-8") as f:
+        return json.load(f)
 
 
 class PokecatTester(unittest.TestCase):
@@ -560,11 +563,15 @@ class PokecatTester(unittest.TestCase):
         with self.assertWarnsRegex(UserWarning, r"Set is biddable, but also hidden, which doesn't make sense."):
             pokecat.populate_pokeset(doc)
 
-    def test_shiny_but_not_hidden(self):
+    def test_public_shiny(self):
         doc = load_test_doc("_template")
         doc["hidden"] = False
         doc["shiny"] = True
-        with self.assertWarnsRegex(UserWarning, r"Set is shiny, but not hidden, which means it is not secret and usable in token matches at any time. Is this intended?"):
+        with self.assertWarnsRegex(UserWarning, r"Set is shiny, but not hidden, which means it publicly visible. Is this intended?"):
+            pokecat.populate_pokeset(doc)
+        doc["biddable"] = True
+        doc["shiny"] = True
+        with self.assertWarnsRegex(UserWarning, r"Set is shiny, but also biddable, which means it can be used in token matches. Is this intended?"):
             pokecat.populate_pokeset(doc)
 
     def test_default_hidden_shiny(self):
@@ -631,6 +638,78 @@ class PokecatTester(unittest.TestCase):
         doc["moves"] = ["1", "2", "3", "4", "5"]
         with self.assertRaisesRegex(ValueError, r"Pokémon must have between 1 and 4 moves, but has 5"):
             pokecat.populate_pokeset(doc)
+
+    def test_duplicate_moves(self):
+        doc = load_test_doc("_template")
+        doc["moves"] = ["Tackle", "Tackle"]
+        with self.assertWarnsRegex(UserWarning, r"Move Tackle is guaranteed to occupy multiple slots \(possible stallmate due to PP-bug\)"):
+            pokecat.populate_pokeset(doc)
+
+    def test_invalid_suppression(self):
+        doc = load_test_doc("_template")
+        doc["suppressions"] = ["invalid"]
+        with self.assertRaisesRegex(ValueError, r"invalid is not a recognized suppression"):
+            pokecat.populate_pokeset(doc)
+
+    def test_suppressions_recognized(self):
+        from pokecat import Suppressions
+        for suppression in Suppressions:
+            doc = load_test_doc("_template")
+            doc["suppressions"] = [suppression.value]
+            pokecat.populate_pokeset(doc)
+            # should just raise no errors
+
+    def test_too_many_evs_single_suppressed(self):
+        doc = load_test_doc("_template")
+        val = 32
+        doc["evs"] = {"atk": val, "def": val, "spA": val, "spD": val, "spe": val}
+        doc["evs"]["hp"] = 256
+        doc["suppressions"] = ["invalid-ev"]
+        with warnings.catch_warnings(record=True) as w:
+            pokecat.populate_pokeset(doc)
+            self.assertEqual(len(w), 0)
+
+    def test_too_many_evs_total_suppressed(self):
+        doc = load_test_doc("_template")
+        val = 128
+        doc["evs"] = {"hp": val, "atk": val, "def": val, "spA": val, "spD": val, "spe": val}
+        doc["suppressions"] = ["invalid-ev"]
+        with warnings.catch_warnings(record=True) as w:
+            pokecat.populate_pokeset(doc)
+            for x in w:
+                print(x)
+            self.assertEqual(len(w), 0)
+
+    def test_wasted_evs_suppressed(self):
+        doc = load_test_doc("_template")
+        val = 16
+        doc["evs"] = {"hp": val, "atk": val, "def": val, "spA": val, "spD": val, "spe": val}
+        doc["evs"]["hp"] = 15
+        doc["suppressions"] = ["wasted-ev"]
+        with warnings.catch_warnings(record=True) as w:
+            pokecat.populate_pokeset(doc)
+            self.assertEqual(len(w), 0)
+
+    def test_duplicate_moves_suppressed(self):
+        doc = load_test_doc("_template")
+        doc["moves"] = ["Tackle", "Tackle"]
+        doc["suppressions"] = ["duplicate-moves"]
+        with warnings.catch_warnings(record=True) as w:
+            pokecat.populate_pokeset(doc)
+            self.assertEqual(len(w), 0)
+
+    def test_public_shiny_suppressed(self):
+        doc = load_test_doc("_template")
+        doc["suppressions"] = ["public-shiny"]
+        doc["shiny"] = True
+        doc["hidden"] = False
+        with warnings.catch_warnings(record=True) as w:
+            pokecat.populate_pokeset(doc)
+            self.assertEqual(len(w), 0)
+        doc["biddable"] = True
+        with warnings.catch_warnings(record=True) as w:
+            pokecat.populate_pokeset(doc)
+            self.assertEqual(len(w), 0)
 
 if __name__ == "__main__":
     unittest.main()

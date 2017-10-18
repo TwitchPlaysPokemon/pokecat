@@ -13,13 +13,14 @@ from Levenshtein import ratio
 from .utils import normalize_name
 from . import gen1data, gen4data, forms, stats
 from . import utils, objects
+from .suppress import Suppressions
 
 log = logging.getLogger(__name__)
 
 _OBLIGATORY_FIELDS = {"setname", "species", "nature", "ivs", "evs", "moves"}
 _OPTIONAL_FIELDS = {"ability": None, "ingamename": None, "gender": None, "form": 0, "item": None, "displayname": None,
                     "happiness": 255, "shiny": False, "biddable": None, "hidden": None, "rarity": 1.0, "ball": "Poké",
-                    "level": 100, "combinations": [], "separations": [], "tags": []}
+                    "level": 100, "combinations": [], "separations": [], "tags": [], "suppressions": []}
 
 
 def is_difference_significant(name1, name2):
@@ -108,6 +109,18 @@ def populate_pokeset(pokeset, skip_ev_check=False):
     for key, default in _OPTIONAL_FIELDS.items():
         if key not in pokeset:
             pokeset[key] = deepcopy(default)
+
+    # parse suppressions
+    suppressions = set()
+    for suppression_str in pokeset["suppressions"]:
+        try:
+            suppression = Suppressions(suppression_str)
+        except ValueError:
+            raise ValueError("{} is not a recognized suppression.".format(suppression_str))
+        else:
+            if suppression in suppressions:
+                raise ValueError("Suppression is specified twice: {}".format(suppression.value))
+            suppressions.add(suppression)
 
     # check validity of names
     if not pokeset["setname"] or not isinstance(pokeset["setname"], str):
@@ -263,21 +276,21 @@ def populate_pokeset(pokeset, skip_ev_check=False):
         raise ValueError("Invalid EV value in EVs: %s" % (evs,))
     if not all(0 <= val for val in evs.values()):
         raise ValueError("All EVs must be >= 0.")
-    if not all(val <= 252 for val in evs.values()):
+    if not all(val <= 252 for val in evs.values()) and Suppressions.INVALID_EV not in suppressions:
         message = "All EVs must be <= 252."
         if skip_ev_check:
             warn(message)
         else:
             raise ValueError(message)
     ev_sum = sum(val for val in evs.values())
-    if ev_sum > 510:
+    if ev_sum > 510 and Suppressions.INVALID_EV not in suppressions:
         message = "Sum of EV must not be larger than 510, but is %d" % ev_sum
         if skip_ev_check:
             warn(message)
         else:
             raise ValueError(message)
     for key, value in evs.items():
-        if value % 4 != 0:
+        if value % 4 != 0 and Suppressions.WASTED_EV not in suppressions:
             warn("EV for %s is %d, which is not a multiple of 4 (wasted points)" % (key, value))
     pokeset["evs"] = evs
 
@@ -287,6 +300,7 @@ def populate_pokeset(pokeset, skip_ev_check=False):
     moves_raw = pokeset["moves"]
     if not 1 <= len(moves_raw) <= 4:
         raise ValueError("Pokémon must have between 1 and 4 moves, but has %d" % len(moves_raw))
+    guaranteed_moves_ids = []
     for slot_index, move_raw in enumerate(moves_raw):
         move = []
         if not isinstance(move_raw, list):
@@ -313,6 +327,11 @@ def populate_pokeset(pokeset, skip_ev_check=False):
             pp = int(pp * (1 + 0.2 * pp_ups))
             move_single["pp"] = pp
             move.append(move_single)
+        if len(move) == 1 and Suppressions.DUPLICATE_MOVES not in suppressions:
+            move_id = move[0]["id"]
+            if guaranteed_moves_ids.count(move_id) == 1:
+                warn("Move {} is guaranteed to occupy multiple slots (possible stallmate due to PP-bug).".format(move[0]["name"]))
+            guaranteed_moves_ids.append(move_id)
         moves.append(move)
     pokeset["moves"] = moves
 
@@ -338,9 +357,10 @@ def populate_pokeset(pokeset, skip_ev_check=False):
 
     if pokeset["biddable"] and pokeset["hidden"]:
         warn("Set is biddable, but also hidden, which doesn't make sense.")
-    if pokeset["shiny"] and not pokeset["hidden"]:
-        warn("Set is shiny, but not hidden, which means it is not secret "
-             "and usable in token matches at any time. Is this intended?")
+    if pokeset["shiny"] and pokeset["biddable"] and Suppressions.PUBLIC_SHINY not in suppressions:
+        warn("Set is shiny, but also biddable, which means it can be used in token matches. Is this intended?")
+    if pokeset["shiny"] and not pokeset["hidden"] and Suppressions.PUBLIC_SHINY not in suppressions:
+        warn("Set is shiny, but not hidden, which means it publicly visible. Is this intended?")
 
     # fix displayname
     if pokeset["displayname"] is None:
