@@ -172,9 +172,9 @@ All Pokémon, items and abilities must be from 4th generation or earlier, becaus
 **suppressions**
   : A list of suppressions. These can be used to suppress certain warnings pokecat emits.
   Use after carefully reviewing that the warning does not apply. Possible suppressions are:
-  - `invalid-ev` suppresses warnings for too many EVs. This affects sets with over 510 EVs total,
+  - `invalid-evs` suppresses warnings for too many EVs. This affects sets with over 510 EVs total,
     or more than 252 for one stat.
-  - `wasted-ev` suppresses warnings for EVs that are not a multiple of 4.
+  - `wasted-evs` suppresses warnings for EVs that are not a multiple of 4.
   - `duplicate-moves` suppresses warnings for the same move occuring in multiple move slots.
     This is a warning in the first place because PBR only ever deducts and checks PP from the topmost occurance of a move.
     If the topmost occurance has no PP left, the other slots can still be selected, but the move will fail.

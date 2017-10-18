@@ -372,8 +372,9 @@ class PokecatTester(unittest.TestCase):
         val = 16
         doc["evs"] = {"hp": val, "atk": val, "def": val, "spA": val, "spD": val, "spe": val}
         doc["evs"]["hp"] = 15
-        with self.assertWarnsRegex(UserWarning, r"EV for hp is 15, which is not a multiple of 4 \(wasted points\)"):
-            pokecat.populate_pokeset(doc)
+        # TODO warning is currently disabled globally, as it is annoying and doesn't help with anything
+        # with self.assertWarnsRegex(UserWarning, r"EV for hp is 15, which is not a multiple of 4 \(wasted points\)"):
+        #     pokecat.populate_pokeset(doc)
 
     def test_rarity(self):
         doc = load_test_doc("_template")
@@ -567,7 +568,7 @@ class PokecatTester(unittest.TestCase):
         doc = load_test_doc("_template")
         doc["hidden"] = False
         doc["shiny"] = True
-        with self.assertWarnsRegex(UserWarning, r"Set is shiny, but not hidden, which means it publicly visible. Is this intended?"):
+        with self.assertWarnsRegex(UserWarning, r"Set is shiny, but not hidden, which means it is publicly visible. Is this intended?"):
             pokecat.populate_pokeset(doc)
         doc["biddable"] = True
         doc["shiny"] = True
@@ -664,7 +665,7 @@ class PokecatTester(unittest.TestCase):
         val = 32
         doc["evs"] = {"atk": val, "def": val, "spA": val, "spD": val, "spe": val}
         doc["evs"]["hp"] = 256
-        doc["suppressions"] = ["invalid-ev"]
+        doc["suppressions"] = ["invalid-evs"]
         with warnings.catch_warnings(record=True) as w:
             pokecat.populate_pokeset(doc)
             self.assertEqual(len(w), 0)
@@ -673,7 +674,7 @@ class PokecatTester(unittest.TestCase):
         doc = load_test_doc("_template")
         val = 128
         doc["evs"] = {"hp": val, "atk": val, "def": val, "spA": val, "spD": val, "spe": val}
-        doc["suppressions"] = ["invalid-ev"]
+        doc["suppressions"] = ["invalid-evs"]
         with warnings.catch_warnings(record=True) as w:
             pokecat.populate_pokeset(doc)
             for x in w:
@@ -685,7 +686,7 @@ class PokecatTester(unittest.TestCase):
         val = 16
         doc["evs"] = {"hp": val, "atk": val, "def": val, "spA": val, "spD": val, "spe": val}
         doc["evs"]["hp"] = 15
-        doc["suppressions"] = ["wasted-ev"]
+        doc["suppressions"] = ["wasted-evs"]
         with warnings.catch_warnings(record=True) as w:
             pokecat.populate_pokeset(doc)
             self.assertEqual(len(w), 0)

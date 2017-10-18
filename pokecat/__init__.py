@@ -21,7 +21,7 @@ _OBLIGATORY_FIELDS = {"setname", "species", "nature", "ivs", "evs", "moves"}
 _OPTIONAL_FIELDS = {"ability": None, "ingamename": None, "gender": None, "form": 0, "item": None, "displayname": None,
                     "happiness": 255, "shiny": False, "biddable": None, "hidden": None, "rarity": 1.0, "ball": "Poké",
                     "level": 100, "combinations": [], "separations": [], "tags": [], "suppressions": []}
-
+_GLOBAL_SUPPRESSIONS = {Suppressions.WASTED_EVS}
 
 def is_difference_significant(name1, name2):
     name1, name2 = name1.lower(), name2.lower()
@@ -123,6 +123,7 @@ def populate_pokeset(pokeset, skip_ev_check=False):
             suppressions.add(suppression)
     # don't actually include suppressions in the data
     del pokeset["suppressions"]
+    suppressions |= _GLOBAL_SUPPRESSIONS
 
     # check validity of names
     if not pokeset["setname"] or not isinstance(pokeset["setname"], str):
@@ -278,21 +279,21 @@ def populate_pokeset(pokeset, skip_ev_check=False):
         raise ValueError("Invalid EV value in EVs: %s" % (evs,))
     if not all(0 <= val for val in evs.values()):
         raise ValueError("All EVs must be >= 0.")
-    if not all(val <= 252 for val in evs.values()) and Suppressions.INVALID_EV not in suppressions:
+    if not all(val <= 252 for val in evs.values()) and Suppressions.INVALID_EVS not in suppressions:
         message = "All EVs must be <= 252."
         if skip_ev_check:
             warn(message)
         else:
             raise ValueError(message)
     ev_sum = sum(val for val in evs.values())
-    if ev_sum > 510 and Suppressions.INVALID_EV not in suppressions:
+    if ev_sum > 510 and Suppressions.INVALID_EVS not in suppressions:
         message = "Sum of EV must not be larger than 510, but is %d" % ev_sum
         if skip_ev_check:
             warn(message)
         else:
             raise ValueError(message)
     for key, value in evs.items():
-        if value % 4 != 0 and Suppressions.WASTED_EV not in suppressions:
+        if value % 4 != 0 and Suppressions.WASTED_EVS not in suppressions:
             warn("EV for %s is %d, which is not a multiple of 4 (wasted points)" % (key, value))
     pokeset["evs"] = evs
 
@@ -362,7 +363,7 @@ def populate_pokeset(pokeset, skip_ev_check=False):
     if pokeset["shiny"] and pokeset["biddable"] and Suppressions.PUBLIC_SHINY not in suppressions:
         warn("Set is shiny, but also biddable, which means it can be used in token matches. Is this intended?")
     if pokeset["shiny"] and not pokeset["hidden"] and Suppressions.PUBLIC_SHINY not in suppressions:
-        warn("Set is shiny, but not hidden, which means it publicly visible. Is this intended?")
+        warn("Set is shiny, but not hidden, which means it is publicly visible. Is this intended?")
 
     # fix displayname
     if pokeset["displayname"] is None:
