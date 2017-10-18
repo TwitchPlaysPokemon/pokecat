@@ -121,6 +121,8 @@ def populate_pokeset(pokeset, skip_ev_check=False):
             if suppression in suppressions:
                 raise ValueError("Suppression is specified twice: {}".format(suppression.value))
             suppressions.add(suppression)
+    # don't actually include suppressions in the data
+    del pokeset["suppressions"]
 
     # check validity of names
     if not pokeset["setname"] or not isinstance(pokeset["setname"], str):
