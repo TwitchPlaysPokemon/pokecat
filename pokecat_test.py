@@ -57,7 +57,7 @@ class PokecatTester(unittest.TestCase):
         doc["species"] = "Typhlosion"
         if "ingamename" in doc: del doc["ingamename"]
         result = pokecat.populate_pokeset(doc)
-        self.assertEquals(result["ingamename"], "TYPHLOSION")
+        self.assertEqual(result["ingamename"], "TYPHLOSION")
 
     def test_default_shiny_ingamename(self):
         doc = load_test_doc("_template")
@@ -65,7 +65,7 @@ class PokecatTester(unittest.TestCase):
         doc["shiny"] = True
         if "ingamename" in doc: del doc["ingamename"]
         result = pokecat.populate_pokeset(doc)
-        self.assertEquals(result["ingamename"], "TYPHLOSI-S")
+        self.assertEqual(result["ingamename"], "TYPHLOSI-S")
 
     def test_empty_setname(self):
         doc = load_test_doc("_template")
@@ -522,14 +522,14 @@ class PokecatTester(unittest.TestCase):
         doc["item"] = "Flame Plate"
         doc["shiny"] = True
         result = pokecat.populate_pokeset(doc)
-        self.assertEquals(result["displayname"], "Arceus Fire (Shiny)")
+        self.assertEqual(result["displayname"], "Arceus Fire (Shiny)")
 
     def test_displayname_magic2(self):
         doc = load_test_doc("_template")
         doc["species"] = "Wormadam"
         doc["form"] = 2
         result = pokecat.populate_pokeset(doc)
-        self.assertEquals(result["displayname"], "Wormadam Trash")
+        self.assertEqual(result["displayname"], "Wormadam Trash")
 
     def test_custom_displayname(self):
         doc = load_test_doc("_template")
@@ -537,14 +537,14 @@ class PokecatTester(unittest.TestCase):
         doc["form"] = 2
         doc["displayname"] = "custom"
         result = pokecat.populate_pokeset(doc)
-        self.assertEquals(result["displayname"], "custom")
+        self.assertEqual(result["displayname"], "custom")
 
     def test_formname(self):
         doc = load_test_doc("_template")
         doc["species"] = "Unown"
         doc["form"] = "C"
         result = pokecat.populate_pokeset(doc)
-        self.assertEquals(result["form"], 2)
+        self.assertEqual(result["form"], 2)
 
     def test_invalid_happiness(self):
         doc = load_test_doc("_template")
@@ -609,6 +609,28 @@ class PokecatTester(unittest.TestCase):
         gen4_100 = pokecat.gen4data.get_move("Teleport")
         self.assertEqual(gen1_100["id"], 100)
         self.assertEqual(gen4_100["id"], 100)
+
+    def test_empty_otions(self):
+        fields = ["ability", "item", "ball", "gender"]
+        for field in fields:
+            doc = load_test_doc("_template")
+            doc[field] = []
+            plural = "abilities" if field == "ability" else field + "s"
+            with self.assertRaisesRegex(ValueError, r"List of possible {} cannot be empty".format(plural)):
+                pokecat.populate_pokeset(doc)
+        doc = load_test_doc("_template")
+        doc["moves"] = [[]]
+        with self.assertRaisesRegex(ValueError, r"List of possible moves in slot 1 cannot be empty"):
+            pokecat.populate_pokeset(doc)
+
+    def test_invalid_number_of_moves(self):
+        doc = load_test_doc("_template")
+        doc["moves"] = []
+        with self.assertRaisesRegex(ValueError, r"Pokémon must have between 1 and 4 moves, but has 0"):
+            pokecat.populate_pokeset(doc)
+        doc["moves"] = ["1", "2", "3", "4", "5"]
+        with self.assertRaisesRegex(ValueError, r"Pokémon must have between 1 and 4 moves, but has 5"):
+            pokecat.populate_pokeset(doc)
 
 if __name__ == "__main__":
     unittest.main()

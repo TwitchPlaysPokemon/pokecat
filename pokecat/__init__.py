@@ -153,7 +153,7 @@ def populate_pokeset(pokeset, skip_ev_check=False):
     if not isinstance(ability_raw, list):
         ability_raw = [ability_raw]
     if not ability_raw:
-        raise ValueError("Ability cannot be an empty list.")
+        raise ValueError("List of possible abilities cannot be empty.")
     for ability_raw_single in ability_raw:
         ability_single, perfect_match = _get_by_index_or_name(gen4data.ABILITIES, ability_raw_single,
                                                               "ability", gen4data.get_ability, gen4data.find_ability)
@@ -170,7 +170,7 @@ def populate_pokeset(pokeset, skip_ev_check=False):
     if not isinstance(item_raw, list):
         item_raw = [item_raw]
     if not item_raw:
-        raise ValueError("Item cannot be an empty list.")
+        raise ValueError("List of possible items cannot be empty.")
     for item_raw_single in item_raw:
         item_single, perfect_match = _get_by_index_or_name(gen4data.ITEMS, item_raw_single,
                                                            "item", gen4data.get_item, gen4data.find_item)
@@ -187,7 +187,7 @@ def populate_pokeset(pokeset, skip_ev_check=False):
     if not isinstance(ball_raw, list):
         ball_raw = [ball_raw]
     if not ball_raw:
-        raise ValueError("Ball cannot be an empty list.")
+        raise ValueError("List of possible balls cannot be empty.")
     for ball_raw_single in ball_raw:
         ball_single, perfect_match = _get_by_index_or_name(gen4data.ITEMS, ball_raw_single,
                                                            "ball", gen4data.get_ball, gen4data.find_ball)
@@ -204,6 +204,8 @@ def populate_pokeset(pokeset, skip_ev_check=False):
     gender = pokeset["gender"]
     if not isinstance(gender, list):
         gender = [gender]
+    if not gender:
+        raise ValueError("List of possible genders cannot be empty.")
     for gender_single in gender:
         if gender_single not in ("m", "f", None):
             raise ValueError("gender can only be 'm', 'f' or not set (null), but not %s" % (gender_single,))
@@ -285,10 +287,12 @@ def populate_pokeset(pokeset, skip_ev_check=False):
     moves_raw = pokeset["moves"]
     if not 1 <= len(moves_raw) <= 4:
         raise ValueError("Pokémon must have between 1 and 4 moves, but has %d" % len(moves_raw))
-    for move_raw in moves_raw:
+    for slot_index, move_raw in enumerate(moves_raw):
         move = []
         if not isinstance(move_raw, list):
             move_raw = [move_raw]
+        if not move_raw:
+            raise ValueError("List of possible moves in slot {} cannot be empty.".format(slot_index+1))
         for move_raw_single in move_raw:
             pp = None
             pp_ups = 0
