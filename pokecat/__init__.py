@@ -7,6 +7,7 @@ from copy import deepcopy
 from difflib import ndiff
 from itertools import chain
 from warnings import warn
+from unidecode import unidecode
 
 from Levenshtein import ratio
 
@@ -24,7 +25,7 @@ _OPTIONAL_FIELDS = {"ability": None, "ingamename": None, "gender": None, "form":
 _GLOBAL_SUPPRESSIONS = {Suppressions.WASTED_EVS}
 
 def is_difference_significant(name1, name2):
-    name1, name2 = name1.lower(), name2.lower()
+    name1, name2 = unidecode(name1.lower()), unidecode(name2.lower())
     diff_chars = {d[-1] for d in ndiff(name1, name2) if d[0] in "+-"}
     insignificant_chars = set("- ")
     if diff_chars - insignificant_chars:

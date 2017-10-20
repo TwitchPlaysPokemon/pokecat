@@ -222,9 +222,18 @@ class PokecatTester(unittest.TestCase):
 
     def test_misspelled_ball(self):
         doc = load_test_doc("_template")
-        doc["ball"] = "Poke"  # missing accent
-        with self.assertWarnsRegex(UserWarning, r"Didn't recognize ball Poke, but assumed Poké Ball."):
+        doc["ball"] = "Mastor"  # misspelled
+        with self.assertWarnsRegex(UserWarning, r"Didn't recognize ball Mastor, but assumed Master Ball."):
             result = pokecat.populate_pokeset(doc)
+        # gets populated as an array
+        self.assertEqual([b["name"] for b in result["ball"]], ["Master Ball"])
+
+    def test_misspell_ignore_accents(self):
+        doc = load_test_doc("_template")
+        doc["ball"] = "Poke"  # missing accent, should be still okay
+        with warnings.catch_warnings(record=True) as w:
+            result = pokecat.populate_pokeset(doc)
+            self.assertEqual(len(w), 0)
         # gets populated as an array
         self.assertEqual([b["name"] for b in result["ball"]], ["Poké Ball"])
 

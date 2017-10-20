@@ -13,7 +13,7 @@ setup(
     package_dir={"pokecat": "pokecat"},
     package_data={"pokecat": ["gen1data/*.json", "gen4data/*.json", "globaldata/*.json", "pbrdata/*.json"]},
     data_files=[("", ["VERSION"])],
-    install_requires=['pyyaml', 'python-Levenshtein', 'docopt'],
+    install_requires=['pyyaml', 'python-Levenshtein', 'docopt', 'unidecode'],
 
     author="Felk",
     description="Tool used by TwitchPlaysPokemon for handling and processing Pokémon set data, metasets, and some global utilities.",
