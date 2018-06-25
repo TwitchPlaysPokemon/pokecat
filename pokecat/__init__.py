@@ -385,34 +385,7 @@ def populate_pokeset(pokeset, skip_ev_check=False):
     if formname is None and form != 0:
         raise ValueError("Species %s has no form %s." % (species["name"], form))
 
-    # special case: all forms. fix displayname
-    formname = forms.get_formname(species["id"], form)
-    if formname and not custom_displayname:
-        pokeset["displayname"] += " " + formname
-
-    # special case: Deoxys. Fix basestats (displayname already fixed)
-    if species["name"] == "Deoxys":
-        deoxys_form = forms.get_formname(species["id"], form)
-        species["basestats"] = gen4data.DEOXYS_BASESTATS[deoxys_form]
-    elif species["name"] == "Wormadam":
-        wormadam_form = forms.get_formname(species["id"], form)
-        species["basestats"] = gen4data.WORMADAM_BASESTATS[wormadam_form]
-
-    # special case: Arceus. Handle as form. Also fix type
-    if species["name"] == "Arceus":
-        item = pokeset["item"]
-        if len(item) > 1:
-            raise ValueError("Arceus currently must have a fixed item")
-        arceus_type = forms.get_multitype_type(item[0])
-        pokeset["species"]["types"] = [arceus_type]
-        if not custom_displayname:
-            pokeset["displayname"] += " " + arceus_type
-        #pokeset["form"] = gen4data.TYPES.index(arceus_type)
-
-    # special case: Wormadam. Fix type
-    if species["name"] == "Wormadam":
-        wormadam_types = ("Grass", "Ground", "Steel")
-        pokeset["species"]["types"] = ["Bug", wormadam_types[form]]
+    apply_pokeset_form_adjustments(pokeset)
 
     # add stats
     pokeset["stats"] = {}
@@ -509,6 +482,54 @@ def populate_pokeset(pokeset, skip_ev_check=False):
             raise ValueError("All things referenced in separation must be present in set. Missing: %s" % ", ".join(rest))
     # TODO validate that the combinations and separations even allow for a functioning set to be generated
     return pokeset
+
+
+def apply_pokeset_form_adjustments(pokeset):
+    form = pokeset["form"]
+    species = pokeset["species"]
+
+    custom_displayname = False
+    if (pokeset["displayname"] is not None and
+            pokeset["displayname"] != species["name"]):
+        custom_displayname = True
+
+    # special case: all forms. fix displayname
+    formname = forms.get_formname(species["id"], form)
+    if formname and not custom_displayname:
+        pokeset["displayname"] =  species["name"] + " " + formname
+
+    # special case: Deoxys. Fix basestats (displayname already fixed)
+    if species["name"] == "Deoxys":
+        deoxys_form = forms.get_formname(species["id"], form)
+        species["basestats"] = gen4data.DEOXYS_BASESTATS[deoxys_form]
+        recalculate_pokeset_stats(pokeset)
+    elif species["name"] == "Wormadam":
+        wormadam_form = forms.get_formname(species["id"], form)
+        species["basestats"] = gen4data.WORMADAM_BASESTATS[wormadam_form]
+        recalculate_pokeset_stats(pokeset)
+
+    # special case: Wormadam. Fix type
+    if species["name"] == "Wormadam":
+        wormadam_types = ("Grass", "Ground", "Steel")
+        pokeset["species"]["types"] = ["Bug", wormadam_types[form]]
+
+    # special case: Arceus. Handle as form. Also fix type
+    if species["name"] == "Arceus":
+        if "ability" in species and species["ability"]["name"] != "Multitype":
+            pokeset["species"]["types"] = ["Normal"]
+            if not custom_displayname:
+                pokeset["displayname"] = species["name"]
+        else:
+            item = pokeset["item"]
+            if type(item) is list:
+                if len(item) > 1:
+                    raise ValueError("Arceus currently must have a fixed item")
+                item = item[0]
+            arceus_type = forms.get_multitype_type(item)
+            pokeset["species"]["types"] = [arceus_type]
+            if not custom_displayname:
+                pokeset["displayname"] = species["name"] + " " + arceus_type
+            # pokeset["form"] = gen4data.TYPES.index(arceus_type)
 
 
 def _check_restrictions(pokeset):
@@ -633,4 +654,73 @@ def generate_random_pokeset():
 def generate_random_pokemon():
     pokeset = generate_random_pokeset()
     return instantiate_pokeset(pokeset)
+
+
+def recalculate_pokeset_stats(pokeset):
+    """Perform whenever a pokeset's base stats, evs, etc. are changed."""
+    for statname in stats.statnames:
+        if 'stats' in pokeset:
+            pokeset['stats'][statname] = stats.calculate_stat(
+                pokeset['species']['basestats'][statname],
+                pokeset['evs'][statname],
+                pokeset['ivs'][statname],
+                statname,
+                pokeset['nature'],
+                pokeset['level']
+            )
+
+
+def redact_pokeset_data(pokemon):
+    pokemon['displayname'] = '???'
+    pokemon['ingamename'] = '???'
+    pokemon['setname'] = '???'
+    pokemon['gender'] = None
+    pokemon['form'] = 0
+    pokemon['happiness'] = 0
+    pokemon['level'] = 100
+    pokemon['biddable'] = True
+    pokemon['ability']['id'] = 0
+    pokemon['ability']['name'] = '???'
+    pokemon['ability']['description'] = ''
+    pokemon['item']['id'] = 0
+    pokemon['item']['name'] = '???'
+    pokemon['item']['description'] = ''
+    pokemon['ball']['id'] = 0
+    pokemon['ball']['name'] = '???'
+    pokemon['ball']['description'] = ''
+    pokemon['nature']['id'] = 0
+    pokemon['nature']['name'] = '???'
+    pokemon['nature']['increased'] = None
+    pokemon['nature']['decreased'] = None
+    pokemon['species']['id'] = 0
+    pokemon['species']['name'] = '???'
+    pokemon['species']['types'] = ['???']
+    pokemon['stats'] = {
+        'hp': '???',
+        'atk': '???',
+        'def': '???',
+        'spA': '???',
+        'spD': '???',
+        'spe': '???',
+    }
+    pokemon['species']['basestats'] = pokemon['stats']
+    pokemon['original_species']['id'] = 0
+    pokemon['original_species']['name'] = '???'
+    pokemon['original_species']['types'] = ['???']
+    pokemon['original_species']['basestats'] = pokemon['stats']
+    pokemon['ivs'] = pokemon['stats']
+    pokemon['evs'] = pokemon['stats']
+    pokemon['rarity'] = 1.0
+    pokemon['moves'] = pokemon['moves'][:1]
+    pokemon['moves'][0]['id'] = 0
+    pokemon['moves'][0]['displayname'] = '???'
+    pokemon['moves'][0]['name'] = '???'
+    pokemon['moves'][0]['name_id'] = '???'
+    pokemon['moves'][0]['category'] = 'Physical'
+    pokemon['moves'][0]['type'] = '???'
+    pokemon['moves'][0]['pp'] = 0
+    pokemon['moves'][0]['pp_ups'] = 0
+    pokemon['moves'][0]['power'] = 0
+    pokemon['moves'][0]['accuracy'] = 0
+    pokemon['tags'] = []
 
