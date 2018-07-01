@@ -476,7 +476,7 @@ def populate_pokeset(pokeset, skip_ev_check=False):
     for com in combinations:
         if any(c in ambiguities for c in com):
             raise ValueError("Can't use %s in combinations, as it is ambiguous." % (com,))
-        rest = set(com) - all_things
+        rest = [item for item in com if item not in all_things]
         for r in list(rest):
             if not r:
                 continue
@@ -493,7 +493,7 @@ def populate_pokeset(pokeset, skip_ev_check=False):
     for sep in separations:
         if any(s in ambiguities for s in sep):
             raise ValueError("Can't use %s in separations, as it is ambiguous." % (sep,))
-        rest = set(sep) - all_things
+        rest = [item for item in sep if item not in all_things]
         for r in list(rest):
             if not r:
                 continue
