@@ -394,6 +394,9 @@ def populate_pokeset(pokeset, skip_ev_check=False):
     if species["name"] == "Deoxys":
         deoxys_form = forms.get_formname(species["id"], form)
         species["basestats"] = gen4data.DEOXYS_BASESTATS[deoxys_form]
+    elif species["name"] == "Wormadam":
+        wormadam_form = forms.get_formname(species["id"], form)
+        species["basestats"] = gen4data.WORMADAM_BASESTATS[wormadam_form]
 
     # special case: Arceus. Handle as form. Also fix type
     if species["name"] == "Arceus":
