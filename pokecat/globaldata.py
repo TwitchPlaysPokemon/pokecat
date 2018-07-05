@@ -11,6 +11,7 @@ NATURES = load_from_json_list(path.join(ROOT_DIR, "globaldata/natures.json"))
 TYPES = load_from_json_list(path.join(ROOT_DIR, "globaldata/types.json"))
 
 DEOXYS_BASESTATS = load_from_json_list(path.join(ROOT_DIR, "globaldata/deoxys_basestats.json"))
+WORMADAM_BASESTATS = load_from_json_list(path.join(ROOT_DIR, "globaldata/wormadam_basestats.json"))
 NATURAL_GIFT_EFFECTS = load_from_json_list(path.join(ROOT_DIR, "globaldata/natural_gift_effects.json"))
 
 get_nature = partial(get_exact, NATURES)
