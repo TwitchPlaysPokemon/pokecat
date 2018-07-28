@@ -158,7 +158,8 @@ All Pokémon, items and abilities must be from 4th generation or earlier, becaus
   - `species+Bulbasaur` if the pokeset's species is bulbasaur. `Bulbasaur` can be any species' name respectively.
   - `species+1` if the pokeset's species' national pokedex number is 1. `1` can be any pokedex number respectively.
     It's basically the same as the `species+Bulbasaur` tags, but you can use the pokedex number variation if the name might be ambiguous.
-  - `type+Fire` if the pokeset's species has the fire type. `Fire` can be any type respectively.
+  - `type+Fire` if the pokeset's species has the Fire type. `Fire` can be any type respectively.
+  - `color+Red` if the pokeset's species is colored red. `Red` can be any color respectively.
   - `level+100` if the pokeset has level 100. `100` can be any level respectively.
   - `form+0` if the pokeset has the form 0. `0` can be any form number respectively.
   - `setname+Standard` if the pokeset's setname is Standard. `Standard` can be any setname respectively.

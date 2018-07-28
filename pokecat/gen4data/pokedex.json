@@ -14,7 +14,8 @@
             "spD": 65,
             "spe": 45
         },
-        "name": "Bulbasaur"
+        "name": "Bulbasaur",
+        "color": "Green"
     },
     {
         "id": 2,
@@ -30,7 +31,8 @@
             "spD": 80,
             "spe": 60
         },
-        "name": "Ivysaur"
+        "name": "Ivysaur",
+        "color": "Green"
     },
     {
         "id": 3,
@@ -46,7 +48,8 @@
             "spD": 100,
             "spe": 80
         },
-        "name": "Venusaur"
+        "name": "Venusaur",
+        "color": "Green"
     },
     {
         "id": 4,
@@ -61,7 +64,8 @@
             "spD": 50,
             "spe": 65
         },
-        "name": "Charmander"
+        "name": "Charmander",
+        "color": "Red"
     },
     {
         "id": 5,
@@ -76,7 +80,8 @@
             "spD": 65,
             "spe": 80
         },
-        "name": "Charmeleon"
+        "name": "Charmeleon",
+        "color": "Red"
     },
     {
         "id": 6,
@@ -92,7 +97,8 @@
             "spD": 85,
             "spe": 100
         },
-        "name": "Charizard"
+        "name": "Charizard",
+        "color": "Red"
     },
     {
         "id": 7,
@@ -107,7 +113,8 @@
             "spD": 64,
             "spe": 43
         },
-        "name": "Squirtle"
+        "name": "Squirtle",
+        "color": "Blue"
     },
     {
         "id": 8,
@@ -122,7 +129,8 @@
             "spD": 80,
             "spe": 58
         },
-        "name": "Wartortle"
+        "name": "Wartortle",
+        "color": "Blue"
     },
     {
         "id": 9,
@@ -137,7 +145,8 @@
             "spD": 105,
             "spe": 78
         },
-        "name": "Blastoise"
+        "name": "Blastoise",
+        "color": "Blue"
     },
     {
         "id": 10,
@@ -152,7 +161,8 @@
             "spD": 20,
             "spe": 45
         },
-        "name": "Caterpie"
+        "name": "Caterpie",
+        "color": "Green"
     },
     {
         "id": 11,
@@ -167,7 +177,8 @@
             "spD": 25,
             "spe": 30
         },
-        "name": "Metapod"
+        "name": "Metapod",
+        "color": "Green"
     },
     {
         "id": 12,
@@ -183,7 +194,8 @@
             "spD": 80,
             "spe": 70
         },
-        "name": "Butterfree"
+        "name": "Butterfree",
+        "color": "White"
     },
     {
         "id": 13,
@@ -199,7 +211,8 @@
             "spD": 20,
             "spe": 50
         },
-        "name": "Weedle"
+        "name": "Weedle",
+        "color": "Brown"
     },
     {
         "id": 14,
@@ -215,7 +228,8 @@
             "spD": 25,
             "spe": 35
         },
-        "name": "Kakuna"
+        "name": "Kakuna",
+        "color": "Yellow"
     },
     {
         "id": 15,
@@ -231,7 +245,8 @@
             "spD": 80,
             "spe": 75
         },
-        "name": "Beedrill"
+        "name": "Beedrill",
+        "color": "Yellow"
     },
     {
         "id": 16,
@@ -247,7 +262,8 @@
             "spD": 35,
             "spe": 56
         },
-        "name": "Pidgey"
+        "name": "Pidgey",
+        "color": "Brown"
     },
     {
         "id": 17,
@@ -263,7 +279,8 @@
             "spD": 50,
             "spe": 71
         },
-        "name": "Pidgeotto"
+        "name": "Pidgeotto",
+        "color": "Brown"
     },
     {
         "id": 18,
@@ -279,7 +296,8 @@
             "spD": 70,
             "spe": 91
         },
-        "name": "Pidgeot"
+        "name": "Pidgeot",
+        "color": "Brown"
     },
     {
         "id": 19,
@@ -294,7 +312,8 @@
             "spD": 35,
             "spe": 72
         },
-        "name": "Rattata"
+        "name": "Rattata",
+        "color": "Purple"
     },
     {
         "id": 20,
@@ -309,7 +328,8 @@
             "spD": 70,
             "spe": 97
         },
-        "name": "Raticate"
+        "name": "Raticate",
+        "color": "Brown"
     },
     {
         "id": 21,
@@ -325,7 +345,8 @@
             "spD": 31,
             "spe": 70
         },
-        "name": "Spearow"
+        "name": "Spearow",
+        "color": "Brown"
     },
     {
         "id": 22,
@@ -341,7 +362,8 @@
             "spD": 61,
             "spe": 100
         },
-        "name": "Fearow"
+        "name": "Fearow",
+        "color": "Brown"
     },
     {
         "id": 23,
@@ -356,7 +378,8 @@
             "spD": 54,
             "spe": 55
         },
-        "name": "Ekans"
+        "name": "Ekans",
+        "color": "Purple"
     },
     {
         "id": 24,
@@ -371,7 +394,8 @@
             "spD": 79,
             "spe": 80
         },
-        "name": "Arbok"
+        "name": "Arbok",
+        "color": "Purple"
     },
     {
         "id": 25,
@@ -386,7 +410,8 @@
             "spD": 40,
             "spe": 90
         },
-        "name": "Pikachu"
+        "name": "Pikachu",
+        "color": "Yellow"
     },
     {
         "id": 26,
@@ -401,7 +426,8 @@
             "spD": 80,
             "spe": 100
         },
-        "name": "Raichu"
+        "name": "Raichu",
+        "color": "Yellow"
     },
     {
         "id": 27,
@@ -416,7 +442,8 @@
             "spD": 30,
             "spe": 40
         },
-        "name": "Sandshrew"
+        "name": "Sandshrew",
+        "color": "Yellow"
     },
     {
         "id": 28,
@@ -431,7 +458,8 @@
             "spD": 55,
             "spe": 65
         },
-        "name": "Sandslash"
+        "name": "Sandslash",
+        "color": "Yellow"
     },
     {
         "id": 29,
@@ -446,7 +474,8 @@
             "spD": 40,
             "spe": 41
         },
-        "name": "Nidoran\u2640"
+        "name": "Nidoran\u2640",
+        "color": "Blue"
     },
     {
         "id": 30,
@@ -461,7 +490,8 @@
             "spD": 55,
             "spe": 56
         },
-        "name": "Nidorina"
+        "name": "Nidorina",
+        "color": "Blue"
     },
     {
         "id": 31,
@@ -477,7 +507,8 @@
             "spD": 85,
             "spe": 76
         },
-        "name": "Nidoqueen"
+        "name": "Nidoqueen",
+        "color": "Blue"
     },
     {
         "id": 32,
@@ -492,7 +523,8 @@
             "spD": 40,
             "spe": 50
         },
-        "name": "Nidoran\u2642"
+        "name": "Nidoran\u2642",
+        "color": "Purple"
     },
     {
         "id": 33,
@@ -507,7 +539,8 @@
             "spD": 55,
             "spe": 65
         },
-        "name": "Nidorino"
+        "name": "Nidorino",
+        "color": "Purple"
     },
     {
         "id": 34,
@@ -523,7 +556,8 @@
             "spD": 75,
             "spe": 85
         },
-        "name": "Nidoking"
+        "name": "Nidoking",
+        "color": "Purple"
     },
     {
         "id": 35,
@@ -538,7 +572,8 @@
             "spD": 65,
             "spe": 35
         },
-        "name": "Clefairy"
+        "name": "Clefairy",
+        "color": "Pink"
     },
     {
         "id": 36,
@@ -553,7 +588,8 @@
             "spD": 90,
             "spe": 60
         },
-        "name": "Clefable"
+        "name": "Clefable",
+        "color": "Pink"
     },
     {
         "id": 37,
@@ -568,7 +604,8 @@
             "spD": 65,
             "spe": 65
         },
-        "name": "Vulpix"
+        "name": "Vulpix",
+        "color": "Brown"
     },
     {
         "id": 38,
@@ -583,7 +620,8 @@
             "spD": 100,
             "spe": 100
         },
-        "name": "Ninetales"
+        "name": "Ninetales",
+        "color": "Yellow"
     },
     {
         "id": 39,
@@ -598,7 +636,8 @@
             "spD": 25,
             "spe": 20
         },
-        "name": "Jigglypuff"
+        "name": "Jigglypuff",
+        "color": "Pink"
     },
     {
         "id": 40,
@@ -613,7 +652,8 @@
             "spD": 50,
             "spe": 45
         },
-        "name": "Wigglytuff"
+        "name": "Wigglytuff",
+        "color": "Pink"
     },
     {
         "id": 41,
@@ -629,7 +669,8 @@
             "spD": 40,
             "spe": 55
         },
-        "name": "Zubat"
+        "name": "Zubat",
+        "color": "Purple"
     },
     {
         "id": 42,
@@ -645,7 +686,8 @@
             "spD": 75,
             "spe": 90
         },
-        "name": "Golbat"
+        "name": "Golbat",
+        "color": "Purple"
     },
     {
         "id": 43,
@@ -661,7 +703,8 @@
             "spD": 65,
             "spe": 30
         },
-        "name": "Oddish"
+        "name": "Oddish",
+        "color": "Blue"
     },
     {
         "id": 44,
@@ -677,7 +720,8 @@
             "spD": 75,
             "spe": 40
         },
-        "name": "Gloom"
+        "name": "Gloom",
+        "color": "Blue"
     },
     {
         "id": 45,
@@ -693,7 +737,8 @@
             "spD": 90,
             "spe": 50
         },
-        "name": "Vileplume"
+        "name": "Vileplume",
+        "color": "Red"
     },
     {
         "id": 46,
@@ -709,7 +754,8 @@
             "spD": 55,
             "spe": 25
         },
-        "name": "Paras"
+        "name": "Paras",
+        "color": "Red"
     },
     {
         "id": 47,
@@ -725,7 +771,8 @@
             "spD": 80,
             "spe": 30
         },
-        "name": "Parasect"
+        "name": "Parasect",
+        "color": "Red"
     },
     {
         "id": 48,
@@ -741,7 +788,8 @@
             "spD": 55,
             "spe": 45
         },
-        "name": "Venonat"
+        "name": "Venonat",
+        "color": "Purple"
     },
     {
         "id": 49,
@@ -757,7 +805,8 @@
             "spD": 75,
             "spe": 90
         },
-        "name": "Venomoth"
+        "name": "Venomoth",
+        "color": "Purple"
     },
     {
         "id": 50,
@@ -772,7 +821,8 @@
             "spD": 45,
             "spe": 95
         },
-        "name": "Diglett"
+        "name": "Diglett",
+        "color": "Brown"
     },
     {
         "id": 51,
@@ -787,7 +837,8 @@
             "spD": 70,
             "spe": 120
         },
-        "name": "Dugtrio"
+        "name": "Dugtrio",
+        "color": "Brown"
     },
     {
         "id": 52,
@@ -802,7 +853,8 @@
             "spD": 40,
             "spe": 90
         },
-        "name": "Meowth"
+        "name": "Meowth",
+        "color": "Yellow"
     },
     {
         "id": 53,
@@ -817,7 +869,8 @@
             "spD": 65,
             "spe": 115
         },
-        "name": "Persian"
+        "name": "Persian",
+        "color": "Yellow"
     },
     {
         "id": 54,
@@ -832,7 +885,8 @@
             "spD": 50,
             "spe": 55
         },
-        "name": "Psyduck"
+        "name": "Psyduck",
+        "color": "Yellow"
     },
     {
         "id": 55,
@@ -847,7 +901,8 @@
             "spD": 80,
             "spe": 85
         },
-        "name": "Golduck"
+        "name": "Golduck",
+        "color": "Blue"
     },
     {
         "id": 56,
@@ -862,7 +917,8 @@
             "spD": 45,
             "spe": 70
         },
-        "name": "Mankey"
+        "name": "Mankey",
+        "color": "Brown"
     },
     {
         "id": 57,
@@ -877,7 +933,8 @@
             "spD": 70,
             "spe": 95
         },
-        "name": "Primeape"
+        "name": "Primeape",
+        "color": "Brown"
     },
     {
         "id": 58,
@@ -892,7 +949,8 @@
             "spD": 50,
             "spe": 60
         },
-        "name": "Growlithe"
+        "name": "Growlithe",
+        "color": "Brown"
     },
     {
         "id": 59,
@@ -907,7 +965,8 @@
             "spD": 80,
             "spe": 95
         },
-        "name": "Arcanine"
+        "name": "Arcanine",
+        "color": "Brown"
     },
     {
         "id": 60,
@@ -922,7 +981,8 @@
             "spD": 40,
             "spe": 90
         },
-        "name": "Poliwag"
+        "name": "Poliwag",
+        "color": "Blue"
     },
     {
         "id": 61,
@@ -937,7 +997,8 @@
             "spD": 50,
             "spe": 90
         },
-        "name": "Poliwhirl"
+        "name": "Poliwhirl",
+        "color": "Blue"
     },
     {
         "id": 62,
@@ -953,7 +1014,8 @@
             "spD": 90,
             "spe": 70
         },
-        "name": "Poliwrath"
+        "name": "Poliwrath",
+        "color": "Blue"
     },
     {
         "id": 63,
@@ -968,7 +1030,8 @@
             "spD": 55,
             "spe": 90
         },
-        "name": "Abra"
+        "name": "Abra",
+        "color": "Brown"
     },
     {
         "id": 64,
@@ -983,7 +1046,8 @@
             "spD": 70,
             "spe": 105
         },
-        "name": "Kadabra"
+        "name": "Kadabra",
+        "color": "Brown"
     },
     {
         "id": 65,
@@ -998,7 +1062,8 @@
             "spD": 85,
             "spe": 120
         },
-        "name": "Alakazam"
+        "name": "Alakazam",
+        "color": "Brown"
     },
     {
         "id": 66,
@@ -1013,7 +1078,8 @@
             "spD": 35,
             "spe": 35
         },
-        "name": "Machop"
+        "name": "Machop",
+        "color": "Gray"
     },
     {
         "id": 67,
@@ -1028,7 +1094,8 @@
             "spD": 60,
             "spe": 45
         },
-        "name": "Machoke"
+        "name": "Machoke",
+        "color": "Gray"
     },
     {
         "id": 68,
@@ -1043,7 +1110,8 @@
             "spD": 85,
             "spe": 55
         },
-        "name": "Machamp"
+        "name": "Machamp",
+        "color": "Gray"
     },
     {
         "id": 69,
@@ -1059,7 +1127,8 @@
             "spD": 30,
             "spe": 40
         },
-        "name": "Bellsprout"
+        "name": "Bellsprout",
+        "color": "Green"
     },
     {
         "id": 70,
@@ -1075,7 +1144,8 @@
             "spD": 45,
             "spe": 55
         },
-        "name": "Weepinbell"
+        "name": "Weepinbell",
+        "color": "Green"
     },
     {
         "id": 71,
@@ -1091,7 +1161,8 @@
             "spD": 60,
             "spe": 70
         },
-        "name": "Victreebel"
+        "name": "Victreebel",
+        "color": "Green"
     },
     {
         "id": 72,
@@ -1107,7 +1178,8 @@
             "spD": 100,
             "spe": 70
         },
-        "name": "Tentacool"
+        "name": "Tentacool",
+        "color": "Blue"
     },
     {
         "id": 73,
@@ -1123,7 +1195,8 @@
             "spD": 120,
             "spe": 100
         },
-        "name": "Tentacruel"
+        "name": "Tentacruel",
+        "color": "Blue"
     },
     {
         "id": 74,
@@ -1139,7 +1212,8 @@
             "spD": 30,
             "spe": 20
         },
-        "name": "Geodude"
+        "name": "Geodude",
+        "color": "Brown"
     },
     {
         "id": 75,
@@ -1155,7 +1229,8 @@
             "spD": 45,
             "spe": 35
         },
-        "name": "Graveler"
+        "name": "Graveler",
+        "color": "Brown"
     },
     {
         "id": 76,
@@ -1171,7 +1246,8 @@
             "spD": 65,
             "spe": 45
         },
-        "name": "Golem"
+        "name": "Golem",
+        "color": "Brown"
     },
     {
         "id": 77,
@@ -1186,7 +1262,8 @@
             "spD": 65,
             "spe": 90
         },
-        "name": "Ponyta"
+        "name": "Ponyta",
+        "color": "Yellow"
     },
     {
         "id": 78,
@@ -1201,7 +1278,8 @@
             "spD": 80,
             "spe": 105
         },
-        "name": "Rapidash"
+        "name": "Rapidash",
+        "color": "Yellow"
     },
     {
         "id": 79,
@@ -1217,7 +1295,8 @@
             "spD": 40,
             "spe": 15
         },
-        "name": "Slowpoke"
+        "name": "Slowpoke",
+        "color": "Pink"
     },
     {
         "id": 80,
@@ -1233,7 +1312,8 @@
             "spD": 80,
             "spe": 30
         },
-        "name": "Slowbro"
+        "name": "Slowbro",
+        "color": "Pink"
     },
     {
         "id": 81,
@@ -1249,7 +1329,8 @@
             "spD": 55,
             "spe": 45
         },
-        "name": "Magnemite"
+        "name": "Magnemite",
+        "color": "Gray"
     },
     {
         "id": 82,
@@ -1265,7 +1346,8 @@
             "spD": 70,
             "spe": 70
         },
-        "name": "Magneton"
+        "name": "Magneton",
+        "color": "Gray"
     },
     {
         "id": 83,
@@ -1281,7 +1363,8 @@
             "spD": 62,
             "spe": 60
         },
-        "name": "Farfetch'd"
+        "name": "Farfetch'd",
+        "color": "Brown"
     },
     {
         "id": 84,
@@ -1297,7 +1380,8 @@
             "spD": 35,
             "spe": 75
         },
-        "name": "Doduo"
+        "name": "Doduo",
+        "color": "Brown"
     },
     {
         "id": 85,
@@ -1313,7 +1397,8 @@
             "spD": 60,
             "spe": 100
         },
-        "name": "Dodrio"
+        "name": "Dodrio",
+        "color": "Brown"
     },
     {
         "id": 86,
@@ -1328,7 +1413,8 @@
             "spD": 70,
             "spe": 45
         },
-        "name": "Seel"
+        "name": "Seel",
+        "color": "White"
     },
     {
         "id": 87,
@@ -1344,7 +1430,8 @@
             "spD": 95,
             "spe": 70
         },
-        "name": "Dewgong"
+        "name": "Dewgong",
+        "color": "White"
     },
     {
         "id": 88,
@@ -1359,7 +1446,8 @@
             "spD": 50,
             "spe": 25
         },
-        "name": "Grimer"
+        "name": "Grimer",
+        "color": "Purple"
     },
     {
         "id": 89,
@@ -1374,7 +1462,8 @@
             "spD": 100,
             "spe": 50
         },
-        "name": "Muk"
+        "name": "Muk",
+        "color": "Purple"
     },
     {
         "id": 90,
@@ -1389,7 +1478,8 @@
             "spD": 25,
             "spe": 40
         },
-        "name": "Shellder"
+        "name": "Shellder",
+        "color": "Purple"
     },
     {
         "id": 91,
@@ -1405,7 +1495,8 @@
             "spD": 45,
             "spe": 70
         },
-        "name": "Cloyster"
+        "name": "Cloyster",
+        "color": "Purple"
     },
     {
         "id": 92,
@@ -1421,7 +1512,8 @@
             "spD": 35,
             "spe": 80
         },
-        "name": "Gastly"
+        "name": "Gastly",
+        "color": "Purple"
     },
     {
         "id": 93,
@@ -1437,7 +1529,8 @@
             "spD": 55,
             "spe": 95
         },
-        "name": "Haunter"
+        "name": "Haunter",
+        "color": "Purple"
     },
     {
         "id": 94,
@@ -1453,7 +1546,8 @@
             "spD": 75,
             "spe": 110
         },
-        "name": "Gengar"
+        "name": "Gengar",
+        "color": "Purple"
     },
     {
         "id": 95,
@@ -1469,7 +1563,8 @@
             "spD": 45,
             "spe": 70
         },
-        "name": "Onix"
+        "name": "Onix",
+        "color": "Gray"
     },
     {
         "id": 96,
@@ -1484,7 +1579,8 @@
             "spD": 90,
             "spe": 42
         },
-        "name": "Drowzee"
+        "name": "Drowzee",
+        "color": "Yellow"
     },
     {
         "id": 97,
@@ -1499,7 +1595,8 @@
             "spD": 115,
             "spe": 67
         },
-        "name": "Hypno"
+        "name": "Hypno",
+        "color": "Yellow"
     },
     {
         "id": 98,
@@ -1514,7 +1611,8 @@
             "spD": 25,
             "spe": 50
         },
-        "name": "Krabby"
+        "name": "Krabby",
+        "color": "Red"
     },
     {
         "id": 99,
@@ -1529,7 +1627,8 @@
             "spD": 50,
             "spe": 75
         },
-        "name": "Kingler"
+        "name": "Kingler",
+        "color": "Red"
     },
     {
         "id": 100,
@@ -1544,7 +1643,8 @@
             "spD": 55,
             "spe": 100
         },
-        "name": "Voltorb"
+        "name": "Voltorb",
+        "color": "Red"
     },
     {
         "id": 101,
@@ -1559,7 +1659,8 @@
             "spD": 80,
             "spe": 140
         },
-        "name": "Electrode"
+        "name": "Electrode",
+        "color": "Red"
     },
     {
         "id": 102,
@@ -1575,7 +1676,8 @@
             "spD": 45,
             "spe": 40
         },
-        "name": "Exeggcute"
+        "name": "Exeggcute",
+        "color": "Pink"
     },
     {
         "id": 103,
@@ -1591,7 +1693,8 @@
             "spD": 65,
             "spe": 55
         },
-        "name": "Exeggutor"
+        "name": "Exeggutor",
+        "color": "Yellow"
     },
     {
         "id": 104,
@@ -1606,7 +1709,8 @@
             "spD": 50,
             "spe": 35
         },
-        "name": "Cubone"
+        "name": "Cubone",
+        "color": "Brown"
     },
     {
         "id": 105,
@@ -1621,7 +1725,8 @@
             "spD": 80,
             "spe": 45
         },
-        "name": "Marowak"
+        "name": "Marowak",
+        "color": "Brown"
     },
     {
         "id": 106,
@@ -1636,7 +1741,8 @@
             "spD": 110,
             "spe": 87
         },
-        "name": "Hitmonlee"
+        "name": "Hitmonlee",
+        "color": "Brown"
     },
     {
         "id": 107,
@@ -1651,7 +1757,8 @@
             "spD": 110,
             "spe": 76
         },
-        "name": "Hitmonchan"
+        "name": "Hitmonchan",
+        "color": "Brown"
     },
     {
         "id": 108,
@@ -1666,7 +1773,8 @@
             "spD": 75,
             "spe": 30
         },
-        "name": "Lickitung"
+        "name": "Lickitung",
+        "color": "Pink"
     },
     {
         "id": 109,
@@ -1681,7 +1789,8 @@
             "spD": 45,
             "spe": 35
         },
-        "name": "Koffing"
+        "name": "Koffing",
+        "color": "Purple"
     },
     {
         "id": 110,
@@ -1696,7 +1805,8 @@
             "spD": 70,
             "spe": 60
         },
-        "name": "Weezing"
+        "name": "Weezing",
+        "color": "Purple"
     },
     {
         "id": 111,
@@ -1712,7 +1822,8 @@
             "spD": 30,
             "spe": 25
         },
-        "name": "Rhyhorn"
+        "name": "Rhyhorn",
+        "color": "Gray"
     },
     {
         "id": 112,
@@ -1728,7 +1839,8 @@
             "spD": 45,
             "spe": 40
         },
-        "name": "Rhydon"
+        "name": "Rhydon",
+        "color": "Gray"
     },
     {
         "id": 113,
@@ -1743,7 +1855,8 @@
             "spD": 105,
             "spe": 50
         },
-        "name": "Chansey"
+        "name": "Chansey",
+        "color": "Pink"
     },
     {
         "id": 114,
@@ -1758,7 +1871,8 @@
             "spD": 40,
             "spe": 60
         },
-        "name": "Tangela"
+        "name": "Tangela",
+        "color": "Blue"
     },
     {
         "id": 115,
@@ -1773,7 +1887,8 @@
             "spD": 80,
             "spe": 90
         },
-        "name": "Kangaskhan"
+        "name": "Kangaskhan",
+        "color": "Brown"
     },
     {
         "id": 116,
@@ -1788,7 +1903,8 @@
             "spD": 25,
             "spe": 60
         },
-        "name": "Horsea"
+        "name": "Horsea",
+        "color": "Blue"
     },
     {
         "id": 117,
@@ -1803,7 +1919,8 @@
             "spD": 45,
             "spe": 85
         },
-        "name": "Seadra"
+        "name": "Seadra",
+        "color": "Blue"
     },
     {
         "id": 118,
@@ -1818,7 +1935,8 @@
             "spD": 50,
             "spe": 63
         },
-        "name": "Goldeen"
+        "name": "Goldeen",
+        "color": "Red"
     },
     {
         "id": 119,
@@ -1833,7 +1951,8 @@
             "spD": 80,
             "spe": 68
         },
-        "name": "Seaking"
+        "name": "Seaking",
+        "color": "Red"
     },
     {
         "id": 120,
@@ -1848,7 +1967,8 @@
             "spD": 55,
             "spe": 85
         },
-        "name": "Staryu"
+        "name": "Staryu",
+        "color": "Brown"
     },
     {
         "id": 121,
@@ -1864,7 +1984,8 @@
             "spD": 85,
             "spe": 115
         },
-        "name": "Starmie"
+        "name": "Starmie",
+        "color": "Purple"
     },
     {
         "id": 122,
@@ -1879,7 +2000,8 @@
             "spD": 120,
             "spe": 90
         },
-        "name": "Mr. Mime"
+        "name": "Mr. Mime",
+        "color": "Pink"
     },
     {
         "id": 123,
@@ -1895,7 +2017,8 @@
             "spD": 80,
             "spe": 105
         },
-        "name": "Scyther"
+        "name": "Scyther",
+        "color": "Green"
     },
     {
         "id": 124,
@@ -1911,7 +2034,8 @@
             "spD": 95,
             "spe": 95
         },
-        "name": "Jynx"
+        "name": "Jynx",
+        "color": "Red"
     },
     {
         "id": 125,
@@ -1926,7 +2050,8 @@
             "spD": 85,
             "spe": 105
         },
-        "name": "Electabuzz"
+        "name": "Electabuzz",
+        "color": "Yellow"
     },
     {
         "id": 126,
@@ -1941,7 +2066,8 @@
             "spD": 85,
             "spe": 93
         },
-        "name": "Magmar"
+        "name": "Magmar",
+        "color": "Red"
     },
     {
         "id": 127,
@@ -1956,7 +2082,8 @@
             "spD": 70,
             "spe": 85
         },
-        "name": "Pinsir"
+        "name": "Pinsir",
+        "color": "Brown"
     },
     {
         "id": 128,
@@ -1971,7 +2098,8 @@
             "spD": 70,
             "spe": 110
         },
-        "name": "Tauros"
+        "name": "Tauros",
+        "color": "Brown"
     },
     {
         "id": 129,
@@ -1986,7 +2114,8 @@
             "spD": 20,
             "spe": 80
         },
-        "name": "Magikarp"
+        "name": "Magikarp",
+        "color": "Red"
     },
     {
         "id": 130,
@@ -2002,7 +2131,8 @@
             "spD": 100,
             "spe": 81
         },
-        "name": "Gyarados"
+        "name": "Gyarados",
+        "color": "Blue"
     },
     {
         "id": 131,
@@ -2018,7 +2148,8 @@
             "spD": 95,
             "spe": 60
         },
-        "name": "Lapras"
+        "name": "Lapras",
+        "color": "Blue"
     },
     {
         "id": 132,
@@ -2033,7 +2164,8 @@
             "spD": 48,
             "spe": 48
         },
-        "name": "Ditto"
+        "name": "Ditto",
+        "color": "Purple"
     },
     {
         "id": 133,
@@ -2048,7 +2180,8 @@
             "spD": 65,
             "spe": 55
         },
-        "name": "Eevee"
+        "name": "Eevee",
+        "color": "Brown"
     },
     {
         "id": 134,
@@ -2063,7 +2196,8 @@
             "spD": 95,
             "spe": 65
         },
-        "name": "Vaporeon"
+        "name": "Vaporeon",
+        "color": "Blue"
     },
     {
         "id": 135,
@@ -2078,7 +2212,8 @@
             "spD": 95,
             "spe": 130
         },
-        "name": "Jolteon"
+        "name": "Jolteon",
+        "color": "Yellow"
     },
     {
         "id": 136,
@@ -2093,7 +2228,8 @@
             "spD": 110,
             "spe": 65
         },
-        "name": "Flareon"
+        "name": "Flareon",
+        "color": "Red"
     },
     {
         "id": 137,
@@ -2108,7 +2244,8 @@
             "spD": 75,
             "spe": 40
         },
-        "name": "Porygon"
+        "name": "Porygon",
+        "color": "Pink"
     },
     {
         "id": 138,
@@ -2124,7 +2261,8 @@
             "spD": 55,
             "spe": 35
         },
-        "name": "Omanyte"
+        "name": "Omanyte",
+        "color": "Blue"
     },
     {
         "id": 139,
@@ -2140,7 +2278,8 @@
             "spD": 70,
             "spe": 55
         },
-        "name": "Omastar"
+        "name": "Omastar",
+        "color": "Blue"
     },
     {
         "id": 140,
@@ -2156,7 +2295,8 @@
             "spD": 45,
             "spe": 55
         },
-        "name": "Kabuto"
+        "name": "Kabuto",
+        "color": "Brown"
     },
     {
         "id": 141,
@@ -2172,7 +2312,8 @@
             "spD": 70,
             "spe": 80
         },
-        "name": "Kabutops"
+        "name": "Kabutops",
+        "color": "Brown"
     },
     {
         "id": 142,
@@ -2188,7 +2329,8 @@
             "spD": 75,
             "spe": 130
         },
-        "name": "Aerodactyl"
+        "name": "Aerodactyl",
+        "color": "Purple"
     },
     {
         "id": 143,
@@ -2203,7 +2345,8 @@
             "spD": 110,
             "spe": 30
         },
-        "name": "Snorlax"
+        "name": "Snorlax",
+        "color": "Black"
     },
     {
         "id": 144,
@@ -2219,7 +2362,8 @@
             "spD": 125,
             "spe": 85
         },
-        "name": "Articuno"
+        "name": "Articuno",
+        "color": "Blue"
     },
     {
         "id": 145,
@@ -2235,7 +2379,8 @@
             "spD": 90,
             "spe": 100
         },
-        "name": "Zapdos"
+        "name": "Zapdos",
+        "color": "Yellow"
     },
     {
         "id": 146,
@@ -2251,7 +2396,8 @@
             "spD": 85,
             "spe": 90
         },
-        "name": "Moltres"
+        "name": "Moltres",
+        "color": "Yellow"
     },
     {
         "id": 147,
@@ -2266,7 +2412,8 @@
             "spD": 50,
             "spe": 50
         },
-        "name": "Dratini"
+        "name": "Dratini",
+        "color": "Blue"
     },
     {
         "id": 148,
@@ -2281,7 +2428,8 @@
             "spD": 70,
             "spe": 70
         },
-        "name": "Dragonair"
+        "name": "Dragonair",
+        "color": "Blue"
     },
     {
         "id": 149,
@@ -2297,7 +2445,8 @@
             "spD": 100,
             "spe": 80
         },
-        "name": "Dragonite"
+        "name": "Dragonite",
+        "color": "Brown"
     },
     {
         "id": 150,
@@ -2312,7 +2461,8 @@
             "spD": 90,
             "spe": 130
         },
-        "name": "Mewtwo"
+        "name": "Mewtwo",
+        "color": "Purple"
     },
     {
         "id": 151,
@@ -2327,7 +2477,8 @@
             "spD": 100,
             "spe": 100
         },
-        "name": "Mew"
+        "name": "Mew",
+        "color": "Pink"
     },
     {
         "id": 152,
@@ -2342,7 +2493,8 @@
             "spD": 65,
             "spe": 45
         },
-        "name": "Chikorita"
+        "name": "Chikorita",
+        "color": "Green"
     },
     {
         "id": 153,
@@ -2357,7 +2509,8 @@
             "spD": 80,
             "spe": 60
         },
-        "name": "Bayleef"
+        "name": "Bayleef",
+        "color": "Green"
     },
     {
         "id": 154,
@@ -2372,7 +2525,8 @@
             "spD": 100,
             "spe": 80
         },
-        "name": "Meganium"
+        "name": "Meganium",
+        "color": "Green"
     },
     {
         "id": 155,
@@ -2387,7 +2541,8 @@
             "spD": 50,
             "spe": 65
         },
-        "name": "Cyndaquil"
+        "name": "Cyndaquil",
+        "color": "Yellow"
     },
     {
         "id": 156,
@@ -2402,7 +2557,8 @@
             "spD": 65,
             "spe": 80
         },
-        "name": "Quilava"
+        "name": "Quilava",
+        "color": "Yellow"
     },
     {
         "id": 157,
@@ -2417,7 +2573,8 @@
             "spD": 85,
             "spe": 100
         },
-        "name": "Typhlosion"
+        "name": "Typhlosion",
+        "color": "Yellow"
     },
     {
         "id": 158,
@@ -2432,7 +2589,8 @@
             "spD": 48,
             "spe": 43
         },
-        "name": "Totodile"
+        "name": "Totodile",
+        "color": "Blue"
     },
     {
         "id": 159,
@@ -2447,7 +2605,8 @@
             "spD": 63,
             "spe": 58
         },
-        "name": "Croconaw"
+        "name": "Croconaw",
+        "color": "Blue"
     },
     {
         "id": 160,
@@ -2462,7 +2621,8 @@
             "spD": 83,
             "spe": 78
         },
-        "name": "Feraligatr"
+        "name": "Feraligatr",
+        "color": "Blue"
     },
     {
         "id": 161,
@@ -2477,7 +2637,8 @@
             "spD": 45,
             "spe": 20
         },
-        "name": "Sentret"
+        "name": "Sentret",
+        "color": "Brown"
     },
     {
         "id": 162,
@@ -2492,7 +2653,8 @@
             "spD": 55,
             "spe": 90
         },
-        "name": "Furret"
+        "name": "Furret",
+        "color": "Brown"
     },
     {
         "id": 163,
@@ -2508,7 +2670,8 @@
             "spD": 56,
             "spe": 50
         },
-        "name": "Hoothoot"
+        "name": "Hoothoot",
+        "color": "Brown"
     },
     {
         "id": 164,
@@ -2524,7 +2687,8 @@
             "spD": 96,
             "spe": 70
         },
-        "name": "Noctowl"
+        "name": "Noctowl",
+        "color": "Brown"
     },
     {
         "id": 165,
@@ -2540,7 +2704,8 @@
             "spD": 80,
             "spe": 55
         },
-        "name": "Ledyba"
+        "name": "Ledyba",
+        "color": "Red"
     },
     {
         "id": 166,
@@ -2556,7 +2721,8 @@
             "spD": 110,
             "spe": 85
         },
-        "name": "Ledian"
+        "name": "Ledian",
+        "color": "Red"
     },
     {
         "id": 167,
@@ -2572,7 +2738,8 @@
             "spD": 40,
             "spe": 30
         },
-        "name": "Spinarak"
+        "name": "Spinarak",
+        "color": "Green"
     },
     {
         "id": 168,
@@ -2588,7 +2755,8 @@
             "spD": 60,
             "spe": 40
         },
-        "name": "Ariados"
+        "name": "Ariados",
+        "color": "Red"
     },
     {
         "id": 169,
@@ -2604,7 +2772,8 @@
             "spD": 80,
             "spe": 130
         },
-        "name": "Crobat"
+        "name": "Crobat",
+        "color": "Purple"
     },
     {
         "id": 170,
@@ -2620,7 +2789,8 @@
             "spD": 56,
             "spe": 67
         },
-        "name": "Chinchou"
+        "name": "Chinchou",
+        "color": "Blue"
     },
     {
         "id": 171,
@@ -2636,7 +2806,8 @@
             "spD": 76,
             "spe": 67
         },
-        "name": "Lanturn"
+        "name": "Lanturn",
+        "color": "Blue"
     },
     {
         "id": 172,
@@ -2651,7 +2822,8 @@
             "spD": 35,
             "spe": 60
         },
-        "name": "Pichu"
+        "name": "Pichu",
+        "color": "Yellow"
     },
     {
         "id": 173,
@@ -2666,7 +2838,8 @@
             "spD": 55,
             "spe": 15
         },
-        "name": "Cleffa"
+        "name": "Cleffa",
+        "color": "Pink"
     },
     {
         "id": 174,
@@ -2681,7 +2854,8 @@
             "spD": 20,
             "spe": 15
         },
-        "name": "Igglybuff"
+        "name": "Igglybuff",
+        "color": "Pink"
     },
     {
         "id": 175,
@@ -2696,7 +2870,8 @@
             "spD": 65,
             "spe": 20
         },
-        "name": "Togepi"
+        "name": "Togepi",
+        "color": "White"
     },
     {
         "id": 176,
@@ -2712,7 +2887,8 @@
             "spD": 105,
             "spe": 40
         },
-        "name": "Togetic"
+        "name": "Togetic",
+        "color": "White"
     },
     {
         "id": 177,
@@ -2728,7 +2904,8 @@
             "spD": 45,
             "spe": 70
         },
-        "name": "Natu"
+        "name": "Natu",
+        "color": "Green"
     },
     {
         "id": 178,
@@ -2744,7 +2921,8 @@
             "spD": 70,
             "spe": 95
         },
-        "name": "Xatu"
+        "name": "Xatu",
+        "color": "Green"
     },
     {
         "id": 179,
@@ -2759,7 +2937,8 @@
             "spD": 45,
             "spe": 35
         },
-        "name": "Mareep"
+        "name": "Mareep",
+        "color": "White"
     },
     {
         "id": 180,
@@ -2774,7 +2953,8 @@
             "spD": 60,
             "spe": 45
         },
-        "name": "Flaaffy"
+        "name": "Flaaffy",
+        "color": "Pink"
     },
     {
         "id": 181,
@@ -2789,7 +2969,8 @@
             "spD": 90,
             "spe": 55
         },
-        "name": "Ampharos"
+        "name": "Ampharos",
+        "color": "Yellow"
     },
     {
         "id": 182,
@@ -2804,7 +2985,8 @@
             "spD": 100,
             "spe": 50
         },
-        "name": "Bellossom"
+        "name": "Bellossom",
+        "color": "Green"
     },
     {
         "id": 183,
@@ -2819,7 +3001,8 @@
             "spD": 50,
             "spe": 40
         },
-        "name": "Marill"
+        "name": "Marill",
+        "color": "Blue"
     },
     {
         "id": 184,
@@ -2834,7 +3017,8 @@
             "spD": 80,
             "spe": 50
         },
-        "name": "Azumarill"
+        "name": "Azumarill",
+        "color": "Blue"
     },
     {
         "id": 185,
@@ -2849,7 +3033,8 @@
             "spD": 65,
             "spe": 30
         },
-        "name": "Sudowoodo"
+        "name": "Sudowoodo",
+        "color": "Brown"
     },
     {
         "id": 186,
@@ -2864,7 +3049,8 @@
             "spD": 100,
             "spe": 70
         },
-        "name": "Politoed"
+        "name": "Politoed",
+        "color": "Green"
     },
     {
         "id": 187,
@@ -2880,7 +3066,8 @@
             "spD": 55,
             "spe": 50
         },
-        "name": "Hoppip"
+        "name": "Hoppip",
+        "color": "Pink"
     },
     {
         "id": 188,
@@ -2896,7 +3083,8 @@
             "spD": 65,
             "spe": 80
         },
-        "name": "Skiploom"
+        "name": "Skiploom",
+        "color": "Green"
     },
     {
         "id": 189,
@@ -2912,7 +3100,8 @@
             "spD": 85,
             "spe": 110
         },
-        "name": "Jumpluff"
+        "name": "Jumpluff",
+        "color": "Blue"
     },
     {
         "id": 190,
@@ -2927,7 +3116,8 @@
             "spD": 55,
             "spe": 85
         },
-        "name": "Aipom"
+        "name": "Aipom",
+        "color": "Purple"
     },
     {
         "id": 191,
@@ -2942,7 +3132,8 @@
             "spD": 30,
             "spe": 30
         },
-        "name": "Sunkern"
+        "name": "Sunkern",
+        "color": "Yellow"
     },
     {
         "id": 192,
@@ -2957,7 +3148,8 @@
             "spD": 85,
             "spe": 30
         },
-        "name": "Sunflora"
+        "name": "Sunflora",
+        "color": "Yellow"
     },
     {
         "id": 193,
@@ -2973,7 +3165,8 @@
             "spD": 45,
             "spe": 95
         },
-        "name": "Yanma"
+        "name": "Yanma",
+        "color": "Red"
     },
     {
         "id": 194,
@@ -2989,7 +3182,8 @@
             "spD": 25,
             "spe": 15
         },
-        "name": "Wooper"
+        "name": "Wooper",
+        "color": "Blue"
     },
     {
         "id": 195,
@@ -3005,7 +3199,8 @@
             "spD": 65,
             "spe": 35
         },
-        "name": "Quagsire"
+        "name": "Quagsire",
+        "color": "Blue"
     },
     {
         "id": 196,
@@ -3020,7 +3215,8 @@
             "spD": 95,
             "spe": 110
         },
-        "name": "Espeon"
+        "name": "Espeon",
+        "color": "Purple"
     },
     {
         "id": 197,
@@ -3035,7 +3231,8 @@
             "spD": 130,
             "spe": 65
         },
-        "name": "Umbreon"
+        "name": "Umbreon",
+        "color": "Black"
     },
     {
         "id": 198,
@@ -3051,7 +3248,8 @@
             "spD": 42,
             "spe": 91
         },
-        "name": "Murkrow"
+        "name": "Murkrow",
+        "color": "Black"
     },
     {
         "id": 199,
@@ -3067,7 +3265,8 @@
             "spD": 110,
             "spe": 30
         },
-        "name": "Slowking"
+        "name": "Slowking",
+        "color": "Pink"
     },
     {
         "id": 200,
@@ -3082,7 +3281,8 @@
             "spD": 85,
             "spe": 85
         },
-        "name": "Misdreavus"
+        "name": "Misdreavus",
+        "color": "Gray"
     },
     {
         "id": 201,
@@ -3097,7 +3297,8 @@
             "spD": 48,
             "spe": 48
         },
-        "name": "Unown"
+        "name": "Unown",
+        "color": "Black"
     },
     {
         "id": 202,
@@ -3112,7 +3313,8 @@
             "spD": 58,
             "spe": 33
         },
-        "name": "Wobbuffet"
+        "name": "Wobbuffet",
+        "color": "Blue"
     },
     {
         "id": 203,
@@ -3128,7 +3330,8 @@
             "spD": 65,
             "spe": 85
         },
-        "name": "Girafarig"
+        "name": "Girafarig",
+        "color": "Yellow"
     },
     {
         "id": 204,
@@ -3143,7 +3346,8 @@
             "spD": 35,
             "spe": 15
         },
-        "name": "Pineco"
+        "name": "Pineco",
+        "color": "Gray"
     },
     {
         "id": 205,
@@ -3159,7 +3363,8 @@
             "spD": 60,
             "spe": 40
         },
-        "name": "Forretress"
+        "name": "Forretress",
+        "color": "Purple"
     },
     {
         "id": 206,
@@ -3174,7 +3379,8 @@
             "spD": 65,
             "spe": 45
         },
-        "name": "Dunsparce"
+        "name": "Dunsparce",
+        "color": "Yellow"
     },
     {
         "id": 207,
@@ -3190,7 +3396,8 @@
             "spD": 65,
             "spe": 85
         },
-        "name": "Gligar"
+        "name": "Gligar",
+        "color": "Purple"
     },
     {
         "id": 208,
@@ -3206,7 +3413,8 @@
             "spD": 65,
             "spe": 30
         },
-        "name": "Steelix"
+        "name": "Steelix",
+        "color": "Gray"
     },
     {
         "id": 209,
@@ -3221,7 +3429,8 @@
             "spD": 40,
             "spe": 30
         },
-        "name": "Snubbull"
+        "name": "Snubbull",
+        "color": "Pink"
     },
     {
         "id": 210,
@@ -3236,7 +3445,8 @@
             "spD": 60,
             "spe": 45
         },
-        "name": "Granbull"
+        "name": "Granbull",
+        "color": "Purple"
     },
     {
         "id": 211,
@@ -3252,7 +3462,8 @@
             "spD": 55,
             "spe": 85
         },
-        "name": "Qwilfish"
+        "name": "Qwilfish",
+        "color": "Gray"
     },
     {
         "id": 212,
@@ -3268,7 +3479,8 @@
             "spD": 80,
             "spe": 65
         },
-        "name": "Scizor"
+        "name": "Scizor",
+        "color": "Red"
     },
     {
         "id": 213,
@@ -3284,7 +3496,8 @@
             "spD": 230,
             "spe": 5
         },
-        "name": "Shuckle"
+        "name": "Shuckle",
+        "color": "Yellow"
     },
     {
         "id": 214,
@@ -3300,7 +3513,8 @@
             "spD": 95,
             "spe": 85
         },
-        "name": "Heracross"
+        "name": "Heracross",
+        "color": "Blue"
     },
     {
         "id": 215,
@@ -3316,7 +3530,8 @@
             "spD": 75,
             "spe": 115
         },
-        "name": "Sneasel"
+        "name": "Sneasel",
+        "color": "Black"
     },
     {
         "id": 216,
@@ -3331,7 +3546,8 @@
             "spD": 50,
             "spe": 40
         },
-        "name": "Teddiursa"
+        "name": "Teddiursa",
+        "color": "Brown"
     },
     {
         "id": 217,
@@ -3346,7 +3562,8 @@
             "spD": 75,
             "spe": 55
         },
-        "name": "Ursaring"
+        "name": "Ursaring",
+        "color": "Brown"
     },
     {
         "id": 218,
@@ -3361,7 +3578,8 @@
             "spD": 40,
             "spe": 20
         },
-        "name": "Slugma"
+        "name": "Slugma",
+        "color": "Red"
     },
     {
         "id": 219,
@@ -3377,7 +3595,8 @@
             "spD": 80,
             "spe": 30
         },
-        "name": "Magcargo"
+        "name": "Magcargo",
+        "color": "Red"
     },
     {
         "id": 220,
@@ -3393,7 +3612,8 @@
             "spD": 30,
             "spe": 50
         },
-        "name": "Swinub"
+        "name": "Swinub",
+        "color": "Brown"
     },
     {
         "id": 221,
@@ -3409,7 +3629,8 @@
             "spD": 60,
             "spe": 50
         },
-        "name": "Piloswine"
+        "name": "Piloswine",
+        "color": "Brown"
     },
     {
         "id": 222,
@@ -3425,7 +3646,8 @@
             "spD": 85,
             "spe": 35
         },
-        "name": "Corsola"
+        "name": "Corsola",
+        "color": "Pink"
     },
     {
         "id": 223,
@@ -3440,7 +3662,8 @@
             "spD": 35,
             "spe": 65
         },
-        "name": "Remoraid"
+        "name": "Remoraid",
+        "color": "Gray"
     },
     {
         "id": 224,
@@ -3455,7 +3678,8 @@
             "spD": 75,
             "spe": 45
         },
-        "name": "Octillery"
+        "name": "Octillery",
+        "color": "Red"
     },
     {
         "id": 225,
@@ -3471,7 +3695,8 @@
             "spD": 45,
             "spe": 75
         },
-        "name": "Delibird"
+        "name": "Delibird",
+        "color": "Red"
     },
     {
         "id": 226,
@@ -3487,7 +3712,8 @@
             "spD": 140,
             "spe": 70
         },
-        "name": "Mantine"
+        "name": "Mantine",
+        "color": "Purple"
     },
     {
         "id": 227,
@@ -3503,7 +3729,8 @@
             "spD": 70,
             "spe": 70
         },
-        "name": "Skarmory"
+        "name": "Skarmory",
+        "color": "Gray"
     },
     {
         "id": 228,
@@ -3519,7 +3746,8 @@
             "spD": 50,
             "spe": 65
         },
-        "name": "Houndour"
+        "name": "Houndour",
+        "color": "Black"
     },
     {
         "id": 229,
@@ -3535,7 +3763,8 @@
             "spD": 80,
             "spe": 95
         },
-        "name": "Houndoom"
+        "name": "Houndoom",
+        "color": "Black"
     },
     {
         "id": 230,
@@ -3551,7 +3780,8 @@
             "spD": 95,
             "spe": 85
         },
-        "name": "Kingdra"
+        "name": "Kingdra",
+        "color": "Blue"
     },
     {
         "id": 231,
@@ -3566,7 +3796,8 @@
             "spD": 40,
             "spe": 40
         },
-        "name": "Phanpy"
+        "name": "Phanpy",
+        "color": "Blue"
     },
     {
         "id": 232,
@@ -3581,7 +3812,8 @@
             "spD": 60,
             "spe": 50
         },
-        "name": "Donphan"
+        "name": "Donphan",
+        "color": "Gray"
     },
     {
         "id": 233,
@@ -3596,7 +3828,8 @@
             "spD": 95,
             "spe": 60
         },
-        "name": "Porygon2"
+        "name": "Porygon2",
+        "color": "Red"
     },
     {
         "id": 234,
@@ -3611,7 +3844,8 @@
             "spD": 65,
             "spe": 85
         },
-        "name": "Stantler"
+        "name": "Stantler",
+        "color": "Brown"
     },
     {
         "id": 235,
@@ -3626,7 +3860,8 @@
             "spD": 45,
             "spe": 75
         },
-        "name": "Smeargle"
+        "name": "Smeargle",
+        "color": "White"
     },
     {
         "id": 236,
@@ -3641,7 +3876,8 @@
             "spD": 35,
             "spe": 35
         },
-        "name": "Tyrogue"
+        "name": "Tyrogue",
+        "color": "Purple"
     },
     {
         "id": 237,
@@ -3656,7 +3892,8 @@
             "spD": 110,
             "spe": 70
         },
-        "name": "Hitmontop"
+        "name": "Hitmontop",
+        "color": "Brown"
     },
     {
         "id": 238,
@@ -3672,7 +3909,8 @@
             "spD": 65,
             "spe": 65
         },
-        "name": "Smoochum"
+        "name": "Smoochum",
+        "color": "Pink"
     },
     {
         "id": 239,
@@ -3687,7 +3925,8 @@
             "spD": 55,
             "spe": 95
         },
-        "name": "Elekid"
+        "name": "Elekid",
+        "color": "Yellow"
     },
     {
         "id": 240,
@@ -3702,7 +3941,8 @@
             "spD": 55,
             "spe": 83
         },
-        "name": "Magby"
+        "name": "Magby",
+        "color": "Red"
     },
     {
         "id": 241,
@@ -3717,7 +3957,8 @@
             "spD": 70,
             "spe": 100
         },
-        "name": "Miltank"
+        "name": "Miltank",
+        "color": "Pink"
     },
     {
         "id": 242,
@@ -3732,7 +3973,8 @@
             "spD": 135,
             "spe": 55
         },
-        "name": "Blissey"
+        "name": "Blissey",
+        "color": "Pink"
     },
     {
         "id": 243,
@@ -3747,7 +3989,8 @@
             "spD": 100,
             "spe": 115
         },
-        "name": "Raikou"
+        "name": "Raikou",
+        "color": "Yellow"
     },
     {
         "id": 244,
@@ -3762,7 +4005,8 @@
             "spD": 75,
             "spe": 100
         },
-        "name": "Entei"
+        "name": "Entei",
+        "color": "Brown"
     },
     {
         "id": 245,
@@ -3777,7 +4021,8 @@
             "spD": 115,
             "spe": 85
         },
-        "name": "Suicune"
+        "name": "Suicune",
+        "color": "Blue"
     },
     {
         "id": 246,
@@ -3793,7 +4038,8 @@
             "spD": 50,
             "spe": 41
         },
-        "name": "Larvitar"
+        "name": "Larvitar",
+        "color": "Green"
     },
     {
         "id": 247,
@@ -3809,7 +4055,8 @@
             "spD": 70,
             "spe": 51
         },
-        "name": "Pupitar"
+        "name": "Pupitar",
+        "color": "Gray"
     },
     {
         "id": 248,
@@ -3825,7 +4072,8 @@
             "spD": 100,
             "spe": 61
         },
-        "name": "Tyranitar"
+        "name": "Tyranitar",
+        "color": "Green"
     },
     {
         "id": 249,
@@ -3841,7 +4089,8 @@
             "spD": 154,
             "spe": 110
         },
-        "name": "Lugia"
+        "name": "Lugia",
+        "color": "White"
     },
     {
         "id": 250,
@@ -3857,7 +4106,8 @@
             "spD": 154,
             "spe": 90
         },
-        "name": "Ho-Oh"
+        "name": "Ho-Oh",
+        "color": "Red"
     },
     {
         "id": 251,
@@ -3873,7 +4123,8 @@
             "spD": 100,
             "spe": 100
         },
-        "name": "Celebi"
+        "name": "Celebi",
+        "color": "Green"
     },
     {
         "id": 252,
@@ -3888,7 +4139,8 @@
             "spD": 55,
             "spe": 70
         },
-        "name": "Treecko"
+        "name": "Treecko",
+        "color": "Green"
     },
     {
         "id": 253,
@@ -3903,7 +4155,8 @@
             "spD": 65,
             "spe": 95
         },
-        "name": "Grovyle"
+        "name": "Grovyle",
+        "color": "Green"
     },
     {
         "id": 254,
@@ -3918,7 +4171,8 @@
             "spD": 85,
             "spe": 120
         },
-        "name": "Sceptile"
+        "name": "Sceptile",
+        "color": "Green"
     },
     {
         "id": 255,
@@ -3933,7 +4187,8 @@
             "spD": 50,
             "spe": 45
         },
-        "name": "Torchic"
+        "name": "Torchic",
+        "color": "Red"
     },
     {
         "id": 256,
@@ -3949,7 +4204,8 @@
             "spD": 60,
             "spe": 55
         },
-        "name": "Combusken"
+        "name": "Combusken",
+        "color": "Red"
     },
     {
         "id": 257,
@@ -3965,7 +4221,8 @@
             "spD": 70,
             "spe": 80
         },
-        "name": "Blaziken"
+        "name": "Blaziken",
+        "color": "Red"
     },
     {
         "id": 258,
@@ -3980,7 +4237,8 @@
             "spD": 50,
             "spe": 40
         },
-        "name": "Mudkip"
+        "name": "Mudkip",
+        "color": "Blue"
     },
     {
         "id": 259,
@@ -3996,7 +4254,8 @@
             "spD": 70,
             "spe": 50
         },
-        "name": "Marshtomp"
+        "name": "Marshtomp",
+        "color": "Blue"
     },
     {
         "id": 260,
@@ -4012,7 +4271,8 @@
             "spD": 90,
             "spe": 60
         },
-        "name": "Swampert"
+        "name": "Swampert",
+        "color": "Blue"
     },
     {
         "id": 261,
@@ -4027,7 +4287,8 @@
             "spD": 30,
             "spe": 35
         },
-        "name": "Poochyena"
+        "name": "Poochyena",
+        "color": "Gray"
     },
     {
         "id": 262,
@@ -4042,7 +4303,8 @@
             "spD": 60,
             "spe": 70
         },
-        "name": "Mightyena"
+        "name": "Mightyena",
+        "color": "Gray"
     },
     {
         "id": 263,
@@ -4057,7 +4319,8 @@
             "spD": 41,
             "spe": 60
         },
-        "name": "Zigzagoon"
+        "name": "Zigzagoon",
+        "color": "Brown"
     },
     {
         "id": 264,
@@ -4072,7 +4335,8 @@
             "spD": 61,
             "spe": 100
         },
-        "name": "Linoone"
+        "name": "Linoone",
+        "color": "White"
     },
     {
         "id": 265,
@@ -4087,7 +4351,8 @@
             "spD": 30,
             "spe": 20
         },
-        "name": "Wurmple"
+        "name": "Wurmple",
+        "color": "Red"
     },
     {
         "id": 266,
@@ -4102,7 +4367,8 @@
             "spD": 25,
             "spe": 15
         },
-        "name": "Silcoon"
+        "name": "Silcoon",
+        "color": "White"
     },
     {
         "id": 267,
@@ -4118,7 +4384,8 @@
             "spD": 50,
             "spe": 65
         },
-        "name": "Beautifly"
+        "name": "Beautifly",
+        "color": "Yellow"
     },
     {
         "id": 268,
@@ -4133,7 +4400,8 @@
             "spD": 25,
             "spe": 15
         },
-        "name": "Cascoon"
+        "name": "Cascoon",
+        "color": "Purple"
     },
     {
         "id": 269,
@@ -4149,7 +4417,8 @@
             "spD": 90,
             "spe": 65
         },
-        "name": "Dustox"
+        "name": "Dustox",
+        "color": "Green"
     },
     {
         "id": 270,
@@ -4165,7 +4434,8 @@
             "spD": 50,
             "spe": 30
         },
-        "name": "Lotad"
+        "name": "Lotad",
+        "color": "Green"
     },
     {
         "id": 271,
@@ -4181,7 +4451,8 @@
             "spD": 70,
             "spe": 50
         },
-        "name": "Lombre"
+        "name": "Lombre",
+        "color": "Green"
     },
     {
         "id": 272,
@@ -4197,7 +4468,8 @@
             "spD": 100,
             "spe": 70
         },
-        "name": "Ludicolo"
+        "name": "Ludicolo",
+        "color": "Green"
     },
     {
         "id": 273,
@@ -4212,7 +4484,8 @@
             "spD": 30,
             "spe": 30
         },
-        "name": "Seedot"
+        "name": "Seedot",
+        "color": "Brown"
     },
     {
         "id": 274,
@@ -4228,7 +4501,8 @@
             "spD": 40,
             "spe": 60
         },
-        "name": "Nuzleaf"
+        "name": "Nuzleaf",
+        "color": "Brown"
     },
     {
         "id": 275,
@@ -4244,7 +4518,8 @@
             "spD": 60,
             "spe": 80
         },
-        "name": "Shiftry"
+        "name": "Shiftry",
+        "color": "Brown"
     },
     {
         "id": 276,
@@ -4260,7 +4535,8 @@
             "spD": 30,
             "spe": 85
         },
-        "name": "Taillow"
+        "name": "Taillow",
+        "color": "Blue"
     },
     {
         "id": 277,
@@ -4276,7 +4552,8 @@
             "spD": 50,
             "spe": 125
         },
-        "name": "Swellow"
+        "name": "Swellow",
+        "color": "Blue"
     },
     {
         "id": 278,
@@ -4292,7 +4569,8 @@
             "spD": 30,
             "spe": 85
         },
-        "name": "Wingull"
+        "name": "Wingull",
+        "color": "White"
     },
     {
         "id": 279,
@@ -4308,7 +4586,8 @@
             "spD": 70,
             "spe": 65
         },
-        "name": "Pelipper"
+        "name": "Pelipper",
+        "color": "Yellow"
     },
     {
         "id": 280,
@@ -4323,7 +4602,8 @@
             "spD": 35,
             "spe": 40
         },
-        "name": "Ralts"
+        "name": "Ralts",
+        "color": "White"
     },
     {
         "id": 281,
@@ -4338,7 +4618,8 @@
             "spD": 55,
             "spe": 50
         },
-        "name": "Kirlia"
+        "name": "Kirlia",
+        "color": "White"
     },
     {
         "id": 282,
@@ -4353,7 +4634,8 @@
             "spD": 115,
             "spe": 80
         },
-        "name": "Gardevoir"
+        "name": "Gardevoir",
+        "color": "White"
     },
     {
         "id": 283,
@@ -4369,7 +4651,8 @@
             "spD": 52,
             "spe": 65
         },
-        "name": "Surskit"
+        "name": "Surskit",
+        "color": "Blue"
     },
     {
         "id": 284,
@@ -4385,7 +4668,8 @@
             "spD": 82,
             "spe": 60
         },
-        "name": "Masquerain"
+        "name": "Masquerain",
+        "color": "Blue"
     },
     {
         "id": 285,
@@ -4400,7 +4684,8 @@
             "spD": 60,
             "spe": 35
         },
-        "name": "Shroomish"
+        "name": "Shroomish",
+        "color": "Brown"
     },
     {
         "id": 286,
@@ -4416,7 +4701,8 @@
             "spD": 60,
             "spe": 70
         },
-        "name": "Breloom"
+        "name": "Breloom",
+        "color": "Green"
     },
     {
         "id": 287,
@@ -4431,7 +4717,8 @@
             "spD": 35,
             "spe": 30
         },
-        "name": "Slakoth"
+        "name": "Slakoth",
+        "color": "Brown"
     },
     {
         "id": 288,
@@ -4446,7 +4733,8 @@
             "spD": 55,
             "spe": 90
         },
-        "name": "Vigoroth"
+        "name": "Vigoroth",
+        "color": "White"
     },
     {
         "id": 289,
@@ -4461,7 +4749,8 @@
             "spD": 65,
             "spe": 100
         },
-        "name": "Slaking"
+        "name": "Slaking",
+        "color": "Brown"
     },
     {
         "id": 290,
@@ -4477,7 +4766,8 @@
             "spD": 30,
             "spe": 40
         },
-        "name": "Nincada"
+        "name": "Nincada",
+        "color": "Gray"
     },
     {
         "id": 291,
@@ -4493,7 +4783,8 @@
             "spD": 50,
             "spe": 160
         },
-        "name": "Ninjask"
+        "name": "Ninjask",
+        "color": "Yellow"
     },
     {
         "id": 292,
@@ -4509,7 +4800,8 @@
             "spD": 30,
             "spe": 40
         },
-        "name": "Shedinja"
+        "name": "Shedinja",
+        "color": "Brown"
     },
     {
         "id": 293,
@@ -4524,7 +4816,8 @@
             "spD": 23,
             "spe": 28
         },
-        "name": "Whismur"
+        "name": "Whismur",
+        "color": "Pink"
     },
     {
         "id": 294,
@@ -4539,7 +4832,8 @@
             "spD": 43,
             "spe": 48
         },
-        "name": "Loudred"
+        "name": "Loudred",
+        "color": "Blue"
     },
     {
         "id": 295,
@@ -4554,7 +4848,8 @@
             "spD": 63,
             "spe": 68
         },
-        "name": "Exploud"
+        "name": "Exploud",
+        "color": "Blue"
     },
     {
         "id": 296,
@@ -4569,7 +4864,8 @@
             "spD": 30,
             "spe": 25
         },
-        "name": "Makuhita"
+        "name": "Makuhita",
+        "color": "Yellow"
     },
     {
         "id": 297,
@@ -4584,7 +4880,8 @@
             "spD": 60,
             "spe": 50
         },
-        "name": "Hariyama"
+        "name": "Hariyama",
+        "color": "Brown"
     },
     {
         "id": 298,
@@ -4599,7 +4896,8 @@
             "spD": 40,
             "spe": 20
         },
-        "name": "Azurill"
+        "name": "Azurill",
+        "color": "Blue"
     },
     {
         "id": 299,
@@ -4614,7 +4912,8 @@
             "spD": 90,
             "spe": 30
         },
-        "name": "Nosepass"
+        "name": "Nosepass",
+        "color": "Gray"
     },
     {
         "id": 300,
@@ -4629,7 +4928,8 @@
             "spD": 35,
             "spe": 50
         },
-        "name": "Skitty"
+        "name": "Skitty",
+        "color": "Pink"
     },
     {
         "id": 301,
@@ -4644,7 +4944,8 @@
             "spD": 55,
             "spe": 70
         },
-        "name": "Delcatty"
+        "name": "Delcatty",
+        "color": "Purple"
     },
     {
         "id": 302,
@@ -4660,7 +4961,8 @@
             "spD": 65,
             "spe": 50
         },
-        "name": "Sableye"
+        "name": "Sableye",
+        "color": "Purple"
     },
     {
         "id": 303,
@@ -4675,7 +4977,8 @@
             "spD": 55,
             "spe": 50
         },
-        "name": "Mawile"
+        "name": "Mawile",
+        "color": "Black"
     },
     {
         "id": 304,
@@ -4691,7 +4994,8 @@
             "spD": 40,
             "spe": 30
         },
-        "name": "Aron"
+        "name": "Aron",
+        "color": "Gray"
     },
     {
         "id": 305,
@@ -4707,7 +5011,8 @@
             "spD": 50,
             "spe": 40
         },
-        "name": "Lairon"
+        "name": "Lairon",
+        "color": "Gray"
     },
     {
         "id": 306,
@@ -4723,7 +5028,8 @@
             "spD": 60,
             "spe": 50
         },
-        "name": "Aggron"
+        "name": "Aggron",
+        "color": "Gray"
     },
     {
         "id": 307,
@@ -4739,7 +5045,8 @@
             "spD": 55,
             "spe": 60
         },
-        "name": "Meditite"
+        "name": "Meditite",
+        "color": "Blue"
     },
     {
         "id": 308,
@@ -4755,7 +5062,8 @@
             "spD": 75,
             "spe": 80
         },
-        "name": "Medicham"
+        "name": "Medicham",
+        "color": "Red"
     },
     {
         "id": 309,
@@ -4770,7 +5078,8 @@
             "spD": 40,
             "spe": 65
         },
-        "name": "Electrike"
+        "name": "Electrike",
+        "color": "Green"
     },
     {
         "id": 310,
@@ -4785,7 +5094,8 @@
             "spD": 60,
             "spe": 105
         },
-        "name": "Manectric"
+        "name": "Manectric",
+        "color": "Yellow"
     },
     {
         "id": 311,
@@ -4800,7 +5110,8 @@
             "spD": 75,
             "spe": 95
         },
-        "name": "Plusle"
+        "name": "Plusle",
+        "color": "Yellow"
     },
     {
         "id": 312,
@@ -4815,7 +5126,8 @@
             "spD": 85,
             "spe": 95
         },
-        "name": "Minun"
+        "name": "Minun",
+        "color": "Yellow"
     },
     {
         "id": 313,
@@ -4830,7 +5142,8 @@
             "spD": 75,
             "spe": 85
         },
-        "name": "Volbeat"
+        "name": "Volbeat",
+        "color": "Gray"
     },
     {
         "id": 314,
@@ -4845,7 +5158,8 @@
             "spD": 75,
             "spe": 85
         },
-        "name": "Illumise"
+        "name": "Illumise",
+        "color": "Purple"
     },
     {
         "id": 315,
@@ -4861,7 +5175,8 @@
             "spD": 80,
             "spe": 65
         },
-        "name": "Roselia"
+        "name": "Roselia",
+        "color": "Green"
     },
     {
         "id": 316,
@@ -4876,7 +5191,8 @@
             "spD": 53,
             "spe": 40
         },
-        "name": "Gulpin"
+        "name": "Gulpin",
+        "color": "Green"
     },
     {
         "id": 317,
@@ -4891,7 +5207,8 @@
             "spD": 83,
             "spe": 55
         },
-        "name": "Swalot"
+        "name": "Swalot",
+        "color": "Purple"
     },
     {
         "id": 318,
@@ -4907,7 +5224,8 @@
             "spD": 20,
             "spe": 65
         },
-        "name": "Carvanha"
+        "name": "Carvanha",
+        "color": "Red"
     },
     {
         "id": 319,
@@ -4923,7 +5241,8 @@
             "spD": 40,
             "spe": 95
         },
-        "name": "Sharpedo"
+        "name": "Sharpedo",
+        "color": "Blue"
     },
     {
         "id": 320,
@@ -4938,7 +5257,8 @@
             "spD": 35,
             "spe": 60
         },
-        "name": "Wailmer"
+        "name": "Wailmer",
+        "color": "Blue"
     },
     {
         "id": 321,
@@ -4953,7 +5273,8 @@
             "spD": 45,
             "spe": 60
         },
-        "name": "Wailord"
+        "name": "Wailord",
+        "color": "Blue"
     },
     {
         "id": 322,
@@ -4969,7 +5290,8 @@
             "spD": 45,
             "spe": 35
         },
-        "name": "Numel"
+        "name": "Numel",
+        "color": "Yellow"
     },
     {
         "id": 323,
@@ -4985,7 +5307,8 @@
             "spD": 75,
             "spe": 40
         },
-        "name": "Camerupt"
+        "name": "Camerupt",
+        "color": "Red"
     },
     {
         "id": 324,
@@ -5000,7 +5323,8 @@
             "spD": 70,
             "spe": 20
         },
-        "name": "Torkoal"
+        "name": "Torkoal",
+        "color": "Brown"
     },
     {
         "id": 325,
@@ -5015,7 +5339,8 @@
             "spD": 80,
             "spe": 60
         },
-        "name": "Spoink"
+        "name": "Spoink",
+        "color": "Black"
     },
     {
         "id": 326,
@@ -5030,7 +5355,8 @@
             "spD": 110,
             "spe": 80
         },
-        "name": "Grumpig"
+        "name": "Grumpig",
+        "color": "Purple"
     },
     {
         "id": 327,
@@ -5045,7 +5371,8 @@
             "spD": 60,
             "spe": 60
         },
-        "name": "Spinda"
+        "name": "Spinda",
+        "color": "Brown"
     },
     {
         "id": 328,
@@ -5060,7 +5387,8 @@
             "spD": 45,
             "spe": 10
         },
-        "name": "Trapinch"
+        "name": "Trapinch",
+        "color": "Brown"
     },
     {
         "id": 329,
@@ -5076,7 +5404,8 @@
             "spD": 50,
             "spe": 70
         },
-        "name": "Vibrava"
+        "name": "Vibrava",
+        "color": "Green"
     },
     {
         "id": 330,
@@ -5092,7 +5421,8 @@
             "spD": 80,
             "spe": 100
         },
-        "name": "Flygon"
+        "name": "Flygon",
+        "color": "Green"
     },
     {
         "id": 331,
@@ -5107,7 +5437,8 @@
             "spD": 40,
             "spe": 35
         },
-        "name": "Cacnea"
+        "name": "Cacnea",
+        "color": "Green"
     },
     {
         "id": 332,
@@ -5123,7 +5454,8 @@
             "spD": 60,
             "spe": 55
         },
-        "name": "Cacturne"
+        "name": "Cacturne",
+        "color": "Green"
     },
     {
         "id": 333,
@@ -5139,7 +5471,8 @@
             "spD": 75,
             "spe": 50
         },
-        "name": "Swablu"
+        "name": "Swablu",
+        "color": "Blue"
     },
     {
         "id": 334,
@@ -5155,7 +5488,8 @@
             "spD": 105,
             "spe": 80
         },
-        "name": "Altaria"
+        "name": "Altaria",
+        "color": "Blue"
     },
     {
         "id": 335,
@@ -5170,7 +5504,8 @@
             "spD": 60,
             "spe": 90
         },
-        "name": "Zangoose"
+        "name": "Zangoose",
+        "color": "White"
     },
     {
         "id": 336,
@@ -5185,7 +5520,8 @@
             "spD": 60,
             "spe": 65
         },
-        "name": "Seviper"
+        "name": "Seviper",
+        "color": "Black"
     },
     {
         "id": 337,
@@ -5201,7 +5537,8 @@
             "spD": 85,
             "spe": 70
         },
-        "name": "Lunatone"
+        "name": "Lunatone",
+        "color": "Yellow"
     },
     {
         "id": 338,
@@ -5217,7 +5554,8 @@
             "spD": 65,
             "spe": 70
         },
-        "name": "Solrock"
+        "name": "Solrock",
+        "color": "Red"
     },
     {
         "id": 339,
@@ -5233,7 +5571,8 @@
             "spD": 41,
             "spe": 60
         },
-        "name": "Barboach"
+        "name": "Barboach",
+        "color": "Gray"
     },
     {
         "id": 340,
@@ -5249,7 +5588,8 @@
             "spD": 71,
             "spe": 60
         },
-        "name": "Whiscash"
+        "name": "Whiscash",
+        "color": "Blue"
     },
     {
         "id": 341,
@@ -5264,7 +5604,8 @@
             "spD": 35,
             "spe": 35
         },
-        "name": "Corphish"
+        "name": "Corphish",
+        "color": "Red"
     },
     {
         "id": 342,
@@ -5280,7 +5621,8 @@
             "spD": 55,
             "spe": 55
         },
-        "name": "Crawdaunt"
+        "name": "Crawdaunt",
+        "color": "Red"
     },
     {
         "id": 343,
@@ -5296,7 +5638,8 @@
             "spD": 70,
             "spe": 55
         },
-        "name": "Baltoy"
+        "name": "Baltoy",
+        "color": "Brown"
     },
     {
         "id": 344,
@@ -5312,7 +5655,8 @@
             "spD": 120,
             "spe": 75
         },
-        "name": "Claydol"
+        "name": "Claydol",
+        "color": "Black"
     },
     {
         "id": 345,
@@ -5328,7 +5672,8 @@
             "spD": 87,
             "spe": 23
         },
-        "name": "Lileep"
+        "name": "Lileep",
+        "color": "Purple"
     },
     {
         "id": 346,
@@ -5344,7 +5689,8 @@
             "spD": 107,
             "spe": 43
         },
-        "name": "Cradily"
+        "name": "Cradily",
+        "color": "Green"
     },
     {
         "id": 347,
@@ -5360,7 +5706,8 @@
             "spD": 50,
             "spe": 75
         },
-        "name": "Anorith"
+        "name": "Anorith",
+        "color": "Gray"
     },
     {
         "id": 348,
@@ -5376,7 +5723,8 @@
             "spD": 80,
             "spe": 45
         },
-        "name": "Armaldo"
+        "name": "Armaldo",
+        "color": "Gray"
     },
     {
         "id": 349,
@@ -5391,7 +5739,8 @@
             "spD": 55,
             "spe": 80
         },
-        "name": "Feebas"
+        "name": "Feebas",
+        "color": "Brown"
     },
     {
         "id": 350,
@@ -5406,7 +5755,8 @@
             "spD": 125,
             "spe": 81
         },
-        "name": "Milotic"
+        "name": "Milotic",
+        "color": "Pink"
     },
     {
         "id": 351,
@@ -5421,7 +5771,8 @@
             "spD": 70,
             "spe": 70
         },
-        "name": "Castform"
+        "name": "Castform",
+        "color": "White"
     },
     {
         "id": 352,
@@ -5436,7 +5787,8 @@
             "spD": 120,
             "spe": 40
         },
-        "name": "Kecleon"
+        "name": "Kecleon",
+        "color": "Green"
     },
     {
         "id": 353,
@@ -5451,7 +5803,8 @@
             "spD": 33,
             "spe": 45
         },
-        "name": "Shuppet"
+        "name": "Shuppet",
+        "color": "Black"
     },
     {
         "id": 354,
@@ -5466,7 +5819,8 @@
             "spD": 63,
             "spe": 65
         },
-        "name": "Banette"
+        "name": "Banette",
+        "color": "Black"
     },
     {
         "id": 355,
@@ -5481,7 +5835,8 @@
             "spD": 90,
             "spe": 25
         },
-        "name": "Duskull"
+        "name": "Duskull",
+        "color": "Black"
     },
     {
         "id": 356,
@@ -5496,7 +5851,8 @@
             "spD": 130,
             "spe": 25
         },
-        "name": "Dusclops"
+        "name": "Dusclops",
+        "color": "Black"
     },
     {
         "id": 357,
@@ -5512,7 +5868,8 @@
             "spD": 87,
             "spe": 51
         },
-        "name": "Tropius"
+        "name": "Tropius",
+        "color": "Green"
     },
     {
         "id": 358,
@@ -5527,7 +5884,8 @@
             "spD": 80,
             "spe": 65
         },
-        "name": "Chimecho"
+        "name": "Chimecho",
+        "color": "Blue"
     },
     {
         "id": 359,
@@ -5542,7 +5900,8 @@
             "spD": 60,
             "spe": 75
         },
-        "name": "Absol"
+        "name": "Absol",
+        "color": "White"
     },
     {
         "id": 360,
@@ -5557,7 +5916,8 @@
             "spD": 48,
             "spe": 23
         },
-        "name": "Wynaut"
+        "name": "Wynaut",
+        "color": "Blue"
     },
     {
         "id": 361,
@@ -5572,7 +5932,8 @@
             "spD": 50,
             "spe": 50
         },
-        "name": "Snorunt"
+        "name": "Snorunt",
+        "color": "Gray"
     },
     {
         "id": 362,
@@ -5587,7 +5948,8 @@
             "spD": 80,
             "spe": 80
         },
-        "name": "Glalie"
+        "name": "Glalie",
+        "color": "Gray"
     },
     {
         "id": 363,
@@ -5603,7 +5965,8 @@
             "spD": 50,
             "spe": 25
         },
-        "name": "Spheal"
+        "name": "Spheal",
+        "color": "Blue"
     },
     {
         "id": 364,
@@ -5619,7 +5982,8 @@
             "spD": 70,
             "spe": 45
         },
-        "name": "Sealeo"
+        "name": "Sealeo",
+        "color": "Blue"
     },
     {
         "id": 365,
@@ -5635,7 +5999,8 @@
             "spD": 90,
             "spe": 65
         },
-        "name": "Walrein"
+        "name": "Walrein",
+        "color": "Blue"
     },
     {
         "id": 366,
@@ -5650,7 +6015,8 @@
             "spD": 55,
             "spe": 32
         },
-        "name": "Clamperl"
+        "name": "Clamperl",
+        "color": "Blue"
     },
     {
         "id": 367,
@@ -5665,7 +6031,8 @@
             "spD": 75,
             "spe": 52
         },
-        "name": "Huntail"
+        "name": "Huntail",
+        "color": "Blue"
     },
     {
         "id": 368,
@@ -5680,7 +6047,8 @@
             "spD": 75,
             "spe": 52
         },
-        "name": "Gorebyss"
+        "name": "Gorebyss",
+        "color": "Pink"
     },
     {
         "id": 369,
@@ -5696,7 +6064,8 @@
             "spD": 65,
             "spe": 55
         },
-        "name": "Relicanth"
+        "name": "Relicanth",
+        "color": "Gray"
     },
     {
         "id": 370,
@@ -5711,7 +6080,8 @@
             "spD": 65,
             "spe": 97
         },
-        "name": "Luvdisc"
+        "name": "Luvdisc",
+        "color": "Pink"
     },
     {
         "id": 371,
@@ -5726,7 +6096,8 @@
             "spD": 30,
             "spe": 50
         },
-        "name": "Bagon"
+        "name": "Bagon",
+        "color": "Blue"
     },
     {
         "id": 372,
@@ -5741,7 +6112,8 @@
             "spD": 50,
             "spe": 50
         },
-        "name": "Shelgon"
+        "name": "Shelgon",
+        "color": "White"
     },
     {
         "id": 373,
@@ -5757,7 +6129,8 @@
             "spD": 80,
             "spe": 100
         },
-        "name": "Salamence"
+        "name": "Salamence",
+        "color": "Blue"
     },
     {
         "id": 374,
@@ -5773,7 +6146,8 @@
             "spD": 60,
             "spe": 30
         },
-        "name": "Beldum"
+        "name": "Beldum",
+        "color": "Blue"
     },
     {
         "id": 375,
@@ -5789,7 +6163,8 @@
             "spD": 80,
             "spe": 50
         },
-        "name": "Metang"
+        "name": "Metang",
+        "color": "Blue"
     },
     {
         "id": 376,
@@ -5805,7 +6180,8 @@
             "spD": 90,
             "spe": 70
         },
-        "name": "Metagross"
+        "name": "Metagross",
+        "color": "Blue"
     },
     {
         "id": 377,
@@ -5820,7 +6196,8 @@
             "spD": 100,
             "spe": 50
         },
-        "name": "Regirock"
+        "name": "Regirock",
+        "color": "Brown"
     },
     {
         "id": 378,
@@ -5835,7 +6212,8 @@
             "spD": 200,
             "spe": 50
         },
-        "name": "Regice"
+        "name": "Regice",
+        "color": "Blue"
     },
     {
         "id": 379,
@@ -5850,7 +6228,8 @@
             "spD": 150,
             "spe": 50
         },
-        "name": "Registeel"
+        "name": "Registeel",
+        "color": "Gray"
     },
     {
         "id": 380,
@@ -5866,7 +6245,8 @@
             "spD": 130,
             "spe": 110
         },
-        "name": "Latias"
+        "name": "Latias",
+        "color": "Red"
     },
     {
         "id": 381,
@@ -5882,7 +6262,8 @@
             "spD": 110,
             "spe": 110
         },
-        "name": "Latios"
+        "name": "Latios",
+        "color": "Blue"
     },
     {
         "id": 382,
@@ -5897,7 +6278,8 @@
             "spD": 140,
             "spe": 90
         },
-        "name": "Kyogre"
+        "name": "Kyogre",
+        "color": "Blue"
     },
     {
         "id": 383,
@@ -5912,7 +6294,8 @@
             "spD": 90,
             "spe": 90
         },
-        "name": "Groudon"
+        "name": "Groudon",
+        "color": "Red"
     },
     {
         "id": 384,
@@ -5928,7 +6311,8 @@
             "spD": 90,
             "spe": 95
         },
-        "name": "Rayquaza"
+        "name": "Rayquaza",
+        "color": "Green"
     },
     {
         "id": 385,
@@ -5944,7 +6328,8 @@
             "spD": 100,
             "spe": 100
         },
-        "name": "Jirachi"
+        "name": "Jirachi",
+        "color": "Yellow"
     },
     {
         "id": 386,
@@ -5959,7 +6344,8 @@
             "spD": 50,
             "spe": 150
         },
-        "name": "Deoxys"
+        "name": "Deoxys",
+        "color": "Red"
     },
     {
         "id": 387,
@@ -5974,7 +6360,8 @@
             "spD": 55,
             "spe": 31
         },
-        "name": "Turtwig"
+        "name": "Turtwig",
+        "color": "Green"
     },
     {
         "id": 388,
@@ -5989,7 +6376,8 @@
             "spD": 65,
             "spe": 36
         },
-        "name": "Grotle"
+        "name": "Grotle",
+        "color": "Green"
     },
     {
         "id": 389,
@@ -6005,7 +6393,8 @@
             "spD": 85,
             "spe": 56
         },
-        "name": "Torterra"
+        "name": "Torterra",
+        "color": "Green"
     },
     {
         "id": 390,
@@ -6020,7 +6409,8 @@
             "spD": 44,
             "spe": 61
         },
-        "name": "Chimchar"
+        "name": "Chimchar",
+        "color": "Brown"
     },
     {
         "id": 391,
@@ -6036,7 +6426,8 @@
             "spD": 52,
             "spe": 81
         },
-        "name": "Monferno"
+        "name": "Monferno",
+        "color": "Brown"
     },
     {
         "id": 392,
@@ -6052,7 +6443,8 @@
             "spD": 71,
             "spe": 108
         },
-        "name": "Infernape"
+        "name": "Infernape",
+        "color": "Brown"
     },
     {
         "id": 393,
@@ -6067,7 +6459,8 @@
             "spD": 56,
             "spe": 40
         },
-        "name": "Piplup"
+        "name": "Piplup",
+        "color": "Blue"
     },
     {
         "id": 394,
@@ -6082,7 +6475,8 @@
             "spD": 76,
             "spe": 50
         },
-        "name": "Prinplup"
+        "name": "Prinplup",
+        "color": "Blue"
     },
     {
         "id": 395,
@@ -6098,7 +6492,8 @@
             "spD": 101,
             "spe": 60
         },
-        "name": "Empoleon"
+        "name": "Empoleon",
+        "color": "Blue"
     },
     {
         "id": 396,
@@ -6114,7 +6509,8 @@
             "spD": 30,
             "spe": 60
         },
-        "name": "Starly"
+        "name": "Starly",
+        "color": "Brown"
     },
     {
         "id": 397,
@@ -6130,7 +6526,8 @@
             "spD": 40,
             "spe": 80
         },
-        "name": "Staravia"
+        "name": "Staravia",
+        "color": "Brown"
     },
     {
         "id": 398,
@@ -6146,7 +6543,8 @@
             "spD": 50,
             "spe": 100
         },
-        "name": "Staraptor"
+        "name": "Staraptor",
+        "color": "Brown"
     },
     {
         "id": 399,
@@ -6161,7 +6559,8 @@
             "spD": 40,
             "spe": 31
         },
-        "name": "Bidoof"
+        "name": "Bidoof",
+        "color": "Brown"
     },
     {
         "id": 400,
@@ -6177,7 +6576,8 @@
             "spD": 60,
             "spe": 71
         },
-        "name": "Bibarel"
+        "name": "Bibarel",
+        "color": "Brown"
     },
     {
         "id": 401,
@@ -6192,7 +6592,8 @@
             "spD": 41,
             "spe": 25
         },
-        "name": "Kricketot"
+        "name": "Kricketot",
+        "color": "Red"
     },
     {
         "id": 402,
@@ -6207,7 +6608,8 @@
             "spD": 51,
             "spe": 65
         },
-        "name": "Kricketune"
+        "name": "Kricketune",
+        "color": "Red"
     },
     {
         "id": 403,
@@ -6222,7 +6624,8 @@
             "spD": 34,
             "spe": 45
         },
-        "name": "Shinx"
+        "name": "Shinx",
+        "color": "Blue"
     },
     {
         "id": 404,
@@ -6237,7 +6640,8 @@
             "spD": 49,
             "spe": 60
         },
-        "name": "Luxio"
+        "name": "Luxio",
+        "color": "Blue"
     },
     {
         "id": 405,
@@ -6252,7 +6656,8 @@
             "spD": 79,
             "spe": 70
         },
-        "name": "Luxray"
+        "name": "Luxray",
+        "color": "Blue"
     },
     {
         "id": 406,
@@ -6268,7 +6673,8 @@
             "spD": 70,
             "spe": 55
         },
-        "name": "Budew"
+        "name": "Budew",
+        "color": "Green"
     },
     {
         "id": 407,
@@ -6284,7 +6690,8 @@
             "spD": 105,
             "spe": 90
         },
-        "name": "Roserade"
+        "name": "Roserade",
+        "color": "Green"
     },
     {
         "id": 408,
@@ -6299,7 +6706,8 @@
             "spD": 30,
             "spe": 58
         },
-        "name": "Cranidos"
+        "name": "Cranidos",
+        "color": "Blue"
     },
     {
         "id": 409,
@@ -6314,7 +6722,8 @@
             "spD": 50,
             "spe": 58
         },
-        "name": "Rampardos"
+        "name": "Rampardos",
+        "color": "Blue"
     },
     {
         "id": 410,
@@ -6330,7 +6739,8 @@
             "spD": 88,
             "spe": 30
         },
-        "name": "Shieldon"
+        "name": "Shieldon",
+        "color": "Gray"
     },
     {
         "id": 411,
@@ -6346,7 +6756,8 @@
             "spD": 138,
             "spe": 30
         },
-        "name": "Bastiodon"
+        "name": "Bastiodon",
+        "color": "Gray"
     },
     {
         "id": 412,
@@ -6361,7 +6772,8 @@
             "spD": 45,
             "spe": 36
         },
-        "name": "Burmy"
+        "name": "Burmy",
+        "color": "Gray"
     },
     {
         "id": 413,
@@ -6377,7 +6789,8 @@
             "spD": 105,
             "spe": 36
         },
-        "name": "Wormadam"
+        "name": "Wormadam",
+        "color": "Gray"
     },
     {
         "id": 414,
@@ -6393,7 +6806,8 @@
             "spD": 50,
             "spe": 66
         },
-        "name": "Mothim"
+        "name": "Mothim",
+        "color": "Yellow"
     },
     {
         "id": 415,
@@ -6409,7 +6823,8 @@
             "spD": 42,
             "spe": 70
         },
-        "name": "Combee"
+        "name": "Combee",
+        "color": "Yellow"
     },
     {
         "id": 416,
@@ -6425,7 +6840,8 @@
             "spD": 102,
             "spe": 40
         },
-        "name": "Vespiquen"
+        "name": "Vespiquen",
+        "color": "Yellow"
     },
     {
         "id": 417,
@@ -6440,7 +6856,8 @@
             "spD": 90,
             "spe": 95
         },
-        "name": "Pachirisu"
+        "name": "Pachirisu",
+        "color": "White"
     },
     {
         "id": 418,
@@ -6455,7 +6872,8 @@
             "spD": 30,
             "spe": 85
         },
-        "name": "Buizel"
+        "name": "Buizel",
+        "color": "Brown"
     },
     {
         "id": 419,
@@ -6470,7 +6888,8 @@
             "spD": 50,
             "spe": 115
         },
-        "name": "Floatzel"
+        "name": "Floatzel",
+        "color": "Brown"
     },
     {
         "id": 420,
@@ -6485,7 +6904,8 @@
             "spD": 53,
             "spe": 35
         },
-        "name": "Cherubi"
+        "name": "Cherubi",
+        "color": "Pink"
     },
     {
         "id": 421,
@@ -6500,7 +6920,8 @@
             "spD": 78,
             "spe": 85
         },
-        "name": "Cherrim"
+        "name": "Cherrim",
+        "color": "Pink"
     },
     {
         "id": 422,
@@ -6515,7 +6936,8 @@
             "spD": 62,
             "spe": 34
         },
-        "name": "Shellos"
+        "name": "Shellos",
+        "color": "Purple"
     },
     {
         "id": 423,
@@ -6531,7 +6953,8 @@
             "spD": 82,
             "spe": 39
         },
-        "name": "Gastrodon"
+        "name": "Gastrodon",
+        "color": "Purple"
     },
     {
         "id": 424,
@@ -6546,7 +6969,8 @@
             "spD": 66,
             "spe": 115
         },
-        "name": "Ambipom"
+        "name": "Ambipom",
+        "color": "Purple"
     },
     {
         "id": 425,
@@ -6562,7 +6986,8 @@
             "spD": 44,
             "spe": 70
         },
-        "name": "Drifloon"
+        "name": "Drifloon",
+        "color": "Purple"
     },
     {
         "id": 426,
@@ -6578,7 +7003,8 @@
             "spD": 54,
             "spe": 80
         },
-        "name": "Drifblim"
+        "name": "Drifblim",
+        "color": "Purple"
     },
     {
         "id": 427,
@@ -6593,7 +7019,8 @@
             "spD": 56,
             "spe": 85
         },
-        "name": "Buneary"
+        "name": "Buneary",
+        "color": "Brown"
     },
     {
         "id": 428,
@@ -6608,7 +7035,8 @@
             "spD": 96,
             "spe": 105
         },
-        "name": "Lopunny"
+        "name": "Lopunny",
+        "color": "Brown"
     },
     {
         "id": 429,
@@ -6623,7 +7051,8 @@
             "spD": 105,
             "spe": 105
         },
-        "name": "Mismagius"
+        "name": "Mismagius",
+        "color": "Purple"
     },
     {
         "id": 430,
@@ -6639,7 +7068,8 @@
             "spD": 52,
             "spe": 71
         },
-        "name": "Honchkrow"
+        "name": "Honchkrow",
+        "color": "Black"
     },
     {
         "id": 431,
@@ -6654,7 +7084,8 @@
             "spD": 37,
             "spe": 85
         },
-        "name": "Glameow"
+        "name": "Glameow",
+        "color": "Gray"
     },
     {
         "id": 432,
@@ -6669,7 +7100,8 @@
             "spD": 59,
             "spe": 112
         },
-        "name": "Purugly"
+        "name": "Purugly",
+        "color": "Gray"
     },
     {
         "id": 433,
@@ -6684,7 +7116,8 @@
             "spD": 50,
             "spe": 45
         },
-        "name": "Chingling"
+        "name": "Chingling",
+        "color": "Yellow"
     },
     {
         "id": 434,
@@ -6700,7 +7133,8 @@
             "spD": 41,
             "spe": 74
         },
-        "name": "Stunky"
+        "name": "Stunky",
+        "color": "Purple"
     },
     {
         "id": 435,
@@ -6716,7 +7150,8 @@
             "spD": 61,
             "spe": 84
         },
-        "name": "Skuntank"
+        "name": "Skuntank",
+        "color": "Purple"
     },
     {
         "id": 436,
@@ -6732,7 +7167,8 @@
             "spD": 86,
             "spe": 23
         },
-        "name": "Bronzor"
+        "name": "Bronzor",
+        "color": "Green"
     },
     {
         "id": 437,
@@ -6748,7 +7184,8 @@
             "spD": 116,
             "spe": 33
         },
-        "name": "Bronzong"
+        "name": "Bronzong",
+        "color": "Green"
     },
     {
         "id": 438,
@@ -6763,7 +7200,8 @@
             "spD": 45,
             "spe": 10
         },
-        "name": "Bonsly"
+        "name": "Bonsly",
+        "color": "Brown"
     },
     {
         "id": 439,
@@ -6778,7 +7216,8 @@
             "spD": 90,
             "spe": 60
         },
-        "name": "Mime Jr."
+        "name": "Mime Jr.",
+        "color": "Pink"
     },
     {
         "id": 440,
@@ -6793,7 +7232,8 @@
             "spD": 65,
             "spe": 30
         },
-        "name": "Happiny"
+        "name": "Happiny",
+        "color": "Pink"
     },
     {
         "id": 441,
@@ -6809,7 +7249,8 @@
             "spD": 42,
             "spe": 91
         },
-        "name": "Chatot"
+        "name": "Chatot",
+        "color": "Black"
     },
     {
         "id": 442,
@@ -6825,7 +7266,8 @@
             "spD": 108,
             "spe": 35
         },
-        "name": "Spiritomb"
+        "name": "Spiritomb",
+        "color": "Purple"
     },
     {
         "id": 443,
@@ -6841,7 +7283,8 @@
             "spD": 45,
             "spe": 42
         },
-        "name": "Gible"
+        "name": "Gible",
+        "color": "Blue"
     },
     {
         "id": 444,
@@ -6857,7 +7300,8 @@
             "spD": 55,
             "spe": 82
         },
-        "name": "Gabite"
+        "name": "Gabite",
+        "color": "Blue"
     },
     {
         "id": 445,
@@ -6873,7 +7317,8 @@
             "spD": 85,
             "spe": 102
         },
-        "name": "Garchomp"
+        "name": "Garchomp",
+        "color": "Blue"
     },
     {
         "id": 446,
@@ -6888,7 +7333,8 @@
             "spD": 85,
             "spe": 5
         },
-        "name": "Munchlax"
+        "name": "Munchlax",
+        "color": "Black"
     },
     {
         "id": 447,
@@ -6903,7 +7349,8 @@
             "spD": 40,
             "spe": 60
         },
-        "name": "Riolu"
+        "name": "Riolu",
+        "color": "Blue"
     },
     {
         "id": 448,
@@ -6919,7 +7366,8 @@
             "spD": 70,
             "spe": 90
         },
-        "name": "Lucario"
+        "name": "Lucario",
+        "color": "Blue"
     },
     {
         "id": 449,
@@ -6934,7 +7382,8 @@
             "spD": 42,
             "spe": 32
         },
-        "name": "Hippopotas"
+        "name": "Hippopotas",
+        "color": "Brown"
     },
     {
         "id": 450,
@@ -6949,7 +7398,8 @@
             "spD": 72,
             "spe": 47
         },
-        "name": "Hippowdon"
+        "name": "Hippowdon",
+        "color": "Brown"
     },
     {
         "id": 451,
@@ -6965,7 +7415,8 @@
             "spD": 55,
             "spe": 65
         },
-        "name": "Skorupi"
+        "name": "Skorupi",
+        "color": "Purple"
     },
     {
         "id": 452,
@@ -6981,7 +7432,8 @@
             "spD": 75,
             "spe": 95
         },
-        "name": "Drapion"
+        "name": "Drapion",
+        "color": "Purple"
     },
     {
         "id": 453,
@@ -6997,7 +7449,8 @@
             "spD": 40,
             "spe": 50
         },
-        "name": "Croagunk"
+        "name": "Croagunk",
+        "color": "Blue"
     },
     {
         "id": 454,
@@ -7013,7 +7466,8 @@
             "spD": 65,
             "spe": 85
         },
-        "name": "Toxicroak"
+        "name": "Toxicroak",
+        "color": "Blue"
     },
     {
         "id": 455,
@@ -7028,7 +7482,8 @@
             "spD": 72,
             "spe": 46
         },
-        "name": "Carnivine"
+        "name": "Carnivine",
+        "color": "Green"
     },
     {
         "id": 456,
@@ -7043,7 +7498,8 @@
             "spD": 61,
             "spe": 66
         },
-        "name": "Finneon"
+        "name": "Finneon",
+        "color": "Blue"
     },
     {
         "id": 457,
@@ -7058,7 +7514,8 @@
             "spD": 86,
             "spe": 91
         },
-        "name": "Lumineon"
+        "name": "Lumineon",
+        "color": "Blue"
     },
     {
         "id": 458,
@@ -7074,7 +7531,8 @@
             "spD": 120,
             "spe": 50
         },
-        "name": "Mantyke"
+        "name": "Mantyke",
+        "color": "Blue"
     },
     {
         "id": 459,
@@ -7090,7 +7548,8 @@
             "spD": 60,
             "spe": 40
         },
-        "name": "Snover"
+        "name": "Snover",
+        "color": "White"
     },
     {
         "id": 460,
@@ -7106,7 +7565,8 @@
             "spD": 85,
             "spe": 60
         },
-        "name": "Abomasnow"
+        "name": "Abomasnow",
+        "color": "White"
     },
     {
         "id": 461,
@@ -7122,7 +7582,8 @@
             "spD": 85,
             "spe": 125
         },
-        "name": "Weavile"
+        "name": "Weavile",
+        "color": "Black"
     },
     {
         "id": 462,
@@ -7138,7 +7599,8 @@
             "spD": 90,
             "spe": 60
         },
-        "name": "Magnezone"
+        "name": "Magnezone",
+        "color": "Gray"
     },
     {
         "id": 463,
@@ -7153,7 +7615,8 @@
             "spD": 95,
             "spe": 50
         },
-        "name": "Lickilicky"
+        "name": "Lickilicky",
+        "color": "Pink"
     },
     {
         "id": 464,
@@ -7169,7 +7632,8 @@
             "spD": 55,
             "spe": 40
         },
-        "name": "Rhyperior"
+        "name": "Rhyperior",
+        "color": "Gray"
     },
     {
         "id": 465,
@@ -7184,7 +7648,8 @@
             "spD": 50,
             "spe": 50
         },
-        "name": "Tangrowth"
+        "name": "Tangrowth",
+        "color": "Blue"
     },
     {
         "id": 466,
@@ -7199,7 +7664,8 @@
             "spD": 85,
             "spe": 95
         },
-        "name": "Electivire"
+        "name": "Electivire",
+        "color": "Yellow"
     },
     {
         "id": 467,
@@ -7214,7 +7680,8 @@
             "spD": 95,
             "spe": 83
         },
-        "name": "Magmortar"
+        "name": "Magmortar",
+        "color": "Red"
     },
     {
         "id": 468,
@@ -7230,7 +7697,8 @@
             "spD": 115,
             "spe": 80
         },
-        "name": "Togekiss"
+        "name": "Togekiss",
+        "color": "White"
     },
     {
         "id": 469,
@@ -7246,7 +7714,8 @@
             "spD": 56,
             "spe": 95
         },
-        "name": "Yanmega"
+        "name": "Yanmega",
+        "color": "Green"
     },
     {
         "id": 470,
@@ -7261,7 +7730,8 @@
             "spD": 65,
             "spe": 95
         },
-        "name": "Leafeon"
+        "name": "Leafeon",
+        "color": "Green"
     },
     {
         "id": 471,
@@ -7276,7 +7746,8 @@
             "spD": 95,
             "spe": 65
         },
-        "name": "Glaceon"
+        "name": "Glaceon",
+        "color": "Blue"
     },
     {
         "id": 472,
@@ -7292,7 +7763,8 @@
             "spD": 75,
             "spe": 95
         },
-        "name": "Gliscor"
+        "name": "Gliscor",
+        "color": "Purple"
     },
     {
         "id": 473,
@@ -7308,7 +7780,8 @@
             "spD": 60,
             "spe": 80
         },
-        "name": "Mamoswine"
+        "name": "Mamoswine",
+        "color": "Brown"
     },
     {
         "id": 474,
@@ -7323,7 +7796,8 @@
             "spD": 75,
             "spe": 90
         },
-        "name": "Porygon-Z"
+        "name": "Porygon-Z",
+        "color": "Red"
     },
     {
         "id": 475,
@@ -7339,7 +7813,8 @@
             "spD": 115,
             "spe": 80
         },
-        "name": "Gallade"
+        "name": "Gallade",
+        "color": "White"
     },
     {
         "id": 476,
@@ -7355,7 +7830,8 @@
             "spD": 150,
             "spe": 40
         },
-        "name": "Probopass"
+        "name": "Probopass",
+        "color": "Gray"
     },
     {
         "id": 477,
@@ -7370,7 +7846,8 @@
             "spD": 135,
             "spe": 45
         },
-        "name": "Dusknoir"
+        "name": "Dusknoir",
+        "color": "Black"
     },
     {
         "id": 478,
@@ -7386,7 +7863,8 @@
             "spD": 70,
             "spe": 110
         },
-        "name": "Froslass"
+        "name": "Froslass",
+        "color": "White"
     },
     {
         "id": 479,
@@ -7402,7 +7880,8 @@
             "spD": 77,
             "spe": 91
         },
-        "name": "Rotom"
+        "name": "Rotom",
+        "color": "Red"
     },
     {
         "id": 480,
@@ -7417,7 +7896,8 @@
             "spD": 130,
             "spe": 95
         },
-        "name": "Uxie"
+        "name": "Uxie",
+        "color": "Yellow"
     },
     {
         "id": 481,
@@ -7432,7 +7912,8 @@
             "spD": 105,
             "spe": 80
         },
-        "name": "Mesprit"
+        "name": "Mesprit",
+        "color": "Pink"
     },
     {
         "id": 482,
@@ -7447,7 +7928,8 @@
             "spD": 70,
             "spe": 115
         },
-        "name": "Azelf"
+        "name": "Azelf",
+        "color": "Blue"
     },
     {
         "id": 483,
@@ -7463,7 +7945,8 @@
             "spD": 100,
             "spe": 90
         },
-        "name": "Dialga"
+        "name": "Dialga",
+        "color": "White"
     },
     {
         "id": 484,
@@ -7479,7 +7962,8 @@
             "spD": 120,
             "spe": 100
         },
-        "name": "Palkia"
+        "name": "Palkia",
+        "color": "Purple"
     },
     {
         "id": 485,
@@ -7495,7 +7979,8 @@
             "spD": 106,
             "spe": 77
         },
-        "name": "Heatran"
+        "name": "Heatran",
+        "color": "Brown"
     },
     {
         "id": 486,
@@ -7510,7 +7995,8 @@
             "spD": 110,
             "spe": 100
         },
-        "name": "Regigigas"
+        "name": "Regigigas",
+        "color": "White"
     },
     {
         "id": 487,
@@ -7526,7 +8012,8 @@
             "spD": 120,
             "spe": 90
         },
-        "name": "Giratina"
+        "name": "Giratina",
+        "color": "Black"
     },
     {
         "id": 488,
@@ -7541,7 +8028,8 @@
             "spD": 130,
             "spe": 85
         },
-        "name": "Cresselia"
+        "name": "Cresselia",
+        "color": "Yellow"
     },
     {
         "id": 489,
@@ -7556,7 +8044,8 @@
             "spD": 80,
             "spe": 80
         },
-        "name": "Phione"
+        "name": "Phione",
+        "color": "Blue"
     },
     {
         "id": 490,
@@ -7571,7 +8060,8 @@
             "spD": 100,
             "spe": 100
         },
-        "name": "Manaphy"
+        "name": "Manaphy",
+        "color": "Blue"
     },
     {
         "id": 491,
@@ -7586,7 +8076,8 @@
             "spD": 90,
             "spe": 125
         },
-        "name": "Darkrai"
+        "name": "Darkrai",
+        "color": "Black"
     },
     {
         "id": 492,
@@ -7601,7 +8092,8 @@
             "spD": 100,
             "spe": 100
         },
-        "name": "Shaymin"
+        "name": "Shaymin",
+        "color": "Green"
     },
     {
         "id": 493,
@@ -7616,6 +8108,7 @@
             "spD": 120,
             "spe": 120
         },
-        "name": "Arceus"
+        "name": "Arceus",
+        "color": "Gray"
     }
 ]

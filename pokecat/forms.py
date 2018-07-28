@@ -24,8 +24,32 @@ multitype_plates = {
     "Pixie Plate" : "Fairy",
 }
 
+multitype_colors = {
+    None: "White",
+    "Meadow Plate": "Green",
+    "Flame Plate" : "Red",
+    "Splash Plate": "Blue",
+    "Sky Plate"   : "Blue",
+    "Insect Plate": "Green",
+    "Toxic Plate" : "Purple",
+    "Zap Plate"   : "Yellow",
+    "Mind Plate"  : "Pink",
+    "Stone Plate" : "Yellow",
+    "Earth Plate" : "Brown",
+    "Dread Plate" : "Black",
+    "Spooky Plate": "Purple",
+    "Iron Plate"  : "Gray",
+    "Fist Plate"  : "Brown",
+    "Icicle Plate": "Blue",
+    "Draco Plate" : "Purple",
+    "Pixie Plate" : "Pink",
+}
+
 def get_multitype_type(plate):
     return multitype_plates.get(plate["name"], "Normal")
+
+def get_multitype_color(plate):
+    return multitype_plates.get(plate["name"], "White")
 
 def get_formname(species, form):
     try:

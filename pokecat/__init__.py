@@ -409,6 +409,7 @@ def populate_pokeset(pokeset, skip_ev_check=False):
     pokeset["tags"].append("species+%s" % pokeset["species"]["name"])
     for type_ in pokeset["species"]["types"]:
         pokeset["tags"].append("type+%s" % type_)
+    pokeset["tags"].append("color+%s" % pokeset["species"]["color"])
     pokeset["tags"].append("level+%d" % pokeset["level"])
     pokeset["tags"].append("form+%d" % pokeset["form"])
 
@@ -505,6 +506,14 @@ def apply_pokeset_form_adjustments(pokeset):
         wormadam_types = ("Grass", "Ground", "Steel")
         pokeset["species"]["types"] = ["Bug", wormadam_types[form]]
 
+    if species["name"] in ["Burmy", "Wormadam"]:
+        colors = ("Green", "Brown", "Pink")
+        pokeset["species"]["color"] = colors[form]
+
+    if species["name"] in ["Shellos", "Gastrodon"]:
+        colors = ("Pink", "Blue")
+        pokeset["species"]["color"] = colors[form]
+
     # special case: Arceus. Handle as form. Also fix type
     if species["name"] == "Arceus":
         if "ability" in species and species["ability"]["name"] != "Multitype":
@@ -519,9 +528,10 @@ def apply_pokeset_form_adjustments(pokeset):
                 item = item[0]
             arceus_type = forms.get_multitype_type(item)
             pokeset["species"]["types"] = [arceus_type]
+            arceus_color = forms.get_multitype_color(item)
+            pokeset["species"]["color"] = [arceus_color]
             if not custom_displayname:
                 pokeset["displayname"] = species["name"] + " " + arceus_type
-            # pokeset["form"] = gen4data.TYPES.index(arceus_type)
 
 
 def _check_restrictions(pokeset):
