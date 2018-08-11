@@ -24,7 +24,7 @@ from . import (populate_pokeset,
 
 
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
-__version__ = open(os.path.join(ROOT_DIR, '..', 'VERSION')).read().strip()
+__version__ = open(os.path.join(ROOT_DIR, 'VERSION')).read().strip()
 
 def main():
     args = docopt(__doc__, version=__version__)
