@@ -408,18 +408,16 @@ def populate_pokeset(pokeset, skip_ev_check=False):
     if pokeset["shiny"]:
         pokeset["tags"].append("shiny")
     pokeset["tags"].append("species+%d" % pokeset["species"]["id"])
-    pokeset["tags"].append("species+%s" % normalize_name(pokeset["species"]["name"]))
+    pokeset["tags"].append("species+%s" % pokeset["species"]["name"])
     for type_ in pokeset["species"]["types"]:
-        pokeset["tags"].append("type+%s" % type_.lower())
+        pokeset["tags"].append("type+%s" % type_)
     pokeset["tags"].append("level+%d" % pokeset["level"])
     pokeset["tags"].append("form+%d" % pokeset["form"])
 
     for ability_ in pokeset["ability"]:
         if ability_:
-            pokeset["tags"].append("ability+%s" % normalize_name(str(ability_["name"])))
-    pokeset["tags"].append("setname+%s" % normalize_name(pokeset["setname"]))
-    if pokeset["rarity"] > 0:
-        pokeset["tags"].append("matchmaker-enabled")
+            pokeset["tags"].append("ability+%s" % str(ability_["name"]))
+    pokeset["tags"].append("setname+%s" % pokeset["setname"])
 
     # ensure no duplicate tags
     pokeset["tags"] = sorted(set(pokeset["tags"]))

@@ -157,17 +157,16 @@ All Pokémon, items and abilities must be from 4th generation or earlier, becaus
   - `biddable`, if the `biddable` field is set to true
   - `hidden`, if the `hidden` field is set to true
   - `shiny`, if the `shiny` field is set to true
-  - `species+bulbasaur` if the pokeset's species is bulbasaur. `bulbasaur` can be any species' name respectively.
-    The name will be normalized, which usually means lowercase with spaces replaced by `-` and other special characters removed.
+  - `species+Bulbasaur` if the pokeset's species is bulbasaur. `Bulbasaur` can be any species' name respectively.
   - `species+1` if the pokeset's species' national pokedex number is 1. `1` can be any pokedex number respectively.
-    It's basically the same as the `species+bulbasaur` tags, but you can use the pokedex number variation if the name might be ambiguous.
-  - `type+fire` if the pokeset's species has the fire type. `fire` can be any type respectively.
+    It's basically the same as the `species+Bulbasaur` tags, but you can use the pokedex number variation if the name might be ambiguous.
+  - `type+Fire` if the pokeset's species has the fire type. `Fire` can be any type respectively.
   - `level+100` if the pokeset has level 100. `100` can be any level respectively.
   - `form+0` if the pokeset has the form 0. `0` can be any form number respectively.
-  - `setname+standard` if the pokeset's setname is standard. `standard` can be any setname respectively.
+  - `setname+Standard` if the pokeset's setname is standard. `Standard` can be any setname respectively.
     The name will be normalized, which usually means lowercase with spaces replaced by `-` and other special characters removed.
   - `matchmaker-enabled` if the rarity is above 0.
-  - `ability+levitate` if the pokeset's ability has the levitate ability as an option. `levitate` can be any ability respectively. If multiple abilities are avalible, the resulting mon(s) may not have the ability on the tag you filtered by.
+  - `ability+Levitate` if the pokeset's ability has the levitate ability as an option. `Levitate` can be any ability respectively. If multiple abilities are avalible, the resulting mon(s) may not have the ability on the tag you filtered by.
 
 **suppressions**
   : A list of suppressions. These can be used to suppress certain warnings pokecat emits.
