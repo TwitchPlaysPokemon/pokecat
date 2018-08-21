@@ -75,7 +75,7 @@ All Pokémon, items and abilities must be from 4th generation or earlier, becaus
 ### Obligatory fields
 
 **setname**
-  : The name of the current set. Should be used to differentiate multiple sets of the same species, e.g. "Stadium 2", "Physical" or "High Attack". Should *not* be used to name formes like "A" as in Unown A or "Psychic" as in Arceus Psychic, as the form names get automatically added. The recommended name for a default set is "Standard".
+  : The name of the current set. Note the combination (species, setname) **must** be unique across all pokesets.  Should be used to differentiate multiple sets of the same species, e.g. `Physical` or `High Attack`. The name of a non-standard form should be prepended, like `Bug Physical` for Bug form Arceus. The identifier for a non-standard metagame should be prepended with a dash, like `a-Bug Judgement` for Bug form Arceus in the Advanced metagame. Shininess should be appended, like `a-Bug Physical Shiny`. The recommended name for a default set is `Standard`.
 
 **species**
   : The Pokémon species. Can either be a Pokémon name or a National Pokédex number.
@@ -99,7 +99,7 @@ All Pokémon, items and abilities must be from 4th generation or earlier, becaus
   : Defaults to null (no ability). The Pokémon's ability. Can either be an ability name or an abiliy number. Can also be a *list of abilities* (e.g. `[Blaze, Solar Power]`) to let RNG decide.
 
 **ingamename**
-  : Name the Pokémon has ingame. Defaults to the Species' name in uppercase, ending in `-S` if shiny. Maximum of 10 characters, therefore the default might have a shortened species name (e.g. `TYPHLOSI-S` for shiny Typhlosion). Can only contain ASCII characters and the male/female sign. While not necessarily unique, Pokémon with the same ingame name cannot be in the same match due to technical limitations. Due to this, the ingamename might ultimately get altered when used in a match (e.g. appending numbers to make it unique).
+  : Name the Pokémon has ingame. Defaults to the Species' name in uppercase. Maximum of 10 characters, therefore the default might have a shortened species name (e.g. `CRABOMINAB` for Crabominable). Can only contain ASCII characters and the male/female sign.  Note the ingamename might be altered automatically when used in a match (e.g. appending numbers to make it unique, if there is a technical limitation that Pokémon with the same ingame name cannot be in the same match).
 
 **gender**
   : Defaults to null (no gender). Can also be "m" and "f", or a *list of genders* (e.g. `[m, f]`) to let RNG decide.
@@ -119,9 +119,7 @@ All Pokémon, items and abilities must be from 4th generation or earlier, becaus
   : Defaults to the species' name modified to include eventual form names. For example:  
     - Deoxys in attack form would get the display name "Deoxys Attack"  
     - Unown in A-Form would get the display name "Unown A"  
-    - Arceus with the Multitype-ability the item Flame Plate (although not technically a form) would get the display name "Arceus Fire".  
-    - Any shiny Pokémon would get ` (Shiny)` appended  
-    Specifying a custom displayname overwrites the generated one.
+    - Arceus with the Multitype-ability the item Flame Plate (although not technically a form) would get the display name "Arceus Fire".
 
 **happiness**
   : Defaults to 255. The Pokémon's Friendship Value. Is used to determine the base power of the moves "Return" and "Frustration".
@@ -136,7 +134,7 @@ All Pokémon, items and abilities must be from 4th generation or earlier, becaus
   : Defaults to `false`, except for Pokémon with `shiny` set to `true`, where it defaults to `true`. If `true`, the Pokémon will be treated as non-existent, conceiling its existence. Can be used to not spoil Shinies for example.
 
 **rarity**
-  : Defaults to `1.0`. Multiplier for the chance this set gets chosen by RNG. Values smaller than `1.0` cause this set to be selected less often. Values greater than `1.0` cause this set to be selected more often. For example `2.0` doubles this set's chance to get picked.
+  : Defaults to `1.0`. Multiplier for the chance this set gets chosen by RNG, relative to other sets of the same species. Values smaller than `1.0` cause this set to be selected less often. Values greater than `1.0` cause this set to be selected more often. For example `2.0` doubles this set's chance to get picked.
   : `0` means RNG will never choose this set. Can be used for token-bid-only sets.
 
 **ball**
@@ -163,7 +161,7 @@ All Pokémon, items and abilities must be from 4th generation or earlier, becaus
   - `type+Fire` if the pokeset's species has the fire type. `Fire` can be any type respectively.
   - `level+100` if the pokeset has level 100. `100` can be any level respectively.
   - `form+0` if the pokeset has the form 0. `0` can be any form number respectively.
-  - `setname+Standard` if the pokeset's setname is standard. `Standard` can be any setname respectively.
+  - `setname+Standard` if the pokeset's setname is Standard. `Standard` can be any setname respectively.
     The name will be normalized, which usually means lowercase with spaces replaced by `-` and other special characters removed.
   - `matchmaker-enabled` if the rarity is above 0.
   - `ability+Levitate` if the pokeset's ability has the levitate ability as an option. `Levitate` can be any ability respectively. If multiple abilities are avalible, the resulting mon(s) may not have the ability on the tag you filtered by.
