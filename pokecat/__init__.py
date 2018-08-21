@@ -154,8 +154,6 @@ def populate_pokeset(pokeset, skip_ev_check=False):
     # replace None-default for ingamename
     if pokeset["ingamename"] is None:
         pokeset["ingamename"] = species["name"].upper()
-        if pokeset["shiny"]:
-            pokeset["ingamename"] = pokeset["ingamename"][:8] + "-S"
     # check length of ingamename
     if not 1 <= len(pokeset["ingamename"]) <= 10:
         raise ValueError("ingamename must be between 1 and 10 characters long: %s" % pokeset["ingamename"])
