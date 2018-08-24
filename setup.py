@@ -4,15 +4,14 @@ import os
 from setuptools import setup, find_packages
 
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
-__version__ = open(os.path.join(ROOT_DIR, 'VERSION')).read().strip()
+__version__ = open(os.path.join(ROOT_DIR, 'pokecat', 'VERSION')).read().strip()
 
 setup(
     name="pokecat",
     version=__version__,
     packages=find_packages(),
     package_dir={"pokecat": "pokecat"},
-    package_data={"pokecat": ["gen1data/*.json", "gen4data/*.json", "globaldata/*.json", "pbrdata/*.json"]},
-    data_files=[("", ["VERSION"])],
+    package_data={"pokecat": ["gen1data/*.json", "gen4data/*.json", "globaldata/*.json", "pbrdata/*.json", "VERSION"]},
     install_requires=['pyyaml', 'python-Levenshtein', 'docopt', 'unidecode'],
 
     author="Felk",
