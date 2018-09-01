@@ -676,6 +676,7 @@ def redact_pokeset_data(pokemon):
     pokemon['displayname'] = '???'
     pokemon['ingamename'] = '???'
     pokemon['setname'] = '???'
+    pokemon['shiny'] = False
     pokemon['gender'] = None
     pokemon['form'] = 0
     pokemon['happiness'] = 0
@@ -706,6 +707,7 @@ def redact_pokeset_data(pokemon):
         'spe': '???',
     }
     pokemon['species']['basestats'] = pokemon['stats']
+    pokemon['species']['color'] = '???'
     pokemon['original_species']['id'] = 0
     pokemon['original_species']['name'] = '???'
     pokemon['original_species']['types'] = ['???']
