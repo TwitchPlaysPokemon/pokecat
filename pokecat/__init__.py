@@ -534,6 +534,32 @@ def apply_pokeset_form_adjustments(pokeset):
                 pokeset["displayname"] = species["name"] + " " + arceus_type
 
 
+_target_translations_doubles = {
+    "self":                 (0, ),
+    "scripted":             (0, ),
+    "randomNormal":         (0, ),
+    "normal":               (1, 2, -1),
+    "any":                  (1, 2, -1),
+    "adjacentFoe":          (1, 2),
+    "foeSide":              (1, 2),
+    "allAdjacentFoes":      (1, 2),
+    "allAdjacent":          (1, 2, -1),
+    "all":                  (1, 2, 0, -1),
+    "adjacentAllyOrSelf":   (0, -1),
+    "adjacentAlly":         (-1, ),
+    "allyTeam":             (0, -1),
+    "allySide":             (0, -1),
+}
+
+
+def translate_target(target, style):
+    """Translate the move target type into pokemon indices
+    """
+    if style == "doubles":
+        return _target_translations_doubles[target]
+
+
+
 def _check_restrictions(pokeset):
     """
     Checks if the "Combinations" and "Separations" defined in a set are respected.
