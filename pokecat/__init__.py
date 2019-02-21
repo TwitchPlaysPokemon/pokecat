@@ -552,12 +552,12 @@ _target_translations_doubles = {
 }
 
 
-def translate_target(target, style):
-    """Translate the move target type into pokemon indices
+def get_valid_targets(target_text, style):
+    """Translate a move's targeting text into a tuple with indices of valid targets
     """
     if style == "doubles":
-        return _target_translations_doubles[target]
-
+        return _target_translations_doubles[target_text]
+    raise NotImplementedError
 
 
 def _check_restrictions(pokeset):
