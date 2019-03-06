@@ -78,10 +78,10 @@ def populate_pokeset(pokeset, skip_ev_check=False):
     # special cases. I couldn't come up with a structure that wouldn't
     # just feel forced. It could be better, but it could also be worse,
     # and to be honest it's easy enough to maintain (for me at least).
-    
+
     # make deepcopy to not modify original data
     pokeset = deepcopy(pokeset)
-    
+
     # check if there are wrongly capitalized keys
     for key, value in list(pokeset.items()):
         key_lower = key.lower()
@@ -345,24 +345,34 @@ def populate_pokeset(pokeset, skip_ev_check=False):
         warn("rarity is %d, which is surprisingly high. Note that 1.0 is the default "
              "and high values mean the Pokémon gets chosen more often." % rarity)
 
-    # fix default biddable value
-    if pokeset["biddable"] is None:
-        pokeset["biddable"] = not pokeset["shiny"]
-    if not isinstance(pokeset["biddable"], bool):
-        raise ValueError("biddable must be a boolean (true or false), not %s" % type(pokeset["biddable"]))
+    if pokeset["shiny"] and Suppressions.PUBLIC_SHINY not in suppressions:
+        if pokeset["biddable"] is True:
+            warn("Set is shiny, but also biddable, which means it can be used in token "
+                 "matches. Is this intended?")
+        if pokeset["hidden"] is False:
+            warn("Set is shiny, but not hidden, which means it is publicly visible. Is "
+                 "this intended?")
 
-    # fix default hidden value
-    if pokeset["hidden"] is None:
-        pokeset["hidden"] = pokeset["shiny"]
-    if not isinstance(pokeset["hidden"], bool):
-        raise ValueError("hidden must be a boolean (true or false), not %s" % type(pokeset["hidden"]))
-
-    if pokeset["biddable"] and pokeset["hidden"]:
-        warn("Set is biddable, but also hidden, which doesn't make sense.")
-    if pokeset["shiny"] and pokeset["biddable"] and Suppressions.PUBLIC_SHINY not in suppressions:
-        warn("Set is shiny, but also biddable, which means it can be used in token matches. Is this intended?")
-    if pokeset["shiny"] and not pokeset["hidden"] and Suppressions.PUBLIC_SHINY not in suppressions:
-        warn("Set is shiny, but not hidden, which means it is publicly visible. Is this intended?")
+    if pokeset["biddable"] is pokeset["hidden"] is True:
+        warn("Set is explicitly biddable, but also explicitly hidden, which doesn't make sense.")
+    else:
+        # fix default biddable value
+        if pokeset["biddable"] is None:
+            if pokeset["hidden"] is True:
+                pokeset["biddable"] = False
+            else:
+                pokeset["biddable"] = not pokeset["shiny"]
+        if not isinstance(pokeset["biddable"], bool):
+            raise ValueError("biddable must be a boolean (true or false), not %s" % type(pokeset["biddable"]))
+        # fix default hidden value
+        if pokeset["hidden"] is None:
+            if pokeset["biddable"]:
+                # User set as biddable, OR user didn't specify and pokeset is not shiny
+                pokeset["hidden"] = False
+            else:
+                pokeset["hidden"] = pokeset["shiny"]
+        if not isinstance(pokeset["hidden"], bool):
+            raise ValueError("hidden must be a boolean (true or false), not %s" % type(pokeset["hidden"]))
 
     # fix displayname
     if pokeset["displayname"] is None:
@@ -584,7 +594,7 @@ def instantiate_pokeset(pokeset):
         for move in instance["moves"]:
             # extra displayname, might differ due to special cases
             move["displayname"] = move["name"]
-            
+
             # special case: Hidden Power. Fix type, power and displayname
             if move["name"] == "Hidden Power":
                 a, b, c, d, e, f = [ivs[stat] % 2 for stat in ("hp", "atk", "def", "spe", "spA", "spD")]
