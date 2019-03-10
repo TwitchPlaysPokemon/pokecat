@@ -15,6 +15,7 @@ ITEMS     = list(build_from_json_list(path.join(ROOT_DIR, "gen4data/items.json")
 MOVES     = load_from_json_list(path.join(ROOT_DIR, "gen4data/moves.json"))
 # remove moves without ids
 MOVES     = [m for m in MOVES if m["id"] is not None]
+TYPES     = load_from_json_list(path.join(ROOT_DIR, "gen4data/types.json"))
 BALLS     = load_from_json_list(path.join(ROOT_DIR, "pbrdata/balls.json"))
 POKEDEX   = load_from_json_list(path.join(ROOT_DIR, "gen4data/pokedex.json"))
 
