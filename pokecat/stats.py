@@ -21,6 +21,8 @@ def calculate_stat(base, ev, iv, stattype, nature, level=100):
     """
     stattype = stattype.lower()
     is_hp = stattype == "hp"
+    if is_hp and base == 1:  # Only applies to shedinja as of gen 7
+        return 1
     growth = base*2 + (ev // 4) + iv + (100 if is_hp else 0)
     stat = (10 if is_hp else 5) + (growth * level) // 100
     nature_val = 10

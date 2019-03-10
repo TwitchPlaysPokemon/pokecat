@@ -394,10 +394,6 @@ def populate_pokeset(pokeset, skip_ev_check=False):
         level = pokeset["level"]
         pokeset["stats"][statname] = stats.calculate_stat(basestat, ev, iv, statname, nature, level)
 
-    # special case: Shedinja. Always 1 HP
-    if species["name"] == "Shedinja":
-        pokeset["stats"]["hp"] = 1
-
     # check and populate curr_hp
     curr_hp = pokeset["curr_hp"]
     if curr_hp is None:
