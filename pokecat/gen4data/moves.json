@@ -7,7 +7,8 @@
         "name": "Pound",
         "power": 40,
         "pp": 35,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "karatechop",
@@ -17,7 +18,8 @@
         "name": "Karate Chop",
         "power": 50,
         "pp": 25,
-        "type": "Fighting"
+        "type": "Fighting",
+        "target": "normal"
     },
     {
         "name_id": "doubleslap",
@@ -27,7 +29,8 @@
         "name": "Double Slap",
         "power": 15,
         "pp": 10,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "cometpunch",
@@ -37,7 +40,8 @@
         "name": "Comet Punch",
         "power": 18,
         "pp": 15,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "megapunch",
@@ -47,7 +51,8 @@
         "name": "Mega Punch",
         "power": 80,
         "pp": 20,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "payday",
@@ -57,7 +62,8 @@
         "name": "Pay Day",
         "power": 40,
         "pp": 20,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "firepunch",
@@ -67,7 +73,8 @@
         "name": "Fire Punch",
         "power": 75,
         "pp": 15,
-        "type": "Fire"
+        "type": "Fire",
+        "target": "normal"
     },
     {
         "name_id": "icepunch",
@@ -77,7 +84,8 @@
         "name": "Ice Punch",
         "power": 75,
         "pp": 15,
-        "type": "Ice"
+        "type": "Ice",
+        "target": "normal"
     },
     {
         "name_id": "thunderpunch",
@@ -87,7 +95,8 @@
         "name": "Thunder Punch",
         "power": 75,
         "pp": 15,
-        "type": "Electric"
+        "type": "Electric",
+        "target": "normal"
     },
     {
         "name_id": "scratch",
@@ -97,7 +106,8 @@
         "name": "Scratch",
         "power": 40,
         "pp": 35,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "vicegrip",
@@ -107,7 +117,8 @@
         "name": "Vice Grip",
         "power": 55,
         "pp": 30,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "guillotine",
@@ -117,7 +128,8 @@
         "name": "Guillotine",
         "power": 0,
         "pp": 5,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "razorwind",
@@ -127,7 +139,8 @@
         "name": "Razor Wind",
         "power": 80,
         "pp": 10,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "allAdjacentFoes"
     },
     {
         "name_id": "swordsdance",
@@ -137,7 +150,8 @@
         "name": "Swords Dance",
         "power": 0,
         "pp": 30,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "self"
     },
     {
         "name_id": "cut",
@@ -147,7 +161,8 @@
         "name": "Cut",
         "power": 50,
         "pp": 30,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "gust",
@@ -157,7 +172,8 @@
         "name": "Gust",
         "power": 40,
         "pp": 35,
-        "type": "Flying"
+        "type": "Flying",
+        "target": "any"
     },
     {
         "name_id": "wingattack",
@@ -167,7 +183,8 @@
         "name": "Wing Attack",
         "power": 60,
         "pp": 35,
-        "type": "Flying"
+        "type": "Flying",
+        "target": "any"
     },
     {
         "name_id": "whirlwind",
@@ -177,7 +194,8 @@
         "name": "Whirlwind",
         "power": 0,
         "pp": 20,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "fly",
@@ -187,7 +205,8 @@
         "name": "Fly",
         "power": 90,
         "pp": 15,
-        "type": "Flying"
+        "type": "Flying",
+        "target": "any"
     },
     {
         "name_id": "bind",
@@ -197,7 +216,8 @@
         "name": "Bind",
         "power": 15,
         "pp": 20,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "slam",
@@ -207,7 +227,8 @@
         "name": "Slam",
         "power": 80,
         "pp": 20,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "vinewhip",
@@ -217,7 +238,8 @@
         "name": "Vine Whip",
         "power": 35,
         "pp": 15,
-        "type": "Grass"
+        "type": "Grass",
+        "target": "normal"
     },
     {
         "name_id": "stomp",
@@ -227,7 +249,8 @@
         "name": "Stomp",
         "power": 65,
         "pp": 20,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "doublekick",
@@ -237,7 +260,8 @@
         "name": "Double Kick",
         "power": 30,
         "pp": 30,
-        "type": "Fighting"
+        "type": "Fighting",
+        "target": "normal"
     },
     {
         "name_id": "megakick",
@@ -247,7 +271,8 @@
         "name": "Mega Kick",
         "power": 120,
         "pp": 5,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "jumpkick",
@@ -257,7 +282,8 @@
         "name": "Jump Kick",
         "power": 85,
         "pp": 25,
-        "type": "Fighting"
+        "type": "Fighting",
+        "target": "normal"
     },
     {
         "name_id": "rollingkick",
@@ -267,7 +293,8 @@
         "name": "Rolling Kick",
         "power": 60,
         "pp": 15,
-        "type": "Fighting"
+        "type": "Fighting",
+        "target": "normal"
     },
     {
         "name_id": "sandattack",
@@ -277,7 +304,8 @@
         "name": "Sand Attack",
         "power": 0,
         "pp": 15,
-        "type": "Ground"
+        "type": "Ground",
+        "target": "normal"
     },
     {
         "name_id": "headbutt",
@@ -287,7 +315,8 @@
         "name": "Headbutt",
         "power": 70,
         "pp": 15,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "hornattack",
@@ -297,7 +326,8 @@
         "name": "Horn Attack",
         "power": 65,
         "pp": 25,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "furyattack",
@@ -307,7 +337,8 @@
         "name": "Fury Attack",
         "power": 15,
         "pp": 20,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "horndrill",
@@ -317,7 +348,8 @@
         "name": "Horn Drill",
         "power": 0,
         "pp": 5,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "tackle",
@@ -327,7 +359,8 @@
         "name": "Tackle",
         "power": 35,
         "pp": 35,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "bodyslam",
@@ -337,7 +370,8 @@
         "name": "Body Slam",
         "power": 85,
         "pp": 15,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "wrap",
@@ -347,7 +381,8 @@
         "name": "Wrap",
         "power": 15,
         "pp": 20,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "takedown",
@@ -357,7 +392,8 @@
         "name": "Take Down",
         "power": 90,
         "pp": 20,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "thrash",
@@ -367,7 +403,8 @@
         "name": "Thrash",
         "power": 90,
         "pp": 20,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "randomNormal"
     },
     {
         "name_id": "doubleedge",
@@ -377,7 +414,8 @@
         "name": "Double-Edge",
         "power": 120,
         "pp": 15,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "tailwhip",
@@ -387,7 +425,8 @@
         "name": "Tail Whip",
         "power": 0,
         "pp": 30,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "allAdjacentFoes"
     },
     {
         "name_id": "poisonsting",
@@ -397,7 +436,8 @@
         "name": "Poison Sting",
         "power": 15,
         "pp": 35,
-        "type": "Poison"
+        "type": "Poison",
+        "target": "normal"
     },
     {
         "name_id": "twineedle",
@@ -407,7 +447,8 @@
         "name": "Twineedle",
         "power": 25,
         "pp": 20,
-        "type": "Bug"
+        "type": "Bug",
+        "target": "normal"
     },
     {
         "name_id": "pinmissile",
@@ -417,7 +458,8 @@
         "name": "Pin Missile",
         "power": 14,
         "pp": 20,
-        "type": "Bug"
+        "type": "Bug",
+        "target": "normal"
     },
     {
         "name_id": "leer",
@@ -427,7 +469,8 @@
         "name": "Leer",
         "power": 0,
         "pp": 30,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "allAdjacentFoes"
     },
     {
         "name_id": "bite",
@@ -437,7 +480,8 @@
         "name": "Bite",
         "power": 60,
         "pp": 25,
-        "type": "Dark"
+        "type": "Dark",
+        "target": "normal"
     },
     {
         "name_id": "growl",
@@ -447,7 +491,8 @@
         "name": "Growl",
         "power": 0,
         "pp": 40,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "allAdjacentFoes"
     },
     {
         "name_id": "roar",
@@ -457,7 +502,8 @@
         "name": "Roar",
         "power": 0,
         "pp": 20,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "sing",
@@ -467,7 +513,8 @@
         "name": "Sing",
         "power": 0,
         "pp": 15,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "supersonic",
@@ -477,7 +524,8 @@
         "name": "Supersonic",
         "power": 0,
         "pp": 20,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "sonicboom",
@@ -487,7 +535,8 @@
         "name": "Sonic Boom",
         "power": 0,
         "pp": 20,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "disable",
@@ -497,7 +546,8 @@
         "name": "Disable",
         "power": 0,
         "pp": 20,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "acid",
@@ -507,7 +557,8 @@
         "name": "Acid",
         "power": 40,
         "pp": 30,
-        "type": "Poison"
+        "type": "Poison",
+        "target": "allAdjacentFoes"
     },
     {
         "name_id": "ember",
@@ -517,7 +568,8 @@
         "name": "Ember",
         "power": 40,
         "pp": 25,
-        "type": "Fire"
+        "type": "Fire",
+        "target": "normal"
     },
     {
         "name_id": "flamethrower",
@@ -527,7 +579,8 @@
         "name": "Flamethrower",
         "power": 95,
         "pp": 15,
-        "type": "Fire"
+        "type": "Fire",
+        "target": "normal"
     },
     {
         "name_id": "mist",
@@ -537,7 +590,8 @@
         "name": "Mist",
         "power": 0,
         "pp": 30,
-        "type": "Ice"
+        "type": "Ice",
+        "target": "allySide"
     },
     {
         "name_id": "watergun",
@@ -547,7 +601,8 @@
         "name": "Water Gun",
         "power": 40,
         "pp": 25,
-        "type": "Water"
+        "type": "Water",
+        "target": "normal"
     },
     {
         "name_id": "hydropump",
@@ -557,7 +612,8 @@
         "name": "Hydro Pump",
         "power": 120,
         "pp": 5,
-        "type": "Water"
+        "type": "Water",
+        "target": "normal"
     },
     {
         "name_id": "surf",
@@ -567,7 +623,8 @@
         "name": "Surf",
         "power": 95,
         "pp": 15,
-        "type": "Water"
+        "type": "Water",
+        "target": "allAdjacent"
     },
     {
         "name_id": "icebeam",
@@ -577,7 +634,8 @@
         "name": "Ice Beam",
         "power": 95,
         "pp": 10,
-        "type": "Ice"
+        "type": "Ice",
+        "target": "normal"
     },
     {
         "name_id": "blizzard",
@@ -587,7 +645,8 @@
         "name": "Blizzard",
         "power": 120,
         "pp": 5,
-        "type": "Ice"
+        "type": "Ice",
+        "target": "allAdjacentFoes"
     },
     {
         "name_id": "psybeam",
@@ -597,7 +656,8 @@
         "name": "Psybeam",
         "power": 65,
         "pp": 20,
-        "type": "Psychic"
+        "type": "Psychic",
+        "target": "normal"
     },
     {
         "name_id": "bubblebeam",
@@ -607,7 +667,8 @@
         "name": "Bubble Beam",
         "power": 65,
         "pp": 20,
-        "type": "Water"
+        "type": "Water",
+        "target": "normal"
     },
     {
         "name_id": "aurorabeam",
@@ -617,7 +678,8 @@
         "name": "Aurora Beam",
         "power": 65,
         "pp": 20,
-        "type": "Ice"
+        "type": "Ice",
+        "target": "normal"
     },
     {
         "name_id": "hyperbeam",
@@ -627,7 +689,8 @@
         "name": "Hyper Beam",
         "power": 150,
         "pp": 5,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "peck",
@@ -637,7 +700,8 @@
         "name": "Peck",
         "power": 35,
         "pp": 35,
-        "type": "Flying"
+        "type": "Flying",
+        "target": "any"
     },
     {
         "name_id": "drillpeck",
@@ -647,7 +711,8 @@
         "name": "Drill Peck",
         "power": 80,
         "pp": 20,
-        "type": "Flying"
+        "type": "Flying",
+        "target": "any"
     },
     {
         "name_id": "submission",
@@ -657,7 +722,8 @@
         "name": "Submission",
         "power": 80,
         "pp": 25,
-        "type": "Fighting"
+        "type": "Fighting",
+        "target": "normal"
     },
     {
         "name_id": "lowkick",
@@ -667,7 +733,8 @@
         "name": "Low Kick",
         "power": 0,
         "pp": 20,
-        "type": "Fighting"
+        "type": "Fighting",
+        "target": "normal"
     },
     {
         "name_id": "counter",
@@ -677,7 +744,8 @@
         "name": "Counter",
         "power": 0,
         "pp": 20,
-        "type": "Fighting"
+        "type": "Fighting",
+        "target": "scripted"
     },
     {
         "name_id": "seismictoss",
@@ -687,7 +755,8 @@
         "name": "Seismic Toss",
         "power": 0,
         "pp": 20,
-        "type": "Fighting"
+        "type": "Fighting",
+        "target": "normal"
     },
     {
         "name_id": "strength",
@@ -697,7 +766,8 @@
         "name": "Strength",
         "power": 80,
         "pp": 15,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "absorb",
@@ -707,7 +777,8 @@
         "name": "Absorb",
         "power": 20,
         "pp": 25,
-        "type": "Grass"
+        "type": "Grass",
+        "target": "normal"
     },
     {
         "name_id": "megadrain",
@@ -717,7 +788,8 @@
         "name": "Mega Drain",
         "power": 40,
         "pp": 15,
-        "type": "Grass"
+        "type": "Grass",
+        "target": "normal"
     },
     {
         "name_id": "leechseed",
@@ -727,7 +799,8 @@
         "name": "Leech Seed",
         "power": 0,
         "pp": 10,
-        "type": "Grass"
+        "type": "Grass",
+        "target": "normal"
     },
     {
         "name_id": "growth",
@@ -737,7 +810,8 @@
         "name": "Growth",
         "power": 0,
         "pp": 40,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "self"
     },
     {
         "name_id": "razorleaf",
@@ -747,7 +821,8 @@
         "name": "Razor Leaf",
         "power": 55,
         "pp": 25,
-        "type": "Grass"
+        "type": "Grass",
+        "target": "allAdjacentFoes"
     },
     {
         "name_id": "solarbeam",
@@ -757,7 +832,8 @@
         "name": "Solar Beam",
         "power": 120,
         "pp": 10,
-        "type": "Grass"
+        "type": "Grass",
+        "target": "normal"
     },
     {
         "name_id": "poisonpowder",
@@ -767,7 +843,8 @@
         "name": "Poison Powder",
         "power": 0,
         "pp": 35,
-        "type": "Poison"
+        "type": "Poison",
+        "target": "normal"
     },
     {
         "name_id": "stunspore",
@@ -777,7 +854,8 @@
         "name": "Stun Spore",
         "power": 0,
         "pp": 30,
-        "type": "Grass"
+        "type": "Grass",
+        "target": "normal"
     },
     {
         "name_id": "sleeppowder",
@@ -787,7 +865,8 @@
         "name": "Sleep Powder",
         "power": 0,
         "pp": 15,
-        "type": "Grass"
+        "type": "Grass",
+        "target": "normal"
     },
     {
         "name_id": "petaldance",
@@ -797,7 +876,8 @@
         "name": "Petal Dance",
         "power": 90,
         "pp": 20,
-        "type": "Grass"
+        "type": "Grass",
+        "target": "randomNormal"
     },
     {
         "name_id": "stringshot",
@@ -807,7 +887,8 @@
         "name": "String Shot",
         "power": 0,
         "pp": 40,
-        "type": "Bug"
+        "type": "Bug",
+        "target": "allAdjacentFoes"
     },
     {
         "name_id": "dragonrage",
@@ -817,7 +898,8 @@
         "name": "Dragon Rage",
         "power": 0,
         "pp": 10,
-        "type": "Dragon"
+        "type": "Dragon",
+        "target": "normal"
     },
     {
         "name_id": "firespin",
@@ -827,7 +909,8 @@
         "name": "Fire Spin",
         "power": 15,
         "pp": 15,
-        "type": "Fire"
+        "type": "Fire",
+        "target": "normal"
     },
     {
         "name_id": "thundershock",
@@ -837,7 +920,8 @@
         "name": "Thunder Shock",
         "power": 40,
         "pp": 30,
-        "type": "Electric"
+        "type": "Electric",
+        "target": "normal"
     },
     {
         "name_id": "thunderbolt",
@@ -847,7 +931,8 @@
         "name": "Thunderbolt",
         "power": 95,
         "pp": 15,
-        "type": "Electric"
+        "type": "Electric",
+        "target": "normal"
     },
     {
         "name_id": "thunderwave",
@@ -857,7 +942,8 @@
         "name": "Thunder Wave",
         "power": 0,
         "pp": 20,
-        "type": "Electric"
+        "type": "Electric",
+        "target": "normal"
     },
     {
         "name_id": "thunder",
@@ -867,7 +953,8 @@
         "name": "Thunder",
         "power": 120,
         "pp": 10,
-        "type": "Electric"
+        "type": "Electric",
+        "target": "normal"
     },
     {
         "name_id": "rockthrow",
@@ -877,7 +964,8 @@
         "name": "Rock Throw",
         "power": 50,
         "pp": 15,
-        "type": "Rock"
+        "type": "Rock",
+        "target": "normal"
     },
     {
         "name_id": "earthquake",
@@ -887,7 +975,8 @@
         "name": "Earthquake",
         "power": 100,
         "pp": 10,
-        "type": "Ground"
+        "type": "Ground",
+        "target": "allAdjacent"
     },
     {
         "name_id": "fissure",
@@ -897,7 +986,8 @@
         "name": "Fissure",
         "power": 0,
         "pp": 5,
-        "type": "Ground"
+        "type": "Ground",
+        "target": "normal"
     },
     {
         "name_id": "dig",
@@ -907,7 +997,8 @@
         "name": "Dig",
         "power": 80,
         "pp": 10,
-        "type": "Ground"
+        "type": "Ground",
+        "target": "normal"
     },
     {
         "name_id": "toxic",
@@ -917,7 +1008,8 @@
         "name": "Toxic",
         "power": 0,
         "pp": 10,
-        "type": "Poison"
+        "type": "Poison",
+        "target": "normal"
     },
     {
         "name_id": "confusion",
@@ -927,7 +1019,8 @@
         "name": "Confusion",
         "power": 50,
         "pp": 25,
-        "type": "Psychic"
+        "type": "Psychic",
+        "target": "normal"
     },
     {
         "name_id": "psychic",
@@ -937,7 +1030,8 @@
         "name": "Psychic",
         "power": 90,
         "pp": 10,
-        "type": "Psychic"
+        "type": "Psychic",
+        "target": "normal"
     },
     {
         "name_id": "hypnosis",
@@ -947,7 +1041,8 @@
         "name": "Hypnosis",
         "power": 0,
         "pp": 20,
-        "type": "Psychic"
+        "type": "Psychic",
+        "target": "normal"
     },
     {
         "name_id": "meditate",
@@ -957,7 +1052,8 @@
         "name": "Meditate",
         "power": 0,
         "pp": 40,
-        "type": "Psychic"
+        "type": "Psychic",
+        "target": "self"
     },
     {
         "name_id": "agility",
@@ -967,7 +1063,8 @@
         "name": "Agility",
         "power": 0,
         "pp": 30,
-        "type": "Psychic"
+        "type": "Psychic",
+        "target": "self"
     },
     {
         "name_id": "quickattack",
@@ -977,7 +1074,8 @@
         "name": "Quick Attack",
         "power": 40,
         "pp": 30,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "rage",
@@ -987,7 +1085,8 @@
         "name": "Rage",
         "power": 20,
         "pp": 20,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "teleport",
@@ -997,7 +1096,8 @@
         "name": "Teleport",
         "power": 0,
         "pp": 20,
-        "type": "Psychic"
+        "type": "Psychic",
+        "target": "self"
     },
     {
         "name_id": "nightshade",
@@ -1007,7 +1107,8 @@
         "name": "Night Shade",
         "power": 0,
         "pp": 15,
-        "type": "Ghost"
+        "type": "Ghost",
+        "target": "normal"
     },
     {
         "name_id": "mimic",
@@ -1017,7 +1118,8 @@
         "name": "Mimic",
         "power": 0,
         "pp": 10,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "screech",
@@ -1027,7 +1129,8 @@
         "name": "Screech",
         "power": 0,
         "pp": 40,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "doubleteam",
@@ -1037,7 +1140,8 @@
         "name": "Double Team",
         "power": 0,
         "pp": 15,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "self"
     },
     {
         "name_id": "recover",
@@ -1047,7 +1151,8 @@
         "name": "Recover",
         "power": 0,
         "pp": 10,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "self"
     },
     {
         "name_id": "harden",
@@ -1057,7 +1162,8 @@
         "name": "Harden",
         "power": 0,
         "pp": 30,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "self"
     },
     {
         "name_id": "minimize",
@@ -1067,7 +1173,8 @@
         "name": "Minimize",
         "power": 0,
         "pp": 20,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "self"
     },
     {
         "name_id": "smokescreen",
@@ -1077,7 +1184,8 @@
         "name": "Smokescreen",
         "power": 0,
         "pp": 20,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "confuseray",
@@ -1087,7 +1195,8 @@
         "name": "Confuse Ray",
         "power": 0,
         "pp": 10,
-        "type": "Ghost"
+        "type": "Ghost",
+        "target": "normal"
     },
     {
         "name_id": "withdraw",
@@ -1097,7 +1206,8 @@
         "name": "Withdraw",
         "power": 0,
         "pp": 40,
-        "type": "Water"
+        "type": "Water",
+        "target": "self"
     },
     {
         "name_id": "defensecurl",
@@ -1107,7 +1217,8 @@
         "name": "Defense Curl",
         "power": 0,
         "pp": 40,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "self"
     },
     {
         "name_id": "barrier",
@@ -1117,7 +1228,8 @@
         "name": "Barrier",
         "power": 0,
         "pp": 30,
-        "type": "Psychic"
+        "type": "Psychic",
+        "target": "self"
     },
     {
         "name_id": "lightscreen",
@@ -1127,7 +1239,8 @@
         "name": "Light Screen",
         "power": 0,
         "pp": 30,
-        "type": "Psychic"
+        "type": "Psychic",
+        "target": "allySide"
     },
     {
         "name_id": "haze",
@@ -1137,7 +1250,8 @@
         "name": "Haze",
         "power": 0,
         "pp": 30,
-        "type": "Ice"
+        "type": "Ice",
+        "target": "all"
     },
     {
         "name_id": "reflect",
@@ -1147,7 +1261,8 @@
         "name": "Reflect",
         "power": 0,
         "pp": 20,
-        "type": "Psychic"
+        "type": "Psychic",
+        "target": "allySide"
     },
     {
         "name_id": "focusenergy",
@@ -1157,7 +1272,8 @@
         "name": "Focus Energy",
         "power": 0,
         "pp": 30,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "self"
     },
     {
         "name_id": "bide",
@@ -1167,7 +1283,8 @@
         "name": "Bide",
         "power": 0,
         "pp": 10,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "self"
     },
     {
         "name_id": "metronome",
@@ -1177,7 +1294,8 @@
         "name": "Metronome",
         "power": 0,
         "pp": 10,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "self"
     },
     {
         "name_id": "mirrormove",
@@ -1187,7 +1305,8 @@
         "name": "Mirror Move",
         "power": 0,
         "pp": 20,
-        "type": "Flying"
+        "type": "Flying",
+        "target": "self"
     },
     {
         "name_id": "selfdestruct",
@@ -1197,7 +1316,8 @@
         "name": "Self-Destruct",
         "power": 400,
         "pp": 5,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "allAdjacent"
     },
     {
         "name_id": "eggbomb",
@@ -1207,7 +1327,8 @@
         "name": "Egg Bomb",
         "power": 100,
         "pp": 10,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "lick",
@@ -1217,7 +1338,8 @@
         "name": "Lick",
         "power": 20,
         "pp": 30,
-        "type": "Ghost"
+        "type": "Ghost",
+        "target": "normal"
     },
     {
         "name_id": "smog",
@@ -1227,7 +1349,8 @@
         "name": "Smog",
         "power": 20,
         "pp": 20,
-        "type": "Poison"
+        "type": "Poison",
+        "target": "normal"
     },
     {
         "name_id": "sludge",
@@ -1237,7 +1360,8 @@
         "name": "Sludge",
         "power": 65,
         "pp": 20,
-        "type": "Poison"
+        "type": "Poison",
+        "target": "normal"
     },
     {
         "name_id": "boneclub",
@@ -1247,7 +1371,8 @@
         "name": "Bone Club",
         "power": 65,
         "pp": 20,
-        "type": "Ground"
+        "type": "Ground",
+        "target": "normal"
     },
     {
         "name_id": "fireblast",
@@ -1257,7 +1382,8 @@
         "name": "Fire Blast",
         "power": 120,
         "pp": 5,
-        "type": "Fire"
+        "type": "Fire",
+        "target": "normal"
     },
     {
         "name_id": "waterfall",
@@ -1267,7 +1393,8 @@
         "name": "Waterfall",
         "power": 80,
         "pp": 15,
-        "type": "Water"
+        "type": "Water",
+        "target": "normal"
     },
     {
         "name_id": "clamp",
@@ -1277,7 +1404,8 @@
         "name": "Clamp",
         "power": 35,
         "pp": 10,
-        "type": "Water"
+        "type": "Water",
+        "target": "normal"
     },
     {
         "name_id": "swift",
@@ -1287,7 +1415,8 @@
         "name": "Swift",
         "power": 60,
         "pp": 20,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "allAdjacentFoes"
     },
     {
         "name_id": "skullbash",
@@ -1297,7 +1426,8 @@
         "name": "Skull Bash",
         "power": 100,
         "pp": 15,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "spikecannon",
@@ -1307,7 +1437,8 @@
         "name": "Spike Cannon",
         "power": 20,
         "pp": 15,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "constrict",
@@ -1317,7 +1448,8 @@
         "name": "Constrict",
         "power": 10,
         "pp": 35,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "amnesia",
@@ -1327,7 +1459,8 @@
         "name": "Amnesia",
         "power": 0,
         "pp": 20,
-        "type": "Psychic"
+        "type": "Psychic",
+        "target": "self"
     },
     {
         "name_id": "kinesis",
@@ -1337,7 +1470,8 @@
         "name": "Kinesis",
         "power": 0,
         "pp": 15,
-        "type": "Psychic"
+        "type": "Psychic",
+        "target": "normal"
     },
     {
         "name_id": "softboiled",
@@ -1347,7 +1481,8 @@
         "name": "Soft-Boiled",
         "power": 0,
         "pp": 10,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "self"
     },
     {
         "name_id": "highjumpkick",
@@ -1357,7 +1492,8 @@
         "name": "High Jump Kick",
         "power": 100,
         "pp": 20,
-        "type": "Fighting"
+        "type": "Fighting",
+        "target": "normal"
     },
     {
         "name_id": "glare",
@@ -1367,7 +1503,8 @@
         "name": "Glare",
         "power": 0,
         "pp": 30,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "dreameater",
@@ -1377,7 +1514,8 @@
         "name": "Dream Eater",
         "power": 100,
         "pp": 15,
-        "type": "Psychic"
+        "type": "Psychic",
+        "target": "normal"
     },
     {
         "name_id": "poisongas",
@@ -1387,7 +1525,8 @@
         "name": "Poison Gas",
         "power": 0,
         "pp": 40,
-        "type": "Poison"
+        "type": "Poison",
+        "target": "normal"
     },
     {
         "name_id": "barrage",
@@ -1397,7 +1536,8 @@
         "name": "Barrage",
         "power": 15,
         "pp": 20,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "leechlife",
@@ -1407,7 +1547,8 @@
         "name": "Leech Life",
         "power": 20,
         "pp": 15,
-        "type": "Bug"
+        "type": "Bug",
+        "target": "normal"
     },
     {
         "name_id": "lovelykiss",
@@ -1417,7 +1558,8 @@
         "name": "Lovely Kiss",
         "power": 0,
         "pp": 10,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "skyattack",
@@ -1427,7 +1569,8 @@
         "name": "Sky Attack",
         "power": 140,
         "pp": 5,
-        "type": "Flying"
+        "type": "Flying",
+        "target": "any"
     },
     {
         "name_id": "transform",
@@ -1437,7 +1580,8 @@
         "name": "Transform",
         "power": 0,
         "pp": 10,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "bubble",
@@ -1447,7 +1591,8 @@
         "name": "Bubble",
         "power": 20,
         "pp": 30,
-        "type": "Water"
+        "type": "Water",
+        "target": "allAdjacentFoes"
     },
     {
         "name_id": "dizzypunch",
@@ -1457,7 +1602,8 @@
         "name": "Dizzy Punch",
         "power": 70,
         "pp": 10,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "spore",
@@ -1467,7 +1613,8 @@
         "name": "Spore",
         "power": 0,
         "pp": 15,
-        "type": "Grass"
+        "type": "Grass",
+        "target": "normal"
     },
     {
         "name_id": "flash",
@@ -1477,7 +1624,8 @@
         "name": "Flash",
         "power": 0,
         "pp": 20,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "psywave",
@@ -1487,7 +1635,8 @@
         "name": "Psywave",
         "power": 0,
         "pp": 15,
-        "type": "Psychic"
+        "type": "Psychic",
+        "target": "normal"
     },
     {
         "name_id": "splash",
@@ -1497,7 +1646,8 @@
         "name": "Splash",
         "power": 0,
         "pp": 40,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "self"
     },
     {
         "name_id": "acidarmor",
@@ -1507,7 +1657,8 @@
         "name": "Acid Armor",
         "power": 0,
         "pp": 40,
-        "type": "Poison"
+        "type": "Poison",
+        "target": "self"
     },
     {
         "name_id": "crabhammer",
@@ -1517,7 +1668,8 @@
         "name": "Crabhammer",
         "power": 90,
         "pp": 10,
-        "type": "Water"
+        "type": "Water",
+        "target": "normal"
     },
     {
         "name_id": "explosion",
@@ -1527,7 +1679,8 @@
         "name": "Explosion",
         "power": 500,
         "pp": 5,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "allAdjacent"
     },
     {
         "name_id": "furyswipes",
@@ -1537,7 +1690,8 @@
         "name": "Fury Swipes",
         "power": 18,
         "pp": 15,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "bonemerang",
@@ -1547,7 +1701,8 @@
         "name": "Bonemerang",
         "power": 50,
         "pp": 10,
-        "type": "Ground"
+        "type": "Ground",
+        "target": "normal"
     },
     {
         "name_id": "rest",
@@ -1557,7 +1712,8 @@
         "name": "Rest",
         "power": 0,
         "pp": 10,
-        "type": "Psychic"
+        "type": "Psychic",
+        "target": "self"
     },
     {
         "name_id": "rockslide",
@@ -1567,7 +1723,8 @@
         "name": "Rock Slide",
         "power": 75,
         "pp": 10,
-        "type": "Rock"
+        "type": "Rock",
+        "target": "allAdjacentFoes"
     },
     {
         "name_id": "hyperfang",
@@ -1577,7 +1734,8 @@
         "name": "Hyper Fang",
         "power": 80,
         "pp": 15,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "sharpen",
@@ -1587,7 +1745,8 @@
         "name": "Sharpen",
         "power": 0,
         "pp": 30,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "self"
     },
     {
         "name_id": "conversion",
@@ -1597,7 +1756,8 @@
         "name": "Conversion",
         "power": 0,
         "pp": 30,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "self"
     },
     {
         "name_id": "triattack",
@@ -1607,7 +1767,8 @@
         "name": "Tri Attack",
         "power": 80,
         "pp": 10,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "superfang",
@@ -1617,7 +1778,8 @@
         "name": "Super Fang",
         "power": 0,
         "pp": 10,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "slash",
@@ -1627,7 +1789,8 @@
         "name": "Slash",
         "power": 70,
         "pp": 20,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "substitute",
@@ -1637,7 +1800,8 @@
         "name": "Substitute",
         "power": 0,
         "pp": 10,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "self"
     },
     {
         "name_id": "struggle",
@@ -1647,7 +1811,8 @@
         "name": "Struggle",
         "power": 50,
         "pp": 1,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "randomNormal"
     },
     {
         "name_id": "sketch",
@@ -1657,7 +1822,8 @@
         "name": "Sketch",
         "power": 0,
         "pp": 1,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "triplekick",
@@ -1667,7 +1833,8 @@
         "name": "Triple Kick",
         "power": 10,
         "pp": 10,
-        "type": "Fighting"
+        "type": "Fighting",
+        "target": "normal"
     },
     {
         "name_id": "thief",
@@ -1677,7 +1844,8 @@
         "name": "Thief",
         "power": 40,
         "pp": 10,
-        "type": "Dark"
+        "type": "Dark",
+        "target": "normal"
     },
     {
         "name_id": "spiderweb",
@@ -1687,7 +1855,8 @@
         "name": "Spider Web",
         "power": 0,
         "pp": 10,
-        "type": "Bug"
+        "type": "Bug",
+        "target": "normal"
     },
     {
         "name_id": "mindreader",
@@ -1697,7 +1866,8 @@
         "name": "Mind Reader",
         "power": 0,
         "pp": 5,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "nightmare",
@@ -1707,7 +1877,8 @@
         "name": "Nightmare",
         "power": 0,
         "pp": 15,
-        "type": "Ghost"
+        "type": "Ghost",
+        "target": "normal"
     },
     {
         "name_id": "flamewheel",
@@ -1717,7 +1888,8 @@
         "name": "Flame Wheel",
         "power": 60,
         "pp": 25,
-        "type": "Fire"
+        "type": "Fire",
+        "target": "normal"
     },
     {
         "name_id": "snore",
@@ -1727,7 +1899,8 @@
         "name": "Snore",
         "power": 40,
         "pp": 15,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "curse",
@@ -1737,7 +1910,8 @@
         "name": "Curse",
         "power": 0,
         "pp": 10,
-        "type": "???"
+        "type": "???",
+        "target": "normal"
     },
     {
         "name_id": "flail",
@@ -1747,7 +1921,8 @@
         "name": "Flail",
         "power": 0,
         "pp": 15,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "conversion2",
@@ -1757,7 +1932,8 @@
         "name": "Conversion 2",
         "power": 0,
         "pp": 30,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "aeroblast",
@@ -1767,7 +1943,8 @@
         "name": "Aeroblast",
         "power": 100,
         "pp": 5,
-        "type": "Flying"
+        "type": "Flying",
+        "target": "any"
     },
     {
         "name_id": "cottonspore",
@@ -1777,7 +1954,8 @@
         "name": "Cotton Spore",
         "power": 0,
         "pp": 40,
-        "type": "Grass"
+        "type": "Grass",
+        "target": "normal"
     },
     {
         "name_id": "reversal",
@@ -1787,7 +1965,8 @@
         "name": "Reversal",
         "power": 0,
         "pp": 15,
-        "type": "Fighting"
+        "type": "Fighting",
+        "target": "normal"
     },
     {
         "name_id": "spite",
@@ -1797,7 +1976,8 @@
         "name": "Spite",
         "power": 0,
         "pp": 10,
-        "type": "Ghost"
+        "type": "Ghost",
+        "target": "normal"
     },
     {
         "name_id": "powdersnow",
@@ -1807,7 +1987,8 @@
         "name": "Powder Snow",
         "power": 40,
         "pp": 25,
-        "type": "Ice"
+        "type": "Ice",
+        "target": "allAdjacentFoes"
     },
     {
         "name_id": "protect",
@@ -1817,7 +1998,8 @@
         "name": "Protect",
         "power": 0,
         "pp": 10,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "self"
     },
     {
         "name_id": "machpunch",
@@ -1827,7 +2009,8 @@
         "name": "Mach Punch",
         "power": 40,
         "pp": 30,
-        "type": "Fighting"
+        "type": "Fighting",
+        "target": "normal"
     },
     {
         "name_id": "scaryface",
@@ -1837,7 +2020,8 @@
         "name": "Scary Face",
         "power": 0,
         "pp": 10,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "feintattack",
@@ -1847,7 +2031,8 @@
         "name": "Feint Attack",
         "power": 60,
         "pp": 20,
-        "type": "Dark"
+        "type": "Dark",
+        "target": "normal"
     },
     {
         "name_id": "sweetkiss",
@@ -1857,7 +2042,8 @@
         "name": "Sweet Kiss",
         "power": 0,
         "pp": 10,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "bellydrum",
@@ -1867,7 +2053,8 @@
         "name": "Belly Drum",
         "power": 0,
         "pp": 10,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "self"
     },
     {
         "name_id": "sludgebomb",
@@ -1877,7 +2064,8 @@
         "name": "Sludge Bomb",
         "power": 90,
         "pp": 10,
-        "type": "Poison"
+        "type": "Poison",
+        "target": "normal"
     },
     {
         "name_id": "mudslap",
@@ -1887,7 +2075,8 @@
         "name": "Mud-Slap",
         "power": 20,
         "pp": 10,
-        "type": "Ground"
+        "type": "Ground",
+        "target": "normal"
     },
     {
         "name_id": "octazooka",
@@ -1897,7 +2086,8 @@
         "name": "Octazooka",
         "power": 65,
         "pp": 10,
-        "type": "Water"
+        "type": "Water",
+        "target": "normal"
     },
     {
         "name_id": "spikes",
@@ -1907,7 +2097,8 @@
         "name": "Spikes",
         "power": 0,
         "pp": 20,
-        "type": "Ground"
+        "type": "Ground",
+        "target": "foeSide"
     },
     {
         "name_id": "zapcannon",
@@ -1917,7 +2108,8 @@
         "name": "Zap Cannon",
         "power": 120,
         "pp": 5,
-        "type": "Electric"
+        "type": "Electric",
+        "target": "normal"
     },
     {
         "name_id": "foresight",
@@ -1927,7 +2119,8 @@
         "name": "Foresight",
         "power": 0,
         "pp": 40,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "destinybond",
@@ -1937,7 +2130,8 @@
         "name": "Destiny Bond",
         "power": 0,
         "pp": 5,
-        "type": "Ghost"
+        "type": "Ghost",
+        "target": "self"
     },
     {
         "name_id": "perishsong",
@@ -1947,7 +2141,8 @@
         "name": "Perish Song",
         "power": 0,
         "pp": 5,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "all"
     },
     {
         "name_id": "icywind",
@@ -1957,7 +2152,8 @@
         "name": "Icy Wind",
         "power": 55,
         "pp": 15,
-        "type": "Ice"
+        "type": "Ice",
+        "target": "allAdjacentFoes"
     },
     {
         "name_id": "detect",
@@ -1967,7 +2163,8 @@
         "name": "Detect",
         "power": 0,
         "pp": 5,
-        "type": "Fighting"
+        "type": "Fighting",
+        "target": "self"
     },
     {
         "name_id": "bonerush",
@@ -1977,7 +2174,8 @@
         "name": "Bone Rush",
         "power": 25,
         "pp": 10,
-        "type": "Ground"
+        "type": "Ground",
+        "target": "normal"
     },
     {
         "name_id": "lockon",
@@ -1987,7 +2185,8 @@
         "name": "Lock-On",
         "power": 0,
         "pp": 5,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "outrage",
@@ -1997,7 +2196,8 @@
         "name": "Outrage",
         "power": 120,
         "pp": 15,
-        "type": "Dragon"
+        "type": "Dragon",
+        "target": "randomNormal"
     },
     {
         "name_id": "sandstorm",
@@ -2007,7 +2207,8 @@
         "name": "Sandstorm",
         "power": 0,
         "pp": 10,
-        "type": "Rock"
+        "type": "Rock",
+        "target": "all"
     },
     {
         "name_id": "gigadrain",
@@ -2017,7 +2218,8 @@
         "name": "Giga Drain",
         "power": 60,
         "pp": 10,
-        "type": "Grass"
+        "type": "Grass",
+        "target": "normal"
     },
     {
         "name_id": "endure",
@@ -2027,7 +2229,8 @@
         "name": "Endure",
         "power": 0,
         "pp": 10,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "self"
     },
     {
         "name_id": "charm",
@@ -2037,7 +2240,8 @@
         "name": "Charm",
         "power": 0,
         "pp": 20,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "rollout",
@@ -2047,7 +2251,8 @@
         "name": "Rollout",
         "power": 30,
         "pp": 20,
-        "type": "Rock"
+        "type": "Rock",
+        "target": "normal"
     },
     {
         "name_id": "falseswipe",
@@ -2057,7 +2262,8 @@
         "name": "False Swipe",
         "power": 40,
         "pp": 40,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "swagger",
@@ -2067,7 +2273,8 @@
         "name": "Swagger",
         "power": 0,
         "pp": 15,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "milkdrink",
@@ -2077,7 +2284,8 @@
         "name": "Milk Drink",
         "power": 0,
         "pp": 10,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "self"
     },
     {
         "name_id": "spark",
@@ -2087,7 +2295,8 @@
         "name": "Spark",
         "power": 65,
         "pp": 20,
-        "type": "Electric"
+        "type": "Electric",
+        "target": "normal"
     },
     {
         "name_id": "furycutter",
@@ -2097,7 +2306,8 @@
         "name": "Fury Cutter",
         "power": 10,
         "pp": 20,
-        "type": "Bug"
+        "type": "Bug",
+        "target": "normal"
     },
     {
         "name_id": "steelwing",
@@ -2107,7 +2317,8 @@
         "name": "Steel Wing",
         "power": 70,
         "pp": 25,
-        "type": "Steel"
+        "type": "Steel",
+        "target": "normal"
     },
     {
         "name_id": "meanlook",
@@ -2117,7 +2328,8 @@
         "name": "Mean Look",
         "power": 0,
         "pp": 5,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "attract",
@@ -2127,7 +2339,8 @@
         "name": "Attract",
         "power": 0,
         "pp": 15,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "sleeptalk",
@@ -2137,7 +2350,8 @@
         "name": "Sleep Talk",
         "power": 0,
         "pp": 10,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "self"
     },
     {
         "name_id": "healbell",
@@ -2147,7 +2361,8 @@
         "name": "Heal Bell",
         "power": 0,
         "pp": 5,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "allyTeam"
     },
     {
         "name_id": "return",
@@ -2157,7 +2372,8 @@
         "name": "Return",
         "power": 0,
         "pp": 20,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "present",
@@ -2167,7 +2383,8 @@
         "name": "Present",
         "power": 0,
         "pp": 15,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "frustration",
@@ -2177,7 +2394,8 @@
         "name": "Frustration",
         "power": 0,
         "pp": 20,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "safeguard",
@@ -2187,7 +2405,8 @@
         "name": "Safeguard",
         "power": 0,
         "pp": 25,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "allySide"
     },
     {
         "name_id": "painsplit",
@@ -2197,7 +2416,8 @@
         "name": "Pain Split",
         "power": 0,
         "pp": 20,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "sacredfire",
@@ -2207,7 +2427,8 @@
         "name": "Sacred Fire",
         "power": 100,
         "pp": 5,
-        "type": "Fire"
+        "type": "Fire",
+        "target": "normal"
     },
     {
         "name_id": "magnitude",
@@ -2217,7 +2438,8 @@
         "name": "Magnitude",
         "power": 0,
         "pp": 30,
-        "type": "Ground"
+        "type": "Ground",
+        "target": "allAdjacent"
     },
     {
         "name_id": "dynamicpunch",
@@ -2227,7 +2449,8 @@
         "name": "Dynamic Punch",
         "power": 100,
         "pp": 5,
-        "type": "Fighting"
+        "type": "Fighting",
+        "target": "normal"
     },
     {
         "name_id": "megahorn",
@@ -2237,7 +2460,8 @@
         "name": "Megahorn",
         "power": 120,
         "pp": 10,
-        "type": "Bug"
+        "type": "Bug",
+        "target": "normal"
     },
     {
         "name_id": "dragonbreath",
@@ -2247,7 +2471,8 @@
         "name": "Dragon Breath",
         "power": 60,
         "pp": 20,
-        "type": "Dragon"
+        "type": "Dragon",
+        "target": "normal"
     },
     {
         "name_id": "batonpass",
@@ -2257,7 +2482,8 @@
         "name": "Baton Pass",
         "power": 0,
         "pp": 40,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "self"
     },
     {
         "name_id": "encore",
@@ -2267,7 +2493,8 @@
         "name": "Encore",
         "power": 0,
         "pp": 5,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "pursuit",
@@ -2277,7 +2504,8 @@
         "name": "Pursuit",
         "power": 40,
         "pp": 20,
-        "type": "Dark"
+        "type": "Dark",
+        "target": "normal"
     },
     {
         "name_id": "rapidspin",
@@ -2287,7 +2515,8 @@
         "name": "Rapid Spin",
         "power": 20,
         "pp": 40,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "sweetscent",
@@ -2297,7 +2526,8 @@
         "name": "Sweet Scent",
         "power": 0,
         "pp": 20,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "allAdjacentFoes"
     },
     {
         "name_id": "irontail",
@@ -2307,7 +2537,8 @@
         "name": "Iron Tail",
         "power": 100,
         "pp": 15,
-        "type": "Steel"
+        "type": "Steel",
+        "target": "normal"
     },
     {
         "name_id": "metalclaw",
@@ -2317,7 +2548,8 @@
         "name": "Metal Claw",
         "power": 50,
         "pp": 35,
-        "type": "Steel"
+        "type": "Steel",
+        "target": "normal"
     },
     {
         "name_id": "vitalthrow",
@@ -2327,7 +2559,8 @@
         "name": "Vital Throw",
         "power": 70,
         "pp": 10,
-        "type": "Fighting"
+        "type": "Fighting",
+        "target": "normal"
     },
     {
         "name_id": "morningsun",
@@ -2337,7 +2570,8 @@
         "name": "Morning Sun",
         "power": 0,
         "pp": 5,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "self"
     },
     {
         "name_id": "synthesis",
@@ -2347,7 +2581,8 @@
         "name": "Synthesis",
         "power": 0,
         "pp": 5,
-        "type": "Grass"
+        "type": "Grass",
+        "target": "self"
     },
     {
         "name_id": "moonlight",
@@ -2357,7 +2592,8 @@
         "name": "Moonlight",
         "power": 0,
         "pp": 5,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "self"
     },
     {
         "name_id": "hiddenpower",
@@ -2367,7 +2603,8 @@
         "name": "Hidden Power",
         "power": 60,
         "pp": 15,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "crosschop",
@@ -2377,7 +2614,8 @@
         "name": "Cross Chop",
         "power": 100,
         "pp": 5,
-        "type": "Fighting"
+        "type": "Fighting",
+        "target": "normal"
     },
     {
         "name_id": "twister",
@@ -2387,7 +2625,8 @@
         "name": "Twister",
         "power": 40,
         "pp": 20,
-        "type": "Dragon"
+        "type": "Dragon",
+        "target": "allAdjacentFoes"
     },
     {
         "name_id": "raindance",
@@ -2397,7 +2636,8 @@
         "name": "Rain Dance",
         "power": 0,
         "pp": 5,
-        "type": "Water"
+        "type": "Water",
+        "target": "all"
     },
     {
         "name_id": "sunnyday",
@@ -2407,7 +2647,8 @@
         "name": "Sunny Day",
         "power": 0,
         "pp": 5,
-        "type": "Fire"
+        "type": "Fire",
+        "target": "all"
     },
     {
         "name_id": "crunch",
@@ -2417,7 +2658,8 @@
         "name": "Crunch",
         "power": 80,
         "pp": 15,
-        "type": "Dark"
+        "type": "Dark",
+        "target": "normal"
     },
     {
         "name_id": "mirrorcoat",
@@ -2427,7 +2669,8 @@
         "name": "Mirror Coat",
         "power": 0,
         "pp": 20,
-        "type": "Psychic"
+        "type": "Psychic",
+        "target": "scripted"
     },
     {
         "name_id": "psychup",
@@ -2437,7 +2680,8 @@
         "name": "Psych Up",
         "power": 0,
         "pp": 10,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "extremespeed",
@@ -2447,7 +2691,8 @@
         "name": "Extreme Speed",
         "power": 80,
         "pp": 5,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "ancientpower",
@@ -2457,7 +2702,8 @@
         "name": "Ancient Power",
         "power": 60,
         "pp": 5,
-        "type": "Rock"
+        "type": "Rock",
+        "target": "normal"
     },
     {
         "name_id": "shadowball",
@@ -2467,7 +2713,8 @@
         "name": "Shadow Ball",
         "power": 80,
         "pp": 15,
-        "type": "Ghost"
+        "type": "Ghost",
+        "target": "normal"
     },
     {
         "name_id": "futuresight",
@@ -2477,7 +2724,8 @@
         "name": "Future Sight",
         "power": 80,
         "pp": 15,
-        "type": "Psychic"
+        "type": "Psychic",
+        "target": "normal"
     },
     {
         "name_id": "rocksmash",
@@ -2487,7 +2735,8 @@
         "name": "Rock Smash",
         "power": 40,
         "pp": 15,
-        "type": "Fighting"
+        "type": "Fighting",
+        "target": "normal"
     },
     {
         "name_id": "whirlpool",
@@ -2497,7 +2746,8 @@
         "name": "Whirlpool",
         "power": 15,
         "pp": 15,
-        "type": "Water"
+        "type": "Water",
+        "target": "normal"
     },
     {
         "name_id": "beatup",
@@ -2507,7 +2757,8 @@
         "name": "Beat Up",
         "power": 10,
         "pp": 10,
-        "type": "Dark"
+        "type": "Dark",
+        "target": "normal"
     },
     {
         "name_id": "fakeout",
@@ -2517,7 +2768,8 @@
         "name": "Fake Out",
         "power": 40,
         "pp": 10,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "uproar",
@@ -2527,7 +2779,8 @@
         "name": "Uproar",
         "power": 50,
         "pp": 10,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "randomNormal"
     },
     {
         "name_id": "stockpile",
@@ -2537,7 +2790,8 @@
         "name": "Stockpile",
         "power": 0,
         "pp": 20,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "self"
     },
     {
         "name_id": "spitup",
@@ -2547,7 +2801,8 @@
         "name": "Spit Up",
         "power": 0,
         "pp": 10,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "swallow",
@@ -2557,7 +2812,8 @@
         "name": "Swallow",
         "power": 0,
         "pp": 10,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "self"
     },
     {
         "name_id": "heatwave",
@@ -2567,7 +2823,8 @@
         "name": "Heat Wave",
         "power": 100,
         "pp": 10,
-        "type": "Fire"
+        "type": "Fire",
+        "target": "allAdjacentFoes"
     },
     {
         "name_id": "hail",
@@ -2577,7 +2834,8 @@
         "name": "Hail",
         "power": 0,
         "pp": 10,
-        "type": "Ice"
+        "type": "Ice",
+        "target": "all"
     },
     {
         "name_id": "torment",
@@ -2587,7 +2845,8 @@
         "name": "Torment",
         "power": 0,
         "pp": 15,
-        "type": "Dark"
+        "type": "Dark",
+        "target": "normal"
     },
     {
         "name_id": "flatter",
@@ -2597,7 +2856,8 @@
         "name": "Flatter",
         "power": 0,
         "pp": 15,
-        "type": "Dark"
+        "type": "Dark",
+        "target": "normal"
     },
     {
         "name_id": "willowisp",
@@ -2607,7 +2867,8 @@
         "name": "Will-O-Wisp",
         "power": 0,
         "pp": 15,
-        "type": "Fire"
+        "type": "Fire",
+        "target": "normal"
     },
     {
         "name_id": "memento",
@@ -2617,7 +2878,8 @@
         "name": "Memento",
         "power": 0,
         "pp": 10,
-        "type": "Dark"
+        "type": "Dark",
+        "target": "normal"
     },
     {
         "name_id": "facade",
@@ -2627,7 +2889,8 @@
         "name": "Facade",
         "power": 70,
         "pp": 20,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "focuspunch",
@@ -2637,7 +2900,8 @@
         "name": "Focus Punch",
         "power": 150,
         "pp": 20,
-        "type": "Fighting"
+        "type": "Fighting",
+        "target": "normal"
     },
     {
         "name_id": "smellingsalts",
@@ -2647,7 +2911,8 @@
         "name": "Smelling Salts",
         "power": 60,
         "pp": 10,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "followme",
@@ -2657,7 +2922,8 @@
         "name": "Follow Me",
         "power": 0,
         "pp": 20,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "self"
     },
     {
         "name_id": "naturepower",
@@ -2667,7 +2933,8 @@
         "name": "Nature Power",
         "power": 0,
         "pp": 20,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "self"
     },
     {
         "name_id": "charge",
@@ -2677,7 +2944,8 @@
         "name": "Charge",
         "power": 0,
         "pp": 20,
-        "type": "Electric"
+        "type": "Electric",
+        "target": "self"
     },
     {
         "name_id": "taunt",
@@ -2687,7 +2955,8 @@
         "name": "Taunt",
         "power": 0,
         "pp": 20,
-        "type": "Dark"
+        "type": "Dark",
+        "target": "normal"
     },
     {
         "name_id": "helpinghand",
@@ -2697,7 +2966,8 @@
         "name": "Helping Hand",
         "power": 0,
         "pp": 20,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "adjacentAlly"
     },
     {
         "name_id": "trick",
@@ -2707,7 +2977,8 @@
         "name": "Trick",
         "power": 0,
         "pp": 10,
-        "type": "Psychic"
+        "type": "Psychic",
+        "target": "normal"
     },
     {
         "name_id": "roleplay",
@@ -2717,7 +2988,8 @@
         "name": "Role Play",
         "power": 0,
         "pp": 10,
-        "type": "Psychic"
+        "type": "Psychic",
+        "target": "normal"
     },
     {
         "name_id": "wish",
@@ -2727,7 +2999,8 @@
         "name": "Wish",
         "power": 0,
         "pp": 10,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "self"
     },
     {
         "name_id": "assist",
@@ -2737,7 +3010,8 @@
         "name": "Assist",
         "power": 0,
         "pp": 20,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "self"
     },
     {
         "name_id": "ingrain",
@@ -2747,7 +3021,8 @@
         "name": "Ingrain",
         "power": 0,
         "pp": 20,
-        "type": "Grass"
+        "type": "Grass",
+        "target": "self"
     },
     {
         "name_id": "superpower",
@@ -2757,7 +3032,8 @@
         "name": "Superpower",
         "power": 120,
         "pp": 5,
-        "type": "Fighting"
+        "type": "Fighting",
+        "target": "normal"
     },
     {
         "name_id": "magiccoat",
@@ -2767,7 +3043,8 @@
         "name": "Magic Coat",
         "power": 0,
         "pp": 15,
-        "type": "Psychic"
+        "type": "Psychic",
+        "target": "self"
     },
     {
         "name_id": "recycle",
@@ -2777,7 +3054,8 @@
         "name": "Recycle",
         "power": 0,
         "pp": 10,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "self"
     },
     {
         "name_id": "revenge",
@@ -2787,7 +3065,8 @@
         "name": "Revenge",
         "power": 60,
         "pp": 10,
-        "type": "Fighting"
+        "type": "Fighting",
+        "target": "normal"
     },
     {
         "name_id": "brickbreak",
@@ -2797,7 +3076,8 @@
         "name": "Brick Break",
         "power": 75,
         "pp": 15,
-        "type": "Fighting"
+        "type": "Fighting",
+        "target": "normal"
     },
     {
         "name_id": "yawn",
@@ -2807,7 +3087,8 @@
         "name": "Yawn",
         "power": 0,
         "pp": 10,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "knockoff",
@@ -2817,7 +3098,8 @@
         "name": "Knock Off",
         "power": 20,
         "pp": 20,
-        "type": "Dark"
+        "type": "Dark",
+        "target": "normal"
     },
     {
         "name_id": "endeavor",
@@ -2827,7 +3109,8 @@
         "name": "Endeavor",
         "power": 0,
         "pp": 5,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "eruption",
@@ -2837,7 +3120,8 @@
         "name": "Eruption",
         "power": 150,
         "pp": 5,
-        "type": "Fire"
+        "type": "Fire",
+        "target": "allAdjacentFoes"
     },
     {
         "name_id": "skillswap",
@@ -2847,7 +3131,8 @@
         "name": "Skill Swap",
         "power": 0,
         "pp": 10,
-        "type": "Psychic"
+        "type": "Psychic",
+        "target": "normal"
     },
     {
         "name_id": "imprison",
@@ -2857,7 +3142,8 @@
         "name": "Imprison",
         "power": 0,
         "pp": 10,
-        "type": "Psychic"
+        "type": "Psychic",
+        "target": "self"
     },
     {
         "name_id": "refresh",
@@ -2867,7 +3153,8 @@
         "name": "Refresh",
         "power": 0,
         "pp": 20,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "self"
     },
     {
         "name_id": "grudge",
@@ -2877,7 +3164,8 @@
         "name": "Grudge",
         "power": 0,
         "pp": 5,
-        "type": "Ghost"
+        "type": "Ghost",
+        "target": "self"
     },
     {
         "name_id": "snatch",
@@ -2887,7 +3175,8 @@
         "name": "Snatch",
         "power": 0,
         "pp": 10,
-        "type": "Dark"
+        "type": "Dark",
+        "target": "self"
     },
     {
         "name_id": "secretpower",
@@ -2897,7 +3186,8 @@
         "name": "Secret Power",
         "power": 70,
         "pp": 20,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "dive",
@@ -2907,7 +3197,8 @@
         "name": "Dive",
         "power": 80,
         "pp": 10,
-        "type": "Water"
+        "type": "Water",
+        "target": "normal"
     },
     {
         "name_id": "armthrust",
@@ -2917,7 +3208,8 @@
         "name": "Arm Thrust",
         "power": 15,
         "pp": 20,
-        "type": "Fighting"
+        "type": "Fighting",
+        "target": "normal"
     },
     {
         "name_id": "camouflage",
@@ -2927,7 +3219,8 @@
         "name": "Camouflage",
         "power": 0,
         "pp": 20,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "self"
     },
     {
         "name_id": "tailglow",
@@ -2937,7 +3230,8 @@
         "name": "Tail Glow",
         "power": 0,
         "pp": 20,
-        "type": "Bug"
+        "type": "Bug",
+        "target": "self"
     },
     {
         "name_id": "lusterpurge",
@@ -2947,7 +3241,8 @@
         "name": "Luster Purge",
         "power": 70,
         "pp": 5,
-        "type": "Psychic"
+        "type": "Psychic",
+        "target": "normal"
     },
     {
         "name_id": "mistball",
@@ -2957,7 +3252,8 @@
         "name": "Mist Ball",
         "power": 70,
         "pp": 5,
-        "type": "Psychic"
+        "type": "Psychic",
+        "target": "normal"
     },
     {
         "name_id": "featherdance",
@@ -2967,7 +3263,8 @@
         "name": "Feather Dance",
         "power": 0,
         "pp": 15,
-        "type": "Flying"
+        "type": "Flying",
+        "target": "normal"
     },
     {
         "name_id": "teeterdance",
@@ -2977,7 +3274,8 @@
         "name": "Teeter Dance",
         "power": 0,
         "pp": 20,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "allAdjacent"
     },
     {
         "name_id": "blazekick",
@@ -2987,7 +3285,8 @@
         "name": "Blaze Kick",
         "power": 85,
         "pp": 10,
-        "type": "Fire"
+        "type": "Fire",
+        "target": "normal"
     },
     {
         "name_id": "mudsport",
@@ -2997,7 +3296,8 @@
         "name": "Mud Sport",
         "power": 0,
         "pp": 15,
-        "type": "Ground"
+        "type": "Ground",
+        "target": "all"
     },
     {
         "name_id": "iceball",
@@ -3007,7 +3307,8 @@
         "name": "Ice Ball",
         "power": 30,
         "pp": 20,
-        "type": "Ice"
+        "type": "Ice",
+        "target": "normal"
     },
     {
         "name_id": "needlearm",
@@ -3017,7 +3318,8 @@
         "name": "Needle Arm",
         "power": 60,
         "pp": 15,
-        "type": "Grass"
+        "type": "Grass",
+        "target": "normal"
     },
     {
         "name_id": "slackoff",
@@ -3027,7 +3329,8 @@
         "name": "Slack Off",
         "power": 0,
         "pp": 10,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "self"
     },
     {
         "name_id": "hypervoice",
@@ -3037,7 +3340,8 @@
         "name": "Hyper Voice",
         "power": 90,
         "pp": 10,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "allAdjacentFoes"
     },
     {
         "name_id": "poisonfang",
@@ -3047,7 +3351,8 @@
         "name": "Poison Fang",
         "power": 50,
         "pp": 15,
-        "type": "Poison"
+        "type": "Poison",
+        "target": "normal"
     },
     {
         "name_id": "crushclaw",
@@ -3057,7 +3362,8 @@
         "name": "Crush Claw",
         "power": 75,
         "pp": 10,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "blastburn",
@@ -3067,7 +3373,8 @@
         "name": "Blast Burn",
         "power": 150,
         "pp": 5,
-        "type": "Fire"
+        "type": "Fire",
+        "target": "normal"
     },
     {
         "name_id": "hydrocannon",
@@ -3077,7 +3384,8 @@
         "name": "Hydro Cannon",
         "power": 150,
         "pp": 5,
-        "type": "Water"
+        "type": "Water",
+        "target": "normal"
     },
     {
         "name_id": "meteormash",
@@ -3087,7 +3395,8 @@
         "name": "Meteor Mash",
         "power": 100,
         "pp": 10,
-        "type": "Steel"
+        "type": "Steel",
+        "target": "normal"
     },
     {
         "name_id": "astonish",
@@ -3097,7 +3406,8 @@
         "name": "Astonish",
         "power": 30,
         "pp": 15,
-        "type": "Ghost"
+        "type": "Ghost",
+        "target": "normal"
     },
     {
         "name_id": "weatherball",
@@ -3107,7 +3417,8 @@
         "name": "Weather Ball",
         "power": 50,
         "pp": 10,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "aromatherapy",
@@ -3117,7 +3428,8 @@
         "name": "Aromatherapy",
         "power": 0,
         "pp": 5,
-        "type": "Grass"
+        "type": "Grass",
+        "target": "allyTeam"
     },
     {
         "name_id": "faketears",
@@ -3127,7 +3439,8 @@
         "name": "Fake Tears",
         "power": 0,
         "pp": 20,
-        "type": "Dark"
+        "type": "Dark",
+        "target": "normal"
     },
     {
         "name_id": "aircutter",
@@ -3137,7 +3450,8 @@
         "name": "Air Cutter",
         "power": 55,
         "pp": 25,
-        "type": "Flying"
+        "type": "Flying",
+        "target": "allAdjacentFoes"
     },
     {
         "name_id": "overheat",
@@ -3147,7 +3461,8 @@
         "name": "Overheat",
         "power": 140,
         "pp": 5,
-        "type": "Fire"
+        "type": "Fire",
+        "target": "normal"
     },
     {
         "name_id": "odorsleuth",
@@ -3157,7 +3472,8 @@
         "name": "Odor Sleuth",
         "power": 0,
         "pp": 40,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "rocktomb",
@@ -3167,7 +3483,8 @@
         "name": "Rock Tomb",
         "power": 50,
         "pp": 10,
-        "type": "Rock"
+        "type": "Rock",
+        "target": "normal"
     },
     {
         "name_id": "silverwind",
@@ -3177,7 +3494,8 @@
         "name": "Silver Wind",
         "power": 60,
         "pp": 5,
-        "type": "Bug"
+        "type": "Bug",
+        "target": "normal"
     },
     {
         "name_id": "metalsound",
@@ -3187,7 +3505,8 @@
         "name": "Metal Sound",
         "power": 0,
         "pp": 40,
-        "type": "Steel"
+        "type": "Steel",
+        "target": "normal"
     },
     {
         "name_id": "grasswhistle",
@@ -3197,7 +3516,8 @@
         "name": "Grass Whistle",
         "power": 0,
         "pp": 15,
-        "type": "Grass"
+        "type": "Grass",
+        "target": "normal"
     },
     {
         "name_id": "tickle",
@@ -3207,7 +3527,8 @@
         "name": "Tickle",
         "power": 0,
         "pp": 20,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "cosmicpower",
@@ -3217,7 +3538,8 @@
         "name": "Cosmic Power",
         "power": 0,
         "pp": 20,
-        "type": "Psychic"
+        "type": "Psychic",
+        "target": "self"
     },
     {
         "name_id": "waterspout",
@@ -3227,7 +3549,8 @@
         "name": "Water Spout",
         "power": 150,
         "pp": 5,
-        "type": "Water"
+        "type": "Water",
+        "target": "allAdjacentFoes"
     },
     {
         "name_id": "signalbeam",
@@ -3237,7 +3560,8 @@
         "name": "Signal Beam",
         "power": 75,
         "pp": 15,
-        "type": "Bug"
+        "type": "Bug",
+        "target": "normal"
     },
     {
         "name_id": "shadowpunch",
@@ -3247,7 +3571,8 @@
         "name": "Shadow Punch",
         "power": 60,
         "pp": 20,
-        "type": "Ghost"
+        "type": "Ghost",
+        "target": "normal"
     },
     {
         "name_id": "extrasensory",
@@ -3257,7 +3582,8 @@
         "name": "Extrasensory",
         "power": 80,
         "pp": 30,
-        "type": "Psychic"
+        "type": "Psychic",
+        "target": "normal"
     },
     {
         "name_id": "skyuppercut",
@@ -3267,7 +3593,8 @@
         "name": "Sky Uppercut",
         "power": 85,
         "pp": 15,
-        "type": "Fighting"
+        "type": "Fighting",
+        "target": "normal"
     },
     {
         "name_id": "sandtomb",
@@ -3277,7 +3604,8 @@
         "name": "Sand Tomb",
         "power": 15,
         "pp": 15,
-        "type": "Ground"
+        "type": "Ground",
+        "target": "normal"
     },
     {
         "name_id": "sheercold",
@@ -3287,7 +3615,8 @@
         "name": "Sheer Cold",
         "power": 0,
         "pp": 5,
-        "type": "Ice"
+        "type": "Ice",
+        "target": "normal"
     },
     {
         "name_id": "muddywater",
@@ -3297,7 +3626,8 @@
         "name": "Muddy Water",
         "power": 95,
         "pp": 10,
-        "type": "Water"
+        "type": "Water",
+        "target": "allAdjacentFoes"
     },
     {
         "name_id": "bulletseed",
@@ -3307,7 +3637,8 @@
         "name": "Bullet Seed",
         "power": 10,
         "pp": 30,
-        "type": "Grass"
+        "type": "Grass",
+        "target": "normal"
     },
     {
         "name_id": "aerialace",
@@ -3317,7 +3648,8 @@
         "name": "Aerial Ace",
         "power": 60,
         "pp": 20,
-        "type": "Flying"
+        "type": "Flying",
+        "target": "any"
     },
     {
         "name_id": "iciclespear",
@@ -3327,7 +3659,8 @@
         "name": "Icicle Spear",
         "power": 10,
         "pp": 30,
-        "type": "Ice"
+        "type": "Ice",
+        "target": "normal"
     },
     {
         "name_id": "irondefense",
@@ -3337,7 +3670,8 @@
         "name": "Iron Defense",
         "power": 0,
         "pp": 15,
-        "type": "Steel"
+        "type": "Steel",
+        "target": "self"
     },
     {
         "name_id": "block",
@@ -3347,7 +3681,8 @@
         "name": "Block",
         "power": 0,
         "pp": 5,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "howl",
@@ -3357,7 +3692,8 @@
         "name": "Howl",
         "power": 0,
         "pp": 40,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "self"
     },
     {
         "name_id": "dragonclaw",
@@ -3367,7 +3703,8 @@
         "name": "Dragon Claw",
         "power": 80,
         "pp": 15,
-        "type": "Dragon"
+        "type": "Dragon",
+        "target": "normal"
     },
     {
         "name_id": "frenzyplant",
@@ -3377,7 +3714,8 @@
         "name": "Frenzy Plant",
         "power": 150,
         "pp": 5,
-        "type": "Grass"
+        "type": "Grass",
+        "target": "normal"
     },
     {
         "name_id": "bulkup",
@@ -3387,7 +3725,8 @@
         "name": "Bulk Up",
         "power": 0,
         "pp": 20,
-        "type": "Fighting"
+        "type": "Fighting",
+        "target": "self"
     },
     {
         "name_id": "bounce",
@@ -3397,7 +3736,8 @@
         "name": "Bounce",
         "power": 85,
         "pp": 5,
-        "type": "Flying"
+        "type": "Flying",
+        "target": "any"
     },
     {
         "name_id": "mudshot",
@@ -3407,7 +3747,8 @@
         "name": "Mud Shot",
         "power": 55,
         "pp": 15,
-        "type": "Ground"
+        "type": "Ground",
+        "target": "normal"
     },
     {
         "name_id": "poisontail",
@@ -3417,7 +3758,8 @@
         "name": "Poison Tail",
         "power": 50,
         "pp": 25,
-        "type": "Poison"
+        "type": "Poison",
+        "target": "normal"
     },
     {
         "name_id": "covet",
@@ -3427,7 +3769,8 @@
         "name": "Covet",
         "power": 40,
         "pp": 40,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "volttackle",
@@ -3437,7 +3780,8 @@
         "name": "Volt Tackle",
         "power": 120,
         "pp": 15,
-        "type": "Electric"
+        "type": "Electric",
+        "target": "normal"
     },
     {
         "name_id": "magicalleaf",
@@ -3447,7 +3791,8 @@
         "name": "Magical Leaf",
         "power": 60,
         "pp": 20,
-        "type": "Grass"
+        "type": "Grass",
+        "target": "normal"
     },
     {
         "name_id": "watersport",
@@ -3457,7 +3802,8 @@
         "name": "Water Sport",
         "power": 0,
         "pp": 15,
-        "type": "Water"
+        "type": "Water",
+        "target": "all"
     },
     {
         "name_id": "calmmind",
@@ -3467,7 +3813,8 @@
         "name": "Calm Mind",
         "power": 0,
         "pp": 20,
-        "type": "Psychic"
+        "type": "Psychic",
+        "target": "self"
     },
     {
         "name_id": "leafblade",
@@ -3477,7 +3824,8 @@
         "name": "Leaf Blade",
         "power": 90,
         "pp": 15,
-        "type": "Grass"
+        "type": "Grass",
+        "target": "normal"
     },
     {
         "name_id": "dragondance",
@@ -3487,7 +3835,8 @@
         "name": "Dragon Dance",
         "power": 0,
         "pp": 20,
-        "type": "Dragon"
+        "type": "Dragon",
+        "target": "self"
     },
     {
         "name_id": "rockblast",
@@ -3497,7 +3846,8 @@
         "name": "Rock Blast",
         "power": 25,
         "pp": 10,
-        "type": "Rock"
+        "type": "Rock",
+        "target": "normal"
     },
     {
         "name_id": "shockwave",
@@ -3507,7 +3857,8 @@
         "name": "Shock Wave",
         "power": 60,
         "pp": 20,
-        "type": "Electric"
+        "type": "Electric",
+        "target": "normal"
     },
     {
         "name_id": "waterpulse",
@@ -3517,7 +3868,8 @@
         "name": "Water Pulse",
         "power": 60,
         "pp": 20,
-        "type": "Water"
+        "type": "Water",
+        "target": "any"
     },
     {
         "name_id": "doomdesire",
@@ -3527,7 +3879,8 @@
         "name": "Doom Desire",
         "power": 120,
         "pp": 5,
-        "type": "Steel"
+        "type": "Steel",
+        "target": "normal"
     },
     {
         "name_id": "psychoboost",
@@ -3537,7 +3890,8 @@
         "name": "Psycho Boost",
         "power": 140,
         "pp": 5,
-        "type": "Psychic"
+        "type": "Psychic",
+        "target": "normal"
     },
     {
         "name_id": "roost",
@@ -3547,7 +3901,8 @@
         "name": "Roost",
         "power": 0,
         "pp": 10,
-        "type": "Flying"
+        "type": "Flying",
+        "target": "self"
     },
     {
         "name_id": "gravity",
@@ -3557,7 +3912,8 @@
         "name": "Gravity",
         "power": 0,
         "pp": 5,
-        "type": "Psychic"
+        "type": "Psychic",
+        "target": "all"
     },
     {
         "name_id": "miracleeye",
@@ -3567,7 +3923,8 @@
         "name": "Miracle Eye",
         "power": 0,
         "pp": 40,
-        "type": "Psychic"
+        "type": "Psychic",
+        "target": "normal"
     },
     {
         "name_id": "wakeupslap",
@@ -3577,7 +3934,8 @@
         "name": "Wake-Up Slap",
         "power": 60,
         "pp": 10,
-        "type": "Fighting"
+        "type": "Fighting",
+        "target": "normal"
     },
     {
         "name_id": "hammerarm",
@@ -3587,7 +3945,8 @@
         "name": "Hammer Arm",
         "power": 100,
         "pp": 10,
-        "type": "Fighting"
+        "type": "Fighting",
+        "target": "normal"
     },
     {
         "name_id": "gyroball",
@@ -3597,7 +3956,8 @@
         "name": "Gyro Ball",
         "power": 0,
         "pp": 5,
-        "type": "Steel"
+        "type": "Steel",
+        "target": "normal"
     },
     {
         "name_id": "healingwish",
@@ -3607,7 +3967,8 @@
         "name": "Healing Wish",
         "power": 0,
         "pp": 10,
-        "type": "Psychic"
+        "type": "Psychic",
+        "target": "self"
     },
     {
         "name_id": "brine",
@@ -3617,7 +3978,8 @@
         "name": "Brine",
         "power": 65,
         "pp": 10,
-        "type": "Water"
+        "type": "Water",
+        "target": "normal"
     },
     {
         "name_id": "naturalgift",
@@ -3627,7 +3989,8 @@
         "name": "Natural Gift",
         "power": 0,
         "pp": 15,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "feint",
@@ -3637,7 +4000,8 @@
         "name": "Feint",
         "power": 50,
         "pp": 10,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "pluck",
@@ -3647,7 +4011,8 @@
         "name": "Pluck",
         "power": 60,
         "pp": 20,
-        "type": "Flying"
+        "type": "Flying",
+        "target": "any"
     },
     {
         "name_id": "tailwind",
@@ -3657,7 +4022,8 @@
         "name": "Tailwind",
         "power": 0,
         "pp": 30,
-        "type": "Flying"
+        "type": "Flying",
+        "target": "allySide"
     },
     {
         "name_id": "acupressure",
@@ -3667,7 +4033,8 @@
         "name": "Acupressure",
         "power": 0,
         "pp": 30,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "adjacentAllyOrSelf"
     },
     {
         "name_id": "metalburst",
@@ -3677,7 +4044,8 @@
         "name": "Metal Burst",
         "power": 0,
         "pp": 10,
-        "type": "Steel"
+        "type": "Steel",
+        "target": "scripted"
     },
     {
         "name_id": "uturn",
@@ -3687,7 +4055,8 @@
         "name": "U-turn",
         "power": 70,
         "pp": 20,
-        "type": "Bug"
+        "type": "Bug",
+        "target": "normal"
     },
     {
         "name_id": "closecombat",
@@ -3697,7 +4066,8 @@
         "name": "Close Combat",
         "power": 120,
         "pp": 5,
-        "type": "Fighting"
+        "type": "Fighting",
+        "target": "normal"
     },
     {
         "name_id": "payback",
@@ -3707,7 +4077,8 @@
         "name": "Payback",
         "power": 50,
         "pp": 10,
-        "type": "Dark"
+        "type": "Dark",
+        "target": "normal"
     },
     {
         "name_id": "assurance",
@@ -3717,7 +4088,8 @@
         "name": "Assurance",
         "power": 50,
         "pp": 10,
-        "type": "Dark"
+        "type": "Dark",
+        "target": "normal"
     },
     {
         "name_id": "embargo",
@@ -3727,7 +4099,8 @@
         "name": "Embargo",
         "power": 0,
         "pp": 15,
-        "type": "Dark"
+        "type": "Dark",
+        "target": "normal"
     },
     {
         "name_id": "fling",
@@ -3737,7 +4110,8 @@
         "name": "Fling",
         "power": 0,
         "pp": 10,
-        "type": "Dark"
+        "type": "Dark",
+        "target": "normal"
     },
     {
         "name_id": "psychoshift",
@@ -3747,7 +4121,8 @@
         "name": "Psycho Shift",
         "power": 0,
         "pp": 10,
-        "type": "Psychic"
+        "type": "Psychic",
+        "target": "normal"
     },
     {
         "name_id": "trumpcard",
@@ -3757,7 +4132,8 @@
         "name": "Trump Card",
         "power": 0,
         "pp": 5,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "healblock",
@@ -3767,7 +4143,8 @@
         "name": "Heal Block",
         "power": 0,
         "pp": 15,
-        "type": "Psychic"
+        "type": "Psychic",
+        "target": "allAdjacentFoes"
     },
     {
         "name_id": "wringout",
@@ -3777,7 +4154,8 @@
         "name": "Wring Out",
         "power": 0,
         "pp": 5,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "powertrick",
@@ -3787,7 +4165,8 @@
         "name": "Power Trick",
         "power": 0,
         "pp": 10,
-        "type": "Psychic"
+        "type": "Psychic",
+        "target": "self"
     },
     {
         "name_id": "gastroacid",
@@ -3797,7 +4176,8 @@
         "name": "Gastro Acid",
         "power": 0,
         "pp": 10,
-        "type": "Poison"
+        "type": "Poison",
+        "target": "normal"
     },
     {
         "name_id": "luckychant",
@@ -3807,7 +4187,8 @@
         "name": "Lucky Chant",
         "power": 0,
         "pp": 30,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "allySide"
     },
     {
         "name_id": "mefirst",
@@ -3817,7 +4198,8 @@
         "name": "Me First",
         "power": 0,
         "pp": 20,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "adjacentFoe"
     },
     {
         "name_id": "copycat",
@@ -3827,7 +4209,8 @@
         "name": "Copycat",
         "power": 0,
         "pp": 20,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "self"
     },
     {
         "name_id": "powerswap",
@@ -3837,7 +4220,8 @@
         "name": "Power Swap",
         "power": 0,
         "pp": 10,
-        "type": "Psychic"
+        "type": "Psychic",
+        "target": "normal"
     },
     {
         "name_id": "guardswap",
@@ -3847,7 +4231,8 @@
         "name": "Guard Swap",
         "power": 0,
         "pp": 10,
-        "type": "Psychic"
+        "type": "Psychic",
+        "target": "normal"
     },
     {
         "name_id": "punishment",
@@ -3857,7 +4242,8 @@
         "name": "Punishment",
         "power": 0,
         "pp": 5,
-        "type": "Dark"
+        "type": "Dark",
+        "target": "normal"
     },
     {
         "name_id": "lastresort",
@@ -3867,7 +4253,8 @@
         "name": "Last Resort",
         "power": 130,
         "pp": 5,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "worryseed",
@@ -3877,7 +4264,8 @@
         "name": "Worry Seed",
         "power": 0,
         "pp": 10,
-        "type": "Grass"
+        "type": "Grass",
+        "target": "normal"
     },
     {
         "name_id": "suckerpunch",
@@ -3887,7 +4275,8 @@
         "name": "Sucker Punch",
         "power": 80,
         "pp": 5,
-        "type": "Dark"
+        "type": "Dark",
+        "target": "normal"
     },
     {
         "name_id": "toxicspikes",
@@ -3897,7 +4286,8 @@
         "name": "Toxic Spikes",
         "power": 0,
         "pp": 20,
-        "type": "Poison"
+        "type": "Poison",
+        "target": "foeSide"
     },
     {
         "name_id": "heartswap",
@@ -3907,7 +4297,8 @@
         "name": "Heart Swap",
         "power": 0,
         "pp": 10,
-        "type": "Psychic"
+        "type": "Psychic",
+        "target": "normal"
     },
     {
         "name_id": "aquaring",
@@ -3917,7 +4308,8 @@
         "name": "Aqua Ring",
         "power": 0,
         "pp": 20,
-        "type": "Water"
+        "type": "Water",
+        "target": "self"
     },
     {
         "name_id": "magnetrise",
@@ -3927,7 +4319,8 @@
         "name": "Magnet Rise",
         "power": 0,
         "pp": 10,
-        "type": "Electric"
+        "type": "Electric",
+        "target": "self"
     },
     {
         "name_id": "flareblitz",
@@ -3937,7 +4330,8 @@
         "name": "Flare Blitz",
         "power": 120,
         "pp": 15,
-        "type": "Fire"
+        "type": "Fire",
+        "target": "normal"
     },
     {
         "name_id": "forcepalm",
@@ -3947,7 +4341,8 @@
         "name": "Force Palm",
         "power": 60,
         "pp": 10,
-        "type": "Fighting"
+        "type": "Fighting",
+        "target": "normal"
     },
     {
         "name_id": "aurasphere",
@@ -3957,7 +4352,8 @@
         "name": "Aura Sphere",
         "power": 90,
         "pp": 20,
-        "type": "Fighting"
+        "type": "Fighting",
+        "target": "any"
     },
     {
         "name_id": "rockpolish",
@@ -3967,7 +4363,8 @@
         "name": "Rock Polish",
         "power": 0,
         "pp": 20,
-        "type": "Rock"
+        "type": "Rock",
+        "target": "self"
     },
     {
         "name_id": "poisonjab",
@@ -3977,7 +4374,8 @@
         "name": "Poison Jab",
         "power": 80,
         "pp": 20,
-        "type": "Poison"
+        "type": "Poison",
+        "target": "normal"
     },
     {
         "name_id": "darkpulse",
@@ -3987,7 +4385,8 @@
         "name": "Dark Pulse",
         "power": 80,
         "pp": 15,
-        "type": "Dark"
+        "type": "Dark",
+        "target": "any"
     },
     {
         "name_id": "nightslash",
@@ -3997,7 +4396,8 @@
         "name": "Night Slash",
         "power": 70,
         "pp": 15,
-        "type": "Dark"
+        "type": "Dark",
+        "target": "normal"
     },
     {
         "name_id": "aquatail",
@@ -4007,7 +4407,8 @@
         "name": "Aqua Tail",
         "power": 90,
         "pp": 10,
-        "type": "Water"
+        "type": "Water",
+        "target": "normal"
     },
     {
         "name_id": "seedbomb",
@@ -4017,7 +4418,8 @@
         "name": "Seed Bomb",
         "power": 80,
         "pp": 15,
-        "type": "Grass"
+        "type": "Grass",
+        "target": "normal"
     },
     {
         "name_id": "airslash",
@@ -4027,7 +4429,8 @@
         "name": "Air Slash",
         "power": 75,
         "pp": 20,
-        "type": "Flying"
+        "type": "Flying",
+        "target": "any"
     },
     {
         "name_id": "xscissor",
@@ -4037,7 +4440,8 @@
         "name": "X-Scissor",
         "power": 80,
         "pp": 15,
-        "type": "Bug"
+        "type": "Bug",
+        "target": "normal"
     },
     {
         "name_id": "bugbuzz",
@@ -4047,7 +4451,8 @@
         "name": "Bug Buzz",
         "power": 90,
         "pp": 10,
-        "type": "Bug"
+        "type": "Bug",
+        "target": "normal"
     },
     {
         "name_id": "dragonpulse",
@@ -4057,7 +4462,8 @@
         "name": "Dragon Pulse",
         "power": 90,
         "pp": 10,
-        "type": "Dragon"
+        "type": "Dragon",
+        "target": "any"
     },
     {
         "name_id": "dragonrush",
@@ -4067,7 +4473,8 @@
         "name": "Dragon Rush",
         "power": 100,
         "pp": 10,
-        "type": "Dragon"
+        "type": "Dragon",
+        "target": "normal"
     },
     {
         "name_id": "powergem",
@@ -4077,7 +4484,8 @@
         "name": "Power Gem",
         "power": 70,
         "pp": 20,
-        "type": "Rock"
+        "type": "Rock",
+        "target": "normal"
     },
     {
         "name_id": "drainpunch",
@@ -4087,7 +4495,8 @@
         "name": "Drain Punch",
         "power": 60,
         "pp": 5,
-        "type": "Fighting"
+        "type": "Fighting",
+        "target": "normal"
     },
     {
         "name_id": "vacuumwave",
@@ -4097,7 +4506,8 @@
         "name": "Vacuum Wave",
         "power": 40,
         "pp": 30,
-        "type": "Fighting"
+        "type": "Fighting",
+        "target": "normal"
     },
     {
         "name_id": "focusblast",
@@ -4107,7 +4517,8 @@
         "name": "Focus Blast",
         "power": 120,
         "pp": 5,
-        "type": "Fighting"
+        "type": "Fighting",
+        "target": "normal"
     },
     {
         "name_id": "energyball",
@@ -4117,7 +4528,8 @@
         "name": "Energy Ball",
         "power": 80,
         "pp": 10,
-        "type": "Grass"
+        "type": "Grass",
+        "target": "normal"
     },
     {
         "name_id": "bravebird",
@@ -4127,7 +4539,8 @@
         "name": "Brave Bird",
         "power": 120,
         "pp": 15,
-        "type": "Flying"
+        "type": "Flying",
+        "target": "any"
     },
     {
         "name_id": "earthpower",
@@ -4137,7 +4550,8 @@
         "name": "Earth Power",
         "power": 90,
         "pp": 10,
-        "type": "Ground"
+        "type": "Ground",
+        "target": "normal"
     },
     {
         "name_id": "switcheroo",
@@ -4147,7 +4561,8 @@
         "name": "Switcheroo",
         "power": 0,
         "pp": 10,
-        "type": "Dark"
+        "type": "Dark",
+        "target": "normal"
     },
     {
         "name_id": "gigaimpact",
@@ -4157,7 +4572,8 @@
         "name": "Giga Impact",
         "power": 150,
         "pp": 5,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "nastyplot",
@@ -4167,7 +4583,8 @@
         "name": "Nasty Plot",
         "power": 0,
         "pp": 20,
-        "type": "Dark"
+        "type": "Dark",
+        "target": "self"
     },
     {
         "name_id": "bulletpunch",
@@ -4177,7 +4594,8 @@
         "name": "Bullet Punch",
         "power": 40,
         "pp": 30,
-        "type": "Steel"
+        "type": "Steel",
+        "target": "normal"
     },
     {
         "name_id": "avalanche",
@@ -4187,7 +4605,8 @@
         "name": "Avalanche",
         "power": 60,
         "pp": 10,
-        "type": "Ice"
+        "type": "Ice",
+        "target": "normal"
     },
     {
         "name_id": "iceshard",
@@ -4197,7 +4616,8 @@
         "name": "Ice Shard",
         "power": 40,
         "pp": 30,
-        "type": "Ice"
+        "type": "Ice",
+        "target": "normal"
     },
     {
         "name_id": "shadowclaw",
@@ -4207,7 +4627,8 @@
         "name": "Shadow Claw",
         "power": 70,
         "pp": 15,
-        "type": "Ghost"
+        "type": "Ghost",
+        "target": "normal"
     },
     {
         "name_id": "thunderfang",
@@ -4217,7 +4638,8 @@
         "name": "Thunder Fang",
         "power": 65,
         "pp": 15,
-        "type": "Electric"
+        "type": "Electric",
+        "target": "normal"
     },
     {
         "name_id": "icefang",
@@ -4227,7 +4649,8 @@
         "name": "Ice Fang",
         "power": 65,
         "pp": 15,
-        "type": "Ice"
+        "type": "Ice",
+        "target": "normal"
     },
     {
         "name_id": "firefang",
@@ -4237,7 +4660,8 @@
         "name": "Fire Fang",
         "power": 65,
         "pp": 15,
-        "type": "Fire"
+        "type": "Fire",
+        "target": "normal"
     },
     {
         "name_id": "shadowsneak",
@@ -4247,7 +4671,8 @@
         "name": "Shadow Sneak",
         "power": 40,
         "pp": 30,
-        "type": "Ghost"
+        "type": "Ghost",
+        "target": "normal"
     },
     {
         "name_id": "mudbomb",
@@ -4257,7 +4682,8 @@
         "name": "Mud Bomb",
         "power": 65,
         "pp": 10,
-        "type": "Ground"
+        "type": "Ground",
+        "target": "normal"
     },
     {
         "name_id": "psychocut",
@@ -4267,7 +4693,8 @@
         "name": "Psycho Cut",
         "power": 70,
         "pp": 20,
-        "type": "Psychic"
+        "type": "Psychic",
+        "target": "normal"
     },
     {
         "name_id": "zenheadbutt",
@@ -4277,7 +4704,8 @@
         "name": "Zen Headbutt",
         "power": 80,
         "pp": 15,
-        "type": "Psychic"
+        "type": "Psychic",
+        "target": "normal"
     },
     {
         "name_id": "mirrorshot",
@@ -4287,7 +4715,8 @@
         "name": "Mirror Shot",
         "power": 65,
         "pp": 10,
-        "type": "Steel"
+        "type": "Steel",
+        "target": "normal"
     },
     {
         "name_id": "flashcannon",
@@ -4297,7 +4726,8 @@
         "name": "Flash Cannon",
         "power": 80,
         "pp": 10,
-        "type": "Steel"
+        "type": "Steel",
+        "target": "normal"
     },
     {
         "name_id": "rockclimb",
@@ -4307,7 +4737,8 @@
         "name": "Rock Climb",
         "power": 90,
         "pp": 20,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "defog",
@@ -4317,7 +4748,8 @@
         "name": "Defog",
         "power": 0,
         "pp": 15,
-        "type": "Flying"
+        "type": "Flying",
+        "target": "normal"
     },
     {
         "name_id": "trickroom",
@@ -4327,7 +4759,8 @@
         "name": "Trick Room",
         "power": 0,
         "pp": 5,
-        "type": "Psychic"
+        "type": "Psychic",
+        "target": "all"
     },
     {
         "name_id": "dracometeor",
@@ -4337,7 +4770,8 @@
         "name": "Draco Meteor",
         "power": 140,
         "pp": 5,
-        "type": "Dragon"
+        "type": "Dragon",
+        "target": "normal"
     },
     {
         "name_id": "discharge",
@@ -4347,7 +4781,8 @@
         "name": "Discharge",
         "power": 80,
         "pp": 15,
-        "type": "Electric"
+        "type": "Electric",
+        "target": "allAdjacent"
     },
     {
         "name_id": "lavaplume",
@@ -4357,7 +4792,8 @@
         "name": "Lava Plume",
         "power": 80,
         "pp": 15,
-        "type": "Fire"
+        "type": "Fire",
+        "target": "allAdjacent"
     },
     {
         "name_id": "leafstorm",
@@ -4367,7 +4803,8 @@
         "name": "Leaf Storm",
         "power": 140,
         "pp": 5,
-        "type": "Grass"
+        "type": "Grass",
+        "target": "normal"
     },
     {
         "name_id": "powerwhip",
@@ -4377,7 +4814,8 @@
         "name": "Power Whip",
         "power": 120,
         "pp": 10,
-        "type": "Grass"
+        "type": "Grass",
+        "target": "normal"
     },
     {
         "name_id": "rockwrecker",
@@ -4387,7 +4825,8 @@
         "name": "Rock Wrecker",
         "power": 150,
         "pp": 5,
-        "type": "Rock"
+        "type": "Rock",
+        "target": "normal"
     },
     {
         "name_id": "crosspoison",
@@ -4397,7 +4836,8 @@
         "name": "Cross Poison",
         "power": 70,
         "pp": 20,
-        "type": "Poison"
+        "type": "Poison",
+        "target": "normal"
     },
     {
         "name_id": "gunkshot",
@@ -4407,7 +4847,8 @@
         "name": "Gunk Shot",
         "power": 120,
         "pp": 5,
-        "type": "Poison"
+        "type": "Poison",
+        "target": "normal"
     },
     {
         "name_id": "ironhead",
@@ -4417,7 +4858,8 @@
         "name": "Iron Head",
         "power": 80,
         "pp": 15,
-        "type": "Steel"
+        "type": "Steel",
+        "target": "normal"
     },
     {
         "name_id": "magnetbomb",
@@ -4427,7 +4869,8 @@
         "name": "Magnet Bomb",
         "power": 60,
         "pp": 20,
-        "type": "Steel"
+        "type": "Steel",
+        "target": "normal"
     },
     {
         "name_id": "stoneedge",
@@ -4437,7 +4880,8 @@
         "name": "Stone Edge",
         "power": 100,
         "pp": 5,
-        "type": "Rock"
+        "type": "Rock",
+        "target": "normal"
     },
     {
         "name_id": "captivate",
@@ -4447,7 +4891,8 @@
         "name": "Captivate",
         "power": 0,
         "pp": 20,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "allAdjacentFoes"
     },
     {
         "name_id": "stealthrock",
@@ -4457,7 +4902,8 @@
         "name": "Stealth Rock",
         "power": 0,
         "pp": 20,
-        "type": "Rock"
+        "type": "Rock",
+        "target": "foeSide"
     },
     {
         "name_id": "grassknot",
@@ -4467,7 +4913,8 @@
         "name": "Grass Knot",
         "power": 0,
         "pp": 20,
-        "type": "Grass"
+        "type": "Grass",
+        "target": "normal"
     },
     {
         "name_id": "chatter",
@@ -4477,7 +4924,8 @@
         "name": "Chatter",
         "power": 60,
         "pp": 20,
-        "type": "Flying"
+        "type": "Flying",
+        "target": "any"
     },
     {
         "name_id": "judgment",
@@ -4487,7 +4935,8 @@
         "name": "Judgment",
         "power": 100,
         "pp": 10,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "bugbite",
@@ -4497,7 +4946,8 @@
         "name": "Bug Bite",
         "power": 60,
         "pp": 20,
-        "type": "Bug"
+        "type": "Bug",
+        "target": "normal"
     },
     {
         "name_id": "chargebeam",
@@ -4507,7 +4957,8 @@
         "name": "Charge Beam",
         "power": 50,
         "pp": 10,
-        "type": "Electric"
+        "type": "Electric",
+        "target": "normal"
     },
     {
         "name_id": "woodhammer",
@@ -4517,7 +4968,8 @@
         "name": "Wood Hammer",
         "power": 120,
         "pp": 15,
-        "type": "Grass"
+        "type": "Grass",
+        "target": "normal"
     },
     {
         "name_id": "aquajet",
@@ -4527,7 +4979,8 @@
         "name": "Aqua Jet",
         "power": 40,
         "pp": 20,
-        "type": "Water"
+        "type": "Water",
+        "target": "normal"
     },
     {
         "name_id": "attackorder",
@@ -4537,7 +4990,8 @@
         "name": "Attack Order",
         "power": 90,
         "pp": 15,
-        "type": "Bug"
+        "type": "Bug",
+        "target": "normal"
     },
     {
         "name_id": "defendorder",
@@ -4547,7 +5001,8 @@
         "name": "Defend Order",
         "power": 0,
         "pp": 10,
-        "type": "Bug"
+        "type": "Bug",
+        "target": "self"
     },
     {
         "name_id": "healorder",
@@ -4557,7 +5012,8 @@
         "name": "Heal Order",
         "power": 0,
         "pp": 10,
-        "type": "Bug"
+        "type": "Bug",
+        "target": "self"
     },
     {
         "name_id": "headsmash",
@@ -4567,7 +5023,8 @@
         "name": "Head Smash",
         "power": 150,
         "pp": 5,
-        "type": "Rock"
+        "type": "Rock",
+        "target": "normal"
     },
     {
         "name_id": "doublehit",
@@ -4577,7 +5034,8 @@
         "name": "Double Hit",
         "power": 35,
         "pp": 10,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "roaroftime",
@@ -4587,7 +5045,8 @@
         "name": "Roar of Time",
         "power": 150,
         "pp": 5,
-        "type": "Dragon"
+        "type": "Dragon",
+        "target": "normal"
     },
     {
         "name_id": "spacialrend",
@@ -4597,7 +5056,8 @@
         "name": "Spacial Rend",
         "power": 100,
         "pp": 5,
-        "type": "Dragon"
+        "type": "Dragon",
+        "target": "normal"
     },
     {
         "name_id": "lunardance",
@@ -4607,7 +5067,8 @@
         "name": "Lunar Dance",
         "power": 0,
         "pp": 10,
-        "type": "Psychic"
+        "type": "Psychic",
+        "target": "self"
     },
     {
         "name_id": "crushgrip",
@@ -4617,7 +5078,8 @@
         "name": "Crush Grip",
         "power": 0,
         "pp": 5,
-        "type": "Normal"
+        "type": "Normal",
+        "target": "normal"
     },
     {
         "name_id": "magmastorm",
@@ -4627,7 +5089,8 @@
         "name": "Magma Storm",
         "power": 120,
         "pp": 5,
-        "type": "Fire"
+        "type": "Fire",
+        "target": "normal"
     },
     {
         "name_id": "darkvoid",
@@ -4637,7 +5100,8 @@
         "name": "Dark Void",
         "power": 0,
         "pp": 10,
-        "type": "Dark"
+        "type": "Dark",
+        "target": "allAdjacentFoes"
     },
     {
         "name_id": "seedflare",
@@ -4647,7 +5111,8 @@
         "name": "Seed Flare",
         "power": 120,
         "pp": 5,
-        "type": "Grass"
+        "type": "Grass",
+        "target": "normal"
     },
     {
         "name_id": "ominouswind",
@@ -4657,7 +5122,8 @@
         "name": "Ominous Wind",
         "power": 60,
         "pp": 5,
-        "type": "Ghost"
+        "type": "Ghost",
+        "target": "normal"
     },
     {
         "name_id": "shadowforce",
@@ -4667,6 +5133,7 @@
         "name": "Shadow Force",
         "power": 120,
         "pp": 5,
-        "type": "Ghost"
+        "type": "Ghost",
+        "target": "normal"
     }
 ]
