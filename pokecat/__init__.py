@@ -738,7 +738,7 @@ def recalculate_pokeset_stats(pokeset):
                 pokeset['nature'],
                 pokeset['level']
             )
-            if pokeset["curr_hp"] > pokeset["stats"]["hp"]:
+            if pokeset["curr_hp"] != pokeset["stats"]["hp"]:
                 pokeset["curr_hp"] = pokeset["stats"]["hp"]
 
 
