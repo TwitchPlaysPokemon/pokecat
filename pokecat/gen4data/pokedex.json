@@ -15,7 +15,11 @@
             "spe": 45
         },
         "name": "Bulbasaur",
-        "color": "Green"
+        "color": "Green",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 2,
@@ -32,7 +36,11 @@
             "spe": 60
         },
         "name": "Ivysaur",
-        "color": "Green"
+        "color": "Green",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 3,
@@ -49,7 +57,11 @@
             "spe": 80
         },
         "name": "Venusaur",
-        "color": "Green"
+        "color": "Green",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 4,
@@ -65,7 +77,11 @@
             "spe": 65
         },
         "name": "Charmander",
-        "color": "Red"
+        "color": "Red",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 5,
@@ -81,7 +97,11 @@
             "spe": 80
         },
         "name": "Charmeleon",
-        "color": "Red"
+        "color": "Red",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 6,
@@ -98,7 +118,11 @@
             "spe": 100
         },
         "name": "Charizard",
-        "color": "Red"
+        "color": "Red",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 7,
@@ -114,7 +138,11 @@
             "spe": 43
         },
         "name": "Squirtle",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 8,
@@ -130,7 +158,11 @@
             "spe": 58
         },
         "name": "Wartortle",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 9,
@@ -146,7 +178,11 @@
             "spe": 78
         },
         "name": "Blastoise",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 10,
@@ -162,7 +198,11 @@
             "spe": 45
         },
         "name": "Caterpie",
-        "color": "Green"
+        "color": "Green",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 11,
@@ -178,7 +218,11 @@
             "spe": 30
         },
         "name": "Metapod",
-        "color": "Green"
+        "color": "Green",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 12,
@@ -195,7 +239,11 @@
             "spe": 70
         },
         "name": "Butterfree",
-        "color": "White"
+        "color": "White",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 13,
@@ -212,7 +260,11 @@
             "spe": 50
         },
         "name": "Weedle",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 14,
@@ -229,7 +281,11 @@
             "spe": 35
         },
         "name": "Kakuna",
-        "color": "Yellow"
+        "color": "Yellow",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 15,
@@ -246,7 +302,11 @@
             "spe": 75
         },
         "name": "Beedrill",
-        "color": "Yellow"
+        "color": "Yellow",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 16,
@@ -263,7 +323,11 @@
             "spe": 56
         },
         "name": "Pidgey",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 17,
@@ -280,7 +344,11 @@
             "spe": 71
         },
         "name": "Pidgeotto",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 18,
@@ -297,7 +365,11 @@
             "spe": 91
         },
         "name": "Pidgeot",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 19,
@@ -313,7 +385,11 @@
             "spe": 72
         },
         "name": "Rattata",
-        "color": "Purple"
+        "color": "Purple",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 20,
@@ -329,7 +405,11 @@
             "spe": 97
         },
         "name": "Raticate",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 21,
@@ -346,7 +426,11 @@
             "spe": 70
         },
         "name": "Spearow",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 22,
@@ -363,7 +447,11 @@
             "spe": 100
         },
         "name": "Fearow",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 23,
@@ -379,7 +467,11 @@
             "spe": 55
         },
         "name": "Ekans",
-        "color": "Purple"
+        "color": "Purple",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 24,
@@ -395,7 +487,11 @@
             "spe": 80
         },
         "name": "Arbok",
-        "color": "Purple"
+        "color": "Purple",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 25,
@@ -411,7 +507,11 @@
             "spe": 90
         },
         "name": "Pikachu",
-        "color": "Yellow"
+        "color": "Yellow",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 26,
@@ -427,7 +527,11 @@
             "spe": 100
         },
         "name": "Raichu",
-        "color": "Yellow"
+        "color": "Yellow",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 27,
@@ -443,7 +547,11 @@
             "spe": 40
         },
         "name": "Sandshrew",
-        "color": "Yellow"
+        "color": "Yellow",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 28,
@@ -459,7 +567,11 @@
             "spe": 65
         },
         "name": "Sandslash",
-        "color": "Yellow"
+        "color": "Yellow",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 29,
@@ -475,7 +587,10 @@
             "spe": 41
         },
         "name": "Nidoran\u2640",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "f": 1.0
+        }
     },
     {
         "id": 30,
@@ -491,7 +606,10 @@
             "spe": 56
         },
         "name": "Nidorina",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "f": 1.0
+        }
     },
     {
         "id": 31,
@@ -508,7 +626,10 @@
             "spe": 76
         },
         "name": "Nidoqueen",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "f": 1.0
+        }
     },
     {
         "id": 32,
@@ -524,7 +645,10 @@
             "spe": 50
         },
         "name": "Nidoran\u2642",
-        "color": "Purple"
+        "color": "Purple",
+        "gender_ratios": {
+            "m": 1.0
+        }
     },
     {
         "id": 33,
@@ -540,7 +664,10 @@
             "spe": 65
         },
         "name": "Nidorino",
-        "color": "Purple"
+        "color": "Purple",
+        "gender_ratios": {
+            "m": 1.0
+        }
     },
     {
         "id": 34,
@@ -557,7 +684,10 @@
             "spe": 85
         },
         "name": "Nidoking",
-        "color": "Purple"
+        "color": "Purple",
+        "gender_ratios": {
+            "m": 1.0
+        }
     },
     {
         "id": 35,
@@ -573,7 +703,11 @@
             "spe": 35
         },
         "name": "Clefairy",
-        "color": "Pink"
+        "color": "Pink",
+        "gender_ratios": {
+            "m": 0.25,
+            "f": 0.75
+        }
     },
     {
         "id": 36,
@@ -589,7 +723,11 @@
             "spe": 60
         },
         "name": "Clefable",
-        "color": "Pink"
+        "color": "Pink",
+        "gender_ratios": {
+            "m": 0.25,
+            "f": 0.75
+        }
     },
     {
         "id": 37,
@@ -605,7 +743,11 @@
             "spe": 65
         },
         "name": "Vulpix",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.25,
+            "f": 0.75
+        }
     },
     {
         "id": 38,
@@ -621,7 +763,11 @@
             "spe": 100
         },
         "name": "Ninetales",
-        "color": "Yellow"
+        "color": "Yellow",
+        "gender_ratios": {
+            "m": 0.25,
+            "f": 0.75
+        }
     },
     {
         "id": 39,
@@ -637,7 +783,11 @@
             "spe": 20
         },
         "name": "Jigglypuff",
-        "color": "Pink"
+        "color": "Pink",
+        "gender_ratios": {
+            "m": 0.25,
+            "f": 0.75
+        }
     },
     {
         "id": 40,
@@ -653,7 +803,11 @@
             "spe": 45
         },
         "name": "Wigglytuff",
-        "color": "Pink"
+        "color": "Pink",
+        "gender_ratios": {
+            "m": 0.25,
+            "f": 0.75
+        }
     },
     {
         "id": 41,
@@ -670,7 +824,11 @@
             "spe": 55
         },
         "name": "Zubat",
-        "color": "Purple"
+        "color": "Purple",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 42,
@@ -687,7 +845,11 @@
             "spe": 90
         },
         "name": "Golbat",
-        "color": "Purple"
+        "color": "Purple",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 43,
@@ -704,7 +866,11 @@
             "spe": 30
         },
         "name": "Oddish",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 44,
@@ -721,7 +887,11 @@
             "spe": 40
         },
         "name": "Gloom",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 45,
@@ -738,7 +908,11 @@
             "spe": 50
         },
         "name": "Vileplume",
-        "color": "Red"
+        "color": "Red",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 46,
@@ -755,7 +929,11 @@
             "spe": 25
         },
         "name": "Paras",
-        "color": "Red"
+        "color": "Red",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 47,
@@ -772,7 +950,11 @@
             "spe": 30
         },
         "name": "Parasect",
-        "color": "Red"
+        "color": "Red",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 48,
@@ -789,7 +971,11 @@
             "spe": 45
         },
         "name": "Venonat",
-        "color": "Purple"
+        "color": "Purple",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 49,
@@ -806,7 +992,11 @@
             "spe": 90
         },
         "name": "Venomoth",
-        "color": "Purple"
+        "color": "Purple",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 50,
@@ -822,7 +1012,11 @@
             "spe": 95
         },
         "name": "Diglett",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 51,
@@ -838,7 +1032,11 @@
             "spe": 120
         },
         "name": "Dugtrio",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 52,
@@ -854,7 +1052,11 @@
             "spe": 90
         },
         "name": "Meowth",
-        "color": "Yellow"
+        "color": "Yellow",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 53,
@@ -870,7 +1072,11 @@
             "spe": 115
         },
         "name": "Persian",
-        "color": "Yellow"
+        "color": "Yellow",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 54,
@@ -886,7 +1092,11 @@
             "spe": 55
         },
         "name": "Psyduck",
-        "color": "Yellow"
+        "color": "Yellow",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 55,
@@ -902,7 +1112,11 @@
             "spe": 85
         },
         "name": "Golduck",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 56,
@@ -918,7 +1132,11 @@
             "spe": 70
         },
         "name": "Mankey",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 57,
@@ -934,7 +1152,11 @@
             "spe": 95
         },
         "name": "Primeape",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 58,
@@ -950,7 +1172,11 @@
             "spe": 60
         },
         "name": "Growlithe",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.75,
+            "f": 0.25
+        }
     },
     {
         "id": 59,
@@ -966,7 +1192,11 @@
             "spe": 95
         },
         "name": "Arcanine",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.75,
+            "f": 0.25
+        }
     },
     {
         "id": 60,
@@ -982,7 +1212,11 @@
             "spe": 90
         },
         "name": "Poliwag",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 61,
@@ -998,7 +1232,11 @@
             "spe": 90
         },
         "name": "Poliwhirl",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 62,
@@ -1015,7 +1253,11 @@
             "spe": 70
         },
         "name": "Poliwrath",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 63,
@@ -1031,7 +1273,11 @@
             "spe": 90
         },
         "name": "Abra",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.75,
+            "f": 0.25
+        }
     },
     {
         "id": 64,
@@ -1047,7 +1293,11 @@
             "spe": 105
         },
         "name": "Kadabra",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.75,
+            "f": 0.25
+        }
     },
     {
         "id": 65,
@@ -1063,7 +1313,11 @@
             "spe": 120
         },
         "name": "Alakazam",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.75,
+            "f": 0.25
+        }
     },
     {
         "id": 66,
@@ -1079,7 +1333,11 @@
             "spe": 35
         },
         "name": "Machop",
-        "color": "Gray"
+        "color": "Gray",
+        "gender_ratios": {
+            "m": 0.75,
+            "f": 0.25
+        }
     },
     {
         "id": 67,
@@ -1095,7 +1353,11 @@
             "spe": 45
         },
         "name": "Machoke",
-        "color": "Gray"
+        "color": "Gray",
+        "gender_ratios": {
+            "m": 0.75,
+            "f": 0.25
+        }
     },
     {
         "id": 68,
@@ -1111,7 +1373,11 @@
             "spe": 55
         },
         "name": "Machamp",
-        "color": "Gray"
+        "color": "Gray",
+        "gender_ratios": {
+            "m": 0.75,
+            "f": 0.25
+        }
     },
     {
         "id": 69,
@@ -1128,7 +1394,11 @@
             "spe": 40
         },
         "name": "Bellsprout",
-        "color": "Green"
+        "color": "Green",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 70,
@@ -1145,7 +1415,11 @@
             "spe": 55
         },
         "name": "Weepinbell",
-        "color": "Green"
+        "color": "Green",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 71,
@@ -1162,7 +1436,11 @@
             "spe": 70
         },
         "name": "Victreebel",
-        "color": "Green"
+        "color": "Green",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 72,
@@ -1179,7 +1457,11 @@
             "spe": 70
         },
         "name": "Tentacool",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 73,
@@ -1196,7 +1478,11 @@
             "spe": 100
         },
         "name": "Tentacruel",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 74,
@@ -1213,7 +1499,11 @@
             "spe": 20
         },
         "name": "Geodude",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 75,
@@ -1230,7 +1520,11 @@
             "spe": 35
         },
         "name": "Graveler",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 76,
@@ -1247,7 +1541,11 @@
             "spe": 45
         },
         "name": "Golem",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 77,
@@ -1263,7 +1561,11 @@
             "spe": 90
         },
         "name": "Ponyta",
-        "color": "Yellow"
+        "color": "Yellow",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 78,
@@ -1279,7 +1581,11 @@
             "spe": 105
         },
         "name": "Rapidash",
-        "color": "Yellow"
+        "color": "Yellow",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 79,
@@ -1296,7 +1602,11 @@
             "spe": 15
         },
         "name": "Slowpoke",
-        "color": "Pink"
+        "color": "Pink",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 80,
@@ -1313,7 +1623,11 @@
             "spe": 30
         },
         "name": "Slowbro",
-        "color": "Pink"
+        "color": "Pink",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 81,
@@ -1330,7 +1644,8 @@
             "spe": 45
         },
         "name": "Magnemite",
-        "color": "Gray"
+        "color": "Gray",
+        "gender_ratios": null
     },
     {
         "id": 82,
@@ -1347,7 +1662,8 @@
             "spe": 70
         },
         "name": "Magneton",
-        "color": "Gray"
+        "color": "Gray",
+        "gender_ratios": null
     },
     {
         "id": 83,
@@ -1364,7 +1680,11 @@
             "spe": 60
         },
         "name": "Farfetch'd",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 84,
@@ -1381,7 +1701,11 @@
             "spe": 75
         },
         "name": "Doduo",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 85,
@@ -1398,7 +1722,11 @@
             "spe": 100
         },
         "name": "Dodrio",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 86,
@@ -1414,7 +1742,11 @@
             "spe": 45
         },
         "name": "Seel",
-        "color": "White"
+        "color": "White",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 87,
@@ -1431,7 +1763,11 @@
             "spe": 70
         },
         "name": "Dewgong",
-        "color": "White"
+        "color": "White",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 88,
@@ -1447,7 +1783,11 @@
             "spe": 25
         },
         "name": "Grimer",
-        "color": "Purple"
+        "color": "Purple",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 89,
@@ -1463,7 +1803,11 @@
             "spe": 50
         },
         "name": "Muk",
-        "color": "Purple"
+        "color": "Purple",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 90,
@@ -1479,7 +1823,11 @@
             "spe": 40
         },
         "name": "Shellder",
-        "color": "Purple"
+        "color": "Purple",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 91,
@@ -1496,7 +1844,11 @@
             "spe": 70
         },
         "name": "Cloyster",
-        "color": "Purple"
+        "color": "Purple",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 92,
@@ -1513,7 +1865,11 @@
             "spe": 80
         },
         "name": "Gastly",
-        "color": "Purple"
+        "color": "Purple",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 93,
@@ -1530,7 +1886,11 @@
             "spe": 95
         },
         "name": "Haunter",
-        "color": "Purple"
+        "color": "Purple",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 94,
@@ -1547,7 +1907,11 @@
             "spe": 110
         },
         "name": "Gengar",
-        "color": "Purple"
+        "color": "Purple",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 95,
@@ -1564,7 +1928,11 @@
             "spe": 70
         },
         "name": "Onix",
-        "color": "Gray"
+        "color": "Gray",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 96,
@@ -1580,7 +1948,11 @@
             "spe": 42
         },
         "name": "Drowzee",
-        "color": "Yellow"
+        "color": "Yellow",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 97,
@@ -1596,7 +1968,11 @@
             "spe": 67
         },
         "name": "Hypno",
-        "color": "Yellow"
+        "color": "Yellow",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 98,
@@ -1612,7 +1988,11 @@
             "spe": 50
         },
         "name": "Krabby",
-        "color": "Red"
+        "color": "Red",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 99,
@@ -1628,7 +2008,11 @@
             "spe": 75
         },
         "name": "Kingler",
-        "color": "Red"
+        "color": "Red",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 100,
@@ -1644,7 +2028,8 @@
             "spe": 100
         },
         "name": "Voltorb",
-        "color": "Red"
+        "color": "Red",
+        "gender_ratios": null
     },
     {
         "id": 101,
@@ -1660,7 +2045,8 @@
             "spe": 140
         },
         "name": "Electrode",
-        "color": "Red"
+        "color": "Red",
+        "gender_ratios": null
     },
     {
         "id": 102,
@@ -1677,7 +2063,11 @@
             "spe": 40
         },
         "name": "Exeggcute",
-        "color": "Pink"
+        "color": "Pink",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 103,
@@ -1694,7 +2084,11 @@
             "spe": 55
         },
         "name": "Exeggutor",
-        "color": "Yellow"
+        "color": "Yellow",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 104,
@@ -1710,7 +2104,11 @@
             "spe": 35
         },
         "name": "Cubone",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 105,
@@ -1726,7 +2124,11 @@
             "spe": 45
         },
         "name": "Marowak",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 106,
@@ -1742,7 +2144,10 @@
             "spe": 87
         },
         "name": "Hitmonlee",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 1.0
+        }
     },
     {
         "id": 107,
@@ -1758,7 +2163,10 @@
             "spe": 76
         },
         "name": "Hitmonchan",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 1.0
+        }
     },
     {
         "id": 108,
@@ -1774,7 +2182,11 @@
             "spe": 30
         },
         "name": "Lickitung",
-        "color": "Pink"
+        "color": "Pink",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 109,
@@ -1790,7 +2202,11 @@
             "spe": 35
         },
         "name": "Koffing",
-        "color": "Purple"
+        "color": "Purple",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 110,
@@ -1806,7 +2222,11 @@
             "spe": 60
         },
         "name": "Weezing",
-        "color": "Purple"
+        "color": "Purple",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 111,
@@ -1823,7 +2243,11 @@
             "spe": 25
         },
         "name": "Rhyhorn",
-        "color": "Gray"
+        "color": "Gray",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 112,
@@ -1840,7 +2264,11 @@
             "spe": 40
         },
         "name": "Rhydon",
-        "color": "Gray"
+        "color": "Gray",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 113,
@@ -1856,7 +2284,10 @@
             "spe": 50
         },
         "name": "Chansey",
-        "color": "Pink"
+        "color": "Pink",
+        "gender_ratios": {
+            "f": 1.0
+        }
     },
     {
         "id": 114,
@@ -1872,7 +2303,11 @@
             "spe": 60
         },
         "name": "Tangela",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 115,
@@ -1888,7 +2323,10 @@
             "spe": 90
         },
         "name": "Kangaskhan",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "f": 1.0
+        }
     },
     {
         "id": 116,
@@ -1904,7 +2342,11 @@
             "spe": 60
         },
         "name": "Horsea",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 117,
@@ -1920,7 +2362,11 @@
             "spe": 85
         },
         "name": "Seadra",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 118,
@@ -1936,7 +2382,11 @@
             "spe": 63
         },
         "name": "Goldeen",
-        "color": "Red"
+        "color": "Red",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 119,
@@ -1952,7 +2402,11 @@
             "spe": 68
         },
         "name": "Seaking",
-        "color": "Red"
+        "color": "Red",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 120,
@@ -1968,7 +2422,8 @@
             "spe": 85
         },
         "name": "Staryu",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": null
     },
     {
         "id": 121,
@@ -1985,7 +2440,8 @@
             "spe": 115
         },
         "name": "Starmie",
-        "color": "Purple"
+        "color": "Purple",
+        "gender_ratios": null
     },
     {
         "id": 122,
@@ -2001,7 +2457,11 @@
             "spe": 90
         },
         "name": "Mr. Mime",
-        "color": "Pink"
+        "color": "Pink",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 123,
@@ -2018,7 +2478,11 @@
             "spe": 105
         },
         "name": "Scyther",
-        "color": "Green"
+        "color": "Green",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 124,
@@ -2035,7 +2499,10 @@
             "spe": 95
         },
         "name": "Jynx",
-        "color": "Red"
+        "color": "Red",
+        "gender_ratios": {
+            "f": 1.0
+        }
     },
     {
         "id": 125,
@@ -2051,7 +2518,11 @@
             "spe": 105
         },
         "name": "Electabuzz",
-        "color": "Yellow"
+        "color": "Yellow",
+        "gender_ratios": {
+            "m": 0.75,
+            "f": 0.25
+        }
     },
     {
         "id": 126,
@@ -2067,7 +2538,11 @@
             "spe": 93
         },
         "name": "Magmar",
-        "color": "Red"
+        "color": "Red",
+        "gender_ratios": {
+            "m": 0.75,
+            "f": 0.25
+        }
     },
     {
         "id": 127,
@@ -2083,7 +2558,11 @@
             "spe": 85
         },
         "name": "Pinsir",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 128,
@@ -2099,7 +2578,10 @@
             "spe": 110
         },
         "name": "Tauros",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 1.0
+        }
     },
     {
         "id": 129,
@@ -2115,7 +2597,11 @@
             "spe": 80
         },
         "name": "Magikarp",
-        "color": "Red"
+        "color": "Red",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 130,
@@ -2132,7 +2618,11 @@
             "spe": 81
         },
         "name": "Gyarados",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 131,
@@ -2149,7 +2639,11 @@
             "spe": 60
         },
         "name": "Lapras",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 132,
@@ -2165,7 +2659,8 @@
             "spe": 48
         },
         "name": "Ditto",
-        "color": "Purple"
+        "color": "Purple",
+        "gender_ratios": null
     },
     {
         "id": 133,
@@ -2181,7 +2676,11 @@
             "spe": 55
         },
         "name": "Eevee",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 134,
@@ -2197,7 +2696,11 @@
             "spe": 65
         },
         "name": "Vaporeon",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 135,
@@ -2213,7 +2716,11 @@
             "spe": 130
         },
         "name": "Jolteon",
-        "color": "Yellow"
+        "color": "Yellow",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 136,
@@ -2229,7 +2736,11 @@
             "spe": 65
         },
         "name": "Flareon",
-        "color": "Red"
+        "color": "Red",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 137,
@@ -2245,7 +2756,8 @@
             "spe": 40
         },
         "name": "Porygon",
-        "color": "Pink"
+        "color": "Pink",
+        "gender_ratios": null
     },
     {
         "id": 138,
@@ -2262,7 +2774,11 @@
             "spe": 35
         },
         "name": "Omanyte",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 139,
@@ -2279,7 +2795,11 @@
             "spe": 55
         },
         "name": "Omastar",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 140,
@@ -2296,7 +2816,11 @@
             "spe": 55
         },
         "name": "Kabuto",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 141,
@@ -2313,7 +2837,11 @@
             "spe": 80
         },
         "name": "Kabutops",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 142,
@@ -2330,7 +2858,11 @@
             "spe": 130
         },
         "name": "Aerodactyl",
-        "color": "Purple"
+        "color": "Purple",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 143,
@@ -2346,7 +2878,11 @@
             "spe": 30
         },
         "name": "Snorlax",
-        "color": "Black"
+        "color": "Black",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 144,
@@ -2363,7 +2899,8 @@
             "spe": 85
         },
         "name": "Articuno",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": null
     },
     {
         "id": 145,
@@ -2380,7 +2917,8 @@
             "spe": 100
         },
         "name": "Zapdos",
-        "color": "Yellow"
+        "color": "Yellow",
+        "gender_ratios": null
     },
     {
         "id": 146,
@@ -2397,7 +2935,8 @@
             "spe": 90
         },
         "name": "Moltres",
-        "color": "Yellow"
+        "color": "Yellow",
+        "gender_ratios": null
     },
     {
         "id": 147,
@@ -2413,7 +2952,11 @@
             "spe": 50
         },
         "name": "Dratini",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 148,
@@ -2429,7 +2972,11 @@
             "spe": 70
         },
         "name": "Dragonair",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 149,
@@ -2446,7 +2993,11 @@
             "spe": 80
         },
         "name": "Dragonite",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 150,
@@ -2462,7 +3013,8 @@
             "spe": 130
         },
         "name": "Mewtwo",
-        "color": "Purple"
+        "color": "Purple",
+        "gender_ratios": null
     },
     {
         "id": 151,
@@ -2478,7 +3030,8 @@
             "spe": 100
         },
         "name": "Mew",
-        "color": "Pink"
+        "color": "Pink",
+        "gender_ratios": null
     },
     {
         "id": 152,
@@ -2494,7 +3047,11 @@
             "spe": 45
         },
         "name": "Chikorita",
-        "color": "Green"
+        "color": "Green",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 153,
@@ -2510,7 +3067,11 @@
             "spe": 60
         },
         "name": "Bayleef",
-        "color": "Green"
+        "color": "Green",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 154,
@@ -2526,7 +3087,11 @@
             "spe": 80
         },
         "name": "Meganium",
-        "color": "Green"
+        "color": "Green",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 155,
@@ -2542,7 +3107,11 @@
             "spe": 65
         },
         "name": "Cyndaquil",
-        "color": "Yellow"
+        "color": "Yellow",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 156,
@@ -2558,7 +3127,11 @@
             "spe": 80
         },
         "name": "Quilava",
-        "color": "Yellow"
+        "color": "Yellow",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 157,
@@ -2574,7 +3147,11 @@
             "spe": 100
         },
         "name": "Typhlosion",
-        "color": "Yellow"
+        "color": "Yellow",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 158,
@@ -2590,7 +3167,11 @@
             "spe": 43
         },
         "name": "Totodile",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 159,
@@ -2606,7 +3187,11 @@
             "spe": 58
         },
         "name": "Croconaw",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 160,
@@ -2622,7 +3207,11 @@
             "spe": 78
         },
         "name": "Feraligatr",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 161,
@@ -2638,7 +3227,11 @@
             "spe": 20
         },
         "name": "Sentret",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 162,
@@ -2654,7 +3247,11 @@
             "spe": 90
         },
         "name": "Furret",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 163,
@@ -2671,7 +3268,11 @@
             "spe": 50
         },
         "name": "Hoothoot",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 164,
@@ -2688,7 +3289,11 @@
             "spe": 70
         },
         "name": "Noctowl",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 165,
@@ -2705,7 +3310,11 @@
             "spe": 55
         },
         "name": "Ledyba",
-        "color": "Red"
+        "color": "Red",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 166,
@@ -2722,7 +3331,11 @@
             "spe": 85
         },
         "name": "Ledian",
-        "color": "Red"
+        "color": "Red",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 167,
@@ -2739,7 +3352,11 @@
             "spe": 30
         },
         "name": "Spinarak",
-        "color": "Green"
+        "color": "Green",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 168,
@@ -2756,7 +3373,11 @@
             "spe": 40
         },
         "name": "Ariados",
-        "color": "Red"
+        "color": "Red",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 169,
@@ -2773,7 +3394,11 @@
             "spe": 130
         },
         "name": "Crobat",
-        "color": "Purple"
+        "color": "Purple",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 170,
@@ -2790,7 +3415,11 @@
             "spe": 67
         },
         "name": "Chinchou",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 171,
@@ -2807,7 +3436,11 @@
             "spe": 67
         },
         "name": "Lanturn",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 172,
@@ -2823,7 +3456,11 @@
             "spe": 60
         },
         "name": "Pichu",
-        "color": "Yellow"
+        "color": "Yellow",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 173,
@@ -2839,7 +3476,11 @@
             "spe": 15
         },
         "name": "Cleffa",
-        "color": "Pink"
+        "color": "Pink",
+        "gender_ratios": {
+            "m": 0.25,
+            "f": 0.75
+        }
     },
     {
         "id": 174,
@@ -2855,7 +3496,11 @@
             "spe": 15
         },
         "name": "Igglybuff",
-        "color": "Pink"
+        "color": "Pink",
+        "gender_ratios": {
+            "m": 0.25,
+            "f": 0.75
+        }
     },
     {
         "id": 175,
@@ -2871,7 +3516,11 @@
             "spe": 20
         },
         "name": "Togepi",
-        "color": "White"
+        "color": "White",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 176,
@@ -2888,7 +3537,11 @@
             "spe": 40
         },
         "name": "Togetic",
-        "color": "White"
+        "color": "White",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 177,
@@ -2905,7 +3558,11 @@
             "spe": 70
         },
         "name": "Natu",
-        "color": "Green"
+        "color": "Green",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 178,
@@ -2922,7 +3579,11 @@
             "spe": 95
         },
         "name": "Xatu",
-        "color": "Green"
+        "color": "Green",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 179,
@@ -2938,7 +3599,11 @@
             "spe": 35
         },
         "name": "Mareep",
-        "color": "White"
+        "color": "White",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 180,
@@ -2954,7 +3619,11 @@
             "spe": 45
         },
         "name": "Flaaffy",
-        "color": "Pink"
+        "color": "Pink",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 181,
@@ -2970,7 +3639,11 @@
             "spe": 55
         },
         "name": "Ampharos",
-        "color": "Yellow"
+        "color": "Yellow",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 182,
@@ -2986,7 +3659,11 @@
             "spe": 50
         },
         "name": "Bellossom",
-        "color": "Green"
+        "color": "Green",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 183,
@@ -3002,7 +3679,11 @@
             "spe": 40
         },
         "name": "Marill",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 184,
@@ -3018,7 +3699,11 @@
             "spe": 50
         },
         "name": "Azumarill",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 185,
@@ -3034,7 +3719,11 @@
             "spe": 30
         },
         "name": "Sudowoodo",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 186,
@@ -3050,7 +3739,11 @@
             "spe": 70
         },
         "name": "Politoed",
-        "color": "Green"
+        "color": "Green",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 187,
@@ -3067,7 +3760,11 @@
             "spe": 50
         },
         "name": "Hoppip",
-        "color": "Pink"
+        "color": "Pink",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 188,
@@ -3084,7 +3781,11 @@
             "spe": 80
         },
         "name": "Skiploom",
-        "color": "Green"
+        "color": "Green",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 189,
@@ -3101,7 +3802,11 @@
             "spe": 110
         },
         "name": "Jumpluff",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 190,
@@ -3117,7 +3822,11 @@
             "spe": 85
         },
         "name": "Aipom",
-        "color": "Purple"
+        "color": "Purple",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 191,
@@ -3133,7 +3842,11 @@
             "spe": 30
         },
         "name": "Sunkern",
-        "color": "Yellow"
+        "color": "Yellow",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 192,
@@ -3149,7 +3862,11 @@
             "spe": 30
         },
         "name": "Sunflora",
-        "color": "Yellow"
+        "color": "Yellow",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 193,
@@ -3166,7 +3883,11 @@
             "spe": 95
         },
         "name": "Yanma",
-        "color": "Red"
+        "color": "Red",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 194,
@@ -3183,7 +3904,11 @@
             "spe": 15
         },
         "name": "Wooper",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 195,
@@ -3200,7 +3925,11 @@
             "spe": 35
         },
         "name": "Quagsire",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 196,
@@ -3216,7 +3945,11 @@
             "spe": 110
         },
         "name": "Espeon",
-        "color": "Purple"
+        "color": "Purple",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 197,
@@ -3232,7 +3965,11 @@
             "spe": 65
         },
         "name": "Umbreon",
-        "color": "Black"
+        "color": "Black",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 198,
@@ -3249,7 +3986,11 @@
             "spe": 91
         },
         "name": "Murkrow",
-        "color": "Black"
+        "color": "Black",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 199,
@@ -3266,7 +4007,11 @@
             "spe": 30
         },
         "name": "Slowking",
-        "color": "Pink"
+        "color": "Pink",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 200,
@@ -3282,7 +4027,11 @@
             "spe": 85
         },
         "name": "Misdreavus",
-        "color": "Gray"
+        "color": "Gray",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 201,
@@ -3298,7 +4047,8 @@
             "spe": 48
         },
         "name": "Unown",
-        "color": "Black"
+        "color": "Black",
+        "gender_ratios": null
     },
     {
         "id": 202,
@@ -3314,7 +4064,11 @@
             "spe": 33
         },
         "name": "Wobbuffet",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 203,
@@ -3331,7 +4085,11 @@
             "spe": 85
         },
         "name": "Girafarig",
-        "color": "Yellow"
+        "color": "Yellow",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 204,
@@ -3347,7 +4105,11 @@
             "spe": 15
         },
         "name": "Pineco",
-        "color": "Gray"
+        "color": "Gray",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 205,
@@ -3364,7 +4126,11 @@
             "spe": 40
         },
         "name": "Forretress",
-        "color": "Purple"
+        "color": "Purple",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 206,
@@ -3380,7 +4146,11 @@
             "spe": 45
         },
         "name": "Dunsparce",
-        "color": "Yellow"
+        "color": "Yellow",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 207,
@@ -3397,7 +4167,11 @@
             "spe": 85
         },
         "name": "Gligar",
-        "color": "Purple"
+        "color": "Purple",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 208,
@@ -3414,7 +4188,11 @@
             "spe": 30
         },
         "name": "Steelix",
-        "color": "Gray"
+        "color": "Gray",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 209,
@@ -3430,7 +4208,11 @@
             "spe": 30
         },
         "name": "Snubbull",
-        "color": "Pink"
+        "color": "Pink",
+        "gender_ratios": {
+            "m": 0.25,
+            "f": 0.75
+        }
     },
     {
         "id": 210,
@@ -3446,7 +4228,11 @@
             "spe": 45
         },
         "name": "Granbull",
-        "color": "Purple"
+        "color": "Purple",
+        "gender_ratios": {
+            "m": 0.25,
+            "f": 0.75
+        }
     },
     {
         "id": 211,
@@ -3463,7 +4249,11 @@
             "spe": 85
         },
         "name": "Qwilfish",
-        "color": "Gray"
+        "color": "Gray",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 212,
@@ -3480,7 +4270,11 @@
             "spe": 65
         },
         "name": "Scizor",
-        "color": "Red"
+        "color": "Red",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 213,
@@ -3497,7 +4291,11 @@
             "spe": 5
         },
         "name": "Shuckle",
-        "color": "Yellow"
+        "color": "Yellow",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 214,
@@ -3514,7 +4312,11 @@
             "spe": 85
         },
         "name": "Heracross",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 215,
@@ -3531,7 +4333,11 @@
             "spe": 115
         },
         "name": "Sneasel",
-        "color": "Black"
+        "color": "Black",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 216,
@@ -3547,7 +4353,11 @@
             "spe": 40
         },
         "name": "Teddiursa",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 217,
@@ -3563,7 +4373,11 @@
             "spe": 55
         },
         "name": "Ursaring",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 218,
@@ -3579,7 +4393,11 @@
             "spe": 20
         },
         "name": "Slugma",
-        "color": "Red"
+        "color": "Red",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 219,
@@ -3596,7 +4414,11 @@
             "spe": 30
         },
         "name": "Magcargo",
-        "color": "Red"
+        "color": "Red",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 220,
@@ -3613,7 +4435,11 @@
             "spe": 50
         },
         "name": "Swinub",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 221,
@@ -3630,7 +4456,11 @@
             "spe": 50
         },
         "name": "Piloswine",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 222,
@@ -3647,7 +4477,11 @@
             "spe": 35
         },
         "name": "Corsola",
-        "color": "Pink"
+        "color": "Pink",
+        "gender_ratios": {
+            "m": 0.25,
+            "f": 0.75
+        }
     },
     {
         "id": 223,
@@ -3663,7 +4497,11 @@
             "spe": 65
         },
         "name": "Remoraid",
-        "color": "Gray"
+        "color": "Gray",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 224,
@@ -3679,7 +4517,11 @@
             "spe": 45
         },
         "name": "Octillery",
-        "color": "Red"
+        "color": "Red",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 225,
@@ -3696,7 +4538,11 @@
             "spe": 75
         },
         "name": "Delibird",
-        "color": "Red"
+        "color": "Red",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 226,
@@ -3713,7 +4559,11 @@
             "spe": 70
         },
         "name": "Mantine",
-        "color": "Purple"
+        "color": "Purple",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 227,
@@ -3730,7 +4580,11 @@
             "spe": 70
         },
         "name": "Skarmory",
-        "color": "Gray"
+        "color": "Gray",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 228,
@@ -3747,7 +4601,11 @@
             "spe": 65
         },
         "name": "Houndour",
-        "color": "Black"
+        "color": "Black",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 229,
@@ -3764,7 +4622,11 @@
             "spe": 95
         },
         "name": "Houndoom",
-        "color": "Black"
+        "color": "Black",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 230,
@@ -3781,7 +4643,11 @@
             "spe": 85
         },
         "name": "Kingdra",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 231,
@@ -3797,7 +4663,11 @@
             "spe": 40
         },
         "name": "Phanpy",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 232,
@@ -3813,7 +4683,11 @@
             "spe": 50
         },
         "name": "Donphan",
-        "color": "Gray"
+        "color": "Gray",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 233,
@@ -3829,7 +4703,8 @@
             "spe": 60
         },
         "name": "Porygon2",
-        "color": "Red"
+        "color": "Red",
+        "gender_ratios": null
     },
     {
         "id": 234,
@@ -3845,7 +4720,11 @@
             "spe": 85
         },
         "name": "Stantler",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 235,
@@ -3861,7 +4740,11 @@
             "spe": 75
         },
         "name": "Smeargle",
-        "color": "White"
+        "color": "White",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 236,
@@ -3877,7 +4760,10 @@
             "spe": 35
         },
         "name": "Tyrogue",
-        "color": "Purple"
+        "color": "Purple",
+        "gender_ratios": {
+            "m": 1.0
+        }
     },
     {
         "id": 237,
@@ -3893,7 +4779,10 @@
             "spe": 70
         },
         "name": "Hitmontop",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 1.0
+        }
     },
     {
         "id": 238,
@@ -3910,7 +4799,10 @@
             "spe": 65
         },
         "name": "Smoochum",
-        "color": "Pink"
+        "color": "Pink",
+        "gender_ratios": {
+            "f": 1.0
+        }
     },
     {
         "id": 239,
@@ -3926,7 +4818,11 @@
             "spe": 95
         },
         "name": "Elekid",
-        "color": "Yellow"
+        "color": "Yellow",
+        "gender_ratios": {
+            "m": 0.75,
+            "f": 0.25
+        }
     },
     {
         "id": 240,
@@ -3942,7 +4838,11 @@
             "spe": 83
         },
         "name": "Magby",
-        "color": "Red"
+        "color": "Red",
+        "gender_ratios": {
+            "m": 0.75,
+            "f": 0.25
+        }
     },
     {
         "id": 241,
@@ -3958,7 +4858,10 @@
             "spe": 100
         },
         "name": "Miltank",
-        "color": "Pink"
+        "color": "Pink",
+        "gender_ratios": {
+            "f": 1.0
+        }
     },
     {
         "id": 242,
@@ -3974,7 +4877,10 @@
             "spe": 55
         },
         "name": "Blissey",
-        "color": "Pink"
+        "color": "Pink",
+        "gender_ratios": {
+            "f": 1.0
+        }
     },
     {
         "id": 243,
@@ -3990,7 +4896,8 @@
             "spe": 115
         },
         "name": "Raikou",
-        "color": "Yellow"
+        "color": "Yellow",
+        "gender_ratios": null
     },
     {
         "id": 244,
@@ -4006,7 +4913,8 @@
             "spe": 100
         },
         "name": "Entei",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": null
     },
     {
         "id": 245,
@@ -4022,7 +4930,8 @@
             "spe": 85
         },
         "name": "Suicune",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": null
     },
     {
         "id": 246,
@@ -4039,7 +4948,11 @@
             "spe": 41
         },
         "name": "Larvitar",
-        "color": "Green"
+        "color": "Green",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 247,
@@ -4056,7 +4969,11 @@
             "spe": 51
         },
         "name": "Pupitar",
-        "color": "Gray"
+        "color": "Gray",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 248,
@@ -4073,7 +4990,11 @@
             "spe": 61
         },
         "name": "Tyranitar",
-        "color": "Green"
+        "color": "Green",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 249,
@@ -4090,7 +5011,8 @@
             "spe": 110
         },
         "name": "Lugia",
-        "color": "White"
+        "color": "White",
+        "gender_ratios": null
     },
     {
         "id": 250,
@@ -4107,7 +5029,8 @@
             "spe": 90
         },
         "name": "Ho-Oh",
-        "color": "Red"
+        "color": "Red",
+        "gender_ratios": null
     },
     {
         "id": 251,
@@ -4124,7 +5047,8 @@
             "spe": 100
         },
         "name": "Celebi",
-        "color": "Green"
+        "color": "Green",
+        "gender_ratios": null
     },
     {
         "id": 252,
@@ -4140,7 +5064,11 @@
             "spe": 70
         },
         "name": "Treecko",
-        "color": "Green"
+        "color": "Green",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 253,
@@ -4156,7 +5084,11 @@
             "spe": 95
         },
         "name": "Grovyle",
-        "color": "Green"
+        "color": "Green",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 254,
@@ -4172,7 +5104,11 @@
             "spe": 120
         },
         "name": "Sceptile",
-        "color": "Green"
+        "color": "Green",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 255,
@@ -4188,7 +5124,11 @@
             "spe": 45
         },
         "name": "Torchic",
-        "color": "Red"
+        "color": "Red",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 256,
@@ -4205,7 +5145,11 @@
             "spe": 55
         },
         "name": "Combusken",
-        "color": "Red"
+        "color": "Red",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 257,
@@ -4222,7 +5166,11 @@
             "spe": 80
         },
         "name": "Blaziken",
-        "color": "Red"
+        "color": "Red",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 258,
@@ -4238,7 +5186,11 @@
             "spe": 40
         },
         "name": "Mudkip",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 259,
@@ -4255,7 +5207,11 @@
             "spe": 50
         },
         "name": "Marshtomp",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 260,
@@ -4272,7 +5228,11 @@
             "spe": 60
         },
         "name": "Swampert",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 261,
@@ -4288,7 +5248,11 @@
             "spe": 35
         },
         "name": "Poochyena",
-        "color": "Gray"
+        "color": "Gray",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 262,
@@ -4304,7 +5268,11 @@
             "spe": 70
         },
         "name": "Mightyena",
-        "color": "Gray"
+        "color": "Gray",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 263,
@@ -4320,7 +5288,11 @@
             "spe": 60
         },
         "name": "Zigzagoon",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 264,
@@ -4336,7 +5308,11 @@
             "spe": 100
         },
         "name": "Linoone",
-        "color": "White"
+        "color": "White",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 265,
@@ -4352,7 +5328,11 @@
             "spe": 20
         },
         "name": "Wurmple",
-        "color": "Red"
+        "color": "Red",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 266,
@@ -4368,7 +5348,11 @@
             "spe": 15
         },
         "name": "Silcoon",
-        "color": "White"
+        "color": "White",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 267,
@@ -4385,7 +5369,11 @@
             "spe": 65
         },
         "name": "Beautifly",
-        "color": "Yellow"
+        "color": "Yellow",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 268,
@@ -4401,7 +5389,11 @@
             "spe": 15
         },
         "name": "Cascoon",
-        "color": "Purple"
+        "color": "Purple",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 269,
@@ -4418,7 +5410,11 @@
             "spe": 65
         },
         "name": "Dustox",
-        "color": "Green"
+        "color": "Green",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 270,
@@ -4435,7 +5431,11 @@
             "spe": 30
         },
         "name": "Lotad",
-        "color": "Green"
+        "color": "Green",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 271,
@@ -4452,7 +5452,11 @@
             "spe": 50
         },
         "name": "Lombre",
-        "color": "Green"
+        "color": "Green",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 272,
@@ -4469,7 +5473,11 @@
             "spe": 70
         },
         "name": "Ludicolo",
-        "color": "Green"
+        "color": "Green",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 273,
@@ -4485,7 +5493,11 @@
             "spe": 30
         },
         "name": "Seedot",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 274,
@@ -4502,7 +5514,11 @@
             "spe": 60
         },
         "name": "Nuzleaf",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 275,
@@ -4519,7 +5535,11 @@
             "spe": 80
         },
         "name": "Shiftry",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 276,
@@ -4536,7 +5556,11 @@
             "spe": 85
         },
         "name": "Taillow",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 277,
@@ -4553,7 +5577,11 @@
             "spe": 125
         },
         "name": "Swellow",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 278,
@@ -4570,7 +5598,11 @@
             "spe": 85
         },
         "name": "Wingull",
-        "color": "White"
+        "color": "White",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 279,
@@ -4587,7 +5619,11 @@
             "spe": 65
         },
         "name": "Pelipper",
-        "color": "Yellow"
+        "color": "Yellow",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 280,
@@ -4603,7 +5639,11 @@
             "spe": 40
         },
         "name": "Ralts",
-        "color": "White"
+        "color": "White",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 281,
@@ -4619,7 +5659,11 @@
             "spe": 50
         },
         "name": "Kirlia",
-        "color": "White"
+        "color": "White",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 282,
@@ -4635,7 +5679,11 @@
             "spe": 80
         },
         "name": "Gardevoir",
-        "color": "White"
+        "color": "White",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 283,
@@ -4652,7 +5700,11 @@
             "spe": 65
         },
         "name": "Surskit",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 284,
@@ -4669,7 +5721,11 @@
             "spe": 60
         },
         "name": "Masquerain",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 285,
@@ -4685,7 +5741,11 @@
             "spe": 35
         },
         "name": "Shroomish",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 286,
@@ -4702,7 +5762,11 @@
             "spe": 70
         },
         "name": "Breloom",
-        "color": "Green"
+        "color": "Green",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 287,
@@ -4718,7 +5782,11 @@
             "spe": 30
         },
         "name": "Slakoth",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 288,
@@ -4734,7 +5802,11 @@
             "spe": 90
         },
         "name": "Vigoroth",
-        "color": "White"
+        "color": "White",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 289,
@@ -4750,7 +5822,11 @@
             "spe": 100
         },
         "name": "Slaking",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 290,
@@ -4767,7 +5843,11 @@
             "spe": 40
         },
         "name": "Nincada",
-        "color": "Gray"
+        "color": "Gray",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 291,
@@ -4784,7 +5864,11 @@
             "spe": 160
         },
         "name": "Ninjask",
-        "color": "Yellow"
+        "color": "Yellow",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 292,
@@ -4801,7 +5885,8 @@
             "spe": 40
         },
         "name": "Shedinja",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": null
     },
     {
         "id": 293,
@@ -4817,7 +5902,11 @@
             "spe": 28
         },
         "name": "Whismur",
-        "color": "Pink"
+        "color": "Pink",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 294,
@@ -4833,7 +5922,11 @@
             "spe": 48
         },
         "name": "Loudred",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 295,
@@ -4849,7 +5942,11 @@
             "spe": 68
         },
         "name": "Exploud",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 296,
@@ -4865,7 +5962,11 @@
             "spe": 25
         },
         "name": "Makuhita",
-        "color": "Yellow"
+        "color": "Yellow",
+        "gender_ratios": {
+            "m": 0.75,
+            "f": 0.25
+        }
     },
     {
         "id": 297,
@@ -4881,7 +5982,11 @@
             "spe": 50
         },
         "name": "Hariyama",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.75,
+            "f": 0.25
+        }
     },
     {
         "id": 298,
@@ -4897,7 +6002,11 @@
             "spe": 20
         },
         "name": "Azurill",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.25,
+            "f": 0.75
+        }
     },
     {
         "id": 299,
@@ -4913,7 +6022,11 @@
             "spe": 30
         },
         "name": "Nosepass",
-        "color": "Gray"
+        "color": "Gray",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 300,
@@ -4929,7 +6042,11 @@
             "spe": 50
         },
         "name": "Skitty",
-        "color": "Pink"
+        "color": "Pink",
+        "gender_ratios": {
+            "m": 0.25,
+            "f": 0.75
+        }
     },
     {
         "id": 301,
@@ -4945,7 +6062,11 @@
             "spe": 70
         },
         "name": "Delcatty",
-        "color": "Purple"
+        "color": "Purple",
+        "gender_ratios": {
+            "m": 0.25,
+            "f": 0.75
+        }
     },
     {
         "id": 302,
@@ -4962,7 +6083,11 @@
             "spe": 50
         },
         "name": "Sableye",
-        "color": "Purple"
+        "color": "Purple",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 303,
@@ -4978,7 +6103,11 @@
             "spe": 50
         },
         "name": "Mawile",
-        "color": "Black"
+        "color": "Black",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 304,
@@ -4995,7 +6124,11 @@
             "spe": 30
         },
         "name": "Aron",
-        "color": "Gray"
+        "color": "Gray",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 305,
@@ -5012,7 +6145,11 @@
             "spe": 40
         },
         "name": "Lairon",
-        "color": "Gray"
+        "color": "Gray",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 306,
@@ -5029,7 +6166,11 @@
             "spe": 50
         },
         "name": "Aggron",
-        "color": "Gray"
+        "color": "Gray",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 307,
@@ -5046,7 +6187,11 @@
             "spe": 60
         },
         "name": "Meditite",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 308,
@@ -5063,7 +6208,11 @@
             "spe": 80
         },
         "name": "Medicham",
-        "color": "Red"
+        "color": "Red",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 309,
@@ -5079,7 +6228,11 @@
             "spe": 65
         },
         "name": "Electrike",
-        "color": "Green"
+        "color": "Green",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 310,
@@ -5095,7 +6248,11 @@
             "spe": 105
         },
         "name": "Manectric",
-        "color": "Yellow"
+        "color": "Yellow",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 311,
@@ -5111,7 +6268,11 @@
             "spe": 95
         },
         "name": "Plusle",
-        "color": "Yellow"
+        "color": "Yellow",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 312,
@@ -5127,7 +6288,11 @@
             "spe": 95
         },
         "name": "Minun",
-        "color": "Yellow"
+        "color": "Yellow",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 313,
@@ -5143,7 +6308,10 @@
             "spe": 85
         },
         "name": "Volbeat",
-        "color": "Gray"
+        "color": "Gray",
+        "gender_ratios": {
+            "m": 1.0
+        }
     },
     {
         "id": 314,
@@ -5159,7 +6327,10 @@
             "spe": 85
         },
         "name": "Illumise",
-        "color": "Purple"
+        "color": "Purple",
+        "gender_ratios": {
+            "f": 1.0
+        }
     },
     {
         "id": 315,
@@ -5176,7 +6347,11 @@
             "spe": 65
         },
         "name": "Roselia",
-        "color": "Green"
+        "color": "Green",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 316,
@@ -5192,7 +6367,11 @@
             "spe": 40
         },
         "name": "Gulpin",
-        "color": "Green"
+        "color": "Green",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 317,
@@ -5208,7 +6387,11 @@
             "spe": 55
         },
         "name": "Swalot",
-        "color": "Purple"
+        "color": "Purple",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 318,
@@ -5225,7 +6408,11 @@
             "spe": 65
         },
         "name": "Carvanha",
-        "color": "Red"
+        "color": "Red",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 319,
@@ -5242,7 +6429,11 @@
             "spe": 95
         },
         "name": "Sharpedo",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 320,
@@ -5258,7 +6449,11 @@
             "spe": 60
         },
         "name": "Wailmer",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 321,
@@ -5274,7 +6469,11 @@
             "spe": 60
         },
         "name": "Wailord",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 322,
@@ -5291,7 +6490,11 @@
             "spe": 35
         },
         "name": "Numel",
-        "color": "Yellow"
+        "color": "Yellow",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 323,
@@ -5308,7 +6511,11 @@
             "spe": 40
         },
         "name": "Camerupt",
-        "color": "Red"
+        "color": "Red",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 324,
@@ -5324,7 +6531,11 @@
             "spe": 20
         },
         "name": "Torkoal",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 325,
@@ -5340,7 +6551,11 @@
             "spe": 60
         },
         "name": "Spoink",
-        "color": "Black"
+        "color": "Black",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 326,
@@ -5356,7 +6571,11 @@
             "spe": 80
         },
         "name": "Grumpig",
-        "color": "Purple"
+        "color": "Purple",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 327,
@@ -5372,7 +6591,11 @@
             "spe": 60
         },
         "name": "Spinda",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 328,
@@ -5388,7 +6611,11 @@
             "spe": 10
         },
         "name": "Trapinch",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 329,
@@ -5405,7 +6632,11 @@
             "spe": 70
         },
         "name": "Vibrava",
-        "color": "Green"
+        "color": "Green",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 330,
@@ -5422,7 +6653,11 @@
             "spe": 100
         },
         "name": "Flygon",
-        "color": "Green"
+        "color": "Green",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 331,
@@ -5438,7 +6673,11 @@
             "spe": 35
         },
         "name": "Cacnea",
-        "color": "Green"
+        "color": "Green",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 332,
@@ -5455,7 +6694,11 @@
             "spe": 55
         },
         "name": "Cacturne",
-        "color": "Green"
+        "color": "Green",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 333,
@@ -5472,7 +6715,11 @@
             "spe": 50
         },
         "name": "Swablu",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 334,
@@ -5489,7 +6736,11 @@
             "spe": 80
         },
         "name": "Altaria",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 335,
@@ -5505,7 +6756,11 @@
             "spe": 90
         },
         "name": "Zangoose",
-        "color": "White"
+        "color": "White",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 336,
@@ -5521,7 +6776,11 @@
             "spe": 65
         },
         "name": "Seviper",
-        "color": "Black"
+        "color": "Black",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 337,
@@ -5538,7 +6797,8 @@
             "spe": 70
         },
         "name": "Lunatone",
-        "color": "Yellow"
+        "color": "Yellow",
+        "gender_ratios": null
     },
     {
         "id": 338,
@@ -5555,7 +6815,8 @@
             "spe": 70
         },
         "name": "Solrock",
-        "color": "Red"
+        "color": "Red",
+        "gender_ratios": null
     },
     {
         "id": 339,
@@ -5572,7 +6833,11 @@
             "spe": 60
         },
         "name": "Barboach",
-        "color": "Gray"
+        "color": "Gray",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 340,
@@ -5589,7 +6854,11 @@
             "spe": 60
         },
         "name": "Whiscash",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 341,
@@ -5605,7 +6874,11 @@
             "spe": 35
         },
         "name": "Corphish",
-        "color": "Red"
+        "color": "Red",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 342,
@@ -5622,7 +6895,11 @@
             "spe": 55
         },
         "name": "Crawdaunt",
-        "color": "Red"
+        "color": "Red",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 343,
@@ -5639,7 +6916,8 @@
             "spe": 55
         },
         "name": "Baltoy",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": null
     },
     {
         "id": 344,
@@ -5656,7 +6934,8 @@
             "spe": 75
         },
         "name": "Claydol",
-        "color": "Black"
+        "color": "Black",
+        "gender_ratios": null
     },
     {
         "id": 345,
@@ -5673,7 +6952,11 @@
             "spe": 23
         },
         "name": "Lileep",
-        "color": "Purple"
+        "color": "Purple",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 346,
@@ -5690,7 +6973,11 @@
             "spe": 43
         },
         "name": "Cradily",
-        "color": "Green"
+        "color": "Green",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 347,
@@ -5707,7 +6994,11 @@
             "spe": 75
         },
         "name": "Anorith",
-        "color": "Gray"
+        "color": "Gray",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 348,
@@ -5724,7 +7015,11 @@
             "spe": 45
         },
         "name": "Armaldo",
-        "color": "Gray"
+        "color": "Gray",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 349,
@@ -5740,7 +7035,11 @@
             "spe": 80
         },
         "name": "Feebas",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 350,
@@ -5756,7 +7055,11 @@
             "spe": 81
         },
         "name": "Milotic",
-        "color": "Pink"
+        "color": "Pink",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 351,
@@ -5772,7 +7075,11 @@
             "spe": 70
         },
         "name": "Castform",
-        "color": "White"
+        "color": "White",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 352,
@@ -5788,7 +7095,11 @@
             "spe": 40
         },
         "name": "Kecleon",
-        "color": "Green"
+        "color": "Green",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 353,
@@ -5804,7 +7115,11 @@
             "spe": 45
         },
         "name": "Shuppet",
-        "color": "Black"
+        "color": "Black",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 354,
@@ -5820,7 +7135,11 @@
             "spe": 65
         },
         "name": "Banette",
-        "color": "Black"
+        "color": "Black",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 355,
@@ -5836,7 +7155,11 @@
             "spe": 25
         },
         "name": "Duskull",
-        "color": "Black"
+        "color": "Black",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 356,
@@ -5852,7 +7175,11 @@
             "spe": 25
         },
         "name": "Dusclops",
-        "color": "Black"
+        "color": "Black",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 357,
@@ -5869,7 +7196,11 @@
             "spe": 51
         },
         "name": "Tropius",
-        "color": "Green"
+        "color": "Green",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 358,
@@ -5885,7 +7216,11 @@
             "spe": 65
         },
         "name": "Chimecho",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 359,
@@ -5901,7 +7236,11 @@
             "spe": 75
         },
         "name": "Absol",
-        "color": "White"
+        "color": "White",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 360,
@@ -5917,7 +7256,11 @@
             "spe": 23
         },
         "name": "Wynaut",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 361,
@@ -5933,7 +7276,11 @@
             "spe": 50
         },
         "name": "Snorunt",
-        "color": "Gray"
+        "color": "Gray",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 362,
@@ -5949,7 +7296,11 @@
             "spe": 80
         },
         "name": "Glalie",
-        "color": "Gray"
+        "color": "Gray",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 363,
@@ -5966,7 +7317,11 @@
             "spe": 25
         },
         "name": "Spheal",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 364,
@@ -5983,7 +7338,11 @@
             "spe": 45
         },
         "name": "Sealeo",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 365,
@@ -6000,7 +7359,11 @@
             "spe": 65
         },
         "name": "Walrein",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 366,
@@ -6016,7 +7379,11 @@
             "spe": 32
         },
         "name": "Clamperl",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 367,
@@ -6032,7 +7399,11 @@
             "spe": 52
         },
         "name": "Huntail",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 368,
@@ -6048,7 +7419,11 @@
             "spe": 52
         },
         "name": "Gorebyss",
-        "color": "Pink"
+        "color": "Pink",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 369,
@@ -6065,7 +7440,11 @@
             "spe": 55
         },
         "name": "Relicanth",
-        "color": "Gray"
+        "color": "Gray",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 370,
@@ -6081,7 +7460,11 @@
             "spe": 97
         },
         "name": "Luvdisc",
-        "color": "Pink"
+        "color": "Pink",
+        "gender_ratios": {
+            "m": 0.25,
+            "f": 0.75
+        }
     },
     {
         "id": 371,
@@ -6097,7 +7480,11 @@
             "spe": 50
         },
         "name": "Bagon",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 372,
@@ -6113,7 +7500,11 @@
             "spe": 50
         },
         "name": "Shelgon",
-        "color": "White"
+        "color": "White",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 373,
@@ -6130,7 +7521,11 @@
             "spe": 100
         },
         "name": "Salamence",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 374,
@@ -6147,7 +7542,8 @@
             "spe": 30
         },
         "name": "Beldum",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": null
     },
     {
         "id": 375,
@@ -6164,7 +7560,8 @@
             "spe": 50
         },
         "name": "Metang",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": null
     },
     {
         "id": 376,
@@ -6181,7 +7578,8 @@
             "spe": 70
         },
         "name": "Metagross",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": null
     },
     {
         "id": 377,
@@ -6197,7 +7595,8 @@
             "spe": 50
         },
         "name": "Regirock",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": null
     },
     {
         "id": 378,
@@ -6213,7 +7612,8 @@
             "spe": 50
         },
         "name": "Regice",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": null
     },
     {
         "id": 379,
@@ -6229,7 +7629,8 @@
             "spe": 50
         },
         "name": "Registeel",
-        "color": "Gray"
+        "color": "Gray",
+        "gender_ratios": null
     },
     {
         "id": 380,
@@ -6246,7 +7647,10 @@
             "spe": 110
         },
         "name": "Latias",
-        "color": "Red"
+        "color": "Red",
+        "gender_ratios": {
+            "f": 1.0
+        }
     },
     {
         "id": 381,
@@ -6263,7 +7667,10 @@
             "spe": 110
         },
         "name": "Latios",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 1.0
+        }
     },
     {
         "id": 382,
@@ -6279,7 +7686,8 @@
             "spe": 90
         },
         "name": "Kyogre",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": null
     },
     {
         "id": 383,
@@ -6295,7 +7703,8 @@
             "spe": 90
         },
         "name": "Groudon",
-        "color": "Red"
+        "color": "Red",
+        "gender_ratios": null
     },
     {
         "id": 384,
@@ -6312,7 +7721,8 @@
             "spe": 95
         },
         "name": "Rayquaza",
-        "color": "Green"
+        "color": "Green",
+        "gender_ratios": null
     },
     {
         "id": 385,
@@ -6329,7 +7739,8 @@
             "spe": 100
         },
         "name": "Jirachi",
-        "color": "Yellow"
+        "color": "Yellow",
+        "gender_ratios": null
     },
     {
         "id": 386,
@@ -6345,7 +7756,8 @@
             "spe": 150
         },
         "name": "Deoxys",
-        "color": "Red"
+        "color": "Red",
+        "gender_ratios": null
     },
     {
         "id": 387,
@@ -6361,7 +7773,11 @@
             "spe": 31
         },
         "name": "Turtwig",
-        "color": "Green"
+        "color": "Green",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 388,
@@ -6377,7 +7793,11 @@
             "spe": 36
         },
         "name": "Grotle",
-        "color": "Green"
+        "color": "Green",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 389,
@@ -6394,7 +7814,11 @@
             "spe": 56
         },
         "name": "Torterra",
-        "color": "Green"
+        "color": "Green",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 390,
@@ -6410,7 +7834,11 @@
             "spe": 61
         },
         "name": "Chimchar",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 391,
@@ -6427,7 +7855,11 @@
             "spe": 81
         },
         "name": "Monferno",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 392,
@@ -6444,7 +7876,11 @@
             "spe": 108
         },
         "name": "Infernape",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 393,
@@ -6460,7 +7896,11 @@
             "spe": 40
         },
         "name": "Piplup",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 394,
@@ -6476,7 +7916,11 @@
             "spe": 50
         },
         "name": "Prinplup",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 395,
@@ -6493,7 +7937,11 @@
             "spe": 60
         },
         "name": "Empoleon",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 396,
@@ -6510,7 +7958,11 @@
             "spe": 60
         },
         "name": "Starly",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 397,
@@ -6527,7 +7979,11 @@
             "spe": 80
         },
         "name": "Staravia",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 398,
@@ -6544,7 +8000,11 @@
             "spe": 100
         },
         "name": "Staraptor",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 399,
@@ -6560,7 +8020,11 @@
             "spe": 31
         },
         "name": "Bidoof",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 400,
@@ -6577,7 +8041,11 @@
             "spe": 71
         },
         "name": "Bibarel",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 401,
@@ -6593,7 +8061,11 @@
             "spe": 25
         },
         "name": "Kricketot",
-        "color": "Red"
+        "color": "Red",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 402,
@@ -6609,7 +8081,11 @@
             "spe": 65
         },
         "name": "Kricketune",
-        "color": "Red"
+        "color": "Red",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 403,
@@ -6625,7 +8101,11 @@
             "spe": 45
         },
         "name": "Shinx",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 404,
@@ -6641,7 +8121,11 @@
             "spe": 60
         },
         "name": "Luxio",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 405,
@@ -6657,7 +8141,11 @@
             "spe": 70
         },
         "name": "Luxray",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 406,
@@ -6674,7 +8162,11 @@
             "spe": 55
         },
         "name": "Budew",
-        "color": "Green"
+        "color": "Green",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 407,
@@ -6691,7 +8183,11 @@
             "spe": 90
         },
         "name": "Roserade",
-        "color": "Green"
+        "color": "Green",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 408,
@@ -6707,7 +8203,11 @@
             "spe": 58
         },
         "name": "Cranidos",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 409,
@@ -6723,7 +8223,11 @@
             "spe": 58
         },
         "name": "Rampardos",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 410,
@@ -6740,7 +8244,11 @@
             "spe": 30
         },
         "name": "Shieldon",
-        "color": "Gray"
+        "color": "Gray",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 411,
@@ -6757,7 +8265,11 @@
             "spe": 30
         },
         "name": "Bastiodon",
-        "color": "Gray"
+        "color": "Gray",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 412,
@@ -6773,7 +8285,11 @@
             "spe": 36
         },
         "name": "Burmy",
-        "color": "Gray"
+        "color": "Gray",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 413,
@@ -6790,7 +8306,10 @@
             "spe": 36
         },
         "name": "Wormadam",
-        "color": "Gray"
+        "color": "Gray",
+        "gender_ratios": {
+            "f": 1.0
+        }
     },
     {
         "id": 414,
@@ -6807,7 +8326,10 @@
             "spe": 66
         },
         "name": "Mothim",
-        "color": "Yellow"
+        "color": "Yellow",
+        "gender_ratios": {
+            "m": 1.0
+        }
     },
     {
         "id": 415,
@@ -6824,7 +8346,11 @@
             "spe": 70
         },
         "name": "Combee",
-        "color": "Yellow"
+        "color": "Yellow",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 416,
@@ -6841,7 +8367,10 @@
             "spe": 40
         },
         "name": "Vespiquen",
-        "color": "Yellow"
+        "color": "Yellow",
+        "gender_ratios": {
+            "f": 1.0
+        }
     },
     {
         "id": 417,
@@ -6857,7 +8386,11 @@
             "spe": 95
         },
         "name": "Pachirisu",
-        "color": "White"
+        "color": "White",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 418,
@@ -6873,7 +8406,11 @@
             "spe": 85
         },
         "name": "Buizel",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 419,
@@ -6889,7 +8426,11 @@
             "spe": 115
         },
         "name": "Floatzel",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 420,
@@ -6905,7 +8446,11 @@
             "spe": 35
         },
         "name": "Cherubi",
-        "color": "Pink"
+        "color": "Pink",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 421,
@@ -6921,7 +8466,11 @@
             "spe": 85
         },
         "name": "Cherrim",
-        "color": "Pink"
+        "color": "Pink",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 422,
@@ -6937,7 +8486,11 @@
             "spe": 34
         },
         "name": "Shellos",
-        "color": "Purple"
+        "color": "Purple",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 423,
@@ -6954,7 +8507,11 @@
             "spe": 39
         },
         "name": "Gastrodon",
-        "color": "Purple"
+        "color": "Purple",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 424,
@@ -6970,7 +8527,11 @@
             "spe": 115
         },
         "name": "Ambipom",
-        "color": "Purple"
+        "color": "Purple",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 425,
@@ -6987,7 +8548,11 @@
             "spe": 70
         },
         "name": "Drifloon",
-        "color": "Purple"
+        "color": "Purple",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 426,
@@ -7004,7 +8569,11 @@
             "spe": 80
         },
         "name": "Drifblim",
-        "color": "Purple"
+        "color": "Purple",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 427,
@@ -7020,7 +8589,11 @@
             "spe": 85
         },
         "name": "Buneary",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 428,
@@ -7036,7 +8609,11 @@
             "spe": 105
         },
         "name": "Lopunny",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 429,
@@ -7052,7 +8629,11 @@
             "spe": 105
         },
         "name": "Mismagius",
-        "color": "Purple"
+        "color": "Purple",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 430,
@@ -7069,7 +8650,11 @@
             "spe": 71
         },
         "name": "Honchkrow",
-        "color": "Black"
+        "color": "Black",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 431,
@@ -7085,7 +8670,11 @@
             "spe": 85
         },
         "name": "Glameow",
-        "color": "Gray"
+        "color": "Gray",
+        "gender_ratios": {
+            "m": 0.25,
+            "f": 0.75
+        }
     },
     {
         "id": 432,
@@ -7101,7 +8690,11 @@
             "spe": 112
         },
         "name": "Purugly",
-        "color": "Gray"
+        "color": "Gray",
+        "gender_ratios": {
+            "m": 0.25,
+            "f": 0.75
+        }
     },
     {
         "id": 433,
@@ -7117,7 +8710,11 @@
             "spe": 45
         },
         "name": "Chingling",
-        "color": "Yellow"
+        "color": "Yellow",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 434,
@@ -7134,7 +8731,11 @@
             "spe": 74
         },
         "name": "Stunky",
-        "color": "Purple"
+        "color": "Purple",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 435,
@@ -7151,7 +8752,11 @@
             "spe": 84
         },
         "name": "Skuntank",
-        "color": "Purple"
+        "color": "Purple",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 436,
@@ -7168,7 +8773,8 @@
             "spe": 23
         },
         "name": "Bronzor",
-        "color": "Green"
+        "color": "Green",
+        "gender_ratios": null
     },
     {
         "id": 437,
@@ -7185,7 +8791,8 @@
             "spe": 33
         },
         "name": "Bronzong",
-        "color": "Green"
+        "color": "Green",
+        "gender_ratios": null
     },
     {
         "id": 438,
@@ -7201,7 +8808,11 @@
             "spe": 10
         },
         "name": "Bonsly",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 439,
@@ -7217,7 +8828,11 @@
             "spe": 60
         },
         "name": "Mime Jr.",
-        "color": "Pink"
+        "color": "Pink",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 440,
@@ -7233,7 +8848,10 @@
             "spe": 30
         },
         "name": "Happiny",
-        "color": "Pink"
+        "color": "Pink",
+        "gender_ratios": {
+            "f": 1.0
+        }
     },
     {
         "id": 441,
@@ -7250,7 +8868,11 @@
             "spe": 91
         },
         "name": "Chatot",
-        "color": "Black"
+        "color": "Black",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 442,
@@ -7267,7 +8889,11 @@
             "spe": 35
         },
         "name": "Spiritomb",
-        "color": "Purple"
+        "color": "Purple",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 443,
@@ -7284,7 +8910,11 @@
             "spe": 42
         },
         "name": "Gible",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 444,
@@ -7301,7 +8931,11 @@
             "spe": 82
         },
         "name": "Gabite",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 445,
@@ -7318,7 +8952,11 @@
             "spe": 102
         },
         "name": "Garchomp",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 446,
@@ -7334,7 +8972,11 @@
             "spe": 5
         },
         "name": "Munchlax",
-        "color": "Black"
+        "color": "Black",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 447,
@@ -7350,7 +8992,11 @@
             "spe": 60
         },
         "name": "Riolu",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 448,
@@ -7367,7 +9013,11 @@
             "spe": 90
         },
         "name": "Lucario",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 449,
@@ -7383,7 +9033,11 @@
             "spe": 32
         },
         "name": "Hippopotas",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 450,
@@ -7399,7 +9053,11 @@
             "spe": 47
         },
         "name": "Hippowdon",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 451,
@@ -7416,7 +9074,11 @@
             "spe": 65
         },
         "name": "Skorupi",
-        "color": "Purple"
+        "color": "Purple",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 452,
@@ -7433,7 +9095,11 @@
             "spe": 95
         },
         "name": "Drapion",
-        "color": "Purple"
+        "color": "Purple",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 453,
@@ -7450,7 +9116,11 @@
             "spe": 50
         },
         "name": "Croagunk",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 454,
@@ -7467,7 +9137,11 @@
             "spe": 85
         },
         "name": "Toxicroak",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 455,
@@ -7483,7 +9157,11 @@
             "spe": 46
         },
         "name": "Carnivine",
-        "color": "Green"
+        "color": "Green",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 456,
@@ -7499,7 +9177,11 @@
             "spe": 66
         },
         "name": "Finneon",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 457,
@@ -7515,7 +9197,11 @@
             "spe": 91
         },
         "name": "Lumineon",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 458,
@@ -7532,7 +9218,11 @@
             "spe": 50
         },
         "name": "Mantyke",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 459,
@@ -7549,7 +9239,11 @@
             "spe": 40
         },
         "name": "Snover",
-        "color": "White"
+        "color": "White",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 460,
@@ -7566,7 +9260,11 @@
             "spe": 60
         },
         "name": "Abomasnow",
-        "color": "White"
+        "color": "White",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 461,
@@ -7583,7 +9281,11 @@
             "spe": 125
         },
         "name": "Weavile",
-        "color": "Black"
+        "color": "Black",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 462,
@@ -7600,7 +9302,8 @@
             "spe": 60
         },
         "name": "Magnezone",
-        "color": "Gray"
+        "color": "Gray",
+        "gender_ratios": null
     },
     {
         "id": 463,
@@ -7616,7 +9319,11 @@
             "spe": 50
         },
         "name": "Lickilicky",
-        "color": "Pink"
+        "color": "Pink",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 464,
@@ -7633,7 +9340,11 @@
             "spe": 40
         },
         "name": "Rhyperior",
-        "color": "Gray"
+        "color": "Gray",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 465,
@@ -7649,7 +9360,11 @@
             "spe": 50
         },
         "name": "Tangrowth",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 466,
@@ -7665,7 +9380,11 @@
             "spe": 95
         },
         "name": "Electivire",
-        "color": "Yellow"
+        "color": "Yellow",
+        "gender_ratios": {
+            "m": 0.75,
+            "f": 0.25
+        }
     },
     {
         "id": 467,
@@ -7681,7 +9400,11 @@
             "spe": 83
         },
         "name": "Magmortar",
-        "color": "Red"
+        "color": "Red",
+        "gender_ratios": {
+            "m": 0.75,
+            "f": 0.25
+        }
     },
     {
         "id": 468,
@@ -7698,7 +9421,11 @@
             "spe": 80
         },
         "name": "Togekiss",
-        "color": "White"
+        "color": "White",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 469,
@@ -7715,7 +9442,11 @@
             "spe": 95
         },
         "name": "Yanmega",
-        "color": "Green"
+        "color": "Green",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 470,
@@ -7731,7 +9462,11 @@
             "spe": 95
         },
         "name": "Leafeon",
-        "color": "Green"
+        "color": "Green",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 471,
@@ -7747,7 +9482,11 @@
             "spe": 65
         },
         "name": "Glaceon",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": {
+            "m": 0.875,
+            "f": 0.125
+        }
     },
     {
         "id": 472,
@@ -7764,7 +9503,11 @@
             "spe": 95
         },
         "name": "Gliscor",
-        "color": "Purple"
+        "color": "Purple",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 473,
@@ -7781,7 +9524,11 @@
             "spe": 80
         },
         "name": "Mamoswine",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 474,
@@ -7797,7 +9544,8 @@
             "spe": 90
         },
         "name": "Porygon-Z",
-        "color": "Red"
+        "color": "Red",
+        "gender_ratios": null
     },
     {
         "id": 475,
@@ -7814,7 +9562,10 @@
             "spe": 80
         },
         "name": "Gallade",
-        "color": "White"
+        "color": "White",
+        "gender_ratios": {
+            "m": 1.0
+        }
     },
     {
         "id": 476,
@@ -7831,7 +9582,11 @@
             "spe": 40
         },
         "name": "Probopass",
-        "color": "Gray"
+        "color": "Gray",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 477,
@@ -7847,7 +9602,11 @@
             "spe": 45
         },
         "name": "Dusknoir",
-        "color": "Black"
+        "color": "Black",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 478,
@@ -7864,7 +9623,10 @@
             "spe": 110
         },
         "name": "Froslass",
-        "color": "White"
+        "color": "White",
+        "gender_ratios": {
+            "f": 1.0
+        }
     },
     {
         "id": 479,
@@ -7881,7 +9643,8 @@
             "spe": 91
         },
         "name": "Rotom",
-        "color": "Red"
+        "color": "Red",
+        "gender_ratios": null
     },
     {
         "id": 480,
@@ -7897,7 +9660,8 @@
             "spe": 95
         },
         "name": "Uxie",
-        "color": "Yellow"
+        "color": "Yellow",
+        "gender_ratios": null
     },
     {
         "id": 481,
@@ -7913,7 +9677,8 @@
             "spe": 80
         },
         "name": "Mesprit",
-        "color": "Pink"
+        "color": "Pink",
+        "gender_ratios": null
     },
     {
         "id": 482,
@@ -7929,7 +9694,8 @@
             "spe": 115
         },
         "name": "Azelf",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": null
     },
     {
         "id": 483,
@@ -7946,7 +9712,8 @@
             "spe": 90
         },
         "name": "Dialga",
-        "color": "White"
+        "color": "White",
+        "gender_ratios": null
     },
     {
         "id": 484,
@@ -7963,7 +9730,8 @@
             "spe": 100
         },
         "name": "Palkia",
-        "color": "Purple"
+        "color": "Purple",
+        "gender_ratios": null
     },
     {
         "id": 485,
@@ -7980,7 +9748,11 @@
             "spe": 77
         },
         "name": "Heatran",
-        "color": "Brown"
+        "color": "Brown",
+        "gender_ratios": {
+            "m": 0.5,
+            "f": 0.5
+        }
     },
     {
         "id": 486,
@@ -7996,7 +9768,8 @@
             "spe": 100
         },
         "name": "Regigigas",
-        "color": "White"
+        "color": "White",
+        "gender_ratios": null
     },
     {
         "id": 487,
@@ -8013,7 +9786,8 @@
             "spe": 90
         },
         "name": "Giratina",
-        "color": "Black"
+        "color": "Black",
+        "gender_ratios": null
     },
     {
         "id": 488,
@@ -8029,7 +9803,10 @@
             "spe": 85
         },
         "name": "Cresselia",
-        "color": "Yellow"
+        "color": "Yellow",
+        "gender_ratios": {
+            "f": 1.0
+        }
     },
     {
         "id": 489,
@@ -8045,7 +9822,8 @@
             "spe": 80
         },
         "name": "Phione",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": null
     },
     {
         "id": 490,
@@ -8061,7 +9839,8 @@
             "spe": 100
         },
         "name": "Manaphy",
-        "color": "Blue"
+        "color": "Blue",
+        "gender_ratios": null
     },
     {
         "id": 491,
@@ -8077,7 +9856,8 @@
             "spe": 125
         },
         "name": "Darkrai",
-        "color": "Black"
+        "color": "Black",
+        "gender_ratios": null
     },
     {
         "id": 492,
@@ -8093,7 +9873,8 @@
             "spe": 100
         },
         "name": "Shaymin",
-        "color": "Green"
+        "color": "Green",
+        "gender_ratios": null
     },
     {
         "id": 493,
@@ -8109,6 +9890,7 @@
             "spe": 120
         },
         "name": "Arceus",
-        "color": "Gray"
+        "color": "Gray",
+        "gender_ratios": null
     }
 ]
