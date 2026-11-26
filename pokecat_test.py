@@ -13,11 +13,11 @@ ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 def load_test_docs(name):
     path = os.path.join(ROOT_DIR, "testdocuments", "{}.yaml".format(name))
     with open(path, encoding="utf-8") as f:
-        return list(yaml.load_all(f))
+        return list(yaml.safe_load_all(f))
 def load_test_doc(name):
     path = os.path.join(ROOT_DIR, "testdocuments", "{}.yaml".format(name))
     with open(path, encoding="utf-8") as f:
-        return yaml.load(f)
+        return yaml.safe_load(f)
 def load_test_doc_json(name):
     path = os.path.join(ROOT_DIR, "testdocuments", "{}.json".format(name))
     with open(path, encoding="utf-8") as f:
