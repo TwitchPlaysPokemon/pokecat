@@ -9892,5 +9892,22 @@
         "name": "Arceus",
         "color": "Gray",
         "gender_ratios": null
+    },
+    {
+        "id": 495,
+        "types": [
+            "Normal"
+        ],
+        "basestats": {
+            "hp": 10,
+            "atk": 10,
+            "def": 10,
+            "spA": 10,
+            "spD": 10,
+            "spe": 10
+        },
+        "name": "Bad Egg",
+        "color": "White",
+        "gender_ratios": null
     }
 ]
